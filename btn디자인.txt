@@ -1,0 +1,30 @@
+main > section:first-of-type > div > a {
+    margin-top: 45px;
+    max-width: 200px;
+    background-color: #ff1541;
+    padding: 10px 0;
+    text-align: center;
+    transform: skew(-40deg);
+    overflow: hidden;
+    
+}
+main > section:first-of-type > div > a > span{
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    transform: skew(40deg);
+}
+main > section:first-of-type > div > a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b30f2d; /* hover 시 변경될 색상 */
+    transition: width 0.3s ease;
+    width: 0%;
+}
+main > section:first-of-type > div > a:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,332 @@
+
+
+header > div:first-child nav ul li,.shopheader:not(input),a > span,
+footer div:first-of-type > div > *,
+footer div:last-of-type div:last-child *,
+main > section:first-of-type > div > a,
+main > section:nth-child(3) > div,
+main > section:nth-child(4) > div,
+main > section:nth-child(5) > h2,main > section:nth-child(5) > a,
+main > section:nth-child(5) ul li ol li span,
+main > section:nth-child(6) > h2,
+[class^="historywrap"] > div:first-of-type h2,
+[class^="historywrap"] > div:nth-of-type(2) ul li a,
+.Competition_Center div > h2,
+.historywrap_Honours section:first-child h2,
+.historywrap_FrenchCup, 
+.historywrap_Ligue1,
+.historywrap_Champions,
+.historywrap_SuperCup,
+.historywrap_Europa,
+.historywrap_Conference,
+.historywrap_Parcdesprince,
+[class^="newswrap"],.Topbtn_Dark,.Topbtn_Sky,
+.firstTeamListwrap > section ul li div a > p,
+[class^=player] >  section:first-of-type > div > div > h3 span,
+[class^=player] >  section:first-of-type > div > div > ul li p:first-child,
+[class^=player] >  section:last-of-type,.sTadiumTourwrap p,
+.sTadiumTourwrap section:nth-of-type(3) ul li,.sTadiumTourwrap section:nth-of-type(4) > div > div,
+.sTadiumTourwrap section:nth-of-type(5) > div p,
+.sTadiumTourwrap section:last-of-type div:first-child > div:first-child address,
+.sTadiumTourwrap section:last-of-type div:first-child > div:first-child strong,
+.sTadiumTourwrap section:last-of-type,.myPariswrap section:first-of-type,
+.myPariswrap section:last-of-type,
+.theClubwrap_President,.theClubwrap_identity h2,.theClubwrap_identity > ul,
+.theClubwrap_identity > strong,.theClubwrap_identity > section > div p,
+[class^="informationWrap"]:not(h3):not(h2),
+[class^="footerTextwrap"]:not(h3):not(h2),.shopmainWrap > section:nth-of-type(3) figure figcaption,
+[class^=listwrap] > section h2,
+[class^=listwrap] > section > div:last-of-type > ul > li > div h3 a,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3){
+    font-family: 'RaleWay';
+}
+
+
+
+header > div:last-child div > div > form input,
+main > section:first-of-type > div h2,
+main > section:nth-child(2) > div:last-child,
+main > section:nth-child(3) > div ul li div > a span,
+main > section:nth-child(5) ul li,
+main > section:nth-child(6) div a,
+[class^="historywrap"] > div:nth-of-type(3) ul li a,
+.historywrap_Honours section > div ol li,
+.competition_Center,.competition_Center div > p,.News_Title,
+.firstTeamListwrap > section ul li div a > b,
+.firstTeamListwrap > section h3,[class^="FirstTeamListwrap"] > section ul li div:last-of-type,
+[class^=player] >  section:first-of-type > span,
+[class^=player] >  section:first-of-type > div > div > h3 strong,
+[class^=player] >  section:first-of-type > div > div > ul li p:last-child,
+.sTadiumTourwrap h3,.sTadiumTourwrap h4,
+.sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type > h4,
+.sTadiumTourwrap section:nth-of-type(5),
+.myPariswrap section:last-of-type > div > div > h3
+.theClubwrap_identity > section > h3,.theClubwrap_identity > section > div strong,
+[class^=informationWrap] h2,
+.informationWrap_catering > ul:nth-of-type(2) li dl dt b,
+[class^="footerTextwrap"] h3,[class^="footerTextwrap"] h2,
+.shopmainWrap h2,.shopmainWrap > section:nth-of-type(3) figure figcaption strong:last-of-type,
+[class^=listwrap] > section > div:first-of-type,
+[class^=listwrap] > section > div:last-of-type > ul > li > div span,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2),
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form button span{
+    font-family: 'DM Sans';
+}
+
+body{
+    height: 100%;
+}
+a,span{
+    display: block;
+    text-decoration: none;
+}
+strong{
+    display: block;
+}
+
+
+@media screen and (min-width: 1280px){
+
+
+.adap1230{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+body{
+    position: relative;
+    height: 100%;
+}
+header{
+    display: flex;
+    background-color: #161c2d;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+}
+header > div:first-child{
+    display: flex;
+}
+header > div:first-child > h1{
+    margin: 20px 0 20px 55px;
+}
+header > div:first-child nav{
+    display: flex;
+}
+header > div:first-child nav > input[type="button"]{
+    display: none;
+    background: url('../image/MenuIco.png')center center no-repeat;
+    text-indent: -9999px;
+    width: 30px;
+    height: 20px;
+    border: none;
+    align-self: center;
+    margin-left: 50px;
+    
+    
+}
+header > div:first-child nav ul{
+    margin-left: 50px;
+    display: flex;
+    
+}
+
+header > div:first-child nav ul li{
+    position: relative;
+}
+header > div:first-child nav ul li > a{
+    padding: 60px 30px;
+    
+}
+header > div:first-child nav ul > li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ff1541;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+header > div:first-child nav ul li:hover::after {
+    opacity: 1;
+} 
+header > div:first-child nav ul li:first-child > b{
+    padding: 60px 45px 60px 30px;
+    background: url('../image/Main_PSGMenuArrow.png')70% 49% no-repeat;
+    display: block;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    
+}
+header > div:first-child nav ul li:first-child:hover > ol{
+    opacity: 1; 
+    visibility: visible;
+}
+
+
+
+
+
+header > div:first-child nav ul li:first-child > ol{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
+    background-color: #ffffff;
+}
+header > div:first-child nav ul li:first-child > ol > li{
+    background-color: #ffffff;
+    text-align: center;
+    width: 200px;
+    display: block;
+    
+}
+header > div:first-child nav ul li:first-child > ol > li > a{
+    font-weight: 900;
+    color: #161c2d;
+    letter-spacing: 0.05em;
+    padding: 20px 0 20px;
+}
+header > div:first-child nav ul li:first-child > ol > li:hover{
+    background-color: #a6a6a6;
+    transition: 0.3s ease-in;
+}
+
+
+header > div:first-child nav ul li a{
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+}
+
+
+
+header > div:last-child{
+    margin: 20px 55px 20px 0;
+    position: relative;
+}
+header > div:last-child > *{
+    margin-right: 60px;
+}
+header > div:last-child{
+    display: flex;
+}
+header > div:last-child a{
+    padding: 35px 0 10px;
+}
+header > div:last-child div > div > form input[type="submit"]{
+    background: url('../image/Main_Search.png')no-repeat;
+    border: none;
+    width: 22px;
+    height: 22px;
+    color: transparent;
+    margin: 35px 0 10px;
+}
+header > div:last-child div > div > form input[type="search"]{
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #a6a6a6;
+    font-size: 18px;
+    line-height: 18px;
+    display: none;
+    position: absolute;
+    top:76%;
+}
+header > div:last-child div > div > form input[type="search"]:focus{
+    outline: none;
+}
+header > div:last-child div > div > form input[type="search"]::placeholder{
+    font-size: 18px;
+    color: #161c2d;
+    
+}
+
+
+/* ! header Fin */
+
+/* #partnerList{
+    /* display: flex;
+    justify-content: space-between;
+    list-style: none;
+    overflow: auto; */
+    /* background-color: #ffffff;
+} */ 
+/* #partnerList::-webkit-scrollbar{
+    width: 10px;
+    background-color:#ffffff
+}
+#partnerList:hover::-webkit-scrollbar-thumb{
+    background-color: #e6e6e6;
+} */
+
+/* #partnerList li{
+    margin: 25px 30px 0 30px;
+} */
+
+
+
+footer{
+    background-color: #161c2d;
+    border-top: 4px solid #ff1541;
+    padding: 55px 0 35px;
+}
+footer > div{
+    display: flex;
+}
+footer > div:first-of-type{
+    margin-bottom: 50px;
+}
+footer > div:last-of-type{
+    justify-content: space-between;
+
+}
+footer div:first-of-type div:not(:last-child){
+    margin-right: 140px;
+}
+
+footer div:first-of-type div ul li{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+footer div:first-of-type div ul li:not(:last-of-type){
+    margin-bottom: 30px;
+}
+footer div:first-of-type div > .footerHead{
+    color: #ffffff;
+    margin-bottom: 30px;
+    /* padding-right: 20px;
+    background: url('../image/Main_PSGMenuArrow.png') right center no-repeat; */
+}
+footer div:first-of-type div > ul li > a{
+    color: #a6a6a6;
+    transition: color 0.2s ease;
+}
+footer div:first-of-type div > ul li:hover a{
+    color: #e6e6e6;
+}
+footer div:last-of-type div:last-child{
+    padding-top: 30px;
+    display: flex;
+}
+footer div:last-of-type div:last-child *{
+    display: block;
+    color: #a6a6a6;
+    font-weight: 700;
+}
+footer div:last-of-type div:last-child span{
+    margin-right: 20px;
+}
+footer div:last-of-type div:last-child a:first-of-type{
+    margin-right: 20px;
+}
+}
+
+
+
