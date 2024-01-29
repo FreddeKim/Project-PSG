@@ -4236,7 +4236,7 @@ clear: both;
     font-size: 24px;
     margin-bottom: 30px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:first-of-type{
     color: #6e8ce0;
     margin-bottom: 40px;
 }
@@ -4272,34 +4272,43 @@ clear: both;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:first-of-type,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div{
     padding: 15px;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div{
-    top: 55%;
+    top: 99%;
+    width: 99.5%;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:last-of-type{
-    top: 100.45%;
+    top: 99.5%;
     background-color: #ffffff;
-    width: 100%;
-    border-top: none;
+    width: 99.5%;
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button{
+    transition: background-color 0.3s ease-in-out;
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button:hover{
+    background-color: #161c2d;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div button span{
     font-weight: 700;
     color: #6e8ce0;
     font-size: 16px;
-    
+    transition: color 0.3s ease-in-out;
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button:hover > span{
+    color: #ffffff;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) button{
     cursor: pointer;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > button{
-    margin-bottom: 40px;
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type{
+    margin-top: 40px;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div + div{
     border: 1px solid #617cc7;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]{
@@ -4314,11 +4323,11 @@ clear: both;
     background-color:#6e8ce0 ;
 } 
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked) + label,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]:not(:checked),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]:not(:checked)+label,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked),
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked)+label,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div:first-of-type:not(:has(input[type="radio"]:checked)),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type:not(:has(input[type="checkbox"]:checked)){
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:not(:first-of-type) > div:first-of-type:not(:has(input[type="radio"]:checked)),
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div:not(:has(input[type="checkbox"]:checked)){
     color: #a6a6a6;
     border-color: #a6a6a6;
 }
@@ -4358,7 +4367,7 @@ clear: both;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type{
     display: flex;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]{
     appearance: none;
@@ -4373,7 +4382,6 @@ clear: both;
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:last-of-type{
     width: 100%;
     background-color: #6e8ce0;
-    margin-top: 40px;
     text-align: center;
     font-weight: 700;
     padding: 20px 0;
@@ -4408,7 +4416,29 @@ clear: both;
     /* width: 56.92%; */
     width: 65.4%;
     clear: both;
+    margin-bottom: 120px;
     
 }
+
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li{
+    line-height: 24px;
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p{
+    margin-bottom: 40px;
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div h3{
+    margin-bottom: 30px;
+    
+}
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li{
+    margin-left: 25px;
+}
+
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
 }
 /* !Desktop Fin */
