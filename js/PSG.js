@@ -168,19 +168,16 @@ function listhover() {
     function() {
       // 마우스 오버 시
       var $img = $(this).find('img');
-      $img.stop().animate({ opacity: 0.8 }, 100, function() {
-        $img.attr('src', $img.attr('src').replace('_01.jpg', '_02.jpg')).animate({ opacity: 1 }, 300);
-      });
+      $img.attr('src', $img.attr('src').replace('_01.jpg', '_02.jpg'));
     },
     function() {
       // 마우스 아웃 시
       var $img = $(this).find('img');
-      $img.stop().animate({ opacity: 0.8 }, 100, function() {
-        $img.attr('src', $img.attr('src').replace('_02.jpg', '_01.jpg')).animate({ opacity: 1 }, 300);
-      });
+      $img.attr('src', $img.attr('src').replace('_02.jpg', '_01.jpg'));
     }
   );
 }
+
 function detailSlider(){
   $(".bxslider").bxSlider({
       mode: 'fade',

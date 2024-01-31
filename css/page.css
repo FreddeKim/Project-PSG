@@ -1944,10 +1944,10 @@ clear: both;
 
 /* !TeamList Fin */
 
-[class^=player]{
+[class^='player']{
     padding-top: 138px;
 }
-[class^=player] > h2{
+[class^='player'] > h2{
     background: url('../image/News_TitleBG.png')50% center / cover no-repeat;
     position: relative;
     z-index: 1;
@@ -1956,13 +1956,13 @@ clear: both;
     padding: 100px 0 180px;
     color: #ffffff;
 }
-[class^=player] > a{
+[class^='player'] > a{
     margin-bottom: 120px;
 }
-[class^=player] >  section:first-of-type{
+[class^='player'] >  section:first-of-type{
     background-color: #161c2d;
 }
-[class^=player] >  section:first-of-type > div > span{
+[class^='player'] >  section:first-of-type > div > span{
     font-size: 500px;
     text-align: center;
     color: #ff1541;
@@ -1973,14 +1973,14 @@ clear: both;
     position: relative;
     z-index: 1;
 }
-[class^=player] >  section:first-of-type > div{
+[class^='player'] >  section:first-of-type > div{
     max-width: 1230px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
     overflow: hidden;
 }
-[class^=player] >  section:first-of-type > div > div{
+[class^='player'] >  section:first-of-type > div > div{
     position: absolute;
     top: 0;
     padding: 100px 0 300px;
@@ -1991,96 +1991,96 @@ clear: both;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
-[class^=player] >  section:first-of-type > div > div > h3{
+[class^='player'] >  section:first-of-type > div > div > h3{
     opacity: 0;
     transition: opacity 1s ease-in-out;
     display: block;
 }
-[class^=player] >  section:first-of-type > div > div > h3 strong{
+[class^='player'] >  section:first-of-type > div > div > h3 strong{
     font-size: 90px;
     font-weight: 700;
     color: #ff1541;
     margin-bottom: 20px;
     display: block;
 }
-[class^=player] >  section:first-of-type > div > div > h3 span{
+[class^='player'] >  section:first-of-type > div > div > h3 span{
     font-size: 40px;
     font-weight: 700;
     line-height: 45px;
 }
-[class^=player] >  section:first-of-type > div > div > h3 span:first-of-type{
+[class^='player'] >  section:first-of-type > div > div > h3 span:first-of-type{
     color: #ffffff;
 }
-[class^=player] >  section:first-of-type > div > div > h3 span:last-of-type{
+[class^='player'] >  section:first-of-type > div > div > h3 span:last-of-type{
     color: #ff1541;
     text-transform: uppercase;
 }
-[class^=player] >  section:first-of-type > div > div > ul{
+[class^='player'] >  section:first-of-type > div > div > ul{
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
 }
-[class^=player] >  section:first-of-type > div > div > ul li{
+[class^='player'] >  section:first-of-type > div > div > ul li{
     display: block;
 }
-[class^=player] >  section:first-of-type > div > div > ul li:not(:last-of-type){
+[class^='player'] >  section:first-of-type > div > div > ul li:not(:last-of-type){
     margin-bottom: 30px;
 }
-[class^=player] >  section:first-of-type > div > div > ul li p:first-child{
+[class^='player'] >  section:first-of-type > div > div > ul li p:first-child{
     font-weight: 700;
     color: #6e8ce0;
     margin-bottom: 15px;
 }
-[class^=player] >  section:first-of-type > div > div > ul li p:last-child{
+[class^='player'] >  section:first-of-type > div > div > ul li p:last-child{
     font-weight: 700;
     font-size: 40px;
     color: #ffffff;
 }
-[class^=player] > section:last-of-type{
+[class^='player'] > section:last-of-type{
     margin: 100px auto;
 }
-[class^=player] > section:last-of-type::after{
+[class^='player'] > section:last-of-type::after{
     display: block;
     content: '';
     clear: both;
 }
-[class^=player] > section:last-of-type > *{
+[class^='player'] > section:last-of-type > *{
     width: 47.56%;
     float: left;
 }
-[class^=player] > section:last-of-type ul{
+[class^='player'] > section:last-of-type ul{
     list-style: none;
     margin-right: 60px;
 }
-[class^=player] > section:last-of-type ul li::after{
+[class^='player'] > section:last-of-type ul li::after{
     display: block;
     content: '';
     clear: both;
 }
-[class^=player] > section:last-of-type ul li > *{
+[class^='player'] > section:last-of-type ul li > *{
     float: left;
 }
-[class^=player] > section:last-of-type ul li > *{
+[class^='player'] > section:last-of-type ul li > *{
     font-weight: 700;
     text-transform: uppercase;
 }
-[class^=player] > section:last-of-type ul li h4{
+[class^='player'] > section:last-of-type ul li h4{
     margin: 0 30px 30px 0;
     color: #a6a6a6;
     width: 120px;
 }
-[class^=player] > section:last-of-type ul li:nth-child(2) p{
+[class^='player'] > section:last-of-type ul li:nth-child(2) p{
     padding-right: 30px;
 }
-[class^=player] > section:last-of-type ul li:last-child p{
+[class^='player'] > section:last-of-type ul li:last-child p{
     padding: 3px 0 3px 30px;
 }
-[class^=player] > section:last-of-type ul li:last-child p:not(:last-of-type){
+[class^='player'] > section:last-of-type ul li:last-child p:not(:last-of-type){
     margin-bottom: 20px;
 }
-[class^=player] > section:last-of-type > div p{
+[class^='player'] > section:last-of-type > div p{
     line-height: 24px;
 }
-[class^=player] > section:last-of-type > div p:not(:last-child){
+[class^='player'] > section:last-of-type > div p:not(:last-child){
     margin-bottom: 30px;
 }
 .playerGKwrap_99 > section:first-of-type > div > div{
@@ -3588,7 +3588,7 @@ clear: both;
 
 
 
-[class^="footerTextwrap"] > h2{
+[class^='footerTextwrap'] > h2{
     background: url('../image/History_Title_bg.png')left 100% / cover no-repeat;
     font-size: 60px;
     text-align: center;
@@ -3596,39 +3596,39 @@ clear: both;
     color: #ffffff;
     margin-bottom: 120px;
 }
-[class^="footerTextwrap"] {
+[class^='footerTextwrap'] {
     color: #161c2d;
 }
 
-[class^="footerTextwrap"] > div:not(:last-of-type){
+[class^='footerTextwrap'] > div:not(:last-of-type){
     max-width: 1230px;
     margin: 0 auto 100px;
 }
-[class^="footerTextwrap"] > div h3{
+[class^='footerTextwrap'] > div h3{
     font-size: 24px;
     color: #ff1541;
     margin-bottom: 40px;
 }
-[class^="footerTextwrap"] div p{
+[class^='footerTextwrap'] div p{
     line-height: 24px;
 }
-[class^="footerTextwrap"] div p:not(:last-of-type),
-[class^="footerTextwrap"] div span{
+[class^='footerTextwrap'] div p:not(:last-of-type),
+[class^='footerTextwrap'] div span{
     margin-bottom: 30px;
 }
-[class^="footerTextwrap"] div span{
+[class^='footerTextwrap'] div span{
     font-weight: 700;
 }
-[class^="footerTextwrap"] div address{
+[class^='footerTextwrap'] div address{
     font-style: normal;
     line-height: 24px;
 }
-[class^="footerTextwrap"] div a{
+[class^='footerTextwrap'] div a{
     color: #6e8ce0;
     text-decoration: underline;
     display: inline;
 }
-[class^="footerTextwrap"] > a{
+[class^='footerTextwrap'] > a{
     margin-bottom: 120px;
 }
 .footerTextwrap_privacyPolicy > p{
@@ -4056,195 +4056,195 @@ clear: both;
 /* !shop main Fin */
 
 
-[class^=listwrap],[class^=shopdetailwrap] {
+[class^='listwrap'],[class^='shopdetailwrap'] {
     padding-top: 201px;
 }
-[class^=listwrap]::after{
+[class^='listwrap']::after{
     display: block;
     content: '';
     clear: both;
 }
-[class^=listwrap] > section{
+[class^='listwrap'] > section{
     margin: 0 3.12%;
 }
 
-[class^=listwrap] > section h2{
+[class^='listwrap'] > section h2{
     text-align: center;
     margin: 100px 0;
     font-size: 35px;
     color: #3c4c7a;
     font-style: italic;
 }
-[class^=listwrap] > section > div:first-of-type{
+[class^='listwrap'] > section > div:first-of-type{
     width:6.5%;
     margin-right: 11.11%;
     float: left;
 }
-[class^=listwrap] > section > div:first-of-type h3{
+[class^='listwrap'] > section > div:first-of-type h3{
     font-size: 24px;
     color: #161c2d;
     margin-bottom: 30px;
 }
-[class^=listwrap] > section > div:first-of-type ol li{
+[class^='listwrap'] > section > div:first-of-type ol li{
     margin-left: 15%;
     display: block;
 }
-[class^=listwrap] > section > div:first-of-type ol li:not(:last-child){
+[class^='listwrap'] > section > div:first-of-type ol li:not(:last-child){
     margin-bottom: 20px;
 }
-[class^=listwrap] > section > div:first-of-type ol li a{
+[class^='listwrap'] > section > div:first-of-type ol li a{
     color: #6e8ce0;
     font-weight: 700;
 }
-[class^=listwrap] > section > div:first-of-type ol li a:hover{
+[class^='listwrap'] > section > div:first-of-type ol li a:hover{
     color: #161c2d;
 }
-[class^=listwrap] > section > div:last-of-type{
+[class^='listwrap'] > section > div:last-of-type{
     width: 82.39%;
     float: left;
 }
-[class^=listwrap] > section > div:last-of-type > ul{
+[class^='listwrap'] > section > div:last-of-type > ul{
     padding-bottom: 60px;
     margin-bottom: 20px;
     border-bottom: 1px solid #e6e6e6;
 }
-[class^=listwrap] > section > div:last-of-type > ul::after{
+[class^='listwrap'] > section > div:last-of-type > ul::after{
     display: block;
     content: '';
     clear: both;
 }
-[class^=listwrap] > section > div:last-of-type > ul > li{
+[class^='listwrap'] > section > div:last-of-type > ul > li{
     width: 22.89%;
     float: left;
     margin-bottom: 60px;
     display: block;
 }
-[class^=listwrap] > section > div:last-of-type > ul > li:not(:nth-child(4n+1)){
+[class^='listwrap'] > section > div:last-of-type > ul > li:not(:nth-child(4n+1)){
     margin-left: 2.81%;
 }
-[class^=listwrap] > section > div:last-of-type > ul > li > a{
+[class^='listwrap'] > section > div:last-of-type > ul > li > a{
     position: relative;
 }
-[class^=listwrap] > section > div:last-of-type > ul > li > a img{
+[class^='listwrap'] > section > div:last-of-type > ul > li > a img{
     width: 100%;
 
 }
-[class^=listwrap] > section > div:last-of-type > ul > li > a{
+[class^='listwrap'] > section > div:last-of-type > ul > li > a{
     margin-bottom: 35px;
 }
-[class^=listwrap] > section > div:last-of-type > ul > li > div h3 a{
+[class^='listwrap'] > section > div:last-of-type > ul > li > div h3 a{
     font-size: 16px;
     color: #161c2d;
     margin-bottom: 45px;
 
 }
-[class^=listwrap] > section > div:last-of-type > ul > li > div span{
+[class^='listwrap'] > section > div:last-of-type > ul > li > div span{
     font-weight: 700;
     color: #6e8ce0;
 }
-[class^=listwrap] > section > div:last-of-type > div{
+[class^='listwrap'] > section > div:last-of-type > div{
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
 }
-[class^=listwrap] > section > div:last-of-type > div ol{
+[class^='listwrap'] > section > div:last-of-type > div ol{
     list-style: none;
 }
-[class^=listwrap] > section > div:last-of-type > div ol li{
+[class^='listwrap'] > section > div:last-of-type > div ol li{
     width: 45px;
     height: 45px;
     transition: background-color 0.3s ease-in;
     border-radius: 10px;
 }
-[class^=listwrap] > section > div:last-of-type > div ol li:hover,
-[class^=listwrap] > section > div:last-of-type > div ol li.pageractive{
+[class^='listwrap'] > section > div:last-of-type > div ol li:hover,
+[class^='listwrap'] > section > div:last-of-type > div ol li.pageractive{
     background-color: #e6e6e6;
 }
-[class^=listwrap] > section > div:last-of-type > div ol li a{
+[class^='listwrap'] > section > div:last-of-type > div ol li a{
     text-align: center;
     font-size: 35px;
     color: #161c2d;
     align-self: center;
     padding: 5px 0;
 }
-[class^=listwrap] > section > div:last-of-type > div > a{
+[class^='listwrap'] > section > div:last-of-type > div > a{
     align-self: center;
 }
-[class^=listwrap] > section > div:last-of-type > div > a:first-of-type{
+[class^='listwrap'] > section > div:last-of-type > div > a:first-of-type{
     margin-right: 30px;
 }
-[class^=listwrap] > section > div:last-of-type > div > a:last-of-type{
+[class^='listwrap'] > section > div:last-of-type > div > a:last-of-type{
     margin-left: 30px;
 }
-[class^=listwrap] > div{
+[class^='listwrap'] > div{
     clear: both;
 }
 
 
-/* [class^=shopdetailwrap] > div:first-of-type > div:first-of-type{
+/* [class^='shopdetailwrap'] > div:first-of-type > div:first-of-type{
     width: 63.82%;
     margin-right: 3.25%;
     float: left;
 } */
-[class^=shopdetailwrap] > div:first-of-type{
+[class^='shopdetailwrap'] > div:first-of-type{
     margin-top: 150px;
 }
-[class^=shopdetailwrap] > div:first-of-type > ul:first-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > ul:first-of-type{
     width: 5.69%;
     margin-right: 2.79%;
     float: left;
     list-style: none;
 }
-[class^=shopdetailwrap] > div:first-of-type > ul:first-of-type > li{
+[class^='shopdetailwrap'] > div:first-of-type > ul:first-of-type > li{
     border: 1px solid transparent;
     width: 69px;
     height: 69px;
 }
-[class^=shopdetailwrap] > div:first-of-type > ul:first-of-type > li.thumbnailactive{
+[class^='shopdetailwrap'] > div:first-of-type > ul:first-of-type > li.thumbnailactive{
     border-color: #6e8ce0
 }
-[class^=shopdetailwrap] > div:first-of-type > ul:first-of-type > li:not(:last-child){
+[class^='shopdetailwrap'] > div:first-of-type > ul:first-of-type > li:not(:last-child){
     margin-bottom: 20px;
 }
-[class^=shopdetailwrap] > div:first-of-type > ul:first-of-type > li a img{
+[class^='shopdetailwrap'] > div:first-of-type > ul:first-of-type > li a img{
     width: 100%;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:first-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:first-of-type{
     width: 53.67%;
     float: left;
     margin-right: 3.25%;
     margin-bottom: 50px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:first-of-type ul li{
+[class^='shopdetailwrap'] > div:first-of-type > div:first-of-type ul li{
     top: 0;
     left: 0;
 }
 
-[class^=shopdetailwrap] > div:first-of-type > div:first-of-type ul li img{
+[class^='shopdetailwrap'] > div:first-of-type > div:first-of-type ul li img{
     width: 100%;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2){
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2){
     width: 32.6%;
     float: left;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > h2{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > h2{
     font-size: 24px;
     margin-bottom: 30px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > strong{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > strong{
     color: #6e8ce0;
     font-size: 24px;
     margin-bottom: 30px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:first-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > a:first-of-type{
     color: #6e8ce0;
     margin-bottom: 40px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div{
     position: relative;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > button{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > button{
     width: 100%;
     border: 1px solid #6e8ce0;
     padding: 15px;
@@ -4252,17 +4252,16 @@ clear: both;
    
 }
 
-[class^=shopdetailwrap] > div:first-of-type >div:nth-of-type(2) > div > form > div > div button{
+[class^='shopdetailwrap'] > div:first-of-type >div:nth-of-type(2) > div > form > div > ul li button{
     width: 100%;
     border: none;
     padding: 15px 0;
     background-color: #ffffff;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > button span{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > button span{
     text-align: left;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:last-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
     position: absolute;
     z-index: 100;
     width: 100%;
@@ -4270,48 +4269,49 @@ clear: both;
     overflow: auto;
     display: none;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:first-of-type,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:first-of-type,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div{
     padding: 15px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div{
+/* [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > ul{
     top: 99%;
     width: 99.5%;
-}
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:last-of-type{
-    top: 99.5%;
+} */
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
+    top: 99%;
     background-color: #ffffff;
     width: 99.5%;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li> button{
     transition: background-color 0.3s ease-in-out;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button:hover{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover{
     background-color: #161c2d;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div button span{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div button span{
     font-weight: 700;
     color: #6e8ce0;
     font-size: 16px;
     transition: color 0.3s ease-in-out;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div > div > button:hover > span{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover > span{
     color: #ffffff;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) button{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) button{
     cursor: pointer;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type{
     margin-top: 40px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div + div{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > div,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div + div,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
     border: 1px solid #617cc7;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]{
     border: 1px solid #6e8ce0;
     appearance: none;
     width: 15px;
@@ -4319,35 +4319,35 @@ clear: both;
     border-radius: 50%;
     margin: 0;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]:checked{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]:checked{
     background-color:#6e8ce0 ;
 } 
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked) + label,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked)+label,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:not(:first-of-type) > div:first-of-type:not(:has(input[type="radio"]:checked)),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div:not(:has(input[type="checkbox"]:checked)){
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked) + label,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked),
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div input[type="checkbox"]:not(:checked)+label,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div div input[type="radio"]:not(:checked),
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:not(:first-of-type) > div:first-of-type:not(:has(input[type="radio"]:checked)),
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div+div+div:not(:has(input[type="checkbox"]:checked)){
     color: #a6a6a6;
     border-color: #a6a6a6;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div label{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div label{
     color: #6e8ce0;
     font-weight: 700;
     margin-left: 10px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) p{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) p{
     font-size: 12px;
     font-weight: 700;
     color: #a6a6a6;
     margin: 10px 0 0 30px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type{
     margin-top: 20px;
     padding: 10px 20px;
     display: none;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type > input[type="text"]{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type > input[type="text"]{
     width: 100%;
     border: none;
     padding: 10px 0;
@@ -4355,32 +4355,32 @@ clear: both;
     font-weight: 700;
     font-size: 16px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type > input[type="text"]:focus{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type > input[type="text"]:focus{
     outline: none;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(3){
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(3){
     clear: both;
     margin-top: 40px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(3) > button{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(3) > button{
     margin-top: 20px;
     display: none;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type{
     display: flex;
     margin: 40px 0;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]{
     appearance: none;
     border: 1px solid #617cc7;
     width: 15px;
     height: 15px;
     margin: 0;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]:checked{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:last-of-type input[type="checkbox"]:checked{
     background-color: #6e8ce0;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:last-of-type{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > a:last-of-type{
     width: 100%;
     background-color: #6e8ce0;
     text-align: center;
@@ -4389,13 +4389,13 @@ clear: both;
     border-radius: 5px;
     position: relative;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:last-of-type > span{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > a:last-of-type > span{
     color: #ffffff;
     font-weight: 700;
     position: relative;
     z-index: 100px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:last-of-type::before{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > a:last-of-type::before{
     content: '';
     position: absolute;
     top: 0;
@@ -4407,13 +4407,13 @@ clear: both;
     width: 0%;
     border-radius: 5px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > a:last-of-type:hover::before{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > a:last-of-type:hover::before{
     width: 100%;
 }
 
 
 
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3){
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3){
     /* width: 56.92%; */
     width: 65.4%;
     clear: both;
@@ -4421,23 +4421,23 @@ clear: both;
     
 }
 
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > p,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > ul li{
     line-height: 24px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > ul,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > p{
     margin-bottom: 40px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > h3{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > h3{
     margin-bottom: 30px;
     
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > ul li{
     margin-left: 25px;
 }
 
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li:not(:last-child){
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3) > ul li:not(:last-child){
     margin-bottom: 15px;
 }
 
