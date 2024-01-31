@@ -4422,22 +4422,22 @@ clear: both;
 }
 
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li{
     line-height: 24px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div,
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > p{
     margin-bottom: 40px;
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div h3{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > h3{
     margin-bottom: 30px;
     
 }
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li{
     margin-left: 25px;
 }
 
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > div ul li:not(:last-child){
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3) > ul li:not(:last-child){
     margin-bottom: 15px;
 }
 
