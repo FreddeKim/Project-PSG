@@ -4353,6 +4353,7 @@ clear: both;
     padding: 10px 0;
     color: #6e8ce0;
     font-weight: 700;
+    font-size: 16px;
 }
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form > div:nth-of-type(2) > div:last-of-type > input[type="text"]:focus{
     outline: none;
