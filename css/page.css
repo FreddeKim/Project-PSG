@@ -4124,6 +4124,7 @@ clear: both;
 }
 [class^='listwrap'] > section > div:last-of-type > ul > li > a{
     position: relative;
+    
 }
 [class^='listwrap'] > section > div:last-of-type > ul > li > a img{
     width: 100%;
@@ -4136,11 +4137,13 @@ clear: both;
     font-size: 16px;
     color: #161c2d;
     margin-bottom: 45px;
+    line-height: 24px;
 
 }
 [class^='listwrap'] > section > div:last-of-type > ul > li > div span{
     font-weight: 700;
     color: #6e8ce0;
+    margin-top: auto;
 }
 [class^='listwrap'] > section > div:last-of-type > div{
     display: flex;
@@ -4230,6 +4233,8 @@ clear: both;
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > h2{
     font-size: 24px;
     margin-bottom: 30px;
+    line-height: 32px;
+    color: #161c2d;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > strong{
     color: #6e8ce0;
@@ -4252,7 +4257,8 @@ clear: both;
    
 }
 
-[class^='shopdetailwrap'] > div:first-of-type >div:nth-of-type(2) > div > form > div > ul li button{
+[class^='shopdetailwrap'] > div:first-of-type >div:nth-of-type(2) > div > form > div > ul li button,
+[class^='shopdetailwrap'] > div:first-of-type >div:nth-of-type(2) > div > form > div > ol li button{
     width: 100%;
     border: none;
     padding: 15px 0;
@@ -4261,13 +4267,17 @@ clear: both;
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type > button span{
     text-align: left;
 }
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ol{
     position: absolute;
     z-index: 100;
     width: 100%;
     height: 250px;
     overflow: auto;
     display: none;
+    top: 99%;
+    background-color: #ffffff;
+    width: 99.5%;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:first-of-type,
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type,
@@ -4278,15 +4288,12 @@ clear: both;
     top: 99%;
     width: 99.5%;
 } */
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
-    top: 99%;
-    background-color: #ffffff;
-    width: 99.5%;
-}
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li> button{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li> button,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ol li> button{
     transition: background-color 0.3s ease-in-out;
 }
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ol li > button:hover{
     background-color: #161c2d;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div button span{
@@ -4295,7 +4302,8 @@ clear: both;
     font-size: 16px;
     transition: color 0.3s ease-in-out;
 }
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover > span{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul li > button:hover > span,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ol li > button:hover > span{
     color: #ffffff;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) button{
@@ -4308,7 +4316,8 @@ clear: both;
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div,
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div,
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div + div,
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ul,
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div > ol{
     border: 1px solid #617cc7;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div input[type="radio"]{
@@ -4418,6 +4427,7 @@ clear: both;
     width: 65.4%;
     clear: both;
     margin-bottom: 120px;
+    color: #161c2d;
     
 }
 

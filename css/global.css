@@ -37,7 +37,8 @@ main > section:nth-child(6) > h2,
 [class^="footerTextwrap"]:not(h3):not(h2),.shopmainWrap > section:nth-of-type(3) figure figcaption,
 [class^=listwrap] > section h2,
 [class^=listwrap] > section > div:last-of-type > ul > li > div h3 a,
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3){
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3),
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) h2{
     font-family: 'RaleWay';
 }
 
