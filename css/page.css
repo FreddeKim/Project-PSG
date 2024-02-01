@@ -8,16 +8,16 @@
 main{
     padding-top: 138px;
 }
-main > section:first-of-type{
+main > section:first-of-type > div:first-of-type{
     background: url('../image/main_section01_BG.png')70% 30% / cover no-repeat;
 }
 
 main > section:first-of-type > div:first-child {
     padding: 362px 0 230px;
+    
 }
 main > section:first-of-type > div:first-child div{
     position: relative;
-    margin-left: 140px;
 }
 
 main > section:first-of-type > div:first-child > div > h2{
@@ -29,6 +29,7 @@ main > section:first-of-type > div:first-child > div > h2{
     display: block;
     position: relative;
     z-index: 100;
+    margin-left: 11.38%;
     
 }
 main > section:first-of-type > div:first-child > div > div{
@@ -38,27 +39,27 @@ main > section:first-of-type > div:first-child > div > div{
     text-indent: -9999px;
     font-size: 40px;
     position: absolute;
-    top: 75%;
-    left: -14%;
+    top: 45%;
+    left: 10%;
     z-index: 10;
 }
-main > section:first-of-type > div:first-child > a {
+main > section:first-of-type > div:first-child > div a {
     margin-top: 45px;
     max-width: 200px;
     background-color: #ff1541;
     padding: 10px 0;
     text-align: center;
     transform: skew(-40deg);
-    margin-left: 140px;
+    margin-left: 11.38%
     
 }
-main > section:first-of-type > div:first-child > a > span{
+main > section:first-of-type > div:first-child > div a > span{
     display: block;
     color: #ffffff;
     font-weight: 700;
     transform: skew(40deg);
 }
-main > section:first-of-type > div:first-child > a::before {
+main > section:first-of-type > div:first-child > div a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -69,7 +70,7 @@ main > section:first-of-type > div:first-child > a::before {
     transition: width 0.3s ease;
     width: 0%;
 }
-main > section:first-of-type > div:first-child > a:hover::before {
+main > section:first-of-type > div:first-child > div a:hover::before {
     width: 100%;
     
 }
@@ -78,10 +79,12 @@ main > section:first-of-type > div:last-child {
 }
 main > section:first-of-type > div:last-child > ul{
     display: flex;
-    list-style-type: none;
+    list-style: none;
+    background-color: #ffffff;
 }
 main > section:first-of-type > div:last-child > ul li img{
     margin-right: -1px;
+    width: 100%;
 }
 
 /* !section:first-of-type Fin */
