@@ -166,14 +166,25 @@ function listhover() {
   // 선택자에 대한 마우스 오버 이벤트 처리
   $('[class^=listwrap] > section > div:last-of-type > ul > li > a').hover(
     function() {
-      // 마우스 오버 시
       var $img = $(this).find('img');
-      $img.attr('src', $img.attr('src').replace('_01.jpg', '_02.jpg'));
+      var src = $img.attr('src');
+      if (src.includes('_01.jpg') || src.includes('_01.png')) {
+        var newSrc = src.replace('_01.jpg', '_02.jpg').replace('_01.png', '_02.png');
+        var img = new Image();
+        img.onload = function() {
+          $img.attr('src', newSrc);
+        };
+        img.onerror = function() {
+        };
+        img.src = newSrc;
+      }
     },
     function() {
-      // 마우스 아웃 시
       var $img = $(this).find('img');
-      $img.attr('src', $img.attr('src').replace('_02.jpg', '_01.jpg'));
+      var src = $img.attr('src');
+      if (src.includes('_02.jpg') || src.includes('_02.png')) {
+        $img.attr('src', src.replace('_02.jpg', '_01.jpg').replace('_02.png', '_01.png'));
+      }
     }
   );
 }
