@@ -4125,7 +4125,7 @@ clear: both;
 }
 [class^='listwrap'] > section > div:last-of-type > ul > li div{
     position: relative;
-    height: 100px;
+    min-height: 105px;
 }
 [class^='listwrap'] > section > div:last-of-type > ul > li:not(:nth-child(4n+1)){
     margin-left: 2.81%;
@@ -4435,7 +4435,7 @@ clear: both;
 
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(3){
     /* width: 56.92%; */
-    width: 65.4%;
+    width: 61.8%;
     clear: both;
     margin-bottom: 120px;
     color: #161c2d;
