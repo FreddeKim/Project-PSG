@@ -4162,12 +4162,16 @@ clear: both;
 }
 [class^='listwrap'] > section > div:last-of-type > div ol{
     list-style: none;
+    display: flex;
 }
 [class^='listwrap'] > section > div:last-of-type > div ol li{
     width: 45px;
     height: 45px;
     transition: background-color 0.3s ease-in;
     border-radius: 10px;
+}
+[class^='listwrap'] > section > div:last-of-type > div ol li:not(:first-child){
+    margin-left: 10px;
 }
 [class^='listwrap'] > section > div:last-of-type > div ol li:hover,
 [class^='listwrap'] > section > div:last-of-type > div ol li.pageractive{
