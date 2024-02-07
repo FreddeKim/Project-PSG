@@ -3697,6 +3697,7 @@ clear: both;
     position: absolute;
     z-index: 10;
     top: 75%;
+    left: -3%;
     
 }
 
@@ -3784,6 +3785,7 @@ clear: both;
     padding: 10px 0;
     text-align: center;
     transform: skew(-40deg);
+    margin-left: 15px;
     
 }
 .shopmainWrap > section:nth-of-type(2) > a{
