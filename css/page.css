@@ -3848,6 +3848,7 @@ clear: both;
 .shopmainWrap > section:nth-of-type(3) > div > div > strong:first-of-type{
     margin-bottom: 40px;
     color: #161c2d;
+    line-height: 32px;
 }
 .shopmainWrap > section:nth-of-type(3) > div > div > span{
     color: #2f3c61;
