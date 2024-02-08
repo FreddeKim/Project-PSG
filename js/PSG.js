@@ -10,6 +10,8 @@ $(document).ready(function() {
   detailsize();
   callup();
   radioCallup();
+  cartRemove(); 
+  quantityCount();
 });
 
 // ! Search Bar
@@ -200,4 +202,39 @@ function thumnailactive() {
   $('.detailthumbnail li').on('click', function() {
     $(this).addClass('thumbnailactive').siblings().removeClass('thumbnailactive');
   });
+};
+
+
+function cartRemove() {
+  // REMOVE 버튼 클릭 시 처리하는 함수
+  $('.quantityRemove').click(function() {
+      var listItem = $(this).closest('li'); // 클릭한 REMOVE 버튼이 속한 li 요소 찾기
+      listItem.remove(); // li 요소 삭제
+
+      var cartItems = $('div[class^="shopcartwrap"] form > div:first-of-type > ul:last-of-type li'); // 카트 아이템들 찾기
+      if (cartItems.length === 0) { // 카트에 아이템이 없을 경우
+          $('div[class^="shopcartwrap"] form > div:first-of-type').hide(); // 첫 번째 div 숨기기
+          $('div[class^="shopcartwrap"] form > div:nth-of-type(2)').show(); // 두 번째 div 보이기
+      }
+  });
+}
+function quantityCount() {
+  // countminus 버튼 클릭 시 처리하는 함수
+  $('.countminus').click(function() {
+    var inputElement = $(this).parent().find('.cartquantity'); // 해당 버튼의 형제 요소에서 input 요소 선택
+    var currentValue = parseInt(inputElement.val()); // 현재 값 가져오기
+
+    // 현재 값이 1 이상일 때만 값을 감소시킴
+    if (currentValue > 1) {
+        inputElement.val(currentValue - 1); // 현재 값에서 1 감소
+    }
+});
+
+// countplus 버튼 클릭 시 처리하는 함수
+  $('.countplus').click(function() {
+    var inputElement = $(this).parent().find('.cartquantity'); // 해당 버튼의 형제 요소에서 input 요소 선택
+    var currentValue = parseInt(inputElement.val()); // 현재 값 가져오기
+
+    inputElement.val(currentValue + 1); // 현재 값에서 1 증가
+});
 };

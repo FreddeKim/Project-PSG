@@ -38,7 +38,8 @@ main > section:nth-child(6) > h2,
 [class^=listwrap] > section h2,
 [class^=listwrap] > section > div:last-of-type > ul > li > div h3 a,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) h2{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) h2,
+.shopcartwrap,.shopcartwrap > section > form > div > div > div:first-of-type textarea{
     font-family: 'RaleWay';
 }
 
@@ -70,7 +71,10 @@ main > section:nth-child(6) div a,
 [class^=listwrap] > section > div:first-of-type,
 [class^=listwrap] > section > div:last-of-type > ul > li > div span,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2),
-[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form button span{
+[class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form button span,
+.shopcartwrap > section > h2,
+[class^='listwrap'] > section > div:last-of-type > div ol li a,
+.shopcartwrap > section > form > div > div > div:last-of-type input[type="submit"]{
     font-family: 'DM Sans';
 }
 

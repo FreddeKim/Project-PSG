@@ -4168,8 +4168,8 @@ clear: both;
     display: flex;
 }
 [class^='listwrap'] > section > div:last-of-type > div ol li{
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     transition: background-color 0.3s ease-in;
     border-radius: 10px;
 }
@@ -4182,10 +4182,10 @@ clear: both;
 }
 [class^='listwrap'] > section > div:last-of-type > div ol li a{
     text-align: center;
-    font-size: 35px;
+    font-size: 18px;
     color: #161c2d;
     align-self: center;
-    padding: 5px 0;
+    padding: 6px 0;
 }
 [class^='listwrap'] > section > div:last-of-type > div > a{
     align-self: center;
@@ -4362,11 +4362,12 @@ clear: both;
     font-weight: 700;
     margin-left: 10px;
 }
-[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div p{
+[class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div label > small{
     font-size: 12px;
     font-weight: 700;
     color: #a6a6a6;
     margin: 10px 0 0 30px;
+    display: block;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type+div > div:last-of-type{
     margin-top: 20px;
@@ -4469,5 +4470,210 @@ clear: both;
     margin-bottom: 15px;
 }
 
+
+.shopcartwrap{
+    padding-top: 201px;
+    color: #161c2d;
+}
+.shopcartwrap > section{
+    margin-bottom: 120px;
+}
+.shopcartwrap > section > h2{
+    font-size: 35px;
+    color: #2f3c61;
+    font-style: italic;
+    margin: 120px 0;
+    text-align: center;
+}
+.shopcartwrap > section ul:first-of-type{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shopcartwrap > section ul+ul > li{
+    display: flex;
+}
+.shopcartwrap > section ul+ul > li:not(:last-of-type){
+    margin-bottom: 30px;
+}
+.shopcartwrap > section >form > div:first-of-type{
+    display: block;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:first-of-type,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type{
+    border-bottom: 1px solid #e6e6e6;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:first-of-type li{
+    display: block;
+    padding-bottom: 20px;
+
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.shopcartwrap > section >form > div:first-of-type > ul:first-of-type li:first-child,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child{
+    width: 50%;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child{
+    display: flex;
+    font-weight: 700;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child img{
+    width: 20%;
+    margin-right: 6.5%;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child p,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child span:first-of-type{
+    margin-bottom: 10px;
+}
+
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child span:last-of-type{
+    color: #6e8ce0;
+
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div{
+    border: 1px solid #e6e6e6;
+    width: 30%;
+    display: flex;
+    margin: 0 auto 10px;
+    padding: 20px 0;
+    
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="button"]:first-of-type{
+    color: transparent;
+    background: url('../image/shop_remove.png')center center no-repeat;
+    width: 25%;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="button"]:last-of-type{
+    color: transparent;
+    background: url('../image/shop_add.png')center center no-repeat;
+    width: 25%;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="text"]{
+    text-align: center;
+    width: 50%;
+    color: #a6a6a6;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > input[type="button"]{
+    color: #6e8ce0;
+    font-weight: 700;
+    border-bottom: 1px solid #6e8ce0;
+    padding: 0 0 2px 0;
+}
+
+.shopcartwrap > section >form > div:first-of-type> ul:first-of-type li:nth-child(2),
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2){
+    width: 40%;
+    text-align: center;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2),
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:last-child{
+    align-self: center;
+}
+.shopcartwrap > section >form > div:first-of-type> ul:first-of-type li:last-child,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:last-child{
+    width: 10%;
+    text-align: right;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:last-child > span{
+    color: #a6a6a6;
+}
+
+.shopcartwrap > section >form > div:first-of-type> div{
+    display: flex;
+    justify-content: space-between;
+}
+.shopcartwrap > section >form > div:first-of-type> div > div:first-of-type p{
+    margin-bottom: 20px;
+}
+.shopcartwrap > section >form > div:first-of-type> div > div:first-of-type textarea{
+    border-color: #6e8ce0;
+    padding: 10px;
+    color: #6e8ce0;
+}
+.shopcartwrap > section >form > div:first-of-type> div > div:first-of-type textarea::placeholder{
+    color: #6e8ce0;
+}
+.shopcartwrap > section >form > div:first-of-type> div > div:first-of-type textarea:focus{
+    outline: #6e8ce0;
+}
+.shopcartwrap > section >form > div:first-of-type> div > div:last-of-type span{
+    font-size: 24px;
+    color: #6e8ce0;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.shopcartwrap > section >form > div:first-of-type > div > div:last-of-type p{
+    margin-bottom: 30px;
+}
+.shopcartwrap > section >form > div:first-of-type > div > div:last-of-type input[type="submit"]{
+    outline: none;
+    background-color: #161c2d;
+    border-color: #161c2d;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px 45px;
+    font-size: 18px;
+    float: right;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+.shopcartwrap > section >form > div:first-of-type > div > div:last-of-type input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #161c2d;
+}
+.shopcartwrap > section >form > div:first-of-type + div{
+    padding: 50px 0 100px;
+    text-align: center;
+    display: none;
+}
+.shopcartwrap > section >form > div:first-of-type + div p{
+    font-size: 24px;
+    color: #a6a6a6;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.shopcartwrap > section >form > div:first-of-type + div a{
+    max-width: 250px;
+    background-color: #6e8ce0;
+    padding: 10px 0;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 120px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    
+}
+.shopcartwrap > section >form > div:first-of-type + div a > span{
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 100;
+}
+.shopcartwrap > section >form > div:first-of-type + div a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2f3c61;
+    transition: width 0.3s ease;
+    width: 0%;
+    z-index: 1;
+}
+.shopcartwrap > section >form > div:first-of-type + div a:hover::before {
+    width: 100%;
+}
 }
 /* !Desktop Fin */

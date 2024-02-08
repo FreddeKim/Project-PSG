@@ -79,6 +79,7 @@
         font-weight: 900;
         color: #ffffff;
         letter-spacing: 0.05em;
+        cursor: pointer;
         
     }
     .shopheader > div ul li:first-child:hover > ol{
@@ -151,19 +152,19 @@
     }
     .shopheader > nav > ul > li > a{
         text-transform: uppercase;
-    }
-    .shopheader > nav > ul > li > a,
-    .shopheader > nav > ul > li > b{
         color: #ffffff;
-        /* white-space: pre-line; */
+    }
+    .shopheader > nav > ul > li > b{
+        cursor: pointer;
+    }
+    .shopheader > nav > ul > li{
         font-weight: 700;
         transition: background-color 0.3s ease-in;
         padding: 30px;
         display: block;
     }
 
-    .shopheader > nav > ul > li > a:hover,
-    .shopheader > nav ul li > b:hover{
+    .shopheader > nav > ul > li:hover{
         background-color: #3c4c7a;
     }
 
@@ -192,6 +193,7 @@
         padding: 10px 20px;
         transition: background-color 0.3s ease-in;
         text-transform: capitalize;
+        font-weight: 400;
         
     }
     .shopheader > nav > ul > li:nth-child(4) > div > ul > li:hover a{
