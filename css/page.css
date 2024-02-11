@@ -3667,7 +3667,7 @@ clear: both;
 
 
 .shopmainWrap{
-    padding-top: 201px;
+    padding-top: 200px;
 }
 .shopmainWrap > section:first-of-type > div{
     padding: 390px 0 10px;
@@ -4063,7 +4063,7 @@ clear: both;
 
 
 [class^='listwrap'],[class^='shopdetailwrap'] {
-    padding-top: 201px;
+    padding-top: 200px;
 }
 [class^='listwrap']::after{
     display: block;
@@ -4471,19 +4471,23 @@ clear: both;
 }
 
 
-.shopcartwrap{
-    padding-top: 201px;
+.shopcartwrap,[class^='accountManagementwrap']{
+    padding-top: 200px;
     color: #161c2d;
 }
 .shopcartwrap > section{
     margin-bottom: 120px;
 }
-.shopcartwrap > section > h2{
+.shopcartwrap > section > h2,
+[class^='accountManagementwrap'] > section > h2
+{
     font-size: 35px;
     color: #2f3c61;
     font-style: italic;
-    margin: 120px 0;
     text-align: center;
+}
+.shopcartwrap > section > h2{
+    margin: 120px 0;
 }
 .shopcartwrap > section ul:first-of-type{
     display: flex;
@@ -4630,12 +4634,12 @@ clear: both;
     color: #161c2d;
 }
 .shopcartwrap > section >form > div:first-of-type + div{
-    padding: 50px 0 100px;
+    padding-bottom: 100px;
     text-align: center;
     display: none;
 }
 .shopcartwrap > section >form > div:first-of-type + div p{
-    font-size: 24px;
+    font-size: 35px;
     color: #a6a6a6;
     font-style: italic;
     font-weight: 700;
@@ -4675,5 +4679,181 @@ clear: both;
 .shopcartwrap > section >form > div:first-of-type + div a:hover::before {
     width: 100%;
 }
+
+
+[class^='accountManagementwrap'] > section{
+    margin: 120px auto;
+    max-width: 400px;
 }
+[class^='accountManagementwrap'] > section > h2{
+    margin-bottom: 50px;
+}
+[class^='accountManagementwrap'] > section > p:first-of-type{
+    font-weight: 700;
+    color: #a6a6a6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+[class^='accountManagementwrap'] > section > form > *{
+    display: block;
+}
+[class^='accountManagementwrap'] > section > form > label{
+    color: #161c2d;
+    margin-bottom: 10px;
+}
+[class^='accountManagementwrap'] > section > form > input{
+    width: 89.54%;
+    border: 1px solid #6e8ce0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 20px
+}
+[class^='accountManagementwrap'] > section > form > input[type="email"]{
+    margin-bottom: 30px;
+}
+[class^='accountManagementwrap'] > section > form > input[type="password"]{
+    margin-bottom: 50px;
+}
+[class^='accountManagementwrap'] > section > form > input[type="submit"]{
+    width: 100%;
+    font-style: italic;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #161c2d;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 70px;
+    
+}
+[class^='accountManagementwrap'] > section > form > input[type="submit"]:hover{
+    background-color: #6e8ce0;
+}
+[class^='accountManagementwrap'] > section > form > input[type="submit"]:active{
+    color: #ffffff;
+    background-color: #161c2d;
+}
+[class^='accountManagementwrap'] > section > a{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #a6a6a6;
+    
+}
+[class^='accountManagementwrap'] > section > p:last-of-type{
+    font-weight: 700;
+    color: #a6a6a6;
+    text-align: center;
+}
+[class^='accountManagementwrap'] > section > p > a{
+    color: #6e8ce0;
+    text-decoration: underline;
+    display: inline;
+}
+.accountManagementwrap_resetPW > section > form> input[type="password"]:first-of-type{
+    margin-bottom: 30px;
+}
+.accountManagementwrap_resetPW > section > form> input[type="password"]:last-of-type{
+    margin-bottom: 50px;
+}
+.accountManagementwrap_resetPW > section > form> input[type="submit"]{
+    margin: 0;
+}
+
+
+
+[class^='myAccountwrap']{
+    padding-top: 200px;
+}
+[class^='myAccountwrap'] > section{
+    margin: 120px auto;
+}
+[class^='myAccountwrap'] > section > div{
+    margin-bottom: 80px;
+}
+[class^='myAccountwrap'] > section > div > a{
+    color: #6e8ce0;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+[class^='myAccountwrap'] > section > div > h2{
+    color: #2f3c61;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+[class^='myAccountwrap'] > section > form > div::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+[class^='myAccountwrap'] > section > form > div div{
+    float: left;
+    width: 29.26%;
+}
+[class^='myAccountwrap'] > section > form > div div:not(:first-child){
+    margin-left: 6.09%;
+}
+
+[class^='myAccountwrap'] > section > form > div div h3{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+[class^='myAccountwrap'] > section > form > div div p{
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+[class^='myAccountwrap'] > section > form > div > div:last-of-type > a{
+    text-align: center;
+}
+.myAccountwrap > section > form > div > div:first-of-type > input[type="button"],
+.myAccountwrap > section > form > div > div:last-of-type > a,
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]{
+    width: 100%;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #161c2d;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+    border: 1px solid #6e8ce0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 20px
+    
+}
+.myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:hover,
+.myAccountwrap > section > form > div > div:last-of-type > a:hover,
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:hover{
+    background-color: #6e8ce0;
+}
+.myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:active,
+.myAccountwrap > section > form > div > div:last-of-type > a:active,
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:active{
+    color: #ffffff;
+    background-color: #161c2d;
+}
+.myAccountwrap_editAddress > section > div:first-of-type{
+    width: 29.26%;
+}
+.myAccountwrap_editAddress > section > div:first-of-type a{
+    background: url('../image/arrow_left_sky.png')left center no-repeat;
+    padding-left: 20px;
+}
+.myAccountwrap_editAddress > section > form > div > div > input[type="button"]{
+    color: #6e8ce0;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid #6e8ce0;
+    padding: 0 2px 2px 2px;
+    outline: none;
+    background-color: transparent;
+}
+.myAccountwrap_editAddress > section > form > div > div > input[type="button"]:last-of-type{
+    margin-left: 40px;
+}
+}
+
+
 /* !Desktop Fin */

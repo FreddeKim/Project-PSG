@@ -39,7 +39,10 @@ main > section:nth-child(6) > h2,
 [class^=listwrap] > section > div:last-of-type > ul > li > div h3 a,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(3),
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) h2,
-.shopcartwrap,.shopcartwrap > section > form > div > div > div:first-of-type textarea{
+.shopcartwrap,.shopcartwrap > section > form > div > div > div:first-of-type textarea,
+[class^='accountManagementwrap'] > section > form,[class^='accountManagementwrap'] > section > form > input[type="email"],
+[class^='accountManagementwrap'] > section > form > input[type="submit"],.myAccountwrap,
+.myAccountwrap_editAddress > section > form > div{
     font-family: 'RaleWay';
 }
 
@@ -74,7 +77,13 @@ main > section:nth-child(6) div a,
 [class^=shopdetailwrap] > div:first-of-type > div:nth-of-type(2) > div > form button span,
 .shopcartwrap > section > h2,
 [class^='listwrap'] > section > div:last-of-type > div ol li a,
-.shopcartwrap > section > form > div > div > div:last-of-type input[type="submit"]{
+.shopcartwrap > section > form > div > div > div:last-of-type input[type="submit"],
+.shopcartwrap > section >form > div:first-of-type + div a > span,
+[class^='accountManagementwrap'] > section > *, [class^='accountManagementwrap'] > section > h2,
+[class^='myAccountwrap'] > section > div > h2,[class^='myAccountwrap'] > section > div > a,
+.myAccountwrap > section > form > div > div:first-of-type > input[type="button"],
+.myAccountwrap > section > form > div > div:last-of-type > a,
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]{
     font-family: 'DM Sans';
 }
 

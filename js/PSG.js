@@ -12,6 +12,7 @@ $(document).ready(function() {
   radioCallup();
   cartRemove(); 
   quantityCount();
+  fwmassageChange();
 });
 
 // ! Search Bar
@@ -237,4 +238,13 @@ function quantityCount() {
 
     inputElement.val(currentValue + 1); // 현재 값에서 1 증가
 });
+};
+
+function fwmassageChange() {
+  $(".accountManagementwrap_findpw > section > form").submit(function(event) {
+      event.preventDefault(); // Prevent default form submission
+      // Simulate sending email (in real scenario, this would be an AJAX request to the server)
+      // Here, we just change the message text
+      $(".accountManagementwrap_findpw > section > p:first-of-type").text("We have sent you an email with instructions to reset your password.");
+  });
 };
