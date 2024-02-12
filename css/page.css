@@ -4810,7 +4810,8 @@ clear: both;
 }
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"],
 .myAccountwrap > section > form > div > div:last-of-type > a,
-.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]{
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"],
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]{
     width: 100%;
     font-weight: 700;
     color: #ffffff;
@@ -4825,12 +4826,14 @@ clear: both;
 }
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:hover,
 .myAccountwrap > section > form > div > div:last-of-type > a:hover,
-.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:hover{
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:hover,
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:hover{
     background-color: #6e8ce0;
 }
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:active,
 .myAccountwrap > section > form > div > div:last-of-type > a:active,
-.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:active{
+.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"]:active,
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:active{
     color: #ffffff;
     background-color: #161c2d;
 }
@@ -4853,6 +4856,92 @@ clear: both;
 .myAccountwrap_editAddress > section > form > div > div > input[type="button"]:last-of-type{
     margin-left: 40px;
 }
+.myAccountwrap_editAddress > div:first-of-type{
+    background-color: rgba(22, 28, 45, 0.7);
+    position: absolute;
+    z-index: 3000;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #161c2d;
+    
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div{
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    padding: 120px 0;
+
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > strong{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > p{
+    color: #6e8ce0;
+    margin-bottom: 30px;
+}
+
+.myAccountwrap_editAddress > div:first-of-type > form > div button{
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div button span{
+    background: url('../image/close.png')left center no-repeat;
+    text-indent: -9999px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > *:not(div:first-of-type){
+    text-align: center;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div{
+    max-width: 400px;
+    margin: 0 auto;
+    color: #161c2d;
+}.myAccountwrap_editAddress > div:first-of-type > form > div > div label{
+    margin-bottom: 10px;
+    display: block;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="text"]{
+    display: block;
+    margin-bottom: 30px;
+    border: 1px solid #6e8ce0;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 92%;
+    
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > select{
+    display: block;
+    margin-bottom: 30px;
+    border: 1px solid #6e8ce0;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    appearance: none;
+    background: url('../image/Triangle_down.png')95% center no-repeat;
+    color: #161c2d;
+
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div > span{
+    margin-left: 20px;
+}
+
 }
 
 

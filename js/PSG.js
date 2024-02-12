@@ -13,6 +13,7 @@ $(document).ready(function() {
   cartRemove(); 
   quantityCount();
   fwmassageChange();
+  newAddress();
 });
 
 // ! Search Bar
@@ -248,3 +249,8 @@ function fwmassageChange() {
       $(".accountManagementwrap_findpw > section > p:first-of-type").text("We have sent you an email with instructions to reset your password.");
   });
 };
+function newAddress(){
+  $(".editAddress").click(function(){
+    $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");
+});
+}
