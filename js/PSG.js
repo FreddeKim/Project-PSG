@@ -253,4 +253,7 @@ function newAddress(){
   $(".editAddress").click(function(){
     $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");
 });
+  $(".newAddress").click(function(){
+    $(".myAccountwrap_editAddress > section > div:first-of-type > div:last-of-type").css("display", "block");
+  });
 }

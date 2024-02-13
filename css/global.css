@@ -42,10 +42,12 @@ main > section:nth-child(6) > h2,
 .shopcartwrap,.shopcartwrap > section > form > div > div > div:first-of-type textarea,
 [class^='accountManagementwrap'] > section > form,[class^='accountManagementwrap'] > section > form > input[type="email"],
 [class^='accountManagementwrap'] > section > form > input[type="submit"],.myAccountwrap,
-.myAccountwrap_editAddress > section > form > div,
 .myAccountwrap_editAddress > div:first-of-type,
 .myAccountwrap_editAddress > div:first-of-type > form > div > div input[type="text"],
-.myAccountwrap_editAddress > div:first-of-type > form > div > div select{
+.myAccountwrap_editAddress > section > form > div > div > input[type="button"],
+.myAccountwrap_editAddress > div:first-of-type > form > div > div select,
+.accountManagementwrap_register > section > form > div > input
+{
     font-family: 'RaleWay';
 }
 
@@ -86,8 +88,10 @@ main > section:nth-child(6) div a,
 [class^='myAccountwrap'] > section > div > h2,[class^='myAccountwrap'] > section > div > a,
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"],
 .myAccountwrap > section > form > div > div:last-of-type > a,
-.myAccountwrap_editAddress > section > div:first-of-type > input[type="button"],
-.myAccountwrap_editAddress > div:first-of-type > form > div > strong{
+.myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type,
+.myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type > input[type="button"],
+.myAccountwrap_editAddress > div:first-of-type > form > div > strong,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="text"]  {
     font-family: 'DM Sans';
 }
 
