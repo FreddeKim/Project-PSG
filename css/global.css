@@ -44,6 +44,7 @@ main > section:nth-child(6) > h2,
 [class^='accountManagementwrap'] > section > form > input[type="submit"],.myAccountwrap,
 .myAccountwrap_editAddress > div:first-of-type,
 .myAccountwrap_editAddress > div:first-of-type > form > div > div input[type="text"],
+.myAccountwrap_editAddress > section > form > div > div,
 .myAccountwrap_editAddress > section > form > div > div > input[type="button"],
 .myAccountwrap_editAddress > div:first-of-type > form > div > div select,
 .accountManagementwrap_register > section > form > div > input
