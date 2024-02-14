@@ -4937,7 +4937,7 @@ clear: both;
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="text"]{
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border: 1px solid #6e8ce0;
     outline: none;
     padding: 15px;
