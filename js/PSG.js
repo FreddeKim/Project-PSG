@@ -166,6 +166,8 @@ function map() {
   $('iframe').css('height', '100%');
 };
 
+
+// !list hover 시 이미지 변경
 function listhover() {
   // 선택자에 대한 마우스 오버 이벤트 처리
   $('[class^=listwrap] > section > div:last-of-type > ul > li > a').hover(
@@ -206,22 +208,23 @@ function thumnailactive() {
   });
 };
 
-
+// ! cartlist delete, list가 0 일시 화면변경
 function cartRemove() {
-  // REMOVE 버튼 클릭 시 처리하는 함수
   $('.quantityRemove').click(function() {
       var listItem = $(this).closest('li'); // 클릭한 REMOVE 버튼이 속한 li 요소 찾기
       listItem.remove(); // li 요소 삭제
 
       var cartItems = $('div[class^="shopcartwrap"] form > div:first-of-type > ul:last-of-type li'); // 카트 아이템들 찾기
-      if (cartItems.length === 0) { // 카트에 아이템이 없을 경우
-          $('div[class^="shopcartwrap"] form > div:first-of-type').hide(); // 첫 번째 div 숨기기
-          $('div[class^="shopcartwrap"] form > div:nth-of-type(2)').show(); // 두 번째 div 보이기
+      if (cartItems.length === 0) { // Cartlist 가 0 일때
+          $('div[class^="shopcartwrap"] form > div:first-of-type').hide(); // div:first-of-type 숨기기
+          $('div[class^="shopcartwrap"] form > div:nth-of-type(2)').show(); // div:nth-of-type(2) 보이기
       }
   });
 }
+
+// !cart 내 수량 처리
+// countminus
 function quantityCount() {
-  // countminus 버튼 클릭 시 처리하는 함수
   $('.countminus').click(function() {
     var inputElement = $(this).parent().find('.cartquantity'); // 해당 버튼의 형제 요소에서 input 요소 선택
     var currentValue = parseInt(inputElement.val()); // 현재 값 가져오기
@@ -232,7 +235,7 @@ function quantityCount() {
     }
 });
 
-// countplus 버튼 클릭 시 처리하는 함수
+// countplus button
   $('.countplus').click(function() {
     var inputElement = $(this).parent().find('.cartquantity'); // 해당 버튼의 형제 요소에서 input 요소 선택
     var currentValue = parseInt(inputElement.val()); // 현재 값 가져오기
@@ -241,14 +244,15 @@ function quantityCount() {
 });
 };
 
+
+// !find password에서 mail send시 message 전환.
 function fwmassageChange() {
   $(".accountManagementwrap_findpw > section > form").submit(function(event) {
-      event.preventDefault(); // Prevent default form submission
-      // Simulate sending email (in real scenario, this would be an AJAX request to the server)
-      // Here, we just change the message text
+      event.preventDefault();
       $(".accountManagementwrap_findpw > section > p:first-of-type").text("We have sent you an email with instructions to reset your password.");
   });
 };
+
 function newAddress(){
   $(".editAddress").click(function(){
     $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");

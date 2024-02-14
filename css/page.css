@@ -296,6 +296,7 @@ main > section:nth-child(4) > div:first-child ul li{
     display: block;
     padding-bottom: 20px;
 
+
     
 }
 main > section:nth-child(4) > div:first-child ul li:not(:first-child){
@@ -331,6 +332,7 @@ main > section:nth-child(4) > div:first-child ul li figure figcaption p{
     color: #161c2d;
     font-weight: 400;
     margin-bottom: 45px;
+    line-height: 24px;
 }
 main > section:nth-child(4) > div:first-child ul li a:last-of-type{
     width: 50px;
@@ -4294,7 +4296,8 @@ clear: both;
     display: none;
     top: 99%;
     background-color: #ffffff;
-    width: 99.5%;
+    width: 100%;
+    box-sizing: border-box;
 }
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div + div > div:first-of-type,
 [class^='shopdetailwrap'] > div:first-of-type > div:nth-of-type(2) > div > form > div:first-of-type + div > div:first-of-type,
@@ -4537,7 +4540,10 @@ clear: both;
     color: #6e8ce0;
 
 }
-.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div{
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2){
+    position: relative;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:first-of-type{
     border: 1px solid #e6e6e6;
     width: 30%;
     display: flex;
@@ -4550,17 +4556,17 @@ clear: both;
     outline: none;
     background-color: transparent;
 }
-.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="button"]:first-of-type{
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:first-of-type > input[type="button"]:first-of-type{
     color: transparent;
     background: url('../image/shop_remove.png')center center no-repeat;
     width: 25%;
 }
-.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="button"]:last-of-type{
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:first-of-type > input[type="button"]:last-of-type{
     color: transparent;
     background: url('../image/shop_add.png')center center no-repeat;
     width: 25%;
 }
-.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="text"]{
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:first-of-type > input[type="text"]{
     text-align: center;
     width: 50%;
     color: #a6a6a6;
@@ -4570,6 +4576,11 @@ clear: both;
     font-weight: 700;
     border-bottom: 1px solid #6e8ce0;
     padding: 0 0 2px 0;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .shopcartwrap > section >form > div:first-of-type> ul:first-of-type li:nth-child(2),
@@ -4601,9 +4612,13 @@ clear: both;
     border-color: #6e8ce0;
     padding: 10px;
     color: #6e8ce0;
+    resize: none;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 .shopcartwrap > section >form > div:first-of-type> div > div:first-of-type textarea::placeholder{
     color: #6e8ce0;
+    font-size: 16px;
 }
 .shopcartwrap > section >form > div:first-of-type> div > div:first-of-type textarea:focus{
     outline: #6e8ce0;
@@ -4885,11 +4900,13 @@ clear: both;
     position: absolute;
     z-index: 3000;
     left: 0;
-    top: 5%;
+    top: 0;
     width: 100%;
     height: 100%;
     display: none;
     color: #161c2d;
+    padding-top: 200px;
+    
     
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div{
@@ -4942,7 +4959,8 @@ clear: both;
     outline: none;
     padding: 15px;
     border-radius: 5px;
-    width: 92%;
+    width: 100%;
+    box-sizing: border-box;
     
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div > div > select,
@@ -4996,7 +5014,8 @@ clear: both;
 }
 .accountManagementwrap_register > section > form > div > *{
     display: block;
-    width: 92%
+    width: 100%;
+    box-sizing: border-box;
 }
 .accountManagementwrap_register > section > form > div > label{
     margin-bottom: 5px;
