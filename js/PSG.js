@@ -210,7 +210,7 @@ function thumnailactive() {
 
 // ! cartlist delete, list가 0 일시 화면변경
 function cartRemove() {
-  $('.quantityRemove').click(function() {
+  $('.removeConfirmYes').click(function() {
       var listItem = $(this).closest('li'); // 클릭한 REMOVE 버튼이 속한 li 요소 찾기
       listItem.remove(); // li 요소 삭제
 
@@ -219,6 +219,13 @@ function cartRemove() {
           $('div[class^="shopcartwrap"] form > div:first-of-type').hide(); // div:first-of-type 숨기기
           $('div[class^="shopcartwrap"] form > div:nth-of-type(2)').show(); // div:nth-of-type(2) 보이기
       }
+  });
+  $(".quantityRemove").click(function(){
+    var listItem = $(this).closest('li');
+    listItem.find("div:nth-child(2) > div:last-of-type").css("display", "block");
+  });
+  $(".removeConfirmNo").click(function(){
+    $(".shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type").css("display", "none");
   });
 }
 

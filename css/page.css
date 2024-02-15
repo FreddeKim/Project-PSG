@@ -4581,6 +4581,30 @@ clear: both;
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 150px;
+    display: none;
+    
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #6e8ce0;
+    font-weight: 500;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type > input[type="button"]{
+    border: none;
+    background-color: #161c2d;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px;
+    width: 45px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 700;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type > input[type="button"]:hover{
+    background-color: #6e8ce0;
 }
 
 .shopcartwrap > section >form > div:first-of-type> ul:first-of-type li:nth-child(2),
@@ -4842,14 +4866,14 @@ clear: both;
 .myAccountwrap > section > form > div > div:last-of-type > a:hover,
 .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"]:hover,
 .myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:hover,
-.accountManagementwrap_register > section > input[type="button"]:hover{
+.accountManagementwrap_register > section > input[type="submit"]:hover{
     background-color: #6e8ce0;
 }
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:active,
 .myAccountwrap > section > form > div > div:last-of-type > a:active,
 .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"]:active,
 .myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:active,
-.accountManagementwrap_register > section > input[type="button"]:active{
+.accountManagementwrap_register > section > input[type="submit"]:active{
     color: #ffffff;
     background-color: #161c2d;
 }
@@ -5036,8 +5060,8 @@ clear: both;
 .accountManagementwrap_register > section > form > div:first-of-type > input{
     margin-bottom: 20px;
 }
-.accountManagementwrap_register > section > input[type="button"]{
-    width: 46.51%;
+.accountManagementwrap_register > section > form > input[type="submit"]{
+    max-width: 400px;
     margin: 0 auto;
     display: block;
     clear: both;
@@ -5052,6 +5076,195 @@ clear: both;
     padding: 15px 20px; 
     
 }
+
+.helpcentermain_wrap > .adap1230{
+    padding-top: 200px;
+}
+.helpcentermain_wrap > .adap1230 > ul::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.helpcentermain_wrap > .adap1230 > ul{
+    margin: 120px 0;
+}
+
+.helpcentermain_wrap > .adap1230 > ul li{
+    width: 23.17%;
+    float: left;
+    display: block;
+    background: #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.helpcentermain_wrap > .adap1230 > ul li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #161c2d;
+    transition: width 0.2s ease;
+    width: 0%;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.helpcentermain_wrap > .adap1230 > ul li:hover::before{
+    width: 100%;
+}
+.helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(4n+1)){
+    margin-left: 2.43%;
+}
+.helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(9):nth-child(10):nth-child(11):nth-child(12)){
+    margin-bottom: 30px;
+}
+
+.helpcentermain_wrap > .adap1230 > ul li > a{
+    padding: 45px 0 45px 90px;
+    box-sizing: border-box;
+    color: #161c2d;
+    font-weight: 700;
+    z-index: 20;
+    position: relative;
+}
+.helpcentermain_wrap > .adap1230 > ul li:hover > a{
+    color: #ffffff;
+}
+
+.helpcentermain_wrap > .adap1230 > ul li:first-child > a{
+    background: url('../image/hc_placing_order.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(2) > a{
+    background: url('../image/hc_box.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(3) > a{
+    background: url('../image/hc_tape_measure.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(4) > a{
+    background: url('../image/hc_return.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(5) > a{
+    background: url('../image/hc_promotion.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(6) > a{
+    background: url('../image/hc_location.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(7) > a{
+    background: url('../image/hc_security.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(8) > a{
+    background: url('../image/hc_terms_and_condition.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(9) > a{
+    background: url('../image/hc_policyicon.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(10) > a{
+    background: url('../image/hc_cookie.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(11) > a{
+    background: url('../image/hc_contact_us.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:last-child > a{
+    background: url('../image/hc_account.png') 7% center no-repeat;
+}
+
+
+
+.helpcentermain_wrap > .adap1230 > ul li:first-child:hover > a{
+    background: url('../image/hc_placing_order_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(2):hover > a{
+    background: url('../image/hc_box_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(3):hover > a{
+    background: url('../image/hc_tape_measure_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(4):hover > a{
+    background: url('../image/hc_return_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(5):hover > a{
+    background: url('../image/hc_promotion_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(6):hover > a{
+    background: url('../image/hc_location_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(7):hover > a{
+    background: url('../image/hc_security_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(8):hover > a{
+    background: url('../image/hc_terms_and_condition_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(9):hover > a{
+    background: url('../image/hc_policyicon_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(10):hover > a{
+    background: url('../image/hc_cookie_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:nth-child(11):hover > a{
+    background: url('../image/hc_contact_us_hover.png') 7% center no-repeat;
+}
+.helpcentermain_wrap > .adap1230 > ul li:last-child:hover > a{
+    background: url('../image/hc_account_hover.png') 7% center no-repeat;
+}
+
+
+[class^='helpcenterwrap']{
+    padding-top: 200px;
+}
+[class^='helpcenterwrap'] > .adap1230{
+    margin: 120px auto;
+}
+[class^='helpcenterwrap'] > .adap1230 p,
+[class^='helpcenterwrap'] > .adap1230 strong{
+    line-height: 24px;
+    font-size: 14px;
+    color: #161c2d;
+}
+[class^='helpcenterwrap'] > .adap1230 > div > strong,
+[class^='helpcenterwrap'] > .adap1230 > p:not(:last-of-type),
+[class^='helpcenterwrap'] > .adap1230 > div > p:not(:last-of-type),
+[class^='helpcenterwrap'] > .adap1230 > div > ul,
+[class^='helpcenterwrap'] > .adap1230 > div > ol{
+    margin-bottom: 30px;
+}
+[class^='helpcenterwrap'] > .adap1230 > div > ul > li:not(:last-child),
+[class^='helpcenterwrap'] > .adap1230 > div > ol > li:not(:last-child){
+    margin-bottom: 20px;
+}
+[class^='helpcenterwrap'] > .adap1230 > div > p > strong,
+[class^='helpcenterwrap'] > .adap1230 > div > ul > li > strong,
+[class^='helpcenterwrap'] > .adap1230 > div > ol > li > strong,
+[class^='helpcenterwrap'] > .adap1230 > div > ol > li > a{
+    display: inline;
+}
+[class^='helpcenterwrap'] > .adap1230 > div > ol > li > a{
+    color: #6e8ce0;
+    text-decoration: underline;
+}
+[class^='helpcenterwrap'] > .adap1230 > h2{
+    font-size: 30px;
+    color: #6e8ce0;
+    margin-bottom: 40px;
+}
+[class^='helpcenterwrap'] > .adap1230 > div:not(:last-of-type),
+[class^='helpcenterwrap'] > .adap1230 > p:last-of-type{
+    margin-bottom: 60px;
+}
+[class^='helpcenterwrap'] > .adap1230 > div h3{
+    font-size: 18px;
+    color: #6e8ce0;
+    margin-bottom: 30px;
+}
+[class^='helpcenterwrap'] > .adap1230 > div > ul > li,
+[class^='helpcenterwrap'] > .adap1230 > div > ol > li{
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 }
 
 
