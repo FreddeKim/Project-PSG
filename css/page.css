@@ -5265,7 +5265,294 @@ clear: both;
     line-height: 24px;
 }
 
+.paymantwrap{
+    padding-top: 200px;
 }
+.paymantwrap > .adap1230{
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.paymantwrap > .adap1230 > div{
+    width: 50%;
+}
+.paymantwrap > .adap1230 > div:first-of-type{
+    /* flex: 1; */
+    order: 1;
+    margin-left: 2.43%;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li{
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li img{
+    width: 20%;
+    border: 1px solid #6e8ce0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li > div:first-of-type{
+    margin-left: 6.84%;
+    color: #161c2d;
+    font-weight: 700;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li > div:first-of-type > p{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li > div:first-of-type > span{
+    color: #a6a6a6;
+}
+.paymantwrap > .adap1230 > div:first-of-type ul li > div:last-of-type{
+    margin-left: 11.97%;
+    align-self: center;
+}.paymantwrap > .adap1230 > div:first-of-type ul li > div:last-of-type > span{
+    color: #6e8ce0;
+    font-weight: 700;
+}
+.paymantwrap > .adap1230 > div:first-of-type > div:last-of-type,
+.paymantwrap > .adap1230 > div:first-of-type > div > div{
+    display: flex;
+    justify-content: space-between;
+}
+.paymantwrap > .adap1230 > div:first-of-type > div:first-of-type{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+.paymantwrap > .adap1230 > div:first-of-type > div:first-of-type > div:first-of-type{
+    margin-bottom: 10px;
+}
+.paymantwrap > .adap1230 > div:first-of-type > div:last-of-type > span{
+    font-size: 24px;
+    font-weight: 700;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div{
+    margin-right: 2.43%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type{
+    border: 1px solid #6e8ce0;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type li{
+    display: flex;
+    justify-content: space-between;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type li:not(:last-child){
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type li > span{
+    width: 15%;
+    color: #a6a6a6;
+    line-height: 24px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type li > p,
+.paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type li > address{
+    width: 80%;
+    line-height: 24px;
+    font-style: normal;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type{
+    color: #161c2d;
+    margin-bottom: 60px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > h2,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > h2{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > h2 > b,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > h2 > b{
+    color: #6e8ce0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > p,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > p{
+    margin-bottom: 20px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul{
+    border: 1px solid #6e8ce0;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:first-child > div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #6e8ce0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:first-child > div:last-of-type{
+    display: block;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div{
+    align-self: center;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div input[type="radio"],
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div input[type="radio"]{
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #6e8ce0;
+    border-radius: 50%;
+    margin: 0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div input[type="radio"]:checked,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div input[type="radio"]:checked{
+    background-color: #6e8ce0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type{
+    width: 30%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type label,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type label,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div > label{
+    font-weight: 700;
+    margin-left: 20px;
+    align-self: center;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:last-of-type{
+    width: 38%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:last-of-type p{
+    display: inline;
+    margin-left: 2%;
+    font-size: 12px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2)::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2){
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #6e8ce0;
+    padding: 20px 20px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > label{
+    margin-bottom: 10px;
+    display: block;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > input{
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #6e8ce0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:first-of-type > input
+,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(2) > input{
+    margin-bottom: 15px;
+}
+
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(3){
+    margin-right: 4.61%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:last-of-type,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(3),
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(4){
+    float: left;
+    width: 47.69%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div > div{
+    position: relative;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p{
+    position: absolute;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img{
+    cursor: pointer;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:first-of-type img{
+    right: 3%;
+    top: 50%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:last-of-type img{
+    right: 6.5%;
+    top: 53%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p{
+    width: 160px;
+    padding: 10px;
+    background-color: rgba(22, 28, 45, 0.9);
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 100;
+    line-height: 20px;
+    font-size: 12px;    
+    transition: all 0.3s cubic-bezier(0.3, 0, 0, 1);
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:first-of-type p{
+    right: -12%;
+    top: -40%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:last-of-type p{
+    right: -25%;
+    top: -85%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img:hover + p{
+    visibility: visible;
+    opacity: 1;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:nth-child(2) > div:first-of-type,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:last-child > div:first-of-type{
+    display: flex;
+    padding: 15px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:nth-child(2) > div:first-of-type{
+    border-bottom: 1px solid #6e8ce0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:last-child{
+    background: url('../image/payment_klarna.png')95% center no-repeat;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li{
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li:first-child{
+    border-bottom: 1px solid #6e8ce0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div{
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li:nth-child(2) > div:last-of-type{
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div select,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div input[type="text"]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li:last-child > div:first-of-type{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6e8ce0;
+    box-sizing: border-box;
+}
+}   
 
 
 /* !Desktop Fin */
