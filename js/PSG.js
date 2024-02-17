@@ -13,7 +13,7 @@ $(document).ready(function() {
   cartRemove(); 
   quantityCount();
   fwmassageChange();
-  newAddress();
+  chagnedisplay();
 });
 
 // ! Search Bar
@@ -260,11 +260,32 @@ function fwmassageChange() {
   });
 };
 
-function newAddress(){
+function chagnedisplay(){
   $(".editAddress").click(function(){
     $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");
 });
   $(".newAddress").click(function(){
     $(".myAccountwrap_editAddress > section > div:first-of-type > div:last-of-type").css("display", "block");
+  });
+  $("#paymentCard").change(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul > li:first-child > div:last-of-type").css("display", "block");
+  });
+  $("#paymentamazonpay").change(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul > li:first-child > div:last-of-type").css("display", "none");
+  });
+  $("#paymentKlarna").change(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul > li:first-child > div:last-of-type").css("display", "none");
+  });
+  $("#userdifaddress").change(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:nth-child(2) > div:last-of-type").css("display", "block");
+  });
+  $("#userSameaddress").change(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:nth-child(2) > div:last-of-type").css("display", "none");
+  });
+  $("#paymentbutton").click(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type").css("display", "block");
+  });
+  $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type='button']").click(function(){
+    $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type").css("display", "none");
   });
 }

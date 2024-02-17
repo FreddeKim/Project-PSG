@@ -4850,7 +4850,8 @@ clear: both;
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"],
 .myAccountwrap > section > form > div > div:last-of-type > a,
 .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"],
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]{
+.myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"],
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > input[type="button"]{
     width: 100%;
     font-weight: 700;
     color: #ffffff;
@@ -4865,15 +4866,17 @@ clear: both;
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:hover,
 .myAccountwrap > section > form > div > div:last-of-type > a:hover,
 .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"]:hover,
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:hover,
-.accountManagementwrap_register > section > input[type="submit"]:hover{
+.myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"]:hover,
+.accountManagementwrap_register > section > input[type="submit"]:hover,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > input[type="button"]:hover{
     background-color: #6e8ce0;
 }
 .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:active,
 .myAccountwrap > section > form > div > div:last-of-type > a:active,
 .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"]:active,
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="button"]:active,
-.accountManagementwrap_register > section > input[type="submit"]:active{
+.myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"]:active,
+.accountManagementwrap_register > section > input[type="submit"]:active,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > input[type="button"]:active{
     color: #ffffff;
     background-color: #161c2d;
 }
@@ -4930,8 +4933,6 @@ clear: both;
     display: none;
     color: #161c2d;
     padding-top: 200px;
-    
-    
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div{
     max-width: 640px;
@@ -4941,11 +4942,13 @@ clear: both;
     padding: 120px 0;
 
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > strong{
+.myAccountwrap_editAddress > div:first-of-type > form > div > strong,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > strong{
     font-size: 20px;
     margin-bottom: 30px;
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > p{
+.myAccountwrap_editAddress > div:first-of-type > form > div > p,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > p{
     color: #6e8ce0;
     margin-bottom: 30px;
 }
@@ -4968,15 +4971,30 @@ clear: both;
 .myAccountwrap_editAddress > div:first-of-type > form > div > *:not(div:first-of-type){
     text-align: center;
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > div{
-    max-width: 400px;
-    margin: 0 auto;
+.myAccountwrap_editAddress > div:first-of-type > form > div > div:first-of-type{
     color: #161c2d;
-}.myAccountwrap_editAddress > div:first-of-type > form > div > div label{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div{
+    width: 50%;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div:first-of-type,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div:first-of-type{
+    margin-right: 15px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div:last-of-type,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div:last-of-type{
+    margin-left: 15px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div label,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div > label{
     margin-bottom: 10px;
     display: block;
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="text"]{
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div > input[type="text"]{
     display: block;
     margin-bottom: 20px;
     border: 1px solid #6e8ce0;
@@ -4985,12 +5003,16 @@ clear: both;
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+    font-size: 16px;
     
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > select,
-.accountManagementwrap_register > section > form > div > select{
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div select{
+    margin-bottom: 20px;
+}
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div select,
+.accountManagementwrap_register > section > form > div > select,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div > select{
     display: block;
-    margin-bottom: 30px;
     border: 1px solid #6e8ce0;
     outline: none;
     padding: 15px;
@@ -5000,21 +5022,80 @@ clear: both;
     background: url('../image/Triangle_down.png')95% center no-repeat;
     color: #161c2d;
     font-size: 16px;
+    box-sizing: border-box;
 
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > div{
+.myAccountwrap_editAddress > div:first-of-type > form > div > div:last-of-type{
     display: flex;
-    margin-bottom: 30px;
+    max-width: 500px;
+    margin: 0 auto 30px;
 }
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > div input[type="checkbox"]{
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="checkbox"],
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:last-of-type > [type="checkbox"]{
     width: 15px;
     height: 15px;
     border: 1px solid #161c2d;
+    margin: 0 15px 0 0;
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div > div > div > span{
     margin-left: 20px;
     align-self: center;
 }
+.myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"]{
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div{
+    position: relative;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > button{
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > button > span{
+    background: url('../image/close.png')left center no-repeat;
+    text-indent: -9999px;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type{
+    display: flex;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div > input[type="text"]{
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #6e8ce0;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:first-of-type > div > select{
+    margin-bottom: 15px;
+    display: block;
+    padding: 10px;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > input[type="button"]{
+    max-width: 340px;
+}
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > div:last-of-type{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
 
 
 .accountManagementwrap_register > section{
@@ -5267,6 +5348,7 @@ clear: both;
 
 .paymantwrap{
     padding-top: 200px;
+    position: relative;
 }
 .paymantwrap > .adap1230{
     margin: 120px auto;
@@ -5280,6 +5362,7 @@ clear: both;
     /* flex: 1; */
     order: 1;
     margin-left: 2.43%;
+    color: #161c2d;
 }
 .paymantwrap > .adap1230 > div:first-of-type ul li{
     display: flex;
@@ -5365,21 +5448,21 @@ clear: both;
     margin-bottom: 60px;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > h2,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > h2{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > h2{
     font-size: 30px;
     font-style: italic;
     margin-bottom: 20px;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > h2 > b,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > h2 > b{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > h2 > b{
     color: #6e8ce0;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > p,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > p{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > p{
     margin-bottom: 20px;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul{
     border: 1px solid #6e8ce0;
     list-style: none;
     box-sizing: border-box;
@@ -5393,13 +5476,13 @@ clear: both;
     border-bottom: 1px solid #6e8ce0;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:first-child > div:last-of-type{
-    display: block;
+    display: none;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div{
     align-self: center;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div input[type="radio"],
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div input[type="radio"]{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div input[type="radio"]{
     appearance: none;
     width: 19px;
     height: 19px;
@@ -5408,7 +5491,7 @@ clear: both;
     margin: 0;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div input[type="radio"]:checked,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div input[type="radio"]:checked{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div input[type="radio"]:checked{
     background-color: #6e8ce0;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type{
@@ -5416,7 +5499,7 @@ clear: both;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type label,
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type label,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div > label{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div > label{
     font-weight: 700;
     margin-left: 20px;
     align-self: center;
@@ -5443,7 +5526,9 @@ clear: both;
     margin-bottom: 10px;
     display: block;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > input{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > input,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div input[type="text"]{
     display: block;
     padding: 15px;
     box-sizing: border-box;
@@ -5451,32 +5536,38 @@ clear: both;
     width: 100%;
     border-radius: 5px;
     font-size: 16px;
+    color: #161c2d;
     
-}.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:first-of-type > input
-,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(2) > input{
+}.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:first-of-type > input,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(2) > input,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div input[type="text"]{
     margin-bottom: 15px;
 }
 
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(3){
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(3){
     margin-right: 4.61%;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:last-of-type,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(3),
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div:nth-of-type(4){
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(3),
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(4){
     float: left;
     width: 47.69%;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div > div{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div > div,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type{
     position: relative;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p{
     position: absolute;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
     cursor: pointer;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:first-of-type img{
@@ -5487,7 +5578,8 @@ clear: both;
     right: 6.5%;
     top: 53%;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p{
     width: 160px;
     padding: 10px;
     background-color: rgba(22, 28, 45, 0.9);
@@ -5510,7 +5602,8 @@ clear: both;
     right: -25%;
     top: -85%;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img:hover + p{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img:hover + p,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img:hover + p{
     visibility: visible;
     opacity: 1;
 }
@@ -5525,32 +5618,143 @@ clear: both;
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:last-child{
     background: url('../image/payment_klarna.png')95% center no-repeat;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2){
+    margin-bottom: 40px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:not(:last-child){
     padding: 15px 0;
     box-sizing: border-box;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li:first-child{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:last-child{
+    padding-top: 15px;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:first-child{
     border-bottom: 1px solid #6e8ce0;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li > div{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div{
     padding: 0 15px;
     box-sizing: border-box;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > ul li:nth-child(2) > div:last-of-type{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:nth-child(2) > div:last-of-type{
     padding: 15px;
     box-sizing: border-box;
     background-color: #f2f2f2;
+    display: none;
+    border-top: 1px solid #6e8ce0;
 }
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div select,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div input[type="text"]{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-}
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li:last-child > div:first-of-type{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li:last-child > div:first-of-type{
     padding-bottom: 15px;
-    border-bottom: 1px solid #6e8ce0;
     box-sizing: border-box;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div label{
+    margin-bottom: 10px;
+    display: block;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
+    appearance: none;
+    background: url('../image/triangle_down.png') 95% center no-repeat;
+    background-color: #ffffff;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
+    right: 3%;
+    top: 55%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p{
+    right: -11%;
+    top: -35%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3){
+    display: flex;
+    justify-content: space-between;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > a{
+    color: #6e8ce0;
+    padding: 5px 0 5px 30px;
+    background: url('../image/arrowcircle_left.png')left center no-repeat;
+    align-self: center;
+    margin-left: 20px;
+    
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > input[type="button"]{
+    outline: none;
+    background-color: #161c2d;
+    border-color: #161c2d;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px 45px;
+    font-size: 18px;
+    float: right;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > input[type="button"]:hover{
+    background-color: #ffffff;
+    color: #161c2d;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(22, 28, 45, 0.9);
+    left: 0;
+    top: 0;
+    display: none;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > div{
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    background-color: #ffffff;
+    width: 25%;
+    
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:first-of-type{
+    background-color: #161c2d;
+    width: 100%;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div strong{
+    font-size: 20px;
+    color: #161c2d;
+    text-align: center;
+    padding: 75px 0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:first-of-type img{
+    margin: 0 auto;
+    display: block;
+    padding: 85px 0;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type{
+    padding: 0 55px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input{
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 0;
+    border-radius: 27px;
+    font-weight: 700;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type="submit"]{
+    background-color: #161c2d;
+    border: 1px solid #161c2d;
+    transition: background-color 0.3s ease-in;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #161c2d;
+}
+
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type="button"]{
+    background-color: #ff1541;
+    border: 1px solid #ff1541;
+    transition: background-color 0.3s ease-in;
+}
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type="button"]:hover{
+    background-color: #ffffff;
+    color: #ff1541;
 }
 }   
 

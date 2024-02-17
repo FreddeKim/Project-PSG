@@ -54,7 +54,12 @@ main > section:nth-child(6) > h2,
 [class^='helpcenterwrap'] > .adap1230 > div > ol > li,.paymantwrap > .adap1230 > div:first-of-type,
 .paymantwrap > .adap1230 > div:first-of-type + div > ul:first-of-type,
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2),
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > input[type="button"],
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > a,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div label,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div{
     font-family: 'RaleWay';
 }
 
@@ -101,7 +106,10 @@ main > section:nth-child(6) div a,
 .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) div > input[type="text"],
 .helpcentermain_wrap > .adap1230 > ul li > a,[class^='helpcenterwrap'] > .adap1230 > h2,
 [class^='helpcenterwrap'] > .adap1230 > div h3,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li div input[type="text"]{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div input[type="text"],
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li div input[type="text"],
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input,
+.myAccountwrap_editAddress > section > div > div:nth-of-type(2) > form > div > strong{
     font-family: 'DM Sans';
 }
 

@@ -153,7 +153,7 @@
                             <li>
                                 <div>
                                     <div>
-                                        <input type="radio" id="paymentCard">
+                                        <input type="radio" id="paymentCard" name="paymentMethod" value="Credit Card">
                                         <label for="paymentCard">Credit Card</label>
                                     </div>
                                     <div>
@@ -194,7 +194,7 @@
                             </li>
                             <li>
                                 <div>
-                                    <input type="radio" id="paymentamazonpay">
+                                    <input type="radio" id="paymentamazonpay" name="paymentMethod">
                                     <label for="paymentamazonpay">
                                         <img src="image/payment_amazonpay.png" alt="Amazonpay">
                                     </label>
@@ -202,7 +202,7 @@
                             </li>
                             <li>
                                 <div>
-                                    <input type="radio" id="paymentKlarna">
+                                    <input type="radio" id="paymentKlarna" name="paymentMethod">
                                     <label for="paymentKlarna">
                                         Klarna - Flexible payments
                                     </label>
@@ -216,13 +216,13 @@
                         <ul>
                             <li>
                                 <div>
-                                    <input type="radio" id="userSameaddress">
+                                    <input type="radio" id="userSameaddress" name="addressmethod">
                                     <label for="">Same as shipping address</label>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <input type="radio" id="userdifaddress">
+                                    <input type="radio" id="userdifaddress" name="addressmethod">
                                     <label for="userdifaddress">Use a different billing address</label>
                                 </div>
                                 <div>
@@ -501,11 +501,23 @@
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <a href="shopcart.html">Return Cart</a>
+                        <input type="button" value="Pay now" id="paymentbutton">
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="image/confirm_logo.png" alt="confirm_Logo">
+                            </div>
+                            <strong>Would you like to purchase it like this?</strong>
+                            <div>
+                                <input type="submit" value="Yes">
+                                <input type="button" value="No">
+                            </div>
+                        </div>
+                    </div>
                 </form>
-                <div>
-                    <a href="shopcart.html">Return Cart</a>
-                    <input type="submit" value="Pay now">
-                </div>
             </div>
         </div>
         <ul id="partnerList">
