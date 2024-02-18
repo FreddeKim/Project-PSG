@@ -5741,7 +5741,7 @@ clear: both;
 }
 [class^='helpcenterwrap'] > .adap1230 > h2{
     font-size: 30px;
-    color: #6e8ce0;
+    color: #617cc7;
     margin-bottom: 40px;
 }
 [class^='helpcenterwrap'] > .adap1230 > div:not(:last-of-type),
@@ -5760,7 +5760,11 @@ clear: both;
     line-height: 24px;
 }
 
-}   
+[class^='helpcenterwrap'] > .adap1230 > div > address{
+    font-style: normal;
+    display: block;
+}
+}
 
 
 /* !Desktop Fin */
