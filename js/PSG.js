@@ -265,9 +265,9 @@ function fwmassageChange() {
 function chagnedisplay(){
   $(".editAddress").click(function(){
     $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");
-});
+  });
   $(".newAddress").click(function(){
-    $(".myAccountwrap_editAddress > section > div:first-of-type > div:last-of-type").css("display", "block");
+    $(".myAccountwrap_editAddress > div:first-of-type + div").css("display", "block");
   });
   $("#paymentCard").change(function(){
     $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul > li:first-child > div:last-of-type").css("display", "block");
