@@ -61,7 +61,11 @@ main > section:nth-child(6) > h2,
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p,
 .myAccountwrap_editAddress > div:first-of-type + div > form > div,
 .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > div input,
-.myAccountwrap_editAddress > div:first-of-type > form > div > div > div input{
+.myAccountwrap_editAddress > div:first-of-type > form > div > div > div input,
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table,
+.sizechartwrap > div > p,
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:last-of-type p,
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button{
     font-family: 'RaleWay';
 }
 
@@ -111,7 +115,10 @@ main > section:nth-child(6) div a,
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type ul li div input[type="text"],
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li div input[type="text"],
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input,
-.myAccountwrap_editAddress > div:first-of-type + div > form > div > strong{
+.myAccountwrap_editAddress > div:first-of-type + div > form > div > strong,
+.sizechartwrap,
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span,
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3{
     font-family: 'DM Sans';
 }
 

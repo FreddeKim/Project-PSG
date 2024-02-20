@@ -1,4 +1,46 @@
-
+.sizechartwrap{
+    padding: 40px 25px;
+}
+.sizechartwrap > div:first-of-type > table{
+    width: 720px;
+    margin-bottom: 30px;
+}
+.sizechartwrap > div:last-of-type > table{
+    width: 630px;
+    margin-bottom: 30px;
+}
+.sizechartwrap > div > table thead > tr td{
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+    background-color: #161c2d;
+    color: #ffffff;
+    font-weight: 700;
+}
+.sizechartwrap > div > table tbody > tr td{
+    width: 90px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #161c2d;
+    
+}
+.sizechartwrap > div > table tbody > tr:nth-of-type(odd) td{
+    background-color: #e6e6e6;
+}
+.sizechartwrap > div h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.sizechartwrap > div > img{
+    margin-bottom: 30px;
+}
+.sizechartwrap > div > p{
+    margin-bottom: 30px;
+    font-weight: 14px;
+}
 
 
 
@@ -757,6 +799,7 @@ color: #ffffff;
     padding: 30px 0 28px;
     box-sizing: border-box;
     border-bottom: 2px solid #ffffff;
+    text-align: center;
 }
 [class^="historywrap"] > div:nth-of-type(3) > ul li:hover a{
     border-bottom: 2px solid #ff1541;
@@ -2654,6 +2697,7 @@ clear: both;
     font-weight: 700;
     margin-left: 40px;
     display: block;
+    color: #161c2d;
 }
 .sTadiumTourwrap section:nth-of-type(5){
     background: url('../image/Tour_Section05BG.png')left top / cover no-repeat;
@@ -5772,7 +5816,166 @@ clear: both;
     margin-top: 20px;
 }
 
+
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table{
+    width: 700px;
+    border: 1px solid #161c2d;
 }
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table > thead{
+    border-bottom: 1px solid #161c2d;
+    color: #161c2d;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table > thead > tr > td{
+    font-weight: 700;
+    font-size: 14px;
+}
+/* .helpcenterwrap_cookiepolicy > .adap1230 > div > table tr:not(:last-of-type){
+    border-bottom: 1px solid #161c2d;
+} */
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td{
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #161c2d;
+    color: #161c2d;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td span:not(:last-of-type){
+    margin-bottom: 20px;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td{
+    border-left: 1px solid #161c2d;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:first-of-type{
+    width: 110px;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:nth-of-type(2){
+    width: 210px;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:nth-of-type(3){
+    width: 300px;
+}
+.helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:last-of-type{
+    width: 80px;
+}
+
+.helpcenterwrap_cookiemanagement{
+    padding-top: 200px;
+}
+.helpcenterwrap_cookiemanagement > .adap1230{
+    margin: 120px auto;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div{
+    border: 1px solid #a6a6a6;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 60px;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    background-color: #161c2d;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3{
+    color: #ffffff;
+    margin: 0;
+    align-self: center;
+    font-size: 24px;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button{
+    width: 8.55%;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 25px;
+    background-color: #a6a6a6;
+    z-index: 1;
+    border: none;
+    height: 35px;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span{
+    width: 40%;
+    float: left;
+    position: relative;
+    z-index: 10;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span:first-of-type{
+    margin-right: 20%;
+    box-sizing: border-box;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button div{
+    width: 45%;
+    text-indent: -9999px;
+    background-color: #e6e6e6;
+    z-index: 100;
+    position: absolute;
+    border-radius: 15px;
+    padding: 6px 0;
+    top: 10%;
+    right: 5%;
+    transition: right 0.1s ease-in-out;
+    box-sizing: border-box;
+
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > span{
+    color: #ff1541;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive{
+    background-color: #ffffff;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > div{
+    right: 50%;
+    background-color: #ff1541;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:last-of-type{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button{
+    background-color: #161c2d;
+    width: 14.63%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+    font-weight: 700;   
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button > span{
+    z-index: 100;
+    position: relative;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #617cc7;
+    transition: width 0.2s ease;
+    width: 0%;
+    z-index: 1;
+    border-radius: 5px;
+}
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button:hover::before{
+    width: 100%;
+}
+}
+
+
 
 
 /* !Desktop Fin */

@@ -16,6 +16,7 @@ $(document).ready(function() {
   chagnedisplay();
   $('#paymentCard').prop('checked', true);
   $('#userSameaddress').prop('checked', true);
+  cookiemanage();
 });
 
 // ! Search Bar
@@ -290,5 +291,13 @@ function chagnedisplay(){
   $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type='button']").click(function(){
     $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type").css("display", "none");
   });
-
-}
+};
+function cookiemanage() {
+  $('.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button').click(function() {
+    if ($(this).hasClass('btnactive')) {
+      $(this).removeClass('btnactive');
+    } else {
+      $(this).addClass('btnactive');
+    }
+  });
+};
