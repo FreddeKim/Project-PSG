@@ -5896,6 +5896,7 @@ clear: both;
     z-index: 1;
     border: none;
     height: 35px;
+    cursor: pointer;
 }
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span{
     width: 40%;
@@ -5952,6 +5953,7 @@ clear: both;
     font-size: 16px;
     border-radius: 5px;
     position: relative;
+    cursor: pointer;
 }
 .helpcenterwrap_cookiemanagement > .adap1230 > form > button > span{
     z-index: 100;
