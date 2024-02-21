@@ -118,7 +118,8 @@ main > section:nth-child(6) div a,
 .myAccountwrap_editAddress > div:first-of-type + div > form > div > strong,
 .sizechartwrap,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span,
-.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3,
+.firstTeamListwrap > section:not(:last-of-type) ul li > div{
     font-family: 'DM Sans';
 }
 

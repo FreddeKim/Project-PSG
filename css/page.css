@@ -3230,6 +3230,7 @@ clear: both;
     max-width: 890px;
     margin: 0 auto 100px; 
     font-style: italic;
+    
 }
 .informationWrap_Blackmarket > div:first-of-type{
     background-color: #161c2d;
@@ -5922,7 +5923,7 @@ clear: both;
     position: absolute;
     border-radius: 15px;
     padding: 6px 0;
-    top: 10%;
+    top: 8%;
     right: 5%;
     transition: right 0.1s ease-in-out;
     box-sizing: border-box;
