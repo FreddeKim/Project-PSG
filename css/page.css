@@ -4575,7 +4575,10 @@ clear: both;
     width: 20%;
     margin-right: 6.5%;
 }
-.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child p,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child a{
+    color: #161c2d;
+}
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child a,
 .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:first-child span:first-of-type{
     margin-bottom: 10px;
 }
@@ -5898,7 +5901,7 @@ clear: both;
     height: 35px;
     cursor: pointer;
 }
-.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span:not(:last-of-type){
     width: 40%;
     float: left;
     position: relative;
@@ -5911,7 +5914,7 @@ clear: both;
     margin-right: 20%;
     box-sizing: border-box;
 }
-.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button div{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span:last-of-type{
     width: 45%;
     text-indent: -9999px;
     background-color: #e6e6e6;
@@ -5925,13 +5928,13 @@ clear: both;
     box-sizing: border-box;
 
 }
-.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > span{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > span:not(:last-of-type){
     color: #ff1541;
 }
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive{
     background-color: #ffffff;
 }
-.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > div{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > .btnactive > span:last-of-type{
     right: 50%;
     background-color: #ff1541;
 }
