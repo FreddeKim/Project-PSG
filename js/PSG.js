@@ -17,6 +17,9 @@ $(document).ready(function() {
   $('#paymentCard').prop('checked', true);
   $('#userSameaddress').prop('checked', true);
   cookiemanage();
+  $(".savebtn").click(function(){
+    alert("Save complate.");
+  });
 });
 
 // ! Search Bar
