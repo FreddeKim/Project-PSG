@@ -417,11 +417,9 @@
         position: absolute;
         width: 106.67%;
         background: rgba(22, 28, 45, 0.7);
-        /* display: none; */
+        display: none;
         left: -3.27%;
         overflow: auto;
-        display: flex;
-        flex-direction: column;
         height: 1024px;
         
     }
@@ -431,7 +429,7 @@
         /* float: left; */
         /* flex-direction: column; */
         background-color: #ffffff;
-        height: 100%;
+        height: 70%;
         overflow: auto;
 
         
@@ -453,7 +451,13 @@
         padding: 30px;
         display: block;
         color: #161c2d;
+    }
+    .shopheader > nav > div:first-of-type > ul > li:nth-child(4){
         background: url('../image/shop_add.png')95% center no-repeat;
+    }
+
+    .shopheader > nav > div:first-of-type > ul > li:nth-child(4).active{
+        background: url('../image/shop_remove.png')95% 2.5% no-repeat;
     }
     .shopheader > nav > div:first-of-type > ul > li{
         font-weight: 700;
@@ -467,7 +471,7 @@
 
     .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div{
         background: #ffffff;
-        /* display: none; */
+        display: none;
         /* position: absolute; */
         /* left: 3.12%; */
         /* top: 100%;

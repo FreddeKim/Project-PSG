@@ -294,9 +294,24 @@ function chagnedisplay(){
   $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:last-of-type > input[type='button']").click(function(){
     $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type").css("display", "none");
   });
+  $('.shopheader nav div ul li:nth-child(4)').click(function(){ // 4번째 li 클릭 시
+    $(this).children('div').toggle(); // 해당 li의 자식 div를 toggle하여 표시/숨김
+    $(this).toggleClass('active');
+  });
+  $('.shopheader > nav > div:first-of-type > input[type="button"]:last-of-type').click(function(){
+      $(this).parent().hide();
+  });
+  $('.shopheader > nav > input[type="button"]:first-of-type').click(function(){
+    $('.shopheader > nav > div:first-of-type').show();
+  });
+  $('[class^=listwrap] > section > div:first-of-type h3').click(function(){ 
+        $(this).next('ol').toggle(); 
+    $(this).toggleClass('priceactive');
+  });
+}
 
-  
-};
+
+
 function cookiemanage() {
   $('.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button').click(function() {
     if ($(this).hasClass('btnactive')) {
