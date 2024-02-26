@@ -397,6 +397,7 @@ footer div:last-of-type div:last-child a:first-of-type{
     }
     header > div:first-child{
         display: flex;
+        box-sizing: border-box;
     }
     header > div:first-child > h1{
         margin: 20px 0;
@@ -524,7 +525,7 @@ footer div:last-of-type div:last-child a:first-of-type{
     }
     header > div:last-child div > div > form input[type="search"]{
         border: none;
-        width: 170%;
+        width: 300%;
         padding: 10px 10px;
         background-color: #a6a6a6;
         font-size: 18px;
@@ -532,7 +533,7 @@ footer div:last-of-type div:last-child a:first-of-type{
         display: none;
         position: absolute;
         bottom: -65%;
-        left: -40%;
+        left: -174%;
     }
     header > div:last-child div > div > form input[type="search"]:focus{
         outline: none;

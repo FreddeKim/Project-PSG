@@ -10176,8 +10176,8 @@ clear: both;
     }
     .shopmainWrap > section:last-of-type > ul li{
         display: block;
-        width: 48.26%;
-        float: left;
+        /* width: 48.26%;
+        float: left; */
     }
     .shopmainWrap > section:last-of-type > ul li:not(:nth-child(3)){
         padding: 450px 0 34px;
@@ -10213,7 +10213,8 @@ clear: both;
     }
     .shopmainWrap > section:last-of-type > ul li > div > div{
         display: block;
-        width: 450px;
+        /* width: 450px; */
+        width: 30%;
         background-color: #ff1541;
         text-indent: -9999px;
         font-size: 40px;
