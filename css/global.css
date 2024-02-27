@@ -65,7 +65,8 @@ main > section:nth-child(6) > h2,
 .helpcenterwrap_cookiepolicy > .adap1230 > div > table,
 .sizechartwrap > div > p,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:last-of-type p,
-.helpcenterwrap_cookiemanagement > .adap1230 > form > button{
+.helpcenterwrap_cookiemanagement > .adap1230 > form > button,
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div strong{
     font-family: 'RaleWay';
 }
 
