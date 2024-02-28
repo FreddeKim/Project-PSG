@@ -4888,9 +4888,11 @@ clear: both;
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 40px;
 }
+[class^='myAccountwrap'] > section > form > div div address,
 [class^='myAccountwrap'] > section > form > div div p{
     margin-bottom: 40px;
     line-height: 24px;
+    font-style: normal;
 }
 [class^='myAccountwrap'] > section > form > div > div:last-of-type > a{
     text-align: center;
@@ -5098,6 +5100,40 @@ clear: both;
     max-width: 500px;
     margin: 0 auto;
     display: block;
+}
+.myAccountwrap_editAddress > section > form > div > div{
+    position:relative;
+}
+.myAccountwrap_editAddress > section > form > div > div > div{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    max-width: 150px;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.myAccountwrap_editAddress > section > form > div > div > div p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #6e8ce0;
+    font-weight: 500;
+}
+.myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]{
+    border: none;
+    background-color: #161c2d;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px;
+    width: 45px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 700;
+}
+.myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]:hover{
+    background-color: #6e8ce0;
 }
 
 
@@ -10853,10 +10889,12 @@ clear: both;
     }
     .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type{
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 20%;
+        left: -10%;
         max-width: 150px;
         display: none;
+        background-color: #ffffff;
+        border-radius: 10px;
         
     }
     .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type p{
@@ -11080,7 +11118,7 @@ clear: both;
         padding-top: 200px;
     }
     [class^='myAccountwrap'] > section{
-        margin: 120px auto;
+        margin: 120px 24px;
     }
     [class^='myAccountwrap'] > section > div{
         margin-bottom: 80px;
@@ -11101,12 +11139,15 @@ clear: both;
         display: block;
         content: '';
     }
-    [class^='myAccountwrap'] > section > form > div div{
+    /* [class^='myAccountwrap'] > section > form > div div{
         float: left;
         width: 29.26%;
     }
     [class^='myAccountwrap'] > section > form > div div:not(:first-child){
         margin-left: 6.09%;
+    } */
+    [class^='myAccountwrap'] > section > form > div div:not(:last-of-type){
+        margin-bottom: 120px;
     }
     
     [class^='myAccountwrap'] > section > form > div div h3{
@@ -11116,9 +11157,11 @@ clear: both;
         border-bottom: 1px solid #e6e6e6;
         margin-bottom: 40px;
     }
+    [class^='myAccountwrap'] > section > form > div div address,
     [class^='myAccountwrap'] > section > form > div div p{
         margin-bottom: 40px;
         line-height: 24px;
+        font-style: normal;
     }
     [class^='myAccountwrap'] > section > form > div > div:last-of-type > a{
         text-align: center;
@@ -11128,7 +11171,7 @@ clear: both;
     .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type input[type="button"],
     .myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"],
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > input[type="button"]{
-        width: 100%;
+        width: 80%;
         font-weight: 700;
         color: #ffffff;
         background-color: #161c2d;
@@ -11137,7 +11180,8 @@ clear: both;
         border: 1px solid #6e8ce0;
         border-radius: 5px;
         font-size: 16px;
-        padding: 15px 20px;    
+        padding: 15px 20px;   
+        box-sizing: border-box; 
     }
     .myAccountwrap > section > form > div > div:first-of-type > input[type="button"]:hover,
     .myAccountwrap > section > form > div > div:last-of-type > a:hover,
@@ -11159,14 +11203,14 @@ clear: both;
     .myAccountwrap_editAddress{
         position: relative;
     }
-    .myAccountwrap_editAddress > section > div:first-of-type::after{
+    /* .myAccountwrap_editAddress > section > div:first-of-type::after{
         display: block;
         content: '';
         clear: both;
-    }
+    } */
     .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type{
-        width: 29.26%;
-        float: left;
+        width: 50%
+        /* float: left; */
     }
     .myAccountwrap_editAddress > section > div:first-of-type > div:first-of-type a{
         background: url('../image/arrow_left_sky.png')left center no-repeat;
@@ -11250,22 +11294,22 @@ clear: both;
     .myAccountwrap_editAddress > div:first-of-type > form > div > div:first-of-type,
     .myAccountwrap_editAddress > div:first-of-type + div> form > div > div:first-of-type{
         color: #161c2d;
-        display: flex;
-        max-width: 500px;
-        margin: 0 auto;
+        /* display: flex; */
+        /* max-width: 500px; */
+        margin: 0 24px;
     }
-    .myAccountwrap_editAddress > div:first-of-type > form > div > div > div,
+    /* .myAccountwrap_editAddress > div:first-of-type > form > div > div > div,
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > div{
         width: 50%;
-    }
-    .myAccountwrap_editAddress > div:first-of-type > form > div > div > div:first-of-type,
+    } */
+    /* .myAccountwrap_editAddress > div:first-of-type > form > div > div > div:first-of-type,
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > div:first-of-type{
         margin-right: 15px;
-    }
-    .myAccountwrap_editAddress > div:first-of-type > form > div > div > div:last-of-type,
+    } */
+    /* .myAccountwrap_editAddress > div:first-of-type > form > div > div > div:last-of-type,
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > div:last-of-type{
         margin-left: 15px;
-    }
+    } */
     .myAccountwrap_editAddress > div:first-of-type > form > div > div > div label,
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > div label{
         margin-bottom: 10px;
@@ -11308,7 +11352,7 @@ clear: both;
     .myAccountwrap_editAddress > div:first-of-type + div> form > div > div:last-of-type{
         display: flex;
         max-width: 500px;
-        margin: 0 auto 30px;
+        margin: 0 24px 30px;
     }
     .myAccountwrap_editAddress > div:first-of-type > form > div > div > input[type="checkbox"],
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > div > input[type="checkbox"]{
@@ -11327,7 +11371,40 @@ clear: both;
         margin: 0 auto;
         display: block;
     }
+    .myAccountwrap_editAddress > section > form > div > div{
+        position:relative;
+    }
+    .myAccountwrap_editAddress > section > form > div > div > div{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        max-width: 150px;
+        /* display: none; */
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
     
+    .myAccountwrap_editAddress > section > form > div > div > div p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        color: #6e8ce0;
+        font-weight: 500;
+    }
+    .myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]{
+        border: none;
+        background-color: #161c2d;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px 10px;
+        width: 45px;
+        border-radius: 5px;
+        transition: background-color 0.2s ease-in-out;
+        font-weight: 700;
+    }
+    .myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]:hover{
+        background-color: #6e8ce0;
+    }
     
     
     
@@ -11342,24 +11419,26 @@ clear: both;
     
     
     .accountManagementwrap_register > section{
-        max-width: 860px;
-        margin: 120px auto;
+        max-width: 720px;
+        margin: 120px 24px;
     }
-    .accountManagementwrap_register > section:after{
+    /* .accountManagementwrap_register > section:after{
         display: block;
         content: '';
         clear: both;
-    }
+    } */
     .accountManagementwrap_register > section > form > div{
-        width: 46.51%;
-        float: left;
+        width: 56.9%;
+        /* float: left; */
+        margin: 0 auto;
+        
     }
-    .accountManagementwrap_register > section > form > div:first-of-type{
+    /* .accountManagementwrap_register > section > form > div:first-of-type{
         margin-right: 3.49%;
     }
     .accountManagementwrap_register > section > form > div:last-of-type{
         margin-left: 3.49%;
-    }
+    } */
     .accountManagementwrap_register > section > form > div > *{
         display: block;
         width: 100%;
@@ -11385,7 +11464,8 @@ clear: both;
         margin-bottom: 20px;
     }
     .accountManagementwrap_register > section > form > input[type="submit"]{
-        max-width: 400px;
+        /* max-width: 400px; */
+        width: 56.9%;
         margin: 0 auto;
         display: block;
         clear: both;
@@ -11823,11 +11903,11 @@ clear: both;
         content: '';
     }
     .helpcentermain_wrap > .adap1230 > ul{
-        margin: 120px 0;
+        margin: 120px 24px;
     }
     
     .helpcentermain_wrap > .adap1230 > ul li{
-        width: 23.17%;
+        width: 48%;
         float: left;
         display: block;
         background: #f2f2f2;
@@ -11852,12 +11932,21 @@ clear: both;
     .helpcentermain_wrap > .adap1230 > ul li:hover::before{
         width: 100%;
     }
-    .helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(4n+1)){
+    .helpcentermain_wrap > .adap1230 > ul li:nth-child(odd){
+        margin-right: 2%;
+    }
+    .helpcentermain_wrap > .adap1230 > ul li:nth-child(even){
+        margin-left: 2%;
+    }
+    .helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(11)):not(:last-child){
+        margin-bottom: 30px;
+    }
+    /* .helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(4n+1)){
         margin-left: 2.43%;
     }
     .helpcentermain_wrap > .adap1230 > ul li:not(:nth-child(9):nth-child(10):nth-child(11):nth-child(12)){
         margin-bottom: 30px;
-    }
+    } */
     
     .helpcentermain_wrap > .adap1230 > ul li > a{
         padding: 45px 0 45px 90px;
@@ -11952,7 +12041,7 @@ clear: both;
         padding-top: 200px;
     }
     [class^='helpcenterwrap'] > .adap1230{
-        margin: 120px auto;
+        margin: 120px 24px;
     }
     [class^='helpcenterwrap'] > .adap1230 p,
     [class^='helpcenterwrap'] > .adap1230 strong{
@@ -12053,7 +12142,7 @@ clear: both;
     
     
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table{
-        width: 700px;
+        max-width: 700px;
         border: 1px solid #161c2d;
     }
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table > thead{
@@ -12084,23 +12173,23 @@ clear: both;
         border-left: 1px solid #161c2d;
     }
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:first-of-type{
-        width: 110px;
+        max-width: 110px;
     }
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:nth-of-type(2){
-        width: 210px;
+        max-width: 210px;
     }
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:nth-of-type(3){
-        width: 300px;
+        max-width: 300px;
     }
     .helpcenterwrap_cookiepolicy > .adap1230 > div > table tr td:last-of-type{
-        width: 80px;
+        max-width: 80px;
     }
     
     .helpcenterwrap_cookiemanagement{
         padding-top: 200px;
     }
     .helpcenterwrap_cookiemanagement > .adap1230{
-        margin: 120px auto;
+        margin: 120px 24px;
     }
     .helpcenterwrap_cookiemanagement > .adap1230 > form > div{
         border: 1px solid #a6a6a6;
@@ -12123,7 +12212,7 @@ clear: both;
         font-size: 24px;
     }
     .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button{
-        width: 8.55%;
+        width: 15%;
         box-sizing: border-box;
         position: relative;
         border-radius: 25px;
@@ -12132,6 +12221,7 @@ clear: both;
         border: none;
         height: 35px;
         cursor: pointer;
+        /* padding: 10px 0; */
     }
     .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span:not(:last-of-type){
         width: 40%;

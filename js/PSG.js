@@ -308,6 +308,12 @@ function chagnedisplay(){
         $(this).next('ol').toggle(); 
     $(this).toggleClass('priceactive');
   });
+  $('.myAccountwrap_editAddress > section > form > div > div > .removeAddress').click(function(){
+    $('.myAccountwrap_editAddress > section > form > div > div > div').show();
+  });
+  $('.myAccountwrap_editAddress > section > form > div > div > div > .removeConfirmNo').click(function(){
+    $('.myAccountwrap_editAddress > section > form > div > div > div').hide();
+  });
 }
 
 
