@@ -1750,6 +1750,7 @@ clear: both;
     word-break: break-all;
     line-height: 24px;
     margin-bottom: 40px;
+    height: 55px;
 }
 .newswrap_Main > ul:first-of-type li a:last-of-type{
     width: 50px;
@@ -2861,6 +2862,7 @@ clear: both;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+    /* height: 120px; */
 }
 .myPariswrap section:first-of-type ul li:not(:nth-child(3n+1)){
     margin-left: 45px;
@@ -7849,6 +7851,7 @@ clear: both;
         word-break: break-all;
         line-height: 24px;
         margin-bottom: 40px;
+        height: 55px;
     }
     .newswrap_Main > ul:first-of-type li a:last-of-type{
         width: 50px;
@@ -7856,7 +7859,7 @@ clear: both;
         font-weight: 700;
         color: #161c2d;
         background: url('../image/Main_Arrow_right.png')right center no-repeat;
-        margin: 0px 20px 0px auto;
+        margin: 0px 20px 20px auto;
     }
     .newswrap_Main > ul:first-of-type li a:last-of-type:hover{
         color: #6e8ce0;
@@ -8699,6 +8702,7 @@ clear: both;
     }
     .sTadiumTourwrap section:nth-of-type(2) > div > img{
         margin-bottom: 60px;
+        width: 100%;
     }
     .sTadiumTourwrap section:nth-of-type(2) > div:not(:last-of-type){
         margin-bottom: 60px;
@@ -8994,7 +8998,8 @@ clear: both;
         float: left;
         color: #ffffff;
         background-color: #161c2d;
-        min-height: 500px;
+        /* height: 600px; */
+        box-sizing: border-box;
     }
     .myPariswrap section:first-of-type ul li img{
         width: 100%;
@@ -9007,6 +9012,7 @@ clear: both;
         font-size: 20px;
         font-weight: 700;
         line-height: 24px;
+        height: 100px;
     }
     .myPariswrap section:first-of-type ul li:nth-child(odd){
         margin-right: 2.08%;
@@ -9037,7 +9043,7 @@ clear: both;
         background-color: #ffffff;
     }
     .myPariswrap section:last-of-type > div > div > h3{
-        background: url('../image/myparis_RednBlue.png')left top no-repeat;
+        background: url('../image/myparis_RednBlue.png')left top / cover no-repeat;
         padding: 100px 0 135px;
     }
     .myPariswrap section:last-of-type > div > div > h3 > *,
@@ -9052,7 +9058,7 @@ clear: both;
     }
     .myPariswrap section:last-of-type > div > div > h3 strong{
         color: #ffffff;
-        font-size: 60px;
+        font-size: 45px;
         letter-spacing: 0.05em;
         margin-bottom: 60px;
         display: block;
@@ -9963,7 +9969,7 @@ clear: both;
         padding: 10px 0;
         text-align: center;
         transform: skew(-40deg);
-        margin: 45px 0 120px 14.94%;
+        margin: 45px 0 120px 43%;
         
     }
     .shopmainWrap > section:first-of-type > div > div{
@@ -10180,7 +10186,7 @@ clear: both;
         padding: 10px 0;
         text-align: center;
         transform: skew(-40deg);
-        margin: 45px 0 0 14.94%;
+        margin: 45px 0 0 43%;
         
     }
     .shopmainWrap > section:nth-of-type(4) > div > div{
@@ -10246,6 +10252,7 @@ clear: both;
     }
     .shopmainWrap > section:last-of-type > ul li > div{
         position: relative;
+        width: 65%;
     }
     .shopmainWrap > section:last-of-type > ul li > div h2{
         color: #ffffff;
@@ -10257,13 +10264,14 @@ clear: both;
         position: relative;
         z-index: 100;
         text-transform: uppercase;
-        padding-left: 60px;
+        padding-left: 40px;
         margin-bottom: 70px;
     }
     .shopmainWrap > section:last-of-type > ul li > div > div{
         display: block;
         /* width: 450px; */
-        width: 63.56%;
+        /* width: 63.56%; */
+        width: 100%;
         background-color: #ff1541;
         text-indent: -9999px;
         font-size: 40px;
@@ -10283,7 +10291,7 @@ clear: both;
         padding: 10px 0;
         text-align: center;
         transform: skew(-40deg);
-        margin: 45px 0 0 60px;
+        margin: 45px 0 0 60%;
         
     }
     .shopmainWrap > section:last-of-type > ul li a > span{
@@ -11248,7 +11256,7 @@ clear: both;
         height: 100%;
         display: none;
         color: #161c2d;
-        padding-top: 200px;
+        padding-top: 50px;
     }
     .myAccountwrap_editAddress > div:first-of-type > form > div,
     .myAccountwrap_editAddress > div:first-of-type + div > form > div{
@@ -11379,7 +11387,7 @@ clear: both;
         top: 60%;
         left: 10%;
         max-width: 150px;
-        /* display: none; */
+        display: none;
         background-color: #ffffff;
         border-radius: 10px;
     }
@@ -11838,7 +11846,7 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > div{
         position: absolute;
-        left: 40%;
+        left: 25%;
         bottom: 10%;
         background-color: #ffffff;
         width: 50%;
