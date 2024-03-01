@@ -314,6 +314,19 @@ function chagnedisplay(){
   $('.myAccountwrap_editAddress > section > form > div > div > div > .removeConfirmNo').click(function(){
     $('.myAccountwrap_editAddress > section > form > div > div > div').hide();
   });
+  $('.muibtn').click(function(){
+    $('header > div:first-child nav').toggle();
+    $(this).toggleClass('open');
+  });
+  $('header > div:first-child nav ul li:first-child > b').click(function(){
+    $('header > div:first-child nav ul li:first-child > ol').toggle();
+    $(this).toggleClass('open');
+  });
+  $('footer div:first-of-type div > h2').click(function(){
+    $('footer div:first-of-type div > ul').toggle();
+    $(this).toggleClass('footerHead');
+    $('footer div:first-of-type div > ul').not($(this).siblings('ul')).hide();s
+  });
 }
 
 
