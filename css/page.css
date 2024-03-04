@@ -7332,6 +7332,7 @@ clear: both;
         color: #a6a6a6;
         font-weight: 700;
         /* margin-left: 45px; */
+        line-height: 30px;
     }
     
     
@@ -9636,6 +9637,7 @@ clear: both;
     .informationWrap_PRM > p{
         text-align: center;
         margin: 0 24px 100px;
+        line-height: 20px;
     }
     .informationWrap_PRM > figure{
         display: flex;
@@ -13929,7 +13931,7 @@ clear: both;
     
     .historywrap_Europa > p{
         /* max-width: 860px; */
-        margin: 0 24px 100px;
+        margin: 0 10px 100px;
     }
     .historywrap_Europa > div:first-of-type div > p{
         text-align: left;
@@ -13945,7 +13947,7 @@ clear: both;
     
     .historywrap_Conference > p{
         /* max-width: 920px; */
-        margin: 0 24px 100px;
+        margin: 0 10px 100px;
     }
     .wrap_Conference section:nth-of-type(3) > div h2{
         max-width: 370px;
@@ -13958,14 +13960,14 @@ clear: both;
     }
     
     .historywrap_Parcdesprince > div:nth-of-type(3){
-        padding: 100px 0;
+        padding: 80px 0;
         border-bottom: 1px solid #e6e6e6;
         box-sizing: border-box;
         
     }
     .historywrap_Parcdesprince > div:nth-of-type(3) strong{
         /* max-width: 1200px; */
-        margin: 0 24px;
+        margin: 0 10px;
         text-align: center;
         line-height: 36px;
         display: block;
@@ -13976,7 +13978,7 @@ clear: both;
     .historywrap_Parcdesprince > p:first-of-type{
         line-height: 24px;
         /* max-width: 1170px; */
-        margin: 100px 24px;
+        margin: 80px 10px;
         text-align: center;
     
     }
@@ -13986,10 +13988,10 @@ clear: both;
     .historywrap_Parcdesprince > section h2,
     .historywrap_Parcdesprince > section:first-of-type > div h3,
     .historywrap_Parcdesprince > div:nth-of-type(3) strong{
-        font-size: 20px;
+        font-size: 18px;
         color: #ffffff;
         font-weight: 700;
-        line-height: 24px;
+        line-height: 26px;
     }
     .historywrap_Parcdesprince > section:first-of-type h2{
         text-align: center;

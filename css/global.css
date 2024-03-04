@@ -67,7 +67,9 @@ main > section:nth-child(6) > h2,
 .sizechartwrap > div > p,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:last-of-type p,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > button,
-.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div strong{
+.paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div strong,
+.myAccountwrap_editAddress > div:first-of-type + div > form > div > input[type="button"],
+.myAccountwrap_editAddress > div:first-of-type > form > div > input[type="button"]{
     font-family: 'RaleWay';
 }
 
@@ -771,9 +773,9 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:first-child nav ul li:first-child > ol > li{
         background-color: #ffffff;
         /* text-align: center; */
-        width: 200px;
+        /* width: 200px; */
         display: block;
-        margin-left: 20px;
+        padding: 0 20px;
         
     }
     header > div:first-child nav ul li:first-child > ol > li > a{
