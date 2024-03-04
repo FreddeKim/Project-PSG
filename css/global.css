@@ -123,7 +123,9 @@ main > section:nth-child(6) div a,
 .sizechartwrap,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3,
-.firstTeamListwrap > section:not(:last-of-type) ul li > div{
+.firstTeamListwrap > section:not(:last-of-type) ul li > div,
+.newswrap_Main > div:first-of-type > h2, .firstTeamListwrap > h2,
+.historywrap_Honours section h2{
     font-family: 'DM Sans';
 }
 
@@ -665,12 +667,18 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:first-child{
         display: flex;
         box-sizing: border-box;
+        width: 70%;
+        justify-content: space-between;
+        margin-right: 30px;
     }
     header > div:first-child > *{
         align-self: center;
     }
     header > div:first-child > h1{
-        margin: 20px 0;
+        margin: 10px 0;
+    }
+    header > div:first-child > h1 > a > img{
+        width: 70%;
     }
     /* header > div:first-child nav{
         display: flex;
@@ -680,10 +688,10 @@ footer div:last-of-type div:last-child a:first-of-type{
         background: url('../image/menuico.png')center center / cover no-repeat;
         text-indent: -9999px;
         width: 30px;
-        height: 22px;
+        height: 20px;
         border: none;
         align-self: center;
-        margin-left: 30px
+        margin-left: 30px;
     }
     header > div:first-child > input[type="button"].open{
         background: url('../image/close_white.png')center center / cover no-repeat;
@@ -705,8 +713,8 @@ footer div:last-of-type div:last-child a:first-of-type{
     }
     header > div:first-child > nav > input[type="button"]{
         background: url('../image/close.png')left top / cover no-repeat;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         color: transparent;
         border: none;
         display: none;
@@ -810,14 +818,16 @@ footer div:last-of-type div:last-child a:first-of-type{
         margin-right: 40px;
     } */
     header > div:last-child > div:first-of-type{
-        margin-right: 32px;
+        margin-right: 30px;
     }
     header > div:last-child{
         display: flex;
         /* width: 12%; */
     }
     header > div:last-child a{
-        padding-top: 38px;
+        padding-top: 15px;
+        width: 20px;
+        height: 20px;
     }
     header > div:last-child a > img{
         align-self: center;
@@ -826,10 +836,10 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:last-child div > div > form input[type="submit"]{
         background: url('../image/Main_Search.png')left top / cover no-repeat;
         border: none;
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         color: transparent;
-        margin-top: 38px;
+        margin-top: 15px;
     }
     header > div:last-child div > div > form input[type="search"]{
         border: none;

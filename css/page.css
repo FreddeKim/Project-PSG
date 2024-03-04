@@ -7748,6 +7748,9 @@ clear: both;
     [class^="newswrap"] > div:nth-of-type(2){
         margin: 0 24px;
     }
+    .newswrap_Main > div:nth-of-type(2){
+        margin: 0;
+    }
     [class^="newswrap"] > div:nth-of-type(2) h3{
         margin-bottom: 60px;
         padding-top: 30px;
@@ -9971,7 +9974,7 @@ clear: both;
         padding: 10px 0;
         text-align: center;
         transform: skew(-40deg);
-        margin: 45px 0 120px 43%;
+        margin: 45px 0 120px 60%;
         
     }
     .shopmainWrap > section:first-of-type > div > div{
@@ -10188,7 +10191,7 @@ clear: both;
         padding: 10px 0;
         text-align: center;
         transform: skew(-40deg);
-        margin: 45px 0 0 43%;
+        margin: 45px 0 0 60%;
         
     }
     .shopmainWrap > section:nth-of-type(4) > div > div{
@@ -12325,7 +12328,7 @@ clear: both;
 
 
     main{
-        padding-top: 138px;
+        padding-top: 89px;
     }
     main > section:first-of-type > div:first-of-type{
         background: url('../image/main_section01_BG.png')70% 30% / cover no-repeat;
@@ -12660,6 +12663,10 @@ clear: both;
     main > section:nth-child(4) > div:first-child ul li figure img{
         width: 100%;
     }
+    main > section:nth-child(4) > div:first-child ul li figure figcaption{
+        padding: 5px;
+        box-sizing: border-box;
+    }
     main > section:nth-child(4) > div:first-child ul li figure figcaption time{
         font-size: 10px;
         color: #161c2d;
@@ -12695,7 +12702,8 @@ clear: both;
         font-weight: 700;
         color: #161c2d;
         background: url('../image/Main_Arrow_right.png')right center no-repeat;
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        margin: 40px 20px 0 auto;
     }
     
     main > section:nth-child(4) > div:first-child > a {
@@ -14096,7 +14104,10 @@ clear: both;
         width: 100%;
     }
     [class^="newswrap"] > div:nth-of-type(2){
-        margin: 0 24px;
+        margin: 0 10px;
+    }
+    .newswrap_Main > div:nth-of-type(2){
+        margin: 0;
     }
     [class^="newswrap"] > div:nth-of-type(2) h3{
         margin-bottom: 60px;
