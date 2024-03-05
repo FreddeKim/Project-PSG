@@ -89,7 +89,7 @@ main > section:nth-child(6) div a,
 [class^=player] >  section:first-of-type > span,
 [class^=player] >  section:first-of-type > div > div > h3 strong,
 [class^=player] >  section:first-of-type > div > div > ul li p:last-child,
-.sTadiumTourwrap h3,.sTadiumTourwrap h4,
+.sTadiumTourwrap h3,.sTadiumTourwrap h4,.sTadiumTourwrap > h2
 .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type > h4,
 .sTadiumTourwrap section:nth-of-type(5),
 .myPariswrap section:last-of-type > div > div > h3
@@ -125,6 +125,7 @@ main > section:nth-child(6) div a,
 .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type h3,
 .firstTeamListwrap > section:not(:last-of-type) ul li > div,
 .newswrap_Main > div:first-of-type > h2, .firstTeamListwrap > h2,
+[class^='player'] > h2,[class^='player'] > section:first-of-type > div > span,
 .historywrap_Honours section h2{
     font-family: 'DM Sans';
 }
@@ -159,6 +160,7 @@ header{
     position: fixed;
     z-index: 3000;
     width: 100%;
+    box-sizing: border-box;
 }
 header > div:first-child{
     display: flex;
@@ -663,11 +665,12 @@ footer div:last-of-type div:last-child a:first-of-type{
         width: 100%;
         padding: 0 10px;
         box-sizing: border-box;
+        min-height: 89px;
     }
     header > div:first-child{
         display: flex;
         box-sizing: border-box;
-        width: 70%;
+        width: 85%;
         justify-content: space-between;
         margin-right: 30px;
     }
@@ -677,8 +680,11 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:first-child > h1{
         margin: 10px 0;
     }
-    header > div:first-child > h1 > a > img{
+    header > div:first-child > h1 > a{
         width: 70%;
+    }
+    header > div:first-child > h1 > a > img{
+        width: 100%;
     }
     /* header > div:first-child nav{
         display: flex;
@@ -813,6 +819,8 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:last-child{
         margin: 20px 0;
         position: relative;
+        /* width: 20%; */
+        justify-content: space-between;
     }
     /* header > div:last-child > *{
         margin-right: 40px;
@@ -844,15 +852,15 @@ footer div:last-of-type div:last-child a:first-of-type{
     header > div:last-child div > div > form input[type="search"]{
         border: none;
         /* width: 300%; */
-        width: 280px;
+        min-width: 280px;
         padding: 10px 10px;
         background-color: #a6a6a6;
         font-size: 18px;
         line-height: 18px;
         display: none;
         position: absolute;
-        bottom: -65%;
-        left: -255%;
+        bottom: -129%;
+        left: -286%;
     }
     header > div:last-child div > div > form input[type="search"]:focus{
         outline: none;

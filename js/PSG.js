@@ -323,9 +323,9 @@ function chagnedisplay(){
     $(this).toggleClass('open');
   });
   $('footer div:first-of-type div > h2').click(function(){
-    $('footer div:first-of-type div > ul').toggle();
-    $(this).toggleClass('footerHead');
-    $('footer div:first-of-type div > ul').not($(this).siblings('ul')).hide();s
+    var $ul = $(this).siblings('ul');
+    $('footer div.adap1230 > div > ul').not($ul).hide().prev('h2').removeClass('footerHead');
+    $(this).toggleClass('footerHead').siblings('ul').toggle();
   });
 }
 
