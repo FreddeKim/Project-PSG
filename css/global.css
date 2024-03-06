@@ -126,7 +126,8 @@ main > section:nth-child(6) div a,
 .firstTeamListwrap > section:not(:last-of-type) ul li > div,
 .newswrap_Main > div:first-of-type > h2, .firstTeamListwrap > h2,
 [class^='player'] > h2,[class^='player'] > section:first-of-type > div > span,
-.historywrap_Honours section h2{
+.historywrap_Honours section h2,.sTadiumTourwrap > h2,
+.sTadiumTourwrap section:first-of-type > span{
     font-family: 'DM Sans';
 }
 
