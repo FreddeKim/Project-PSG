@@ -204,7 +204,8 @@ function listhover() {
 function detailSlider(){
   $(".bxslider").bxSlider({
       mode: 'fade',
-      pagerCustom: ".detailthumbnail"
+      pagerCustom: ".detailthumbnail",
+      touchEnabled: false
   });
 }
 
@@ -309,7 +310,9 @@ function chagnedisplay(){
     $(this).toggleClass('priceactive');
   });
   $('.myAccountwrap_editAddress > section > form > div > div > .removeAddress').click(function(){
-    $('.myAccountwrap_editAddress > section > form > div > div > div').show();
+    $(this).parent().siblings().find('div').hide();
+    // 
+    $(this).siblings('div').show();
   });
   $('.myAccountwrap_editAddress > section > form > div > div > div > .removeConfirmNo').click(function(){
     $('.myAccountwrap_editAddress > section > form > div > div > div').hide();
@@ -326,6 +329,9 @@ function chagnedisplay(){
     var $ul = $(this).siblings('ul');
     $('footer div.adap1230 > div > ul').not($ul).hide().prev('h2').removeClass('footerHead');
     $(this).toggleClass('footerHead').siblings('ul').toggle();
+  });
+  $('.removeConfirmYes').click(function(){
+    $(this).closest('div').closest('div').parent().hide();
   });
 }
 

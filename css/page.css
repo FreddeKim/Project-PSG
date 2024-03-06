@@ -5114,6 +5114,8 @@ clear: both;
     display: none;
     background-color: #ffffff;
     border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .myAccountwrap_editAddress > section > form > div > div > div p{
@@ -5122,6 +5124,7 @@ clear: both;
     margin-bottom: 15px;
     color: #6e8ce0;
     font-weight: 500;
+
 }
 .myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]{
     border: none;
@@ -11155,10 +11158,10 @@ clear: both;
     }
     /* [class^='myAccountwrap'] > section > form > div div{
         float: left;
-        width: 29.26%;
+        width: 48.5%;
     }
-    [class^='myAccountwrap'] > section > form > div div:not(:first-child){
-        margin-left: 6.09%;
+    [class^='myAccountwrap'] > section > form > div div:nth-of-type(odd){
+        margin-right: 1.5%;
     } */
     [class^='myAccountwrap'] > section > form > div div:not(:last-of-type){
         margin-bottom: 120px;
@@ -11390,12 +11393,14 @@ clear: both;
     }
     .myAccountwrap_editAddress > section > form > div > div > div{
         position: absolute;
-        top: 60%;
-        left: 10%;
+        top: 70%;
+        left: 40%;
         max-width: 150px;
         display: none;
         background-color: #ffffff;
         border-radius: 10px;
+        padding: 5px;
+        box-sizing: border-box;
     }
     
     .myAccountwrap_editAddress > section > form > div > div > div p{
@@ -11418,6 +11423,13 @@ clear: both;
     }
     .myAccountwrap_editAddress > section > form > div > div > div > input[type="button"]:hover{
         background-color: #6e8ce0;
+    }
+    .myAccountwrap_editAddress > section > form > div div{
+        float: left;
+        width: 48.5%;
+    }
+    .myAccountwrap_editAddress > section > form > div div:nth-of-type(odd){
+        margin-right: 1.5%;
     }
     
     
@@ -14516,7 +14528,7 @@ clear: both;
     [class^='player'] >  section:first-of-type > div > div{
         position: absolute;
         top: 0;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
         /* display: flex; */
         /* justify-content: space-between; */
         width: 100%;
@@ -14541,7 +14553,7 @@ clear: both;
     [class^='player'] >  section:first-of-type > div > div > h3 span{
         font-size: 30px;
         font-weight: 700;
-        line-height: 45px;
+        line-height: 35px;
     }
     [class^='player'] >  section:first-of-type > div > div > h3 span:first-of-type{
         color: #ffffff;
@@ -14549,27 +14561,31 @@ clear: both;
     [class^='player'] >  section:first-of-type > div > div > h3 span:last-of-type{
         color: #ff1541;
         text-transform: uppercase;
+        margin-bottom: 20px;
     }
     .playerDFwrap_5 >  section:first-of-type > div > div > h3 span:last-of-type,
     .playerMFwrap_17 >  section:first-of-type > div > div > h3 span:last-of-type{
-        min-height: 90px;
+        min-height: 70px;
     }
     [class^='player'] >  section:first-of-type > div > div > ul{
         opacity: 0;
         transition: opacity 0.8s ease-in-out;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         max-width: 450px;
-        margin: 0 10px;
+        /* margin: 0 10px; */
 
     }
     [class^='player'] >  section:first-of-type > div > div > ul li{
         display: block;
         text-align: center;
-        min-height: 63px;
-        padding: 8px;
+        min-height: 60px;
+        padding: 10px;
         box-sizing: border-box;
     }
+    /* [class^='player'] >  section:first-of-type > div > div > ul li:nth-child(3){
+        display: none;
+    } */
     /* [class^='player'] >  section:first-of-type > div > div > ul li:not(:last-of-type){
         margin-bottom: 30px;
     } */
@@ -15864,6 +15880,7 @@ clear: both;
     }
     .informationWrap_Blackmarket p:first-of-type{
         margin-bottom: 30px;
+        line-height: 24px;
     }
     .informationWrap_Blackmarket p:last-of-type{
         /* max-width: 890px; */
