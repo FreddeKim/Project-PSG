@@ -127,7 +127,8 @@ main > section:nth-child(6) div a,
 .newswrap_Main > div:first-of-type > h2, .firstTeamListwrap > h2,
 [class^='player'] > h2,[class^='player'] > section:first-of-type > div > span,
 .historywrap_Honours section h2,.sTadiumTourwrap > h2,
-.sTadiumTourwrap section:first-of-type > span{
+.sTadiumTourwrap section:first-of-type > span,
+.shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > input[type="button"]{
     font-family: 'DM Sans';
 }
 

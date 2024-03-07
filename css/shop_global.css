@@ -9,56 +9,56 @@
 
 
 
-    .shopheader{
+    header.shopheader{
         display: block;
         color: #ffffff;
         padding-top: 20px;
         z-index: 1000;
     }
-    .shopheader > div > h1{
+    header.shopheader > div > h1{
         margin: 0 !important;
     }
-    .shopheader > *{
+    header.shopheader > *{
         padding: 0 3.12%;
     }
-    .shopheader > div{
+    header.shopheader > div{
         display: flex;
         justify-content: space-between;
         /* padding: 20px 0; */
     }
-    .shopheader > div h1 > *{
+    header.shopheader > div h1 > *{
         float: left;
     }
-    .shopheader > div h1 img{
+    header.shopheader > div h1 img{
         margin-right: 25px;
     }
-    .shopheader > div h1 strong{
+    header.shopheader > div h1 strong{
         margin-top: 20px;
         font-size: 30px;
     }
-    .shopheader > div > h1 strong span{
+    header.shopheader > div > h1 strong span{
         font-size: 16px;
         margin-top: 10px;
     }
     
     
     
-    .shopheader > div ul{
+    header.shopheader > div ul{
         margin-left: 50px;
         display: flex;
         
     }
     
-    .shopheader > div ul li{
+    header.shopheader > div ul li{
         position: relative;
         display: block;
         text-transform: uppercase;
     }
-    .shopheader > div ul li > a{
+    header.shopheader > div ul li > a{
         padding: 40px 30px;
         
     }
-    .shopheader > div ul > li::after {
+    header.shopheader > div ul > li::after {
         content: "";
         position: absolute;
         left: 0;
@@ -69,10 +69,10 @@
         opacity: 0;
         transition: opacity 0.3s ease-in;
     }
-    .shopheader > div > ul li:hover::after {
+    header.shopheader > div > ul li:hover::after {
         opacity: 1;
     } 
-    .shopheader > div > ul li:first-child > b{
+    header.shopheader > div > ul li:first-child > b{
         padding: 45px 45px 35px 30px;
         background: url('../image/Main_PSGMenuArrow.png')70% 53% no-repeat;
         display: block;
@@ -82,7 +82,7 @@
         cursor: pointer;
         
     }
-    .shopheader > div ul li:first-child:hover > ol{
+    header.shopheader > div ul li:first-child:hover > ol{
         opacity: 1; 
         visibility: visible;
         z-index: 1100;
@@ -90,7 +90,7 @@
     }
     
     
-    .shopheader > div ul li:first-child > ol{
+    header.shopheader > div ul li:first-child > ol{
         position: absolute;
         top: 100%;
         left: 0%;
@@ -98,24 +98,24 @@
         visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
     }
-    .shopheader > div ul li:first-child > ol > li{
+    header.shopheader > div ul li:first-child > ol > li{
         background-color: #ffffff;
         text-align: center;
         width: 200px;
         display: block;
         
     }
-    .shopheader > div ul li:first-child > ol > li > a{
+    header.shopheader > div ul li:first-child > ol > li > a{
         font-weight: 900;
         color: #161c2d;
         letter-spacing: 0.05em;
         padding: 20px 0 20px;
     }
-    .shopheader > div ul li:first-child > ol > li:hover{
+    header.shopheader > div ul li:first-child > ol > li:hover{
         background-color: #a6a6a6;
         transition: 0.3s ease-in;
     }
-    .shopheader > div ul li a{
+    header.shopheader > div ul li a{
         font-weight: 900;
         color: #ffffff;
         letter-spacing: 0.05em;
@@ -125,7 +125,7 @@
 
 
 
-    .shopheader > nav > input[type="button"]:first-of-type{
+    header.shopheader > nav > input[type="button"]:first-of-type{
         display: none;
         background: url('../image/MenuIco.png')center center no-repeat;
         text-indent: -9999px;
@@ -136,7 +136,7 @@
         /* margin-left: 50px; */
          
     }
-    .shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
+    header.shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
         display: none;
         background: url('../image/close.png')center center no-repeat;
         text-indent: -9999px;
@@ -147,41 +147,41 @@
         /* margin-left: 50px; */
          
     }
-    .shopheader > nav{
+    header.shopheader > nav{
         position: relative;
     }
-    .shopheader > nav::after{
+    header.shopheader > nav::after{
         display: block;
         content: '';
         clear: both;
     }
-    .shopheader > nav > div:first-of-type > ul{
+    header.shopheader > nav > div:first-of-type > ul{
         width: 75%;
         display: flex;
         float: left;
         
     }
-    .shopheader > nav > div:first-of-type > ul > li > a{
+    header.shopheader > nav > div:first-of-type > ul > li > a{
         text-transform: uppercase;
         color: #ffffff;
         padding: 30px;
     }
-    .shopheader > nav > div:first-of-type> ul > li > b{
+    header.shopheader > nav > div:first-of-type> ul > li > b{
         cursor: pointer;
         padding: 30px;
         display: block;
     }
-    .shopheader > nav > div:first-of-type> ul > li{
+    header.shopheader > nav > div:first-of-type> ul > li{
         font-weight: 700;
         transition: background-color 0.3s ease-in;
         display: block;
     }
 
-    .shopheader > nav > div:first-of-type> ul > li:hover{
+    header.shopheader > nav > div:first-of-type> ul > li:hover{
         background-color: #3c4c7a;
     }
 
-    .shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div{
+    header.shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div{
         background: #ffffff;
         position: absolute;
         left: 3.12%;
@@ -191,16 +191,16 @@
         visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
     }
-    .shopheader > nav > div:first-of-type> ul > li:nth-child(4):hover > div{
+    header.shopheader > nav > div:first-of-type> ul > li:nth-child(4):hover > div{
         opacity: 1; 
         visibility: visible;
     }
-    .shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul{
+    header.shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul{
         width: 25%;
         float: left;
         
     }
-    .shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul > li a{
+    header.shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul > li a{
         color: #161c2d;
         font-size: 12px;
         padding: 10px 20px;
@@ -209,18 +209,18 @@
         font-weight: 400;
         
     }
-    .shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul > li:hover a{
+    header.shopheader > nav > div:first-of-type> ul > li:nth-child(4) > div > ul > li:hover a{
         background-color: #e6e6e6;
     }
     
 
-    .shopheader > nav > div:last-of-type{
+    header.shopheader > nav > div:last-of-type{
         margin-left: 2%;
         width: 23%;
         text-align: right;
         float: left;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="submit"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
         background: url('../image/Main_Search.png')no-repeat;
         border: none;
         width: 22px;
@@ -228,7 +228,7 @@
         color: transparent;
         margin: 20px 7% 20px;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]{
         border: none;
         width: 70%;
         padding: 10px 10px;
@@ -239,10 +239,10 @@
         /* display: none; */
 
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
         outline: none;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
         font-size: 18px;
         color: #161c2d;
         
@@ -259,58 +259,58 @@
 
 
 
-    .shopheader{
+    header.shopheader{
         display: block;
         color: #ffffff;
         padding-top: 20px;
         z-index: 1000;
     }
-    .shopheader > div > h1{
+    header.shopheader > div > h1{
         margin: 0 !important;
     }
-    /* .shopheader > *{
+    /* header.shopheader > *{
         padding: 0 3.12%;
     } */
-    .shopheader > div{
+    header.shopheader > div{
         display: flex;
         justify-content: space-between;
         /* padding: 20px 0; */
         margin-bottom: 30px;
     }
-    .shopheader > div h1 > *{
+    header.shopheader > div h1 > *{
         float: left;
     }
-    .shopheader > div h1 img{
+    header.shopheader > div h1 img{
         margin-right: 25px;
     }
-    .shopheader > div h1 strong{
+    header.shopheader > div h1 strong{
         margin-top: 20px;
         font-size: 30px;
     }
-    .shopheader > div > h1 strong span{
+    header.shopheader > div > h1 strong span{
         font-size: 16px;
         margin-top: 10px;
     }
     
     
     
-    .shopheader > div ul{
+    header.shopheader > div ul{
         margin-left: 50px;
         display: flex;
         box-sizing: border-box;
         
     }
     
-    .shopheader > div ul li{
+    header.shopheader > div ul li{
         position: relative;
         display: block;
         text-transform: uppercase;
     }
-    .shopheader > div ul li > a{
+    header.shopheader > div ul li > a{
         padding: 25px 15px;
         
     }
-    .shopheader > div ul > li::after {
+    header.shopheader > div ul > li::after {
         content: "";
         position: absolute;
         left: 0;
@@ -321,10 +321,10 @@
         opacity: 0;
         transition: opacity 0.3s ease-in;
     }
-    .shopheader > div > ul li:hover::after {
+    header.shopheader > div > ul li:hover::after {
         opacity: 1;
     } 
-    .shopheader > div > ul li:first-child > b{
+    header.shopheader > div > ul li:first-child > b{
         padding: 25px 35px 35px 15px;
         background: url('../image/Main_PSGMenuArrow.png')80% 43% no-repeat;
         display: block;
@@ -334,7 +334,7 @@
         cursor: pointer;
         
     }
-    .shopheader > div ul li:first-child:hover > ol{
+    header.shopheader > div ul li:first-child:hover > ol{
         opacity: 1; 
         visibility: visible;
         z-index: 1100;
@@ -342,7 +342,7 @@
     }
     
     
-    .shopheader > div ul li:first-child > ol{
+    header.shopheader > div ul li:first-child > ol{
         position: absolute;
         top: 100%;
         left: 0%;
@@ -350,24 +350,24 @@
         visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
     }
-    .shopheader > div ul li:first-child > ol > li{
+    header.shopheader > div ul li:first-child > ol > li{
         background-color: #ffffff;
         text-align: center;
         width: 200px;
         display: block;
         
     }
-    .shopheader > div ul li:first-child > ol > li > a{
+    header.shopheader > div ul li:first-child > ol > li > a{
         font-weight: 900;
         color: #161c2d;
         letter-spacing: 0.05em;
         padding: 20px 0 20px;
     }
-    .shopheader > div ul li:first-child > ol > li:hover{
+    header.shopheader > div ul li:first-child > ol > li:hover{
         background-color: #a6a6a6;
         transition: 0.3s ease-in;
     }
-    .shopheader > div ul li a{
+    header.shopheader > div ul li a{
         font-weight: 900;
         color: #ffffff;
         letter-spacing: 0.05em;
@@ -377,7 +377,7 @@
 
 
 
-    .shopheader > nav > input[type="button"]:first-of-type{
+    header.shopheader > nav > input[type="button"]:first-of-type{
         /* display: none; */
         background: url('../image/MenuIco.png')left top / cover no-repeat;
         text-indent: -9999px;
@@ -388,7 +388,7 @@
         /* margin-left: 50px; */
          
     }
-    .shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
+    header.shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
         /* display: none; */
         background: url('../image/close_white.png')center center / cover no-repeat;
         text-indent: -9999px;
@@ -402,18 +402,18 @@
         top: 150px;
          
     }
-    .shopheader > nav{
+    header.shopheader > nav{
         /* position: relative; */
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
-    .shopheader > nav::after{
+    header.shopheader > nav::after{
         display: block;
         content: '';
         clear: both;
     }
-    .shopheader > nav > div:first-of-type{
+    header.shopheader > nav > div:first-of-type{
         position: absolute;
         width: 106.67%;
         background: rgba(22, 28, 45, 0.7);
@@ -423,7 +423,7 @@
         height: 1024px;
         
     }
-    .shopheader > nav > div:first-of-type > ul{
+    header.shopheader > nav > div:first-of-type > ul{
         width: 75%;
         /* display: flex; */
         /* float: left; */
@@ -434,42 +434,42 @@
 
         
     }
-    .shopheader > nav > div:first-of-type > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li{
         margin: 0 20px;
     }
-    .shopheader > nav > div:first-of-type > ul > li:not(:last-child){
+    header.shopheader > nav > div:first-of-type > ul > li:not(:last-child){
         border-bottom: 1px solid #e6e6e6;
     }
-    .shopheader > nav > div:first-of-type > ul > li > a{
+    header.shopheader > nav > div:first-of-type > ul > li > a{
         text-transform: uppercase;
         /* color: #ffffff; */
         color: #161c2d;
         padding: 30px;
     }
-    .shopheader > nav > div:first-of-type > ul > li > b{
+    header.shopheader > nav > div:first-of-type > ul > li > b{
         cursor: pointer;
         padding: 30px;
         display: block;
         color: #161c2d;
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4){
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4){
         background: url('../image/shop_add.png')95% center no-repeat;
     }
 
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4).active{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4).active{
         background: url('../image/shop_remove.png')95% 2.5% no-repeat;
     }
-    .shopheader > nav > div:first-of-type > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li{
         font-weight: 700;
         transition: background-color 0.3s ease-in;
         display: block;
     }
 
-    /* .shopheader > nav > div:first-of-type > ul > li:hover{
+    /* header.shopheader > nav > div:first-of-type > ul > li:hover{
         background-color: #3c4c7a;
     } */
 
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div{
         background: #ffffff;
         display: none;
         /* position: absolute; */
@@ -480,19 +480,19 @@
         /* visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in; */
     }
-    /* .shopheader > nav > div:first-of-type > ul > li:nth-child(4):hover > div{
+    /* header.shopheader > nav > div:first-of-type > ul > li:nth-child(4):hover > div{
         opacity: 1; 
         visibility: visible;
     } */
-    /* .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul{
+    /* header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul{
         width: 25%;
         float: left;
         
     } */
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li{
         padding-left: 20px;
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li a{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li a{
         color: #161c2d;
         /* font-size: 12px; */
         padding: 20px 20px;
@@ -501,19 +501,19 @@
         font-weight: 700;
         
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li:hover a{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li:hover a{
         background-color: #e6e6e6;
     }
     
 
-    .shopheader > nav > div:last-of-type{
+    header.shopheader > nav > div:last-of-type{
         margin-left: 20%;
         /* width: 23%; */
         width: 75%;
         text-align: right;
         /* float: left; */
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="submit"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
         background: url('../image/Main_Search.png')no-repeat;
         border: none;
         width: 22px;
@@ -521,7 +521,7 @@
         color: transparent;
         margin: 20px 4% 20px;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]{
         border: none;
         width: 70%;
         padding: 10px 10px;
@@ -532,10 +532,10 @@
         /* display: none; */
 
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
         outline: none;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
         font-size: 18px;
         color: #161c2d;
         
@@ -549,58 +549,68 @@
 
 
 
-    .shopheader{
+    header.shopheader{
         display: block;
         color: #ffffff;
-        padding-top: 20px;
+        padding-top: 10px;
         z-index: 1000;
     }
-    .shopheader > div > h1{
-        margin: 0 !important;
+    header.shopheader > div > h1{
+        margin: 0;
     }
-    /* .shopheader > *{
+    /* header.shopheader > *{
         padding: 0 3.12%;
     } */
-    .shopheader > div{
+    header.shopheader > div{
         display: flex;
         justify-content: space-between;
         /* padding: 20px 0; */
-        margin-bottom: 30px;
+        /* margin: 0 0 20px 0; */
+        width: 100%;
     }
-    .shopheader > div h1 > *{
+    header.shopheader > div h1{
+        width: 35%;
+    }
+    /* header.shopheader > div h1 > *{
         float: left;
-    }
-    .shopheader > div h1 img{
+    } */
+    header.shopheader > div h1 a img{
         margin-right: 25px;
+        width: 100%;
+        max-width: 80px;
+        max-height: 80px;
     }
-    .shopheader > div h1 strong{
+    header.shopheader > div h1 strong{
         margin-top: 20px;
         font-size: 30px;
+        display: none;
     }
-    .shopheader > div > h1 strong span{
+    header.shopheader > div > h1 strong span{
         font-size: 16px;
         margin-top: 10px;
     }
     
     
     
-    .shopheader > div ul{
-        margin-left: 50px;
+    header.shopheader > div ul{
+        /* margin-left: 50px; */
         display: flex;
         box-sizing: border-box;
+        width: 65%;
+        justify-content: flex-end;
         
     }
     
-    .shopheader > div ul li{
+    header.shopheader > div ul li{
         position: relative;
         display: block;
         text-transform: uppercase;
     }
-    .shopheader > div ul li > a{
-        padding: 25px 15px;
+    header.shopheader > div ul li > a{
+        padding: 20px 10px;
         
     }
-    .shopheader > div ul > li::after {
+    header.shopheader > div ul > li::after {
         content: "";
         position: absolute;
         left: 0;
@@ -611,10 +621,10 @@
         opacity: 0;
         transition: opacity 0.3s ease-in;
     }
-    .shopheader > div > ul li:hover::after {
+    header.shopheader > div > ul li:hover::after {
         opacity: 1;
     } 
-    .shopheader > div > ul li:first-child > b{
+    header.shopheader > div > ul li:first-child > b{
         padding: 25px 35px 35px 15px;
         background: url('../image/Main_PSGMenuArrow.png')80% 43% no-repeat;
         display: block;
@@ -624,7 +634,7 @@
         cursor: pointer;
         
     }
-    .shopheader > div ul li:first-child:hover > ol{
+    header.shopheader > div ul li:first-child:hover > ol{
         opacity: 1; 
         visibility: visible;
         z-index: 1100;
@@ -632,7 +642,7 @@
     }
     
     
-    .shopheader > div ul li:first-child > ol{
+    header.shopheader > div ul li:first-child > ol{
         position: absolute;
         top: 100%;
         left: 0%;
@@ -640,24 +650,24 @@
         visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
     }
-    .shopheader > div ul li:first-child > ol > li{
+    header.shopheader > div ul li:first-child > ol > li{
         background-color: #ffffff;
         text-align: center;
         width: 200px;
         display: block;
         
     }
-    .shopheader > div ul li:first-child > ol > li > a{
+    header.shopheader > div ul li:first-child > ol > li > a{
         font-weight: 900;
         color: #161c2d;
         letter-spacing: 0.05em;
         padding: 20px 0 20px;
     }
-    .shopheader > div ul li:first-child > ol > li:hover{
+    header.shopheader > div ul li:first-child > ol > li:hover{
         background-color: #a6a6a6;
         transition: 0.3s ease-in;
     }
-    .shopheader > div ul li a{
+    header.shopheader > div ul li a{
         font-weight: 900;
         color: #ffffff;
         letter-spacing: 0.05em;
@@ -667,7 +677,7 @@
 
 
 
-    .shopheader > nav > input[type="button"]:first-of-type{
+    header.shopheader > nav > input[type="button"]:first-of-type{
         /* display: none; */
         background: url('../image/MenuIco.png')left top / cover no-repeat;
         text-indent: -9999px;
@@ -678,7 +688,7 @@
         /* margin-left: 50px; */
          
     }
-    .shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
+    header.shopheader > nav > div:first-of-type > input[type="button"]:last-of-type{
         /* display: none; */
         background: url('../image/close_white.png')center center / cover no-repeat;
         text-indent: -9999px;
@@ -688,22 +698,22 @@
         align-self: center;
         /* margin-left: 50px; */
         position: fixed;
-        right: 10%;
+        right: 3%;
         top: 150px;
          
     }
-    .shopheader > nav{
+    header.shopheader > nav{
         /* position: relative; */
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
-    .shopheader > nav::after{
+    header.shopheader > nav::after{
         display: block;
         content: '';
         clear: both;
     }
-    .shopheader > nav > div:first-of-type{
+    header.shopheader > nav > div:first-of-type{
         position: absolute;
         width: 106.67%;
         background: rgba(22, 28, 45, 0.7);
@@ -711,10 +721,11 @@
         left: -3.27%;
         overflow: auto;
         height: 1024px;
+        top: 100%;
         
     }
-    .shopheader > nav > div:first-of-type > ul{
-        width: 75%;
+    header.shopheader > nav > div:first-of-type > ul{
+        width: 83%;
         /* display: flex; */
         /* float: left; */
         /* flex-direction: column; */
@@ -724,42 +735,43 @@
 
         
     }
-    .shopheader > nav > div:first-of-type > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li{
         margin: 0 20px;
+        font-size: 14px;
     }
-    .shopheader > nav > div:first-of-type > ul > li:not(:last-child){
+    header.shopheader > nav > div:first-of-type > ul > li:not(:last-child){
         border-bottom: 1px solid #e6e6e6;
     }
-    .shopheader > nav > div:first-of-type > ul > li > a{
+    header.shopheader > nav > div:first-of-type > ul > li > a{
         text-transform: uppercase;
         /* color: #ffffff; */
         color: #161c2d;
-        padding: 30px;
+        padding: 15px;
     }
-    .shopheader > nav > div:first-of-type > ul > li > b{
+    header.shopheader > nav > div:first-of-type > ul > li > b{
         cursor: pointer;
-        padding: 30px;
+        padding: 15px;
         display: block;
         color: #161c2d;
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4){
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4){
         background: url('../image/shop_add.png')95% center no-repeat;
     }
 
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4).active{
-        background: url('../image/shop_remove.png')95% 2.5% no-repeat;
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4).active{
+        background: url('../image/shop_remove.png')95% 1.5% no-repeat;
     }
-    .shopheader > nav > div:first-of-type > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li{
         font-weight: 700;
         transition: background-color 0.3s ease-in;
         display: block;
     }
 
-    /* .shopheader > nav > div:first-of-type > ul > li:hover{
+    /* header.shopheader > nav > div:first-of-type > ul > li:hover{
         background-color: #3c4c7a;
     } */
 
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div{
         background: #ffffff;
         display: none;
         /* position: absolute; */
@@ -770,40 +782,40 @@
         /* visibility: hidden;
         transition: opacity 0.3s ease-in, visibility 0.3s ease-in; */
     }
-    /* .shopheader > nav > div:first-of-type > ul > li:nth-child(4):hover > div{
+    /* header.shopheader > nav > div:first-of-type > ul > li:nth-child(4):hover > div{
         opacity: 1; 
         visibility: visible;
     } */
-    /* .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul{
+    /* header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul{
         width: 25%;
         float: left;
         
     } */
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li{
         padding-left: 20px;
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li a{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li a{
         color: #161c2d;
         /* font-size: 12px; */
-        padding: 20px 20px;
+        padding: 15px;
         /* transition: background-color 0.3s ease-in; */
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight: 700;
         
     }
-    .shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li:hover a{
+    header.shopheader > nav > div:first-of-type > ul > li:nth-child(4) > div > ul > li:hover a{
         background-color: #e6e6e6;
     }
     
 
-    .shopheader > nav > div:last-of-type{
+    header.shopheader > nav > div:last-of-type{
         margin-left: 20%;
         /* width: 23%; */
         width: 75%;
         text-align: right;
         /* float: left; */
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="submit"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
         background: url('../image/Main_Search.png')no-repeat;
         border: none;
         width: 22px;
@@ -811,9 +823,9 @@
         color: transparent;
         margin: 20px 4% 20px;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]{
         border: none;
-        width: 70%;
+        width: 75%;
         padding: 10px 10px;
         background-color: #a6a6a6;
         font-size: 18px;
@@ -822,10 +834,10 @@
         /* display: none; */
 
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]:focus{
         outline: none;
     }
-    .shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
+    header.shopheader > nav > div:last-of-type > div > form input[type="search"]::placeholder{
         font-size: 18px;
         color: #161c2d;
         
