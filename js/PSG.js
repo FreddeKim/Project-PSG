@@ -210,8 +210,9 @@ function detailSlider(){
 }
 
 function thumnailactive() {
-  $('.detailthumbnail li').on('click', function() {
-    $(this).addClass('thumbnailactive').siblings().removeClass('thumbnailactive');
+  $('.detailthumbnail li').on('click touchstart', function() {
+    // $(this).addClass('thumbnailactive').siblings().removeClass('thumbnailactive');
+    $(this).toggleClass('thumbnailactive').siblings().removeClass('thumbnailactive');
   });
 };
 
@@ -326,16 +327,17 @@ function chagnedisplay(){
     $(this).toggleClass('open');
   });
   $('footer div:first-of-type div > h2').click(function(){
-    var $ul = $(this).siblings('ul');
-    $('footer div.adap1230 > div > ul').not($ul).hide().prev('h2').removeClass('footerHead');
-    $(this).toggleClass('footerHead').siblings('ul').toggle();
+    $(this).toggleClass('footerHead');
+    $(this).next('ul').toggleClass('footerList');
   });
   $('.removeConfirmYes').click(function(){
     $(this).closest('div').closest('div').parent().hide();
   });
 }
 
-
+// var $ul = $(this).siblings('ul');
+    // $('footer div.adap1230 > div > ul').not($ul).hide().prev('h2').removeClass('footerHead');
+    // $(this).toggleClass('footerHead').siblings('ul').toggle();
 
 function cookiemanage() {
   $('.helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button').click(function() {
@@ -346,3 +348,5 @@ function cookiemanage() {
     }
   });
 };
+
+  

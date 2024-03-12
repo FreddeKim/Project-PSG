@@ -366,7 +366,7 @@ footer div:first-of-type div ul li{
 footer div:first-of-type div ul li:not(:last-of-type){
     margin-bottom: 30px;
 }
-footer div:first-of-type div > .footerHead{
+footer div:first-of-type div > h2{
     color: #ffffff;
     margin-bottom: 30px;
     /* padding-right: 20px;
@@ -613,7 +613,9 @@ footer div:last-of-type div:last-child a:first-of-type{
     footer div:first-of-type div:not(:last-child){
         margin-right: 140px;
     }
-    
+    footer div:first-of-type div ul{
+        display: block;
+    }    
     footer div:first-of-type div ul li{
         display: block;
         font-size: 14px;
@@ -622,7 +624,7 @@ footer div:last-of-type div:last-child a:first-of-type{
     footer div:first-of-type div ul li:not(:last-of-type){
         margin-bottom: 30px;
     }
-    footer div:first-of-type div > .footerHead{
+    footer div:first-of-type div > h2{
         color: #ffffff;
         margin-bottom: 30px;
         /* padding-right: 20px;
@@ -920,9 +922,6 @@ footer div:last-of-type div:last-child a:first-of-type{
     /* footer div:first-of-type div:not(:last-child){
         margin-right: 140px;
     } */
-    footer div:first-of-type div ul{
-        display: none;
-    }
     footer div:first-of-type div ul li{
         display: block;
         font-size: 14px;
@@ -937,9 +936,16 @@ footer div:last-of-type div:last-child a:first-of-type{
         margin-bottom: 30px;
         padding-right: 20px;
         background: url('../image/mobilefooterarrow_down.png') 95% center no-repeat;
+        cursor: pointer;
     }
     footer div:first-of-type div > .footerHead{
         background: url('../image/mobilefooterarrow_up.png') 95% center no-repeat;
+    }
+    footer div:first-of-type div > ul{
+        display: none;
+    }
+    footer div:first-of-type div > ul.footerList{
+        display: block;
     }
     footer div:first-of-type div > ul li > a{
         color: #a6a6a6;

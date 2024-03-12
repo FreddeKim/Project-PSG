@@ -575,7 +575,7 @@
         float: left;
     } */
     header.shopheader > div h1 a img{
-        margin-right: 25px;
+        /* margin-right: 25px; */
         width: 100%;
         max-width: 80px;
         max-height: 80px;

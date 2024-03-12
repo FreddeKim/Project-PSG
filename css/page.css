@@ -16455,7 +16455,7 @@ clear: both;
         padding-top: 148px;
     }
     .shopmainWrap > section:first-of-type > div{
-        padding: 390px 0 10px;
+        padding: 300px 0 10px;
         background: url('../image/shopmain_section01BG.png')50% top  / cover no-repeat;
     }
     .shopmainWrap > section:first-of-type > div > div{
@@ -16676,7 +16676,7 @@ clear: both;
     }
     
     .shopmainWrap > section:nth-of-type(4) > div{
-        padding: 580px 0 60px;
+        padding: 400px 0 60px;
         background: url('../image/shopmain_section04BG.png')15% top / cover no-repeat;
     }
     .shopmainWrap > section:nth-of-type(4) > div > div{
@@ -16761,10 +16761,10 @@ clear: both;
         float: left; */
     }
     .shopmainWrap > section:last-of-type > ul li:not(:nth-child(3)){
-        padding: 450px 0 34px;
+        padding: 300px 0 34px;
     }
     .shopmainWrap > section:last-of-type > ul li:nth-child(3){
-        padding: 390px 0 34px;
+        padding: 260px 0 34px;
     }
     /* .shopmainWrap > section:last-of-type > ul li:nth-child(even){
         margin-left: 1.68%;
@@ -18087,7 +18087,7 @@ clear: both;
     .paymantwrap > .adap1230{
         margin: 60px 10px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         flex-direction: column;
     }
     /* .paymantwrap > .adap1230 > div{
@@ -18213,6 +18213,8 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > p,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > p{
         margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 20px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul{
@@ -18224,7 +18226,7 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:first-child > div:first-of-type{
         display: flex;
         justify-content: space-between;
-        padding: 15px;
+        padding: 15px 10px;
         box-sizing: border-box;
         border-bottom: 1px solid #6e8ce0;
     }
@@ -18248,14 +18250,17 @@ clear: both;
         background-color: #6e8ce0;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type{
-        width: 30%;
+        /* width: 30%; */
+        display: flex;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:first-of-type label,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type label,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div > label{
         font-weight: 700;
-        margin-left: 20px;
+        margin-left: 10px;
         align-self: center;
+        font-size: 14px;
+        line-height: 18px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:first-of-type > div:last-of-type{
         width: 38%;
@@ -18273,42 +18278,42 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2){
         background-color: #f2f2f2;
         border-bottom: 1px solid #6e8ce0;
-        padding: 20px 20px;
+        padding: 10px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > label{
         margin-bottom: 10px;
         display: block;
+        font-size: 14px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > input,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div input[type="text"]{
         display: block;
-        padding: 15px;
+        padding: 10px 15px;
         box-sizing: border-box;
         border: 1px solid #6e8ce0;
         width: 100%;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 14px;
         color: #161c2d;
         
-    }.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:first-of-type > input,
-    .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(2) > input,
+    }.paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div > input,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div input[type="text"]{
         margin-bottom: 15px;
     }
     
-    .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
+    /* .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(3){
         margin-right: 4.61%;
-    }
-    .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
+    } */
+    /* .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:nth-of-type(3),
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) > div:last-of-type,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(3),
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div:nth-of-type(4){
         float: left;
         width: 47.69%;
-    }
+    } */
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div > div,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type{
         position: relative;
@@ -18328,7 +18333,7 @@ clear: both;
         top: 50%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:last-of-type img{
-        right: 6.5%;
+        right: 3%;
         top: 53%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div p,
@@ -18363,7 +18368,7 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:nth-child(2) > div:first-of-type,
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:last-child > div:first-of-type{
         display: flex;
-        padding: 15px;
+        padding: 15px 10px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li:nth-child(2) > div:first-of-type{
         border-bottom: 1px solid #6e8ce0;
@@ -18387,9 +18392,10 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li > div{
         padding: 0 15px;
         box-sizing: border-box;
+        display: flex;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) > ul li:nth-child(2) > div:last-of-type{
-        padding: 15px;
+        padding: 10px;
         box-sizing: border-box;
         background-color: #f2f2f2;
         display: none;
@@ -18402,6 +18408,7 @@ clear: both;
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div label{
         margin-bottom: 10px;
         display: block;
+        font-size: 14px;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
         appearance: none;
@@ -18416,16 +18423,17 @@ clear: both;
         right: -11%;
         top: -35%;
     }
-    .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3){
+    /* .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3){
         display: flex;
         justify-content: space-between;
-    }
+    } */
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > a{
         color: #6e8ce0;
         padding: 5px 0 5px 30px;
         background: url('../image/arrowcircle_left.png')left center no-repeat;
         align-self: center;
-        margin-left: 20px;
+        /* margin-left: 20px; */
+        margin-bottom: 30px;
         
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > input[type="button"]{
@@ -18436,9 +18444,10 @@ clear: both;
         color: #ffffff;
         padding: 15px 45px;
         font-size: 18px;
-        float: right;
+        /* float: right; */
         font-weight: 700;
         transition: background-color 0.3s ease-in-out;
+        width: 100%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3) > input[type="button"]:hover{
         background-color: #ffffff;
@@ -18455,10 +18464,10 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type > div{
         position: absolute;
-        left: 25%;
-        bottom: 10%;
+        /* left: 25%; */
+        bottom: 6%;
         background-color: #ffffff;
-        width: 50%;
+        width: 100%;
         
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div div:first-of-type{
