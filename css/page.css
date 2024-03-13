@@ -5018,6 +5018,8 @@ clear: both;
 .myAccountwrap_editAddress > div:first-of-type + div > form > div > button span{
     background: url('../image/close.png')left center no-repeat;
     text-indent: -9999px;
+    width: 100%;
+    height: 100%;
 }
 .myAccountwrap_editAddress > div:first-of-type > form > div > *:not(div:first-of-type),
 .myAccountwrap_editAddress > div:first-of-type + div > form > div > *:not(div:first-of-type){
@@ -5110,11 +5112,11 @@ clear: both;
     position: absolute;
     bottom: 0;
     left: 40%;
-    max-width: 150px;
+    width: 50%;
     display: none;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
@@ -11303,6 +11305,8 @@ clear: both;
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > button span{
         background: url('../image/close.png')left center no-repeat;
         text-indent: -9999px;
+        width: 100%;
+        height: 100%;
     }
     .myAccountwrap_editAddress > div:first-of-type > form > div > *:not(div:first-of-type),
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > *:not(div:first-of-type){
@@ -11395,7 +11399,7 @@ clear: both;
         position: absolute;
         top: 70%;
         left: 40%;
-        max-width: 150px;
+        width: 50%;
         display: none;
         background-color: #ffffff;
         border-radius: 10px;
@@ -13829,7 +13833,7 @@ clear: both;
     
     
     .historywrap_Champions > p{
-        margin: 0 24px;
+        margin: 0 10px;
         /* max-width: 810px; */
     }
     .historywrap_Champions > p:last-of-type mark{
@@ -13901,7 +13905,7 @@ clear: both;
         font-size: 20px;
         font-weight: 700;
         /* max-width: 875px; */
-        margin: 0 24px 100px;
+        margin: 0 10px 100px;
         line-height: 36px;
     }
     .historywrap_SuperCup section:first-of-type > p{
@@ -17463,11 +17467,13 @@ clear: both;
     .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type{
         position: absolute;
         top: 20%;
-        left: -10%;
+        left: 20%;
         max-width: 150px;
         display: none;
         background-color: #ffffff;
         border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
         
     }
     .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > div:last-of-type p{
@@ -17880,6 +17886,8 @@ clear: both;
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > button span{
         background: url('../image/close.png')left center no-repeat;
         text-indent: -9999px;
+        width: 100%;
+        height: 100%;
     }
     .myAccountwrap_editAddress > div:first-of-type > form > div > *:not(div:first-of-type),
     .myAccountwrap_editAddress > div:first-of-type + div > form > div > *:not(div:first-of-type){
@@ -17974,11 +17982,13 @@ clear: both;
     .myAccountwrap_editAddress > section > form > div > div > div{
         position: absolute;
         top: 60%;
-        left: 10%;
-        max-width: 150px;
+        left: 30%;
+        width: 50%;
+        padding: 10px;
         display: none;
         background-color: #ffffff;
         border-radius: 10px;
+        box-sizing: border-box;
     }
     
     .myAccountwrap_editAddress > section > form > div > div > div p{
@@ -18353,11 +18363,11 @@ clear: both;
         
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:first-of-type p{
-        right: -12%;
+        right: -5%;
         top: -40%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:nth-of-type(2) div:last-of-type p{
-        right: -25%;
+        right: -5%;
         top: -85%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul li > div:not(:first-of-type) div img:hover + p,
@@ -18420,7 +18430,7 @@ clear: both;
         top: 55%;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type p{
-        right: -11%;
+        right: -5%;
         top: -35%;
     }
     /* .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(3){

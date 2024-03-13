@@ -141,9 +141,14 @@ function headerfixed(){
     var barPercent = ($(window).scrollTop() / ($(document).height() - $(window).height())) * 100;
 
     if (barPercent >= 80) {
-      header.css("position", "absolute"); 
+      header.css({
+        "display" : "none"
+      }); 
     } else {
-      header.css("position", "fixed"); 
+      header.css({
+        "position" : "fixed",
+        "display" : "block"
+      }); 
     }
   });
 };
@@ -333,6 +338,12 @@ function chagnedisplay(){
   $('.removeConfirmYes').click(function(){
     $(this).closest('div').closest('div').parent().hide();
   });
+  $('.newAddbtn').click(function(){
+    $('.myAccountwrap_editAddress > div:first-of-type + div').hide();
+  })
+  $('.editAddbtn').click(function(){
+    $('.myAccountwrap_editAddress > div:first-of-type').hide();
+  })
 }
 
 // var $ul = $(this).siblings('ul');
