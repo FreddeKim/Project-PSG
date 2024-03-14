@@ -720,7 +720,7 @@ main > section:nth-child(6) div a:nth-child(7):hover > span{
 
 /* *Honours */
 
-.historywrap_Honours strong,.historywrap_FrenchCup strong{
+.historywrap_Honours strong,.historywrap_frenchcup strong{
     font-weight: 500;
 }
 
@@ -994,7 +994,7 @@ clear: both;
     margin-bottom: 120px;
 }
 
-.topbtn_Dark {
+.topbtn_dark {
     margin-top: 45px;
     max-width: 200px;
     background-color: #161c2d;
@@ -1005,13 +1005,13 @@ clear: both;
     margin: 100px auto 0;
 
 }
-.topbtn_Dark > span{
+.topbtn_dark > span{
     display: block;
     color: #ffffff;
     font-weight: 700;
     transform: skew(40deg);
 }
-.topbtn_Dark::before {
+.topbtn_dark::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1022,14 +1022,14 @@ clear: both;
     transition: width 0.3s ease;
     width: 0%;
 }
-.topbtn_Dark:hover::before {
+.topbtn_dark:hover::before {
     width: 100%;
 }
 
 
 
 
-.topbtn_Sky {
+.topbtn_sky {
     margin-top: 45px;
     max-width: 200px;
     background-color: #6e8ce0;
@@ -1040,13 +1040,13 @@ clear: both;
     margin: 100px auto 120px;
     
 }
-.topbtn_Sky > span{
+.topbtn_sky > span{
     display: block;
     color: #ffffff;
     font-weight: 700;
     transform: skew(40deg);
 }
-.topbtn_Sky::before {
+.topbtn_sky::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1057,7 +1057,7 @@ clear: both;
     transition: width 0.3s ease;
     width: 0%;
 }
-.topbtn_Sky:hover::before {
+.topbtn_sky:hover::before {
     width: 100%;
 }
 
@@ -1068,18 +1068,18 @@ clear: both;
     margin-top: 100px;
 }
 .historywrap_Ligue1,.historywrap_Champions,.historywrap_SuperCup,
-.historywrap_FrenchCup,.historywrap_Europa,.historywrap_Conference,
+.historywrap_frenchcup,.historywrap_Europa,.historywrap_Conference,
 .historywrap_Parcdesprince,.historywrap_Parcdesprince > div:nth-of-type(3){
     background-color: #161c2d;
 }
 .historywrap_Ligue1 section:last-of-type,
-.historywrap_FrenchCup section:last-of-type,
+.historywrap_frenchcup section:last-of-type,
 .historywrap_SuperCup section:last-of-type{
     padding-bottom: 120px;
 }
 
-.historywrap_FrenchCup section:first-of-type,
-.historywrap_FrenchCup section:nth-of-type(2),
+.historywrap_frenchcup section:first-of-type,
+.historywrap_frenchcup section:nth-of-type(2),
 .historywrap_Ligue1 section:nth-of-type(2),
 .historywrap_Ligue1 section:first-of-type,
 .historywrap_Champions section:first-of-type,
@@ -1096,7 +1096,7 @@ clear: both;
 .historywrap_Parcdesprince > section{
     margin-bottom: 100px;
 }
-.historywrap_FrenchCup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
+.historywrap_frenchcup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
 .historywrap_Conference > p{
     text-align: center;
     color: #ffffff;
@@ -1105,8 +1105,8 @@ clear: both;
     margin: 100px 0;
     line-height: 36px;
 }
-.historywrap_FrenchCup section:first-of-type,
-.historywrap_FrenchCup section:nth-of-type(2),
+.historywrap_frenchcup section:first-of-type,
+.historywrap_frenchcup section:nth-of-type(2),
 .historywrap_Ligue1 section:first-of-type,
 .historywrap_Ligue1 section:nth-of-type(2),.historywrap_Champions section:first-of-type,
 .historywrap_Champions section:nth-of-type(2),
@@ -1117,8 +1117,8 @@ clear: both;
 .historywrap_Parcdesprince > section:not(:first-of-type){
     display: flex;
 }
-.historywrap_FrenchCup section:first-of-type > *,
-.historywrap_FrenchCup section:nth-of-type(2) > *,
+.historywrap_frenchcup section:first-of-type > *,
+.historywrap_frenchcup section:nth-of-type(2) > *,
 .historywrap_Ligue1 section:first-of-type > *,
 .historywrap_Ligue1 section:nth-of-type(2) > *,.historywrap_Champions section:first-of-type > *,
 .historywrap_Champions section:nth-of-type(2) > *,
@@ -1130,7 +1130,7 @@ clear: both;
     width: 50%;
 }
 
-.historywrap_FrenchCup section > div  h2,.historywrap_Ligue1 section > div h2,
+.historywrap_frenchcup section > div  h2,.historywrap_Ligue1 section > div h2,
 .historywrap_Champions section > div h2,.historywrap_Champions section > div h2,
 .historywrap_SuperCup section > div h2,.historywrap_Europa section > div h2,
 .historywrap_Conference section > div h2{
@@ -1139,7 +1139,7 @@ clear: both;
     font-weight: 700;
     margin-bottom: 60px;
 }
-.historywrap_FrenchCup section > div > p,.historywrap_Ligue1 section > div > p,
+.historywrap_frenchcup section > div > p,.historywrap_Ligue1 section > div > p,
 .historywrap_Champions section > div p,.historywrap_SuperCup section > div > p,
 .historywrap_Europa section > div > p,.historywrap_Conference section > div > p,
 .historywrap_Conference section > div > p,.historywrap_Parcdesprince p{
@@ -1147,8 +1147,8 @@ clear: both;
     font-weight: 600;
     line-height: 24px;
 }
-.historywrap_FrenchCup section:first-of-type > div > p,
-.historywrap_FrenchCup section:nth-of-type(2) > div > p,
+.historywrap_frenchcup section:first-of-type > div > p,
+.historywrap_frenchcup section:nth-of-type(2) > div > p,
 .historywrap_Ligue1 section:first-of-type > div > p:last-of-type,
 .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(3) div h2,
 .historywrap_Champions section:nth-of-type(4) > div:first-of-type p:last-of-type,
@@ -1182,7 +1182,7 @@ clear: both;
     margin-bottom: 30px;
 }
 
-.historywrap_FrenchCup section strong,.historywrap_Ligue1 section strong,
+.historywrap_frenchcup section strong,.historywrap_Ligue1 section strong,
 .historywrap_Champions section strong,.historywrap_SuperCup section div strong,
 .historywrap_Europa section > div strong,.historywrap_Conference section > div > strong{
     color: #ff1541;
@@ -1191,7 +1191,7 @@ clear: both;
     line-height: 36px;
 }
 
-.historywrap_FrenchCup section:first-of-type > img,
+.historywrap_frenchcup section:first-of-type > img,
 .historywrap_Ligue1 section:first-of-type > img,
 .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(4) img,
 .historywrap_SuperCup section:nth-of-type(2) > img,
@@ -1201,7 +1201,7 @@ clear: both;
     object-fit: contain;
     max-width: 585px;
 }
-.historywrap_FrenchCup section:nth-of-type(2) > img,
+.historywrap_frenchcup section:nth-of-type(2) > img,
 .historywrap_Ligue1 section:nth-of-type(2) >  img,
 .historywrap_Champions section:first-of-type > img,
 .historywrap_Champions section:nth-of-type(3) > div:first-of-type img,
@@ -1220,7 +1220,7 @@ clear: both;
 }
 
 
-.historywrap_FrenchCup section:nth-of-type(2) > div,
+.historywrap_frenchcup section:nth-of-type(2) > div,
 .historywrap_Ligue1 section:nth-of-type(2) > div,
 .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(3) div,
 .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(5) div,
@@ -1244,12 +1244,12 @@ clear: both;
     background-color: #ffffff;
     margin-bottom: 100px;
 }
-/* .historywrap_FrenchCup > div:first-of-type div::after{
+/* .historywrap_frenchcup > div:first-of-type div::after{
     content: '';
     display: block;
     clear: both;
 }
-.historywrap_FrenchCup > div:first-of-type div > *{
+.historywrap_frenchcup > div:first-of-type div > *{
     float: left;
 } */
 .competition_Center > div{
@@ -1280,7 +1280,7 @@ clear: both;
     color: #ff1541;
     width: 100%;
 }
-.historywrap_FrenchCup > div:first-of-type div strong{
+.historywrap_frenchcup > div:first-of-type div strong{
     background: url('../image/frenchcup_cup.png')left top no-repeat;
 }
 .competition_Center div > p{
@@ -1293,29 +1293,29 @@ clear: both;
 
 
 
-.historywrap_FrenchCup section:last-of-type{
+.historywrap_frenchcup section:last-of-type{
     background-color: #ffffff;
     padding-top: 50px;
     
 }
-.historywrap_FrenchCup section:last-of-type div{
+.historywrap_frenchcup section:last-of-type div{
     max-width: 960px;
     margin: 0 auto 50px;
 }
     
-.historywrap_FrenchCup section:last-of-type > div h2{
+.historywrap_frenchcup section:last-of-type > div h2{
     font-size: 30px;
     color: #161c2d;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
 
 }
-.historywrap_FrenchCup section:last-of-type > div p{
+.historywrap_frenchcup section:last-of-type > div p{
     line-height: 24px;
     color: #3c4c7a;
     font-weight: 500;
 }
-.historywrap_FrenchCup section:last-of-type img{
+.historywrap_frenchcup section:last-of-type img{
     margin-bottom: -2px;
     max-width: 100%;
 }
@@ -2807,25 +2807,25 @@ clear: both;
 /* !Stadium Tour Fin */
 
 
-.myPariswrap > h2 {
+.mypariswrap > h2 {
     padding: 168px 0 50px;
     text-align: center;
     background: url('../image/myparis_titlebg.png')left center / cover no-repeat;
 }
 
-.myPariswrap section:first-of-type{
+.mypariswrap section:first-of-type{
     margin: 120px auto;
 }
-.myPariswrap section:first-of-type h3{
+.mypariswrap section:first-of-type h3{
     text-align: center;
     font-size: 30px;
     line-height: 60px;
     color: #161c2d;
 }
-.myPariswrap section:first-of-type h3 > strong{
+.mypariswrap section:first-of-type h3 > strong{
     color: #ff1541;
 }
-.myPariswrap section:first-of-type > a{
+.mypariswrap section:first-of-type > a{
     max-width: 200px;
     margin: 60px auto 120px;
     text-align: center;
@@ -2836,26 +2836,26 @@ clear: both;
     transition: background-color 0.3s ease-in
 
 }
-.myPariswrap section:first-of-type > a:hover{
+.mypariswrap section:first-of-type > a:hover{
     background-color: #b30f2d;
 }
-.myPariswrap section:first-of-type ul::after{
+.mypariswrap section:first-of-type ul::after{
     display: block;
     content: '';
     clear: both;
 }
-.myPariswrap section:first-of-type ul li{
+.mypariswrap section:first-of-type ul li{
     width: 30.89%;
     float: left;
     color: #ffffff;
     background-color: #161c2d;
     min-height: 500px;
 }
-.myPariswrap section:first-of-type ul li img{
+.mypariswrap section:first-of-type ul li img{
     width: 100%;
     margin-bottom: 10px;
 }
-.myPariswrap section:first-of-type ul li p{
+.mypariswrap section:first-of-type ul li p{
     max-width: 265px;
     margin: 0 auto;
     text-align: center;
@@ -2864,72 +2864,72 @@ clear: both;
     line-height: 24px;
     /* height: 120px; */
 }
-.myPariswrap section:first-of-type ul li:not(:nth-child(3n+1)){
+.mypariswrap section:first-of-type ul li:not(:nth-child(3n+1)){
     margin-left: 45px;
 }
-.myPariswrap section:first-of-type ul li:first-child,
-.myPariswrap section:first-of-type ul li:nth-child(2),
-.myPariswrap section:first-of-type ul li:nth-child(3){
+.mypariswrap section:first-of-type ul li:first-child,
+.mypariswrap section:first-of-type ul li:nth-child(2),
+.mypariswrap section:first-of-type ul li:nth-child(3){
     margin-bottom: 45px;
 }
-.myPariswrap section:last-of-type{
+.mypariswrap section:last-of-type{
     background-color: #161c2d;
     padding: 120px 0;
 }
 
-.myPariswrap section:last-of-type > div::after{
+.mypariswrap section:last-of-type > div::after{
     display: block;
     clear: both;
     content: '';
 }
-.myPariswrap section:last-of-type > div > *{
+.mypariswrap section:last-of-type > div > *{
     float: left;
 }
-.myPariswrap section:last-of-type > div > div{
+.mypariswrap section:last-of-type > div > div{
     width: 36.58%;
     margin-right: 40px;
     background-color: #ffffff;
 }
-.myPariswrap section:last-of-type > div > div > h3{
+.mypariswrap section:last-of-type > div > div > h3{
     background: url('../image/myparis_rednblue.png')left top no-repeat;
     padding: 100px 0 135px;
 }
-.myPariswrap section:last-of-type > div > div > h3 > *,
-.myPariswrap section:last-of-type > div > div p{
+.mypariswrap section:last-of-type > div > div > h3 > *,
+.mypariswrap section:last-of-type > div > div p{
     margin-left: 40px;
 }
-.myPariswrap section:last-of-type > div > div > h3 span:first-child{
+.mypariswrap section:last-of-type > div > div > h3 span:first-child{
     color: #ff1541;
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.myPariswrap section:last-of-type > div > div > h3 strong{
+.mypariswrap section:last-of-type > div > div > h3 strong{
     color: #ffffff;
     font-size: 60px;
     letter-spacing: 0.05em;
     margin-bottom: 60px;
     display: block;
 }
-.myPariswrap section:last-of-type > div > div > h3 span:last-child{
+.mypariswrap section:last-of-type > div > div > h3 span:last-child{
     font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
 }
-.myPariswrap section:last-of-type > div > div > h3 span > b{
+.mypariswrap section:last-of-type > div > div > h3 span > b{
     color: #ff1541;
 }
-.myPariswrap section:last-of-type > div > div p{
+.mypariswrap section:last-of-type > div > div p{
     max-width: 350px;
     line-height: 24px;
 }
-.myPariswrap section:last-of-type > div > div p:first-of-type{
+.mypariswrap section:last-of-type > div > div p:first-of-type{
     margin: 50px 0 30px 40px;
 }
-.myPariswrap section:last-of-type > div > div p:last-of-type{
+.mypariswrap section:last-of-type > div > div p:last-of-type{
     margin-bottom: 50px;
 }
-.myPariswrap section:last-of-type > div > div a{
+.mypariswrap section:last-of-type > div > div a{
     max-width: 322px;
     margin: 0 auto 50px;
     text-align: center;
@@ -2941,27 +2941,27 @@ clear: both;
     border-radius: 10px;
     font-size: 30px;
 }
-.myPariswrap section:last-of-type > div > div a:hover{
+.mypariswrap section:last-of-type > div > div a:hover{
     background-color: #b30f2d;
 }
 
 
-.myPariswrap section:last-of-type > div > ul{
+.mypariswrap section:last-of-type > div > ul{
     width: 60.17%;
 }
-.myPariswrap section:last-of-type > div > ul li{
+.mypariswrap section:last-of-type > div > ul li{
     display: block;
 }
-.myPariswrap section:last-of-type > div > ul li strong{
+.mypariswrap section:last-of-type > div > ul li strong{
     color: #6e8ce0;
     margin-bottom: 30px;
     display: block;
 }
-.myPariswrap section:last-of-type > div > ul li p{
+.mypariswrap section:last-of-type > div > ul li p{
     color: #ffffff;
     line-height: 20px;
 }
-.myPariswrap section:last-of-type > div > ul li:not(:last-child) p{
+.mypariswrap section:last-of-type > div > ul li:not(:last-child) p{
     margin-bottom: 60px;
 }
 
@@ -2970,7 +2970,7 @@ clear: both;
 
 
 
-[class^="theClubwrap"] > h2{
+[class^="theclubwrap"] > h2{
     background: url('../image/history_title_bg.png')left 50% / cover no-repeat;
     font-size: 60px;
     text-align: center;
@@ -2978,7 +2978,7 @@ clear: both;
     color: #ffffff;
 }
 
-[class^="theClubwrap"] > ul:first-of-type{
+[class^="theclubwrap"] > ul:first-of-type{
     margin: 0 auto;
     max-width: 530px;
     display: flex;
@@ -2988,12 +2988,12 @@ clear: both;
 
 }
 
-[class^="theClubwrap"] > ul:first-of-type li{
+[class^="theclubwrap"] > ul:first-of-type li{
     display: block;
     text-align: center;
 }
 
-[class^="theClubwrap"] > ul:first-of-type li a{
+[class^="theclubwrap"] > ul:first-of-type li a{
     color: #a6a6a6;
     background: #e6e6e6;
     width: 250px;
@@ -3004,81 +3004,81 @@ clear: both;
     transition: background-color, 0.2s ease;
 }
 
-[class^="theClubwrap"] > ul:first-of-type li:hover a,
-[class^="theClubwrap"] > ul:first-of-type .theclub_active{
+[class^="theclubwrap"] > ul:first-of-type li:hover a,
+[class^="theclubwrap"] > ul:first-of-type .theclub_active{
     color: #ffffff;
     background: #161c2d;
 }
-.theClubwrap_President{
+.theclubwrap_president{
     color: #161c2d;
 }
-.theClubwrap_President > div img:first-of-type{
+.theclubwrap_president > div img:first-of-type{
     margin-bottom: 0;
     display: block;
 }
-.theClubwrap_President > div:first-of-type{
+.theclubwrap_president > div:first-of-type{
     margin-top: 120px;
 }
-.theClubwrap_President > div:first-of-type > div:first-of-type{
+.theclubwrap_president > div:first-of-type > div:first-of-type{
     background: url('../image/president_profilebg.png')100% top / cover no-repeat;
     padding: 40px;
     margin-bottom: 40px;
 }
-.theClubwrap_President > div:first-of-type > div:first-of-type h3{
+.theclubwrap_president > div:first-of-type > div:first-of-type h3{
     font-size: 35px;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
-.theClubwrap_President > div:first-of-type > div:first-of-type > p{
+.theclubwrap_president > div:first-of-type > div:first-of-type > p{
     margin-bottom: 25px;
 }
-.theClubwrap_President > div:first-of-type > div:first-of-type > ul li{
+.theclubwrap_president > div:first-of-type > div:first-of-type > ul li{
     display: block;
     padding-left: 20px;
     background: url('../image/arrowright_red.png')left center no-repeat;
 }
-.theClubwrap_President > div:first-of-type > div:first-of-type > ul li:not(:last-child){
+.theclubwrap_president > div:first-of-type > div:first-of-type > ul li:not(:last-child){
     margin-bottom: 20px;
 }
-.theClubwrap_President > div:first-of-type > strong{
+.theclubwrap_president > div:first-of-type > strong{
     font-size: 24px;
     line-height: 42px;
     margin-bottom: 40px;
 }
-.theClubwrap_President > div:first-of-type > p{
+.theclubwrap_president > div:first-of-type > p{
     line-height: 20px;
 }
-.theClubwrap_President > div:first-of-type > p:not(:last-of-type){
+.theclubwrap_president > div:first-of-type > p:not(:last-of-type){
     margin-bottom: 40px;
 }
-.theClubwrap_President > div:first-of-type > p:last-of-type{
+.theclubwrap_president > div:first-of-type > p:last-of-type{
     margin-bottom: 100px;
 }
-.theClubwrap_President > div:first-of-type > img:last-of-type{
+.theclubwrap_president > div:first-of-type > img:last-of-type{
     margin-bottom: 100px;
 }
-.theClubwrap_President > div:first-of-type > div:last-of-type{
+.theclubwrap_president > div:first-of-type > div:last-of-type{
     float: right;
     margin-bottom: 120px;
 }
-.theClubwrap_President > div:first-of-type > div:last-of-type{
+.theclubwrap_president > div:first-of-type > div:last-of-type{
     font-weight: 700;
 }
-.theClubwrap_President > div:first-of-type > div:last-of-type span{
+.theclubwrap_president > div:first-of-type > div:last-of-type span{
     color: #ff1541;
     margin-bottom: 30px;
 }
-.theClubwrap_President > a,
-.theClubwrap_identity > a{
+.theclubwrap_president > a,
+.theclubwrap_identity > a{
     clear: both;
     margin-bottom: 120px;
 }
 
 
-.theClubwrap_identity > ul:first-of-type{
+.theclubwrap_identity > ul:first-of-type{
     margin-bottom: 120px;
 }
-.theClubwrap_identity > strong{
+.theclubwrap_identity > strong{
     max-width: 1230px;
     margin: 0 auto 120px;
     text-align: center;
@@ -3086,45 +3086,45 @@ clear: both;
     color: #161c2d;
     line-height: 42px;
 }
-.theClubwrap_identity > section > h3{
+.theclubwrap_identity > section > h3{
     font-size: 60px;
     color: #ffffff;
     text-align: center;
     padding: 444px 0 472px;
     margin-bottom: 120px;
 }
-.theClubwrap_identity > section:first-of-type h3{
+.theclubwrap_identity > section:first-of-type h3{
     background: url('../image/identity_01bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
-.theClubwrap_identity > section:nth-of-type(2) h3{
+.theclubwrap_identity > section:nth-of-type(2) h3{
     background: url('../image/identity_02bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
-.theClubwrap_identity > section:last-of-type h3{
+.theclubwrap_identity > section:last-of-type h3{
     background: url('../image/identity_03bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
-.theClubwrap_identity > section > div strong{
+.theclubwrap_identity > section > div strong{
     display: block;
     color: #ff1541;
     font-size: 24px;
     margin-bottom: 40px;
 }
-.theClubwrap_identity > section > div p{
+.theclubwrap_identity > section > div p{
     color: #161c2d;
     line-height: 24px;
 }
-.theClubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
-.theClubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
-.theClubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
+.theclubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
+.theclubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
+.theclubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
     margin-bottom: 30px;
 }
-.theClubwrap_identity > section > div img{
+.theclubwrap_identity > section > div img{
     margin: 100px auto;
     display: block;
 }
-.theClubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
+.theclubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
     margin-bottom: 100px;
 }
 
@@ -3134,7 +3134,7 @@ clear: both;
 
 
 
-[class^="informationWrap"] > h2{
+[class^="informationwrap"] > h2{
     background: url('../image/history_title_bg.png')left 50% / cover no-repeat;
     font-size: 60px;
     text-align: center;
@@ -3142,7 +3142,7 @@ clear: both;
     color: #ffffff;
 }
 
-[class^="informationWrap"] > ul:first-of-type{
+[class^="informationwrap"] > ul:first-of-type{
     margin: 0 auto;
     max-width: 1650px;
     display: flex;
@@ -3154,13 +3154,13 @@ clear: both;
 
 }
 
-[class^="informationWrap"] > ul:first-of-type li{
+[class^="informationwrap"] > ul:first-of-type li{
     display: block;
     text-align: center;
     margin: 0 10px;
 }
 
-[class^="informationWrap"] > ul:first-of-type li a{
+[class^="informationwrap"] > ul:first-of-type li a{
     color: #a6a6a6;
     background: #e6e6e6;
     width: 250px;
@@ -3171,13 +3171,13 @@ clear: both;
     transition: background-color, 0.2s ease;
 }
 
-[class^="informationWrap"] > ul:first-of-type li:hover a,
-[class^="informationWrap"] > ul:first-of-type .information_active{
+[class^="informationwrap"] > ul:first-of-type li:hover a,
+[class^="informationwrap"] > ul:first-of-type .information_active{
     color: #ffffff;
     background: #161c2d;
 }
 
-.informationWrap_Parc > div:first-of-type > p{
+.informationwrap_parc > div:first-of-type > p{
     text-align: center;
     margin: 0 auto 120px; 
     font-size: 24px;
@@ -3187,33 +3187,33 @@ clear: both;
     max-width: 1180px;
     clear: both;
 }
-.informationWrap_Parc > div:first-of-type > p:last-of-type{
+.informationwrap_parc > div:first-of-type > p:last-of-type{
     margin-top: 100px;
 }
-.informationWrap_Parc > div:first-of-type img{
+.informationwrap_parc > div:first-of-type img{
     width: 50%;
     display: block;
     margin: 0 2.43% 120px 0;
     float: left;
 }
-.informationWrap_Parc > div:first-of-type > div:first-of-type{
+.informationwrap_parc > div:first-of-type > div:first-of-type{
     width: 47.50%;
     float: left;
 
 }
-.informationWrap_Parc > div:first-of-type > div:first-of-type p{
+.informationwrap_parc > div:first-of-type > div:first-of-type p{
     margin-bottom: 60px;
 }
-.informationWrap_Parc > div:first-of-type > div:first-of-type ul li{
+.informationwrap_parc > div:first-of-type > div:first-of-type ul li{
     display: block;
 }
-.informationWrap_Parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
+.informationwrap_parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
     margin-bottom: 30px;
 }
-.informationWrap_Parc > div:first-of-type > div:last-of-type{
+.informationwrap_parc > div:first-of-type > div:last-of-type{
     height: 610px;
 }
-.informationWrap_Blackmarket strong{
+.informationwrap_blackmarket strong{
     display: block;
     font-size: 24px;
     line-height: 42px;
@@ -3221,426 +3221,426 @@ clear: both;
     max-width: 1080px;
     margin: 0 auto 100px;  
 }
-.informationWrap_Blackmarket p{
+.informationwrap_blackmarket p{
     color: #161c2d;
     text-align: center;
 }
-.informationWrap_Blackmarket p:first-of-type{
+.informationwrap_blackmarket p:first-of-type{
     margin-bottom: 30px;
 }
-.informationWrap_Blackmarket p:last-of-type{
+.informationwrap_blackmarket p:last-of-type{
     max-width: 890px;
     margin: 0 auto 100px; 
     font-style: italic;
     
 }
-.informationWrap_Blackmarket > div:first-of-type{
+.informationwrap_blackmarket > div:first-of-type{
     background-color: #161c2d;
     padding: 40px 0 120px;
 }
-.informationWrap_Blackmarket > div:first-of-type > strong{
+.informationwrap_blackmarket > div:first-of-type > strong{
     color: #ffffff;
 }
-.informationWrap_Blackmarket > div:first-of-type ul{
+.informationwrap_blackmarket > div:first-of-type ul{
     max-width: 1230px;
     margin: 0 auto;
 }
-.informationWrap_Blackmarket > div:first-of-type ul::after{
+.informationwrap_blackmarket > div:first-of-type ul::after{
     display: block;
     content: '';
     clear: both;
     
 }
-.informationWrap_Blackmarket > div:first-of-type ul li{
+.informationwrap_blackmarket > div:first-of-type ul li{
     width: 30.89%;
     float: left;
     text-align: center;
     display: block;
 }
-.informationWrap_Blackmarket > div:first-of-type ul li img{
+.informationwrap_blackmarket > div:first-of-type ul li img{
     display: block;
     margin: 0 auto 60px;
 }
-.informationWrap_Blackmarket > div:first-of-type ul li:not(:last-child){
+.informationwrap_blackmarket > div:first-of-type ul li:not(:last-child){
     margin-left: 3.65%;
 }
-.informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dt{
+.informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dt{
     font-size: 24px;
     line-height: 42px;
     color: #6e8ce0;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dd{
+.informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dd{
     color: #ffffff;
     line-height: 20px;
     max-width: 300px;
     margin: 0 auto;
 }
-.informationWrap_Matchday{
+.informationwrap_matchday{
     color: #161c2d;
 }
-.informationWrap_Matchday > div strong{
+.informationwrap_matchday > div strong{
     font-size: 24px;
     line-height: 42px;
 }
-.informationWrap_Matchday > div > strong,
-.informationWrap_Matchday > div:first-of-type p{
+.informationwrap_matchday > div > strong,
+.informationwrap_matchday > div:first-of-type p{
     margin-bottom: 60px;
     display: block;
     text-align: center;
 }
-.informationWrap_Matchday > div:first-of-type > ul{
+.informationwrap_matchday > div:first-of-type > ul{
     max-width: 1230px;
     margin: 0 auto 100px;
 }
-.informationWrap_Matchday > div > ul::after{
+.informationwrap_matchday > div > ul::after{
     display: block;
     content: '';
     clear: both;
 }
-.informationWrap_Matchday > div:first-of-type > ul li{
+.informationwrap_matchday > div:first-of-type > ul li{
     width: 21.95%;
     float: left;
     display: block;
 
 }
-.informationWrap_Matchday > div:first-of-type > ul li:not(:first-child),
-.informationWrap_Matchday > div:nth-of-type(2) > ul li:not(:first-child){
+.informationwrap_matchday > div:first-of-type > ul li:not(:first-child),
+.informationwrap_matchday > div:nth-of-type(2) > ul li:not(:first-child){
     margin-left: 50px;
 }
-.informationWrap_Matchday div ul li{
+.informationwrap_matchday div ul li{
     text-align: center;
 }
-.informationWrap_Matchday div ul li figure img{
+.informationwrap_matchday div ul li figure img{
     display: block;
     margin: 0 auto 40px;
 }
-.informationWrap_Matchday div ul li figure figcaption{
+.informationwrap_matchday div ul li figure figcaption{
     margin-bottom: 40px;
 }
-.informationWrap_Matchday div ul li figure figcaption dl dt{
+.informationwrap_matchday div ul li figure figcaption dl dt{
     font-size: 24px;
     font-weight: 700;
     color: #6e8ce0;
     margin-bottom: 30px;
 }
-.informationWrap_Matchday div ul li figure figcaption dl dd{
+.informationwrap_matchday div ul li figure figcaption dl dd{
     line-height: 20px;
 }
-.informationWrap_Matchday > div:nth-of-type(2) > ul{
+.informationwrap_matchday > div:nth-of-type(2) > ul{
     max-width: 900px;
     margin: 0 auto 100px;
 }
-.informationWrap_Matchday > div:nth-of-type(2) > ul li{
+.informationwrap_matchday > div:nth-of-type(2) > ul li{
     width: 29.63%;
     float: left;
     text-align: center;
     display: block;
 }
-.informationWrap_Matchday > div:nth-of-type(3) {
+.informationwrap_matchday > div:nth-of-type(3) {
     background-color: #161c2d;
     padding: 100px 0 50px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > strong{
+.informationwrap_matchday > div:nth-of-type(3) > strong{
     color: #ffffff;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div{
+.informationwrap_matchday > div:nth-of-type(3) > div{
     display: flex;
     max-width: 1230px;
     margin: 0 auto;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul{
+.informationwrap_matchday > div:nth-of-type(3) > div ul{
     width: 50%;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul li{
+.informationwrap_matchday > div:nth-of-type(3) > div ul li{
     width: 43.90%;
     float: left;
     height: 330px;
 }
 
-.informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type{
+.informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type{
     margin-right: 25px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul:last-of-type{
+.informationwrap_matchday > div:nth-of-type(3) > div ul:last-of-type{
     margin-left: 25px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul li:first-child{
+.informationwrap_matchday > div:nth-of-type(3) > div ul li:first-child{
     margin-right: 50px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul li figure img{
+.informationwrap_matchday > div:nth-of-type(3) > div ul li figure img{
     height: 70px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
+.informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
     float: right;
     margin-right: 25px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul li:last-child{
+.informationwrap_matchday > div:nth-of-type(3) > div ul li:last-child{
     margin-top: 40px;
 }
-.informationWrap_Matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
+.informationwrap_matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
     color: #ffffff;
 }
-.informationWrap_Matchday > div:nth-of-type(4){
+.informationwrap_matchday > div:nth-of-type(4){
     display: flex;
     margin: 100px auto;
 }
-.informationWrap_Matchday > div:nth-of-type(4) > *{
+.informationwrap_matchday > div:nth-of-type(4) > *{
     width: 50%;
 }
-.informationWrap_Matchday > div:nth-of-type(4) > div{
+.informationwrap_matchday > div:nth-of-type(4) > div{
     margin-left: 30px;
     align-self: center;
 }
-.informationWrap_Matchday > div:nth-of-type(4) > div strong{
+.informationwrap_matchday > div:nth-of-type(4) > div strong{
     margin-bottom: 40px;
 }
-.informationWrap_Matchday > div:nth-of-type(4) > div p:first-of-type{
+.informationwrap_matchday > div:nth-of-type(4) > div p:first-of-type{
     margin-bottom: 30px;
 }
-.informationWrap_Matchday > strong{
+.informationwrap_matchday > strong{
     text-align: center;
     font-size: 24px;
     line-height: 42px;
 }
-.informationWrap_Matchday > ul:nth-of-type(2){
+.informationwrap_matchday > ul:nth-of-type(2){
     max-width: 610px;
     margin: 100px auto 120px;
     
 }
-.informationWrap_Matchday > ul:nth-of-type(2)::after{
+.informationwrap_matchday > ul:nth-of-type(2)::after{
     display: block;
     content: '';
     clear: both;
 }
-.informationWrap_Matchday > ul:nth-of-type(2) li{
+.informationwrap_matchday > ul:nth-of-type(2) li{
     float: left;
     display: block;
 }
-.informationWrap_Matchday > ul:nth-of-type(2) li:not(:first-child){
+.informationwrap_matchday > ul:nth-of-type(2) li:not(:first-child){
     margin-left: 2.19%;
 }
 
-.informationWrap_PRM{
+.informationwrap_prm{
     color: #161c2d;
 }
-.informationWrap_PRM strong{
+.informationwrap_prm strong{
     font-size: 24px;
     line-height: 32px;
     text-align: center;
 }
 
-.informationWrap_PRM > ul:first-of-type{
+.informationwrap_prm > ul:first-of-type{
     margin-bottom: 0;
 }
-.informationWrap_PRM > img{
+.informationwrap_prm > img{
     display: block;
     width: 100%;
     margin-bottom: 100px;
 }
-.informationWrap_PRM > strong{
+.informationwrap_prm > strong{
     margin-bottom: 60px;
 } 
-.informationWrap_PRM > p{
+.informationwrap_prm > p{
     text-align: center;
     margin-bottom: 100px;
 }
-.informationWrap_PRM > figure{
+.informationwrap_prm > figure{
     display: flex;
     margin-bottom: 100px;
 }
-.informationWrap_PRM > figure > *{
+.informationwrap_prm > figure > *{
     width: 50%;
 }
-.informationWrap_PRM > figure:first-of-type img{
+.informationwrap_prm > figure:first-of-type img{
     flex: 1;
     order: 2;
 }
-.informationWrap_PRM > figure div{
+.informationwrap_prm > figure div{
     align-self: center;
 }
-.informationWrap_PRM > figure:first-of-type div > *,
-.informationWrap_PRM > figure:last-of-type > div > *{
+.informationwrap_prm > figure:first-of-type div > *,
+.informationwrap_prm > figure:last-of-type > div > *{
     max-width: 480px;
 }
-.informationWrap_PRM > figure div strong{
+.informationwrap_prm > figure div strong{
     text-align: left;
     margin-bottom: 40px;
 }
-.informationWrap_PRM > figure div{
+.informationwrap_prm > figure div{
     line-height: 20px;
 }
-.informationWrap_PRM > ul:nth-of-type(2){
+.informationwrap_prm > ul:nth-of-type(2){
     margin-bottom: 100px;
 }
-.informationWrap_PRM > ul:nth-of-type(2):after{
+.informationwrap_prm > ul:nth-of-type(2):after{
     display: block;
     content: '';
     clear: both;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li{
+.informationwrap_prm > ul:nth-of-type(2) li{
     width: 21.95%;
     float: left;
     display: block;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li:not(:first-child){
+.informationwrap_prm > ul:nth-of-type(2) li:not(:first-child){
     margin-left: 4.06%;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li strong{
+.informationwrap_prm > ul:nth-of-type(2) li strong{
     color: #6e8ce0;
     margin-bottom: 30px;
     display: block;
     padding-top: 100px;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li p{
+.informationwrap_prm > ul:nth-of-type(2) li p{
     text-align: center;
     color: #161c2d;
     line-height: 20px;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li:first-child strong{
+.informationwrap_prm > ul:nth-of-type(2) li:first-child strong{
     background: url('../image/prmico_01.png') center top no-repeat;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(2) strong{
+.informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(2) strong{
     background: url('../image/prmico_02.png') center top no-repeat;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(3) strong{
+.informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(3) strong{
     background: url('../image/prmico_03.png') center top no-repeat;
 }
-.informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(4) strong{
+.informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(4) strong{
     background: url('../image/prmico_04.png') center top no-repeat;
 }
 
 
-.informationWrap_PRM > figure:last-of-type > div > *{
+.informationwrap_prm > figure:last-of-type > div > *{
     margin-left: 30px;
 }
 
-.informationWrap_stadiumCoach,
-.informationWrap_catering{
+.informationwrap_stadiumCoach,
+.informationwrap_catering{
     color: #161c2d;
 }
-.informationWrap_stadiumCoach > h3,
-.informationWrap_stadiumCoach > strong,
-.informationWrap_catering > h3{
+.informationwrap_stadiumCoach > h3,
+.informationwrap_stadiumCoach > strong,
+.informationwrap_catering > h3{
     text-align: center;
 }
-.informationWrap_stadiumCoach > h3,
-.informationWrap_catering > h3{
+.informationwrap_stadiumCoach > h3,
+.informationwrap_catering > h3{
     margin-bottom: 100px;
 }
-.informationWrap_stadiumCoach h3,
-.informationWrap_stadiumCoach strong,
-.informationWrap_stadiumCoach h4,
-.informationWrap_catering h4,
-.informationWrap_catering h3{
+.informationwrap_stadiumCoach h3,
+.informationwrap_stadiumCoach strong,
+.informationwrap_stadiumCoach h4,
+.informationwrap_catering h4,
+.informationwrap_catering h3{
     font-size: 24px;
     line-height: 32px;
 }
-.informationWrap_catering > div:first-of-type{
+.informationwrap_catering > div:first-of-type{
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 120px;
 }
-.informationWrap_catering > div:first-of-type > p{
+.informationwrap_catering > div:first-of-type > p{
     max-width: 940px;
     margin: 0 auto 100px;
     text-align: center;
     line-height: 24px;
 }
-.informationWrap_stadiumCoach > figure,
-.informationWrap_catering > div:first-of-type > figure{
+.informationwrap_stadiumCoach > figure,
+.informationwrap_catering > div:first-of-type > figure{
     display: flex;
     margin-bottom: 100px;
 }
-.informationWrap_stadiumCoach > figure > div,
-.informationWrap_catering > div:first-of-type > figure div{
+.informationwrap_stadiumCoach > figure > div,
+.informationwrap_catering > div:first-of-type > figure div{
     align-self: center;
 }
-.informationWrap_stadiumCoach > figure:nth-of-type(2) img,
-.informationWrap_catering > div:first-of-type > figure:nth-of-type(2) img{
+.informationwrap_stadiumCoach > figure:nth-of-type(2) img,
+.informationwrap_catering > div:first-of-type > figure:nth-of-type(2) img{
     flex: 1;
     order: 2;
 }
-.informationWrap_stadiumCoach > figure:nth-of-type(2) div,
-.informationWrap_catering > div:first-of-type > figure:nth-of-type(2) div{
+.informationwrap_stadiumCoach > figure:nth-of-type(2) div,
+.informationwrap_catering > div:first-of-type > figure:nth-of-type(2) div{
     margin-right: 30px;
 }
-.informationWrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
-.informationWrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
+.informationwrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
+.informationwrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
     margin-left: 30px;
 }
 
-.informationWrap_stadiumCoach > figure > *,
-.informationWrap_catering > div:first-of-type > figure > *{
+.informationwrap_stadiumCoach > figure > *,
+.informationwrap_catering > div:first-of-type > figure > *{
     width: 50%;
 }
-.informationWrap_stadiumCoach > figure h4,
-.informationWrap_stadiumCoach > figure strong,
-.informationWrap_catering > div:first-of-type > figure h4,
-.informationWrap_catering > div:first-of-type > figure strong{
+.informationwrap_stadiumCoach > figure h4,
+.informationwrap_stadiumCoach > figure strong,
+.informationwrap_catering > div:first-of-type > figure h4,
+.informationwrap_catering > div:first-of-type > figure strong{
     margin-bottom: 30px;
 }
-.informationWrap_catering > div:first-of-type > figure h4{
+.informationwrap_catering > div:first-of-type > figure h4{
     color: #ff1541;
 }
-.informationWrap_stadiumCoach > figure strong{
+.informationwrap_stadiumCoach > figure strong{
     color: #6e8ce0;
 }
-.informationWrap_stadiumCoach > figure ul li,
-.informationWrap_catering > div:first-of-type > figure ul li{
+.informationwrap_stadiumCoach > figure ul li,
+.informationwrap_catering > div:first-of-type > figure ul li{
     display: block;
     padding-left: 20px;
     background: url('../image/arrowright_red.png')left center no-repeat;
 }
-.informationWrap_stadiumCoach > figure ul li:not(:last-child),
-.informationWrap_catering > div:first-of-type > figure ul li:not(:last-child){
+.informationwrap_stadiumCoach > figure ul li:not(:last-child),
+.informationwrap_catering > div:first-of-type > figure ul li:not(:last-child){
     margin-bottom: 20px;
 }
-.informationWrap_stadiumCoach > strong:last-of-type{
+.informationwrap_stadiumCoach > strong:last-of-type{
     margin-bottom: 40px;
 }
-.informationWrap_stadiumCoach > p{
+.informationwrap_stadiumCoach > p{
     text-align: center;
     margin-bottom: 120px;
 }
-.informationWrap_catering > ul:nth-of-type(2){
+.informationwrap_catering > ul:nth-of-type(2){
     margin-bottom: 120px;
 }
-.informationWrap_catering > ul:nth-of-type(2)::after{
+.informationwrap_catering > ul:nth-of-type(2)::after{
     display: block;
     content: '';
     clear: both;
 }
-.informationWrap_catering > ul:nth-of-type(2) li{
+.informationwrap_catering > ul:nth-of-type(2) li{
     display: block;
     width: 47.56%;
     float: left;
     min-height: 584px;
 }
-.informationWrap_catering > ul:nth-of-type(2) li:nth-child(odd){
+.informationwrap_catering > ul:nth-of-type(2) li:nth-child(odd){
     margin-right: 30px;
 }
-.informationWrap_catering > ul:nth-of-type(2) li:nth-child(even){
+.informationwrap_catering > ul:nth-of-type(2) li:nth-child(even){
     margin-left: 30px;
 }
-.informationWrap_catering > ul:nth-of-type(2) li img{
+.informationwrap_catering > ul:nth-of-type(2) li img{
     display: block;
     margin-bottom: 30px;
 }
-.informationWrap_catering > ul:nth-of-type(2) li dl dt{
+.informationwrap_catering > ul:nth-of-type(2) li dl dt{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.informationWrap_catering > ul:nth-of-type(2) li dl dt b{
+.informationwrap_catering > ul:nth-of-type(2) li dl dt b{
     color: #ff1541;
 }
-.informationWrap_catering > ul:nth-of-type(2) li dl dd{
+.informationwrap_catering > ul:nth-of-type(2) li dl dd{
     line-height: 24px;
 }
 
 
 
-[class^='footerTextwrap'] > h2{
+[class^='footertextwrap'] > h2{
     background: url('../image/history_title_bg.png')left 100% / cover no-repeat;
     font-size: 60px;
     text-align: center;
@@ -3648,62 +3648,62 @@ clear: both;
     color: #ffffff;
     margin-bottom: 120px;
 }
-[class^='footerTextwrap'] {
+[class^='footertextwrap'] {
     color: #161c2d;
 }
 
-[class^='footerTextwrap'] > div:not(:last-of-type){
+[class^='footertextwrap'] > div:not(:last-of-type){
     max-width: 1230px;
     margin: 0 auto 100px;
 }
-[class^='footerTextwrap'] > div h3{
+[class^='footertextwrap'] > div h3{
     font-size: 24px;
     color: #ff1541;
     margin-bottom: 40px;
 }
-[class^='footerTextwrap'] div p{
+[class^='footertextwrap'] div p{
     line-height: 24px;
 }
-[class^='footerTextwrap'] div p:not(:last-of-type),
-[class^='footerTextwrap'] div span{
+[class^='footertextwrap'] div p:not(:last-of-type),
+[class^='footertextwrap'] div span{
     margin-bottom: 30px;
 }
-[class^='footerTextwrap'] div span{
+[class^='footertextwrap'] div span{
     font-weight: 700;
 }
-[class^='footerTextwrap'] div address{
+[class^='footertextwrap'] div address{
     font-style: normal;
     line-height: 24px;
 }
-[class^='footerTextwrap'] div a{
+[class^='footertextwrap'] div a{
     color: #6e8ce0;
     text-decoration: underline;
     display: inline;
 }
-[class^='footerTextwrap'] > a{
+[class^='footertextwrap'] > a{
     margin-bottom: 120px;
 }
-.footerTextwrap_privacyPolicy > p{
+.footertextwrap_privacypolicy > p{
     max-width: 1230px;
     margin: 0 auto;
     line-height: 24px;
 }
-.footerTextwrap_privacyPolicy > p:not(:last-of-type){
+.footertextwrap_privacypolicy > p:not(:last-of-type){
     margin-bottom: 30px;
 }
-.footerTextwrap_privacyPolicy > p:last-of-type{
+.footertextwrap_privacypolicy > p:last-of-type{
     margin-bottom: 100px;
 }
-.footerTextwrap_privacyPolicy > div > strong{
+.footertextwrap_privacypolicy > div > strong{
     margin-bottom: 30px;
 }
-.footerTextwrap_privacyPolicy > div > ol{
+.footertextwrap_privacypolicy > div > ol{
     margin-bottom: 30px;
 }
-.footerTextwrap_privacyPolicy > div > ol > li{
+.footertextwrap_privacypolicy > div > ol > li{
     margin-left: 30px;
 }
-.footerTextwrap_privacyPolicy > div > ol > li:not(:last-child){
+.footertextwrap_privacypolicy > div > ol > li:not(:last-child){
     margin-bottom: 20px;
 }
 
@@ -6749,7 +6749,7 @@ clear: both;
     
     /* *Honours */
     
-    .historywrap_Honours strong,.historywrap_FrenchCup strong{
+    .historywrap_Honours strong,.historywrap_frenchcup strong{
         font-weight: 500;
     }
     
@@ -7034,7 +7034,7 @@ clear: both;
         margin-bottom: 120px;
     }
     
-    .topbtn_Dark {
+    .topbtn_dark {
         margin-top: 45px;
         max-width: 200px;
         background-color: #161c2d;
@@ -7045,13 +7045,13 @@ clear: both;
         margin: 100px auto 0;
     
     }
-    .topbtn_Dark > span{
+    .topbtn_dark > span{
         display: block;
         color: #ffffff;
         font-weight: 700;
         transform: skew(40deg);
     }
-    .topbtn_Dark::before {
+    .topbtn_dark::before {
         content: '';
         position: absolute;
         top: 0;
@@ -7062,14 +7062,14 @@ clear: both;
         transition: width 0.3s ease;
         width: 0%;
     }
-    .topbtn_Dark:hover::before {
+    .topbtn_dark:hover::before {
         width: 100%;
     }
     
     
     
     
-    .topbtn_Sky {
+    .topbtn_sky {
         margin-top: 45px;
         max-width: 200px;
         background-color: #6e8ce0;
@@ -7080,13 +7080,13 @@ clear: both;
         margin: 100px auto 120px;
         
     }
-    .topbtn_Sky > span{
+    .topbtn_sky > span{
         display: block;
         color: #ffffff;
         font-weight: 700;
         transform: skew(40deg);
     }
-    .topbtn_Sky::before {
+    .topbtn_sky::before {
         content: '';
         position: absolute;
         top: 0;
@@ -7097,7 +7097,7 @@ clear: both;
         transition: width 0.3s ease;
         width: 0%;
     }
-    .topbtn_Sky:hover::before {
+    .topbtn_sky:hover::before {
         width: 100%;
     }
     
@@ -7108,18 +7108,18 @@ clear: both;
         margin-top: 100px;
     }
     .historywrap_Ligue1,.historywrap_Champions,.historywrap_SuperCup,
-    .historywrap_FrenchCup,.historywrap_Europa,.historywrap_Conference,
+    .historywrap_frenchcup,.historywrap_Europa,.historywrap_Conference,
     .historywrap_Parcdesprince,.historywrap_Parcdesprince > div:nth-of-type(3){
         background-color: #161c2d;
     }
     .historywrap_Ligue1 section:last-of-type,
-    .historywrap_FrenchCup section:last-of-type,
+    .historywrap_frenchcup section:last-of-type,
     .historywrap_SuperCup section:last-of-type{
         padding-bottom: 120px;
     }
     
-    .historywrap_FrenchCup section:first-of-type,
-    .historywrap_FrenchCup section:nth-of-type(2),
+    .historywrap_frenchcup section:first-of-type,
+    .historywrap_frenchcup section:nth-of-type(2),
     .historywrap_Ligue1 section:nth-of-type(2),
     .historywrap_Ligue1 section:first-of-type,
     .historywrap_Champions section:first-of-type,
@@ -7137,7 +7137,7 @@ clear: both;
     .historywrap_Parcdesprince > section{
         margin-bottom: 100px;
     }
-    .historywrap_FrenchCup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
+    .historywrap_frenchcup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
     .historywrap_Conference > p{
         text-align: center;
         color: #ffffff;
@@ -7146,8 +7146,8 @@ clear: both;
         margin: 100px 24px;
         line-height: 36px;
     }
-    .historywrap_FrenchCup section:first-of-type,
-    .historywrap_FrenchCup section:nth-of-type(2),
+    .historywrap_frenchcup section:first-of-type,
+    .historywrap_frenchcup section:nth-of-type(2),
     .historywrap_Ligue1 section:first-of-type,
     .historywrap_Ligue1 section:nth-of-type(2),.historywrap_Champions section:first-of-type,
     .historywrap_Champions section:nth-of-type(2),
@@ -7159,8 +7159,8 @@ clear: both;
         display: flex;
         flex-direction: column;
     }
-    /* .historywrap_FrenchCup section:first-of-type > *,
-    .historywrap_FrenchCup section:nth-of-type(2) > *,
+    /* .historywrap_frenchcup section:first-of-type > *,
+    .historywrap_frenchcup section:nth-of-type(2) > *,
     .historywrap_Ligue1 section:first-of-type > *,
     .historywrap_Ligue1 section:nth-of-type(2) > *,.historywrap_Champions section:first-of-type > *,
     .historywrap_Champions section:nth-of-type(2) > *,
@@ -7172,7 +7172,7 @@ clear: both;
         width: 50%;
     } */
     
-    .historywrap_FrenchCup section > div  h2,.historywrap_Ligue1 section > div h2,
+    .historywrap_frenchcup section > div  h2,.historywrap_Ligue1 section > div h2,
     .historywrap_Champions section > div h2,.historywrap_Champions section > div h2,
     .historywrap_SuperCup section > div h2,.historywrap_Europa section > div h2,
     .historywrap_Conference section > div h2{
@@ -7181,7 +7181,7 @@ clear: both;
         font-weight: 700;
         margin-bottom: 60px;
     }
-    .historywrap_FrenchCup section > div > p,.historywrap_Ligue1 section > div > p,
+    .historywrap_frenchcup section > div > p,.historywrap_Ligue1 section > div > p,
     .historywrap_Champions section > div p,.historywrap_SuperCup section > div > p,
     .historywrap_Europa section > div > p,.historywrap_Conference section > div > p,
     .historywrap_Conference section > div > p,.historywrap_Parcdesprince p{
@@ -7189,8 +7189,8 @@ clear: both;
         font-weight: 600;
         line-height: 24px;
     }
-    .historywrap_FrenchCup section:first-of-type > div > p,
-    .historywrap_FrenchCup section:nth-of-type(2) > div > p,
+    .historywrap_frenchcup section:first-of-type > div > p,
+    .historywrap_frenchcup section:nth-of-type(2) > div > p,
     .historywrap_Ligue1 section:first-of-type > div > p:last-of-type,
     .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(3) div h2,
     .historywrap_Champions section:nth-of-type(4) > div:first-of-type p:last-of-type,
@@ -7224,7 +7224,7 @@ clear: both;
         margin-bottom: 30px;
     }
     
-    .historywrap_FrenchCup section strong,.historywrap_Ligue1 section strong,
+    .historywrap_frenchcup section strong,.historywrap_Ligue1 section strong,
     .historywrap_Champions section strong,.historywrap_SuperCup section div strong,
     .historywrap_Europa section > div strong,.historywrap_Conference section > div > strong{
         color: #ff1541;
@@ -7233,7 +7233,7 @@ clear: both;
         line-height: 36px;
     }
     
-    .historywrap_FrenchCup section:first-of-type > img,
+    .historywrap_frenchcup section:first-of-type > img,
     .historywrap_Ligue1 section:first-of-type > img,
     .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(4) img,
     .historywrap_SuperCup section:nth-of-type(2) > img,
@@ -7245,7 +7245,7 @@ clear: both;
         width: 100%;
         margin-bottom: 50px;
     }
-    .historywrap_FrenchCup section:nth-of-type(2) > img,
+    .historywrap_frenchcup section:nth-of-type(2) > img,
     .historywrap_Ligue1 section:nth-of-type(2) >  img,
     .historywrap_Champions section:first-of-type > img,
     .historywrap_Champions section:nth-of-type(3) > div:first-of-type img,
@@ -7266,8 +7266,8 @@ clear: both;
     }
     
     
-    .historywrap_FrenchCup section:nth-of-type(2) > div,
-    .historywrap_FrenchCup section:first-of-type > div,
+    .historywrap_frenchcup section:nth-of-type(2) > div,
+    .historywrap_frenchcup section:first-of-type > div,
     .historywrap_Ligue1 section:nth-of-type(2) > div,
     .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(3) div,
     .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(5) div,
@@ -7293,12 +7293,12 @@ clear: both;
         margin-bottom: 100px;
         padding: 0 24px;
     }
-    /* .historywrap_FrenchCup > div:first-of-type div::after{
+    /* .historywrap_frenchcup > div:first-of-type div::after{
         content: '';
         display: block;
         clear: both;
     }
-    .historywrap_FrenchCup > div:first-of-type div > *{
+    .historywrap_frenchcup > div:first-of-type div > *{
         float: left;
     } */
     .competition_Center > div{
@@ -7329,7 +7329,7 @@ clear: both;
         color: #ff1541;
         width: 100%;
     }
-    .historywrap_FrenchCup > div:first-of-type div strong{
+    .historywrap_frenchcup > div:first-of-type div strong{
         background: url('../image/FrenchCup_Cup.png')left top no-repeat;
     }
     .competition_Center div > p{
@@ -7343,29 +7343,29 @@ clear: both;
     
     
     
-    .historywrap_FrenchCup section:last-of-type{
+    .historywrap_frenchcup section:last-of-type{
         background-color: #ffffff;
         padding-top: 50px;
         
     }
-    .historywrap_FrenchCup section:last-of-type div{
+    .historywrap_frenchcup section:last-of-type div{
         max-width: 960px;
         margin: 0 auto 50px;
     }
         
-    .historywrap_FrenchCup section:last-of-type > div h2{
+    .historywrap_frenchcup section:last-of-type > div h2{
         font-size: 30px;
         color: #161c2d;
         letter-spacing: -0.05em;
         margin-bottom: 50px;
     
     }
-    .historywrap_FrenchCup section:last-of-type > div p{
+    .historywrap_frenchcup section:last-of-type > div p{
         line-height: 24px;
         color: #3c4c7a;
         font-weight: 500;
     }
-    .historywrap_FrenchCup section:last-of-type img{
+    .historywrap_frenchcup section:last-of-type img{
         margin-bottom: -2px;
         max-width: 100%;
     }
@@ -8964,26 +8964,26 @@ clear: both;
     /* !Stadium Tour Fin */
     
     
-    .myPariswrap > h2 {
+    .mypariswrap > h2 {
         padding: 168px 0 50px;
         text-align: center;
         background: url('../image/Myparis_TitleBG.png')50% 50% / cover no-repeat;
     }
     
-    .myPariswrap section:first-of-type{
+    .mypariswrap section:first-of-type{
         margin: 120px 24px;
     }
-    .myPariswrap section:first-of-type h3{
+    .mypariswrap section:first-of-type h3{
         text-align: center;
         font-size: 30px;
         line-height: 60px;
         color: #161c2d;
     }
-    .myPariswrap section:first-of-type h3 > strong{
+    .mypariswrap section:first-of-type h3 > strong{
         color: #ff1541;
         display: inline;
     }
-    .myPariswrap section:first-of-type > a{
+    .mypariswrap section:first-of-type > a{
         max-width: 200px;
         margin: 60px auto 120px;
         text-align: center;
@@ -8994,15 +8994,15 @@ clear: both;
         transition: background-color 0.3s ease-in
     
     }
-    .myPariswrap section:first-of-type > a:hover{
+    .mypariswrap section:first-of-type > a:hover{
         background-color: #b30f2d;
     }
-    .myPariswrap section:first-of-type ul::after{
+    .mypariswrap section:first-of-type ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .myPariswrap section:first-of-type ul li{
+    .mypariswrap section:first-of-type ul li{
         /* width: 30.89%; */
         width: 47.91%;
         float: left;
@@ -9011,11 +9011,11 @@ clear: both;
         /* height: 600px; */
         box-sizing: border-box;
     }
-    .myPariswrap section:first-of-type ul li img{
+    .mypariswrap section:first-of-type ul li img{
         width: 100%;
         margin-bottom: 10px;
     }
-    .myPariswrap section:first-of-type ul li p{
+    .mypariswrap section:first-of-type ul li p{
         max-width: 265px;
         margin: 0 auto;
         text-align: center;
@@ -9024,74 +9024,74 @@ clear: both;
         line-height: 24px;
         height: 100px;
     }
-    .myPariswrap section:first-of-type ul li:nth-child(odd){
+    .mypariswrap section:first-of-type ul li:nth-child(odd){
         margin-right: 2.08%;
     }
-    .myPariswrap section:first-of-type ul li:nth-child(even){
+    .mypariswrap section:first-of-type ul li:nth-child(even){
         margin-left: 2.08%;
     }
-    .myPariswrap section:first-of-type ul li:not(:nth-child(5):nth-child(6)){
+    .mypariswrap section:first-of-type ul li:not(:nth-child(5):nth-child(6)){
         margin-bottom: 45px;
     }
-    .myPariswrap section:last-of-type{
+    .mypariswrap section:last-of-type{
         background-color: #161c2d;
         padding: 120px 24px;
     }
     
-    .myPariswrap section:last-of-type > div::after{
+    .mypariswrap section:last-of-type > div::after{
         display: block;
         clear: both;
         content: '';
     }
-    .myPariswrap section:last-of-type > div > *{
+    .mypariswrap section:last-of-type > div > *{
         float: left;
     }
-    .myPariswrap section:last-of-type > div > div{
+    .mypariswrap section:last-of-type > div > div{
         /* width: 36.58%; */
         width: 50%;
         margin-right: 4.16%;
         background-color: #ffffff;
     }
-    .myPariswrap section:last-of-type > div > div > h3{
+    .mypariswrap section:last-of-type > div > div > h3{
         background: url('../image/myparis_RednBlue.png')left top / cover no-repeat;
         padding: 100px 0 135px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 > *,
-    .myPariswrap section:last-of-type > div > div p{
+    .mypariswrap section:last-of-type > div > div > h3 > *,
+    .mypariswrap section:last-of-type > div > div p{
         margin-left: 40px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span:first-child{
+    .mypariswrap section:last-of-type > div > div > h3 span:first-child{
         color: #ff1541;
         font-size: 18px;
         text-transform: uppercase;
         margin-bottom: 10px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 strong{
+    .mypariswrap section:last-of-type > div > div > h3 strong{
         color: #ffffff;
         font-size: 45px;
         letter-spacing: 0.05em;
         margin-bottom: 60px;
         display: block;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span:last-child{
+    .mypariswrap section:last-of-type > div > div > h3 span:last-child{
         font-size: 30px;
         text-transform: uppercase;
         color: #ffffff;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span > b{
+    .mypariswrap section:last-of-type > div > div > h3 span > b{
         color: #ff1541;
     }
-    .myPariswrap section:last-of-type > div > div p{
+    .mypariswrap section:last-of-type > div > div p{
         max-width: 350px;
         line-height: 24px;
     }
-    .myPariswrap section:last-of-type > div > div p:first-of-type{
+    .mypariswrap section:last-of-type > div > div p:first-of-type{
         margin: 50px 0 30px 40px;
     }
-    .myPariswrap section:last-of-type > div > div p:last-of-type{
+    .mypariswrap section:last-of-type > div > div p:last-of-type{
         margin-bottom: 50px;
     }
-    .myPariswrap section:last-of-type > div > div a{
+    .mypariswrap section:last-of-type > div > div a{
         max-width: 322px;
         margin: 0 auto 50px;
         text-align: center;
@@ -9103,30 +9103,30 @@ clear: both;
         border-radius: 10px;
         font-size: 30px;
     }
-    .myPariswrap section:last-of-type > div > div a:hover{
+    .mypariswrap section:last-of-type > div > div a:hover{
         background-color: #b30f2d;
     }
     
     
-    .myPariswrap section:last-of-type > div > ul{
+    .mypariswrap section:last-of-type > div > ul{
         /* width: 60.17%; */
         width: 45.84%;
     }
-    .myPariswrap section:last-of-type > div > ul li{
+    .mypariswrap section:last-of-type > div > ul li{
         display: block;
     }
-    .myPariswrap section:last-of-type > div > ul li strong{
+    .mypariswrap section:last-of-type > div > ul li strong{
         color: #6e8ce0;
         margin-bottom: 30px;
         display: block;
         line-height: 24px;
     }
-    .myPariswrap section:last-of-type > div > ul li p{
+    .mypariswrap section:last-of-type > div > ul li p{
         color: #ffffff;
         /* line-height: 20px; */
         line-height: 24px;
     }
-    .myPariswrap section:last-of-type > div > ul li:not(:last-child) p{
+    .mypariswrap section:last-of-type > div > ul li:not(:last-child) p{
         margin-bottom: 60px;
     }
     
@@ -9135,7 +9135,7 @@ clear: both;
     
     
     
-    [class^="theClubwrap"] > h2{
+    [class^="theclubwrap"] > h2{
         background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
         font-size: 30px;
         text-align: center;
@@ -9143,7 +9143,7 @@ clear: both;
         color: #ffffff;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type{
+    [class^="theclubwrap"] > ul:first-of-type{
         margin: 0 auto;
         max-width: 530px;
         display: flex;
@@ -9153,12 +9153,12 @@ clear: both;
     
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li{
+    [class^="theclubwrap"] > ul:first-of-type li{
         display: block;
         text-align: center;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li a{
+    [class^="theclubwrap"] > ul:first-of-type li a{
         color: #a6a6a6;
         background: #e6e6e6;
         width: 250px;
@@ -9169,84 +9169,84 @@ clear: both;
         transition: background-color, 0.2s ease;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li:hover a,
-    [class^="theClubwrap"] > ul:first-of-type .theclub_active{
+    [class^="theclubwrap"] > ul:first-of-type li:hover a,
+    [class^="theclubwrap"] > ul:first-of-type .theclub_active{
         color: #ffffff;
         background: #161c2d;
     }
-    .theClubwrap_President{
+    .theclubwrap_president{
         color: #161c2d;
     }
-    .theClubwrap_President > div img{
+    .theclubwrap_president > div img{
         width: 100%;
     }
-    .theClubwrap_President > div img:first-of-type{
+    .theclubwrap_president > div img:first-of-type{
         margin-bottom: 0;
         display: block;
     }
-    .theClubwrap_President > div:first-of-type{
+    .theclubwrap_president > div:first-of-type{
         margin: 120px 24px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type{
+    .theclubwrap_president > div:first-of-type > div:first-of-type{
         background: url('../image/President_ProfileBG.png')100% top / cover no-repeat;
         padding: 40px;
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type h3{
+    .theclubwrap_president > div:first-of-type > div:first-of-type h3{
         font-size: 35px;
         text-transform: uppercase;
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > p{
+    .theclubwrap_president > div:first-of-type > div:first-of-type > p{
         margin-bottom: 25px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > ul li{
+    .theclubwrap_president > div:first-of-type > div:first-of-type > ul li{
         display: block;
         padding-left: 20px;
         background: url('../image/Arrowright_Red.png')left center no-repeat;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > ul li:not(:last-child){
+    .theclubwrap_president > div:first-of-type > div:first-of-type > ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .theClubwrap_President > div:first-of-type > strong{
+    .theclubwrap_president > div:first-of-type > strong{
         font-size: 24px;
         line-height: 42px;
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > p{
+    .theclubwrap_president > div:first-of-type > p{
         line-height: 20px;
     }
-    .theClubwrap_President > div:first-of-type > p:not(:last-of-type){
+    .theclubwrap_president > div:first-of-type > p:not(:last-of-type){
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > p:last-of-type{
+    .theclubwrap_president > div:first-of-type > p:last-of-type{
         margin-bottom: 100px;
     }
-    .theClubwrap_President > div:first-of-type > img:last-of-type{
+    .theclubwrap_president > div:first-of-type > img:last-of-type{
         margin-bottom: 100px;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type{
+    .theclubwrap_president > div:first-of-type > div:last-of-type{
         float: right;
         margin-bottom: 120px;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type{
+    .theclubwrap_president > div:first-of-type > div:last-of-type{
         font-weight: 700;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type span{
+    .theclubwrap_president > div:first-of-type > div:last-of-type span{
         color: #ff1541;
         margin-bottom: 30px;
     }
-    .theClubwrap_President > a,
-    .theClubwrap_identity > a{
+    .theclubwrap_president > a,
+    .theclubwrap_identity > a{
         clear: both;
         margin-bottom: 120px;
     }
     
     
-    .theClubwrap_identity > ul:first-of-type{
+    .theclubwrap_identity > ul:first-of-type{
         margin-bottom: 120px;
     }
-    .theClubwrap_identity > strong{
+    .theclubwrap_identity > strong{
         max-width: 1230px;
         margin: 0 24px 120px;
         text-align: center;
@@ -9254,10 +9254,10 @@ clear: both;
         color: #161c2d;
         line-height: 42px;
     }
-    .theClubwrap_identity > section{
+    .theclubwrap_identity > section{
         margin: 0 24px;
     }
-    .theClubwrap_identity > section > h3{
+    .theclubwrap_identity > section > h3{
         font-size: 30px;
         color: #ffffff;
         text-align: center;
@@ -9265,38 +9265,38 @@ clear: both;
         padding: 180px 0;
         margin-bottom: 120px;
     }
-    .theClubwrap_identity > section:first-of-type h3{
+    .theclubwrap_identity > section:first-of-type h3{
         background: url('../image/Identity_01BG.png')50% 50% / cover no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section:nth-of-type(2) h3{
+    .theclubwrap_identity > section:nth-of-type(2) h3{
         background: url('../image/Identity_02BG.png')50% 50% / cover no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section:last-of-type h3{
+    .theclubwrap_identity > section:last-of-type h3{
         background: url('../image/Identity_03BG.png')50% 50% / cover no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section > div strong{
+    .theclubwrap_identity > section > div strong{
         display: block;
         color: #ff1541;
         font-size: 24px;
         margin-bottom: 40px;
     }
-    .theClubwrap_identity > section > div p{
+    .theclubwrap_identity > section > div p{
         color: #161c2d;
         line-height: 24px;
     }
-    .theClubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
-    .theClubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
-    .theClubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
+    .theclubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
+    .theclubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
+    .theclubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
         margin-bottom: 30px;
     }
-    .theClubwrap_identity > section > div img{
+    .theclubwrap_identity > section > div img{
         margin: 100px auto;
         display: block;
     }
-    .theClubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
+    .theclubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
         margin-bottom: 100px;
     }
     
@@ -9306,7 +9306,7 @@ clear: both;
     
     
     
-    [class^="informationWrap"] > h2{
+    [class^="informationwrap"] > h2{
         background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
         font-size: 30px;
         text-align: center;
@@ -9314,7 +9314,7 @@ clear: both;
         color: #ffffff;
     }
     
-    [class^="informationWrap"] > ul:first-of-type{
+    [class^="informationwrap"] > ul:first-of-type{
         margin: 0 24px;
         max-width: 1650px;
         display: flex;
@@ -9326,13 +9326,13 @@ clear: both;
     
     }
     
-    [class^="informationWrap"] > ul:first-of-type li{
+    [class^="informationwrap"] > ul:first-of-type li{
         display: block;
         text-align: center;
         margin: 0 10px;
     }
     
-    [class^="informationWrap"] > ul:first-of-type li a{
+    [class^="informationwrap"] > ul:first-of-type li a{
         color: #a6a6a6;
         background: #e6e6e6;
         width: 250px;
@@ -9343,15 +9343,15 @@ clear: both;
         transition: background-color, 0.2s ease;
     }
     
-    [class^="informationWrap"] > ul:first-of-type li:hover a,
-    [class^="informationWrap"] > ul:first-of-type .information_active{
+    [class^="informationwrap"] > ul:first-of-type li:hover a,
+    [class^="informationwrap"] > ul:first-of-type .information_active{
         color: #ffffff;
         background: #161c2d;
     }
-    .informationWrap_Parc > div:first-of-type{
+    .informationwrap_parc > div:first-of-type{
         margin: 0 24px;
     }
-    .informationWrap_Parc > div:first-of-type > p{
+    .informationwrap_parc > div:first-of-type > p{
         text-align: center;
         margin: 0 auto 120px; 
         font-size: 24px;
@@ -9361,34 +9361,34 @@ clear: both;
         max-width: 1180px;
         clear: both;
     }
-    .informationWrap_Parc > div:first-of-type > p:last-of-type{
+    .informationwrap_parc > div:first-of-type > p:last-of-type{
         margin-top: 100px;
     }
-    .informationWrap_Parc > div:first-of-type img{
+    .informationwrap_parc > div:first-of-type img{
         width: 50%;
         display: block;
         margin: 0 2.43% 120px 0;
         float: left;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type{
+    .informationwrap_parc > div:first-of-type > div:first-of-type{
         width: 47.50%;
         float: left;
     
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type p{
+    .informationwrap_parc > div:first-of-type > div:first-of-type p{
         margin-bottom: 60px;
         line-height: 24px;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type ul li{
+    .informationwrap_parc > div:first-of-type > div:first-of-type ul li{
         display: block;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
+    .informationwrap_parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
         margin-bottom: 30px;
     }
-    .informationWrap_Parc > div:first-of-type > div:last-of-type{
+    .informationwrap_parc > div:first-of-type > div:last-of-type{
         height: 610px;
     }
-    .informationWrap_Blackmarket strong{
+    .informationwrap_blackmarket strong{
         display: block;
         font-size: 24px;
         line-height: 42px;
@@ -9396,51 +9396,51 @@ clear: both;
         max-width: 1080px;
         margin: 0 24px 100px;  
     }
-    .informationWrap_Blackmarket p{
+    .informationwrap_blackmarket p{
         color: #161c2d;
         text-align: center;
         margin: 0 24px;
     }
-    .informationWrap_Blackmarket p:first-of-type{
+    .informationwrap_blackmarket p:first-of-type{
         margin-bottom: 30px;
     }
-    .informationWrap_Blackmarket p:last-of-type{
+    .informationwrap_blackmarket p:last-of-type{
         max-width: 890px;
         margin: 0 24px 100px; 
         font-style: italic;
         
     }
-    .informationWrap_Blackmarket > div:first-of-type{
+    .informationwrap_blackmarket > div:first-of-type{
         background-color: #161c2d;
         padding: 40px 0 120px;
     }
-    .informationWrap_Blackmarket > div:first-of-type > strong{
+    .informationwrap_blackmarket > div:first-of-type > strong{
         color: #ffffff;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul{
+    .informationwrap_blackmarket > div:first-of-type ul{
         max-width: 1230px;
         margin: 0 24px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul::after{
+    .informationwrap_blackmarket > div:first-of-type ul::after{
         display: block;
         content: '';
         clear: both;
         
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li{
+    .informationwrap_blackmarket > div:first-of-type ul li{
         width: 30.89%;
         float: left;
         text-align: center;
         display: block;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li img{
+    .informationwrap_blackmarket > div:first-of-type ul li img{
         display: block;
         margin: 0 auto 60px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li:not(:last-child){
+    .informationwrap_blackmarket > div:first-of-type ul li:not(:last-child){
         margin-right: 3.65%;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dt{
+    .informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dt{
         font-size: 24px;
         line-height: 32px;
         color: #6e8ce0;
@@ -9448,7 +9448,7 @@ clear: both;
         margin-bottom: 30px;
         height: 64px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dd{
+    .informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dd{
         color: #ffffff;
         line-height: 20px;
         max-width: 300px;
@@ -9458,412 +9458,412 @@ clear: both;
 
 
     
-    .informationWrap_Matchday{
+    .informationwrap_matchday{
         color: #161c2d;
     }
-    .informationWrap_Matchday > div strong{
+    .informationwrap_matchday > div strong{
         font-size: 24px;
         line-height: 42px;
     }
-    .informationWrap_Matchday > div > strong,
-    .informationWrap_Matchday > div:first-of-type p{
+    .informationwrap_matchday > div > strong,
+    .informationwrap_matchday > div:first-of-type p{
         /* margin-bottom: 60px; */
         margin: 0 24px 60px;
         display: block;
         text-align: center;
         line-height: 24px;
     }
-    .informationWrap_Matchday > div > strong{
+    .informationwrap_matchday > div > strong{
         line-height: 36px;
     }
-    .informationWrap_Matchday > div:first-of-type p{
+    .informationwrap_matchday > div:first-of-type p{
         margin: 0 24px 60px;
     }
-    .informationWrap_Matchday > div:first-of-type > ul{
+    .informationwrap_matchday > div:first-of-type > ul{
         max-width: 1230px;
         margin: 0 24px 100px;
     }
-    .informationWrap_Matchday > div > ul::after{
+    .informationwrap_matchday > div > ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_Matchday > div:first-of-type > ul li{
+    .informationwrap_matchday > div:first-of-type > ul li{
         /* width: 21.95%; */
         width: 46.1%;
         float: left;
         display: block;
     
     }
-    .informationWrap_Matchday > div:first-of-type > ul li:nth-child(odd){
+    .informationwrap_matchday > div:first-of-type > ul li:nth-child(odd){
         margin-right: 3.9%;
     }
-    .informationWrap_Matchday > div:first-of-type > ul li:nth-child(even){
+    .informationwrap_matchday > div:first-of-type > ul li:nth-child(even){
         margin-left: 3.9%;
     }
-    /* .informationWrap_Matchday > div:first-of-type > ul li:not(:first-child),
-    .informationWrap_Matchday > div:nth-of-type(2) > ul li:not(:first-child){
+    /* .informationwrap_matchday > div:first-of-type > ul li:not(:first-child),
+    .informationwrap_matchday > div:nth-of-type(2) > ul li:not(:first-child){
         margin-left: 50px;
     } */
-    .informationWrap_Matchday div ul li{
+    .informationwrap_matchday div ul li{
         text-align: center;
     }
-    .informationWrap_Matchday div ul li figure img{
+    .informationwrap_matchday div ul li figure img{
         display: block;
         margin: 0 auto 40px;
     }
-    .informationWrap_Matchday div ul li figure figcaption{
+    .informationwrap_matchday div ul li figure figcaption{
         margin-bottom: 40px;
     }
-    .informationWrap_Matchday div ul li figure figcaption dl dt{
+    .informationwrap_matchday div ul li figure figcaption dl dt{
         font-size: 24px;
         font-weight: 700;
         color: #6e8ce0;
         margin-bottom: 30px;
     }
-    .informationWrap_Matchday div ul li figure figcaption dl dd{
+    .informationwrap_matchday div ul li figure figcaption dl dd{
         line-height: 20px;
     }
-    .informationWrap_Matchday > div:nth-of-type(2) > ul{
+    .informationwrap_matchday > div:nth-of-type(2) > ul{
         /* max-width: 900px; */
         margin: 0 24px 100px;
     }
-    .informationWrap_Matchday > div:nth-of-type(2) > ul li{
+    .informationwrap_matchday > div:nth-of-type(2) > ul li{
         /* width: 29.63%; */
         width: 31.94%;
         float: left;
         text-align: center;
         display: block;
     }
-    .informationWrap_Matchday > div:nth-of-type(2) > ul li:not(:first-child){
+    .informationwrap_matchday > div:nth-of-type(2) > ul li:not(:first-child){
         margin-left: 2.08%;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) {
+    .informationwrap_matchday > div:nth-of-type(3) {
         background-color: #161c2d;
         padding: 100px 0 50px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > strong{
+    .informationwrap_matchday > div:nth-of-type(3) > strong{
         color: #ffffff;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div{
+    .informationwrap_matchday > div:nth-of-type(3) > div{
         display: flex;
         max-width: 1230px;
         margin: 0 24px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul{
         width: 50%;
     
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li{
         /* width: 43.90%;
         float: left; */
         height: 330px;
     }
     
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type{
         margin-right: 25px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul:last-of-type{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul:last-of-type{
         margin-left: 25px;
     }
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul li:first-child{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul li:first-child{
         margin-right: 50px;
     } */
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li figure img{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li figure img{
         height: 70px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
         float: right;
         margin-right: 25px;
     }
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul li:last-child{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul li:last-child{
         margin-top: 40px;
     } */
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
         color: #ffffff;
     }
-    .informationWrap_Matchday > div:nth-of-type(4){
+    .informationwrap_matchday > div:nth-of-type(4){
         display: flex;
         margin: 100px 24px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > *{
+    .informationwrap_matchday > div:nth-of-type(4) > *{
         width: 50%;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div{
+    .informationwrap_matchday > div:nth-of-type(4) > div{
         margin-left: 30px;
         align-self: center;
         line-height: 24px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div strong{
+    .informationwrap_matchday > div:nth-of-type(4) > div strong{
         margin-bottom: 40px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div p:first-of-type{
+    .informationwrap_matchday > div:nth-of-type(4) > div p:first-of-type{
         margin-bottom: 30px;
     }
-    .informationWrap_Matchday > strong{
+    .informationwrap_matchday > strong{
         text-align: center;
         font-size: 24px;
         line-height: 42px;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2){
+    .informationwrap_matchday > ul:nth-of-type(2){
         max-width: 610px;
         margin: 100px auto 120px;
         
     }
-    .informationWrap_Matchday > ul:nth-of-type(2)::after{
+    .informationwrap_matchday > ul:nth-of-type(2)::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2) li{
+    .informationwrap_matchday > ul:nth-of-type(2) li{
         float: left;
         display: block;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2) li:not(:first-child){
+    .informationwrap_matchday > ul:nth-of-type(2) li:not(:first-child){
         margin-left: 2.19%;
     }
     
-    .informationWrap_PRM{
+    .informationwrap_prm{
         color: #161c2d;
     }
-    .informationWrap_PRM strong{
+    .informationwrap_prm strong{
         font-size: 24px;
         line-height: 32px;
         text-align: center;
     }
     
-    .informationWrap_PRM > ul:first-of-type{
+    .informationwrap_prm > ul:first-of-type{
         margin-bottom: 0;
     }
-    .informationWrap_PRM > img{
+    .informationwrap_prm > img{
         display: block;
         width: 100%;
         margin-bottom: 100px;
     }
-    .informationWrap_PRM > strong{
+    .informationwrap_prm > strong{
         margin-bottom: 60px;
     } 
-    .informationWrap_PRM > p{
+    .informationwrap_prm > p{
         text-align: center;
         margin: 0 24px 100px;
         line-height: 20px;
     }
-    .informationWrap_PRM > figure{
+    .informationwrap_prm > figure{
         display: flex;
         margin: 0 24px 100px;
     }
-    .informationWrap_PRM > figure > *{
+    .informationwrap_prm > figure > *{
         width: 50%;
     }
-    .informationWrap_PRM > figure:first-of-type div{
+    .informationwrap_prm > figure:first-of-type div{
         margin-right: 2%;
     }
-    .informationWrap_PRM > figure:first-of-type img{
+    .informationwrap_prm > figure:first-of-type img{
         flex: 1;
         order: 2;
         margin-left: 2%;
     }
-    .informationWrap_PRM > figure div{
+    .informationwrap_prm > figure div{
         align-self: center;
     }
-    .informationWrap_PRM > figure:first-of-type div > *,
-    .informationWrap_PRM > figure:last-of-type > div > *{
+    .informationwrap_prm > figure:first-of-type div > *,
+    .informationwrap_prm > figure:last-of-type > div > *{
         max-width: 480px;
     }
-    .informationWrap_PRM > figure div strong{
+    .informationwrap_prm > figure div strong{
         text-align: left;
         margin-bottom: 40px;
     }
-    .informationWrap_PRM > figure div{
+    .informationwrap_prm > figure div{
         line-height: 20px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2){
+    .informationwrap_prm > ul:nth-of-type(2){
         margin: 0 24px 100px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2):after{
+    .informationwrap_prm > ul:nth-of-type(2):after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li{
+    .informationwrap_prm > ul:nth-of-type(2) li{
         width: 46.01%;
         float: left;
         display: block;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:first-child,
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-child(2){
+    .informationwrap_prm > ul:nth-of-type(2) li:first-child,
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-child(2){
         margin-bottom: 30px;
     }
-    /* .informationWrap_PRM > ul:nth-of-type(2) li:not(:first-child){
+    /* .informationwrap_prm > ul:nth-of-type(2) li:not(:first-child){
         margin-left: 4.06%;
     } */
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-child(odd){
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-child(odd){
         margin-right: 3.9%;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-child(even){
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-child(even){
         margin-left: 3.9%;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li strong{
+    .informationwrap_prm > ul:nth-of-type(2) li strong{
         color: #6e8ce0;
         margin-bottom: 30px;
         display: block;
         padding-top: 100px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li p{
+    .informationwrap_prm > ul:nth-of-type(2) li p{
         text-align: center;
         color: #161c2d;
         line-height: 20px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:first-child strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:first-child strong{
         background: url('../image/prmico_01.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(2) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(2) strong{
         background: url('../image/prmico_02.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(3) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(3) strong{
         background: url('../image/prmico_03.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(4) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(4) strong{
         background: url('../image/prmico_04.png') center top no-repeat;
     }
     
     
-    .informationWrap_PRM > figure:last-of-type > div > *{
+    .informationwrap_prm > figure:last-of-type > div > *{
         margin-left: 30px;
         line-height: 24px;
     }
     
-    .informationWrap_stadiumCoach,
-    .informationWrap_catering{
+    .informationwrap_stadiumCoach,
+    .informationwrap_catering{
         color: #161c2d;
     }
-    .informationWrap_stadiumCoach > h3,
-    .informationWrap_stadiumCoach > strong,
-    .informationWrap_catering > h3{
+    .informationwrap_stadiumCoach > h3,
+    .informationwrap_stadiumCoach > strong,
+    .informationwrap_catering > h3{
         text-align: center;
     }
-    .informationWrap_stadiumCoach > h3,
-    .informationWrap_catering > h3{
+    .informationwrap_stadiumCoach > h3,
+    .informationwrap_catering > h3{
         margin-bottom: 100px;
     }
-    .informationWrap_stadiumCoach h3,
-    .informationWrap_stadiumCoach strong,
-    .informationWrap_stadiumCoach h4,
-    .informationWrap_catering h4,
-    .informationWrap_catering h3{
+    .informationwrap_stadiumCoach h3,
+    .informationwrap_stadiumCoach strong,
+    .informationwrap_stadiumCoach h4,
+    .informationwrap_catering h4,
+    .informationwrap_catering h3{
         font-size: 24px;
         line-height: 32px;
     }
-    .informationWrap_catering > div:first-of-type{
+    .informationwrap_catering > div:first-of-type{
         border-bottom: 1px solid #e6e6e6;
         margin-bottom: 120px;
     }
-    .informationWrap_catering > div:first-of-type > p{
+    .informationwrap_catering > div:first-of-type > p{
         max-width: 940px;
         margin: 0 24px 100px;
         text-align: center;
         line-height: 24px;
     }
-    .informationWrap_stadiumCoach > figure,
-    .informationWrap_catering > div:first-of-type > figure{
+    .informationwrap_stadiumCoach > figure,
+    .informationwrap_catering > div:first-of-type > figure{
         display: flex;
         margin: 0 24px 100px;
     }
-    .informationWrap_stadiumCoach > figure > div,
-    .informationWrap_catering > div:first-of-type > figure div{
+    .informationwrap_stadiumCoach > figure > div,
+    .informationwrap_catering > div:first-of-type > figure div{
         align-self: center;
     }
-    .informationWrap_stadiumCoach > figure:nth-of-type(2) img,
-    .informationWrap_catering > div:first-of-type > figure:nth-of-type(2) img{
+    .informationwrap_stadiumCoach > figure:nth-of-type(2) img,
+    .informationwrap_catering > div:first-of-type > figure:nth-of-type(2) img{
         flex: 1;
         order: 2;
     }
-    .informationWrap_stadiumCoach > figure:nth-of-type(2) div,
-    .informationWrap_catering > div:first-of-type > figure:nth-of-type(2) div{
+    .informationwrap_stadiumCoach > figure:nth-of-type(2) div,
+    .informationwrap_catering > div:first-of-type > figure:nth-of-type(2) div{
         margin-right: 30px;
     }
-    .informationWrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
-    .informationWrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
+    .informationwrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
+    .informationwrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
         margin-left: 30px;
     }
     
-    .informationWrap_stadiumCoach > figure > *,
-    .informationWrap_catering > div:first-of-type > figure > *{
+    .informationwrap_stadiumCoach > figure > *,
+    .informationwrap_catering > div:first-of-type > figure > *{
         width: 50%;
     }
-    .informationWrap_stadiumCoach > figure h4,
-    .informationWrap_stadiumCoach > figure strong,
-    .informationWrap_catering > div:first-of-type > figure h4,
-    .informationWrap_catering > div:first-of-type > figure strong{
+    .informationwrap_stadiumCoach > figure h4,
+    .informationwrap_stadiumCoach > figure strong,
+    .informationwrap_catering > div:first-of-type > figure h4,
+    .informationwrap_catering > div:first-of-type > figure strong{
         margin-bottom: 30px;
     }
-    .informationWrap_catering > div:first-of-type > figure h4{
+    .informationwrap_catering > div:first-of-type > figure h4{
         color: #ff1541;
     }
-    .informationWrap_stadiumCoach > figure strong{
+    .informationwrap_stadiumCoach > figure strong{
         color: #6e8ce0;
     }
-    .informationWrap_stadiumCoach > figure ul li,
-    .informationWrap_catering > div:first-of-type > figure ul li{
+    .informationwrap_stadiumCoach > figure ul li,
+    .informationwrap_catering > div:first-of-type > figure ul li{
         display: block;
         padding-left: 20px;
         background: url('../image/Arrowright_Red.png')left center no-repeat;
     }
-    .informationWrap_stadiumCoach > figure ul li:not(:last-child),
-    .informationWrap_catering > div:first-of-type > figure ul li:not(:last-child){
+    .informationwrap_stadiumCoach > figure ul li:not(:last-child),
+    .informationwrap_catering > div:first-of-type > figure ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .informationWrap_stadiumCoach > strong:last-of-type{
+    .informationwrap_stadiumCoach > strong:last-of-type{
         margin-bottom: 40px;
     }
-    .informationWrap_stadiumCoach > p{
+    .informationwrap_stadiumCoach > p{
         text-align: center;
         margin: 0 24px 120px;
         line-height: 24px;
     }
-    .informationWrap_catering > ul:nth-of-type(2){
+    .informationwrap_catering > ul:nth-of-type(2){
         margin: 0 24px 120px;
     }
-    .informationWrap_catering > ul:nth-of-type(2)::after{
+    .informationwrap_catering > ul:nth-of-type(2)::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li{
+    .informationwrap_catering > ul:nth-of-type(2) li{
         display: block;
         /* width: 47.56%;
         float: left; */
         min-height: 584px;
     }
-    /* .informationWrap_catering > ul:nth-of-type(2) li:nth-child(odd){
+    /* .informationwrap_catering > ul:nth-of-type(2) li:nth-child(odd){
         margin-right: 30px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li:nth-child(even){
+    .informationwrap_catering > ul:nth-of-type(2) li:nth-child(even){
         margin-left: 30px;
     } */
-    .informationWrap_catering > ul:nth-of-type(2) li:not(:last-child){
+    .informationwrap_catering > ul:nth-of-type(2) li:not(:last-child){
         margin-bottom: 60px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li img{
+    .informationwrap_catering > ul:nth-of-type(2) li img{
         display: block;
         margin-bottom: 30px;
         width: 100%;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dt{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dt{
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dt b{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dt b{
         color: #ff1541;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dd{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dd{
         line-height: 24px;
     }
     
     
     
-    [class^='footerTextwrap'] > h2{
+    [class^='footertextwrap'] > h2{
         background: url('../image/History_Title_bg.png')left 100% / cover no-repeat;
         font-size: 60px;
         text-align: center;
@@ -9871,62 +9871,62 @@ clear: both;
         color: #ffffff;
         margin-bottom: 120px;
     }
-    [class^='footerTextwrap'] {
+    [class^='footertextwrap'] {
         color: #161c2d;
     }
     
-    [class^='footerTextwrap'] > div:not(:last-of-type){
+    [class^='footertextwrap'] > div:not(:last-of-type){
         max-width: 1230px;
         margin: 0 auto 100px;
     }
-    [class^='footerTextwrap'] > div h3{
+    [class^='footertextwrap'] > div h3{
         font-size: 24px;
         color: #ff1541;
         margin-bottom: 40px;
     }
-    [class^='footerTextwrap'] div p{
+    [class^='footertextwrap'] div p{
         line-height: 24px;
     }
-    [class^='footerTextwrap'] div p:not(:last-of-type),
-    [class^='footerTextwrap'] div span{
+    [class^='footertextwrap'] div p:not(:last-of-type),
+    [class^='footertextwrap'] div span{
         margin-bottom: 30px;
     }
-    [class^='footerTextwrap'] div span{
+    [class^='footertextwrap'] div span{
         font-weight: 700;
     }
-    [class^='footerTextwrap'] div address{
+    [class^='footertextwrap'] div address{
         font-style: normal;
         line-height: 24px;
     }
-    [class^='footerTextwrap'] div a{
+    [class^='footertextwrap'] div a{
         color: #6e8ce0;
         text-decoration: underline;
         display: inline;
     }
-    [class^='footerTextwrap'] > a{
+    [class^='footertextwrap'] > a{
         margin-bottom: 120px;
     }
-    .footerTextwrap_privacyPolicy > p{
+    .footertextwrap_privacypolicy > p{
         max-width: 1230px;
         margin: 0 auto;
         line-height: 24px;
     }
-    .footerTextwrap_privacyPolicy > p:not(:last-of-type){
+    .footertextwrap_privacypolicy > p:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > p:last-of-type{
+    .footertextwrap_privacypolicy > p:last-of-type{
         margin-bottom: 100px;
     }
-    .footerTextwrap_privacyPolicy > div > strong{
+    .footertextwrap_privacypolicy > div > strong{
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol{
+    .footertextwrap_privacypolicy > div > ol{
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol > li{
+    .footertextwrap_privacypolicy > div > ol > li{
         margin-left: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol > li:not(:last-child){
+    .footertextwrap_privacypolicy > div > ol > li:not(:last-child){
         margin-bottom: 20px;
     }
     
@@ -13113,7 +13113,7 @@ clear: both;
     
     /* *Honours */
     
-    .historywrap_Honours strong,.historywrap_FrenchCup strong{
+    .historywrap_Honours strong,.historywrap_frenchcup strong{
         font-weight: 500;
     }
     
@@ -13400,7 +13400,7 @@ clear: both;
         margin-bottom: 120px;
     }
     
-    .topbtn_Dark {
+    .topbtn_dark {
         margin-top: 45px;
         max-width: 200px;
         background-color: #161c2d;
@@ -13411,13 +13411,13 @@ clear: both;
         margin: 100px auto 0;
     
     }
-    .topbtn_Dark > span{
+    .topbtn_dark > span{
         display: block;
         color: #ffffff;
         font-weight: 700;
         transform: skew(40deg);
     }
-    .topbtn_Dark::before {
+    .topbtn_dark::before {
         content: '';
         position: absolute;
         top: 0;
@@ -13428,14 +13428,14 @@ clear: both;
         transition: width 0.3s ease;
         width: 0%;
     }
-    .topbtn_Dark:hover::before {
+    .topbtn_dark:hover::before {
         width: 100%;
     }
     
     
     
     
-    .topbtn_Sky {
+    .topbtn_sky {
         margin-top: 45px;
         max-width: 200px;
         background-color: #6e8ce0;
@@ -13446,13 +13446,13 @@ clear: both;
         margin: 100px auto 120px;
         
     }
-    .topbtn_Sky > span{
+    .topbtn_sky > span{
         display: block;
         color: #ffffff;
         font-weight: 700;
         transform: skew(40deg);
     }
-    .topbtn_Sky::before {
+    .topbtn_sky::before {
         content: '';
         position: absolute;
         top: 0;
@@ -13463,7 +13463,7 @@ clear: both;
         transition: width 0.3s ease;
         width: 0%;
     }
-    .topbtn_Sky:hover::before {
+    .topbtn_sky:hover::before {
         width: 100%;
     }
     
@@ -13474,18 +13474,18 @@ clear: both;
         margin-top: 100px;
     }
     .historywrap_Ligue1,.historywrap_Champions,.historywrap_SuperCup,
-    .historywrap_FrenchCup,.historywrap_Europa,.historywrap_Conference,
+    .historywrap_frenchcup,.historywrap_Europa,.historywrap_Conference,
     .historywrap_Parcdesprince,.historywrap_Parcdesprince > div:nth-of-type(3){
         background-color: #161c2d;
     }
     .historywrap_Ligue1 section:last-of-type,
-    .historywrap_FrenchCup section:last-of-type,
+    .historywrap_frenchcup section:last-of-type,
     .historywrap_SuperCup section:last-of-type{
         padding-bottom: 120px;
     }
     
-    .historywrap_FrenchCup section:first-of-type,
-    .historywrap_FrenchCup section:nth-of-type(2),
+    .historywrap_frenchcup section:first-of-type,
+    .historywrap_frenchcup section:nth-of-type(2),
     .historywrap_Ligue1 section:nth-of-type(2),
     .historywrap_Ligue1 section:first-of-type,
     .historywrap_Champions section:first-of-type,
@@ -13503,7 +13503,7 @@ clear: both;
     .historywrap_Parcdesprince > section{
         margin-bottom: 100px;
     }
-    .historywrap_FrenchCup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
+    .historywrap_frenchcup > p,.historywrap_Ligue1 > p,.historywrap_Champions > p,.historywrap_Europa > p,
     .historywrap_Conference > p{
         text-align: center;
         color: #ffffff;
@@ -13512,8 +13512,8 @@ clear: both;
         margin: 80px 10px;
         line-height: 24px;
     }
-    .historywrap_FrenchCup section:first-of-type,
-    .historywrap_FrenchCup section:nth-of-type(2),
+    .historywrap_frenchcup section:first-of-type,
+    .historywrap_frenchcup section:nth-of-type(2),
     .historywrap_Ligue1 section:first-of-type,
     .historywrap_Ligue1 section:nth-of-type(2),.historywrap_Champions section:first-of-type,
     .historywrap_Champions section:nth-of-type(2),
@@ -13525,8 +13525,8 @@ clear: both;
         display: flex;
         flex-direction: column;
     }
-    /* .historywrap_FrenchCup section:first-of-type > *,
-    .historywrap_FrenchCup section:nth-of-type(2) > *,
+    /* .historywrap_frenchcup section:first-of-type > *,
+    .historywrap_frenchcup section:nth-of-type(2) > *,
     .historywrap_Ligue1 section:first-of-type > *,
     .historywrap_Ligue1 section:nth-of-type(2) > *,.historywrap_Champions section:first-of-type > *,
     .historywrap_Champions section:nth-of-type(2) > *,
@@ -13538,7 +13538,7 @@ clear: both;
         width: 50%;
     } */
     
-    .historywrap_FrenchCup section > div  h2,.historywrap_Ligue1 section > div h2,
+    .historywrap_frenchcup section > div  h2,.historywrap_Ligue1 section > div h2,
     .historywrap_Champions section > div h2,.historywrap_Champions section > div h2,
     .historywrap_SuperCup section > div h2,.historywrap_Europa section > div h2,
     .historywrap_Conference section > div h2{
@@ -13547,7 +13547,7 @@ clear: both;
         font-weight: 700;
         margin-bottom: 50px;
     }
-    .historywrap_FrenchCup section > div > p,.historywrap_Ligue1 section > div > p,
+    .historywrap_frenchcup section > div > p,.historywrap_Ligue1 section > div > p,
     .historywrap_Champions section > div p,.historywrap_SuperCup section > div > p,
     .historywrap_Europa section > div > p,.historywrap_Conference section > div > p,
     .historywrap_Conference section > div > p,.historywrap_Parcdesprince p{
@@ -13556,8 +13556,8 @@ clear: both;
         line-height: 24px;
         font-size: 14px;
     }
-    .historywrap_FrenchCup section:first-of-type > div > p,
-    .historywrap_FrenchCup section:nth-of-type(2) > div > p,
+    .historywrap_frenchcup section:first-of-type > div > p,
+    .historywrap_frenchcup section:nth-of-type(2) > div > p,
     .historywrap_Ligue1 section:first-of-type > div > p:last-of-type,
     .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(3) div h2,
     .historywrap_Champions section:nth-of-type(4) > div:first-of-type p:last-of-type,
@@ -13591,7 +13591,7 @@ clear: both;
         margin-bottom: 30px;
     }
     
-    .historywrap_FrenchCup section strong,.historywrap_Ligue1 section strong,
+    .historywrap_frenchcup section strong,.historywrap_Ligue1 section strong,
     .historywrap_Champions section strong,.historywrap_SuperCup section div strong,
     .historywrap_Europa section > div strong,.historywrap_Conference section > div > strong{
         color: #ff1541;
@@ -13600,7 +13600,7 @@ clear: both;
         line-height: 24px;
     }
     
-    .historywrap_FrenchCup section:first-of-type > img,
+    .historywrap_frenchcup section:first-of-type > img,
     .historywrap_Ligue1 section:first-of-type > img,
     .historywrap_Ligue1 > section:nth-of-type(3) > div:nth-of-type(4) img,
     .historywrap_SuperCup section:nth-of-type(2) > img,
@@ -13612,7 +13612,7 @@ clear: both;
         width: 100%;
         margin-bottom: 50px;
     }
-    .historywrap_FrenchCup section:nth-of-type(2) > img,
+    .historywrap_frenchcup section:nth-of-type(2) > img,
     .historywrap_Ligue1 section:nth-of-type(2) >  img,
     .historywrap_Champions section:first-of-type > img,
     .historywrap_Champions section:nth-of-type(3) > div:first-of-type img,
@@ -13633,8 +13633,8 @@ clear: both;
     }
     
     
-    .historywrap_FrenchCup section:nth-of-type(2) > div,
-    .historywrap_FrenchCup section:first-of-type > div,
+    .historywrap_frenchcup section:nth-of-type(2) > div,
+    .historywrap_frenchcup section:first-of-type > div,
     .historywrap_Ligue1 section:nth-of-type(2) > div,
     .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(3) div,
     .historywrap_Ligue1 section:nth-of-type(3) > div:nth-of-type(5) div,
@@ -13660,12 +13660,12 @@ clear: both;
         margin-bottom: 100px;
         padding: 0 24px;
     }
-    /* .historywrap_FrenchCup > div:first-of-type div::after{
+    /* .historywrap_frenchcup > div:first-of-type div::after{
         content: '';
         display: block;
         clear: both;
     }
-    .historywrap_FrenchCup > div:first-of-type div > *{
+    .historywrap_frenchcup > div:first-of-type div > *{
         float: left;
     } */
     .competition_Center > div{
@@ -13696,7 +13696,7 @@ clear: both;
         color: #ff1541;
         width: 100%;
     }
-    .historywrap_FrenchCup > div:first-of-type div strong{
+    .historywrap_frenchcup > div:first-of-type div strong{
         background: url('../image/FrenchCup_Cup.png')left top no-repeat;
     }
     .competition_Center div > p{
@@ -13710,17 +13710,17 @@ clear: both;
     
     
     
-    .historywrap_FrenchCup section:last-of-type{
+    .historywrap_frenchcup section:last-of-type{
         background-color: #ffffff;
         padding-top: 50px;
         
     }
-    .historywrap_FrenchCup section:last-of-type div{
+    .historywrap_frenchcup section:last-of-type div{
         max-width: 960px;
         margin: 0 auto 50px;
     }
         
-    .historywrap_FrenchCup section:last-of-type > div h2{
+    .historywrap_frenchcup section:last-of-type > div h2{
         font-size: 20px;
         color: #161c2d;
         letter-spacing: -0.05em;
@@ -13728,12 +13728,12 @@ clear: both;
         line-height: 24px;
     
     }
-    .historywrap_FrenchCup section:last-of-type > div p{
+    .historywrap_frenchcup section:last-of-type > div p{
         line-height: 24px;
         color: #3c4c7a;
         font-weight: 500;
     }
-    .historywrap_FrenchCup section:last-of-type img{
+    .historywrap_frenchcup section:last-of-type img{
         margin-bottom: -2px;
         max-width: 100%;
     }
@@ -15405,26 +15405,26 @@ clear: both;
     /* !Stadium Tour Fin */
     
     
-    .myPariswrap > h2 {
+    .mypariswrap > h2 {
         padding: 128px 0 50px;
         text-align: center;
         background: url('../image/Myparis_TitleBG.png')50% 50% / cover no-repeat;
     }
     
-    .myPariswrap section:first-of-type{
+    .mypariswrap section:first-of-type{
         margin: 60px 10px;
     }
-    .myPariswrap section:first-of-type h3{
+    .mypariswrap section:first-of-type h3{
         text-align: center;
         font-size: 16px;
         line-height: 30px;
         color: #161c2d;
     }
-    .myPariswrap section:first-of-type h3 > strong{
+    .mypariswrap section:first-of-type h3 > strong{
         color: #ff1541;
         display: inline;
     }
-    .myPariswrap section:first-of-type > a{
+    .mypariswrap section:first-of-type > a{
         max-width: 200px;
         margin: 60px auto;
         text-align: center;
@@ -15435,15 +15435,15 @@ clear: both;
         /* transition: background-color 0.3s ease-in */
     
     }
-    .myPariswrap section:first-of-type > a:hover{
+    .mypariswrap section:first-of-type > a:hover{
         background-color: #b30f2d;
     }
-    .myPariswrap section:first-of-type ul::after{
+    .mypariswrap section:first-of-type ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .myPariswrap section:first-of-type ul li{
+    .mypariswrap section:first-of-type ul li{
         /* width: 30.89%; */
         /* width: 47.91%;
         float: left; */
@@ -15452,11 +15452,11 @@ clear: both;
         /* height: 600px; */
         box-sizing: border-box;
     }
-    .myPariswrap section:first-of-type ul li img{
+    .mypariswrap section:first-of-type ul li img{
         width: 100%;
         margin-bottom: 10px;
     }
-    .myPariswrap section:first-of-type ul li p{
+    .mypariswrap section:first-of-type ul li p{
         max-width: 400px;
         margin: 0 auto;
         text-align: center;
@@ -15465,29 +15465,29 @@ clear: both;
         line-height: 24px;
         height: 100px;
     }
-    /* .myPariswrap section:first-of-type ul li:nth-child(odd){
+    /* .mypariswrap section:first-of-type ul li:nth-child(odd){
         margin-right: 2.08%;
     }
-    .myPariswrap section:first-of-type ul li:nth-child(even){
+    .mypariswrap section:first-of-type ul li:nth-child(even){
         margin-left: 2.08%;
     } */
-    .myPariswrap section:first-of-type ul li:not(:last-child){
+    .mypariswrap section:first-of-type ul li:not(:last-child){
         margin-bottom: 45px;
     }
-    .myPariswrap section:last-of-type{
+    .mypariswrap section:last-of-type{
         background-color: #161c2d;
         padding: 60px 0px
     }
     
-    /* .myPariswrap section:last-of-type > div::after{
+    /* .mypariswrap section:last-of-type > div::after{
         display: block;
         clear: both;
         content: '';
     }
-    .myPariswrap section:last-of-type > div > *{
+    .mypariswrap section:last-of-type > div > *{
         float: left;
     } */
-    .myPariswrap section:last-of-type > div > div{
+    .mypariswrap section:last-of-type > div > div{
         /* width: 36.58%; */
         /* width: 50%; */
         /* margin-right: 4.16%; */
@@ -15497,47 +15497,47 @@ clear: both;
         box-sizing: border-box;
         padding-bottom: 30px;
     }
-    .myPariswrap section:last-of-type > div > div > h3{
+    .mypariswrap section:last-of-type > div > div > h3{
         background: url('../image/myparis_RednBlue.png')left top / cover no-repeat;
         padding: 100px 0 135px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 > *,
-    .myPariswrap section:last-of-type > div > div p{
+    .mypariswrap section:last-of-type > div > div > h3 > *,
+    .mypariswrap section:last-of-type > div > div p{
         margin-left: 10px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span:first-child{
+    .mypariswrap section:last-of-type > div > div > h3 span:first-child{
         color: #ff1541;
         font-size: 18px;
         text-transform: uppercase;
         margin-bottom: 30px;
     }
-    .myPariswrap section:last-of-type > div > div > h3 strong{
+    .mypariswrap section:last-of-type > div > div > h3 strong{
         color: #ffffff;
         font-size: 24px;
         letter-spacing: 0.05em;
         margin-bottom: 60px;
         display: block;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span:last-child{
+    .mypariswrap section:last-of-type > div > div > h3 span:last-child{
         font-size: 24px;
         text-transform: uppercase;
         color: #ffffff;
     }
-    .myPariswrap section:last-of-type > div > div > h3 span > b{
+    .mypariswrap section:last-of-type > div > div > h3 span > b{
         color: #ff1541;
     }
-    .myPariswrap section:last-of-type > div > div p{
+    .mypariswrap section:last-of-type > div > div p{
         /* max-width: 350px; */
         line-height: 24px;
     }
-    .myPariswrap section:last-of-type > div > div p{
+    .mypariswrap section:last-of-type > div > div p{
         margin: 50px 10px;
 
     }
-    /* .myPariswrap section:last-of-type > div > div p:last-of-type{
+    /* .mypariswrap section:last-of-type > div > div p:last-of-type{
         margin-bottom: 50px;
     } */
-    .myPariswrap section:last-of-type > div > div a{
+    .mypariswrap section:last-of-type > div > div a{
         max-width: 250px;
         margin: 0 auto;
         display: block;
@@ -15550,33 +15550,33 @@ clear: both;
         border-radius: 10px;
         font-size: 20px;
     }
-    .myPariswrap section:last-of-type > div > div a:hover{
+    .mypariswrap section:last-of-type > div > div a:hover{
         background-color: #b30f2d;
     }
     
     
-    .myPariswrap section:last-of-type > div > ul{
+    .mypariswrap section:last-of-type > div > ul{
         /* width: 60.17%; */
         /* width: 45.84%; */
         margin: 60px 10px;
     }
-    .myPariswrap section:last-of-type > div > ul li{
+    .mypariswrap section:last-of-type > div > ul li{
         display: block;
         font-size: 14px;
     }
-    .myPariswrap section:last-of-type > div > ul li strong{
+    .mypariswrap section:last-of-type > div > ul li strong{
         color: #6e8ce0;
         margin-bottom: 30px;
         display: block;
         line-height: 24px;
         /* font-size: 14px; */
     }
-    .myPariswrap section:last-of-type > div > ul li p{
+    .mypariswrap section:last-of-type > div > ul li p{
         color: #ffffff;
         /* line-height: 20px; */
         line-height: 24px;
     }
-    .myPariswrap section:last-of-type > div > ul li:not(:last-child) p{
+    .mypariswrap section:last-of-type > div > ul li:not(:last-child) p{
         margin-bottom: 60px;
     }
     
@@ -15585,7 +15585,7 @@ clear: both;
     
     
     
-    [class^="theClubwrap"] > h2{
+    [class^="theclubwrap"] > h2{
         background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
         font-size: 30px;
         text-align: center;
@@ -15593,7 +15593,7 @@ clear: both;
         color: #ffffff;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type{
+    [class^="theclubwrap"] > ul:first-of-type{
         margin: 0 auto;
         max-width: 530px;
         /* display: flex;
@@ -15604,15 +15604,15 @@ clear: both;
     
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li{
+    [class^="theclubwrap"] > ul:first-of-type li{
         display: block;
         text-align: center;
     }
-    [class^="theClubwrap"] > ul:first-of-type li:first-child{
+    [class^="theclubwrap"] > ul:first-of-type li:first-child{
         margin-bottom: 10px;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li a{
+    [class^="theclubwrap"] > ul:first-of-type li a{
         color: #a6a6a6;
         background: #e6e6e6;
         /* min-width: 280px; */
@@ -15624,96 +15624,96 @@ clear: both;
         box-sizing: border-box;
     }
     
-    [class^="theClubwrap"] > ul:first-of-type li:hover a,
-    [class^="theClubwrap"] > ul:first-of-type .theclub_active{
+    [class^="theclubwrap"] > ul:first-of-type li:hover a,
+    [class^="theclubwrap"] > ul:first-of-type .theclub_active{
         color: #ffffff;
         background: #161c2d;
     }
-    .theClubwrap_President{
+    .theclubwrap_president{
         color: #161c2d;
     }
-    .theClubwrap_President > div img{
+    .theclubwrap_president > div img{
         width: 100%;
     }
-    .theClubwrap_President > div img:first-of-type{
+    .theclubwrap_president > div img:first-of-type{
         margin-bottom: 0;
         display: block;
     }
-    .theClubwrap_President > div:first-of-type{
+    .theclubwrap_president > div:first-of-type{
         margin: 60px 0;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type{
+    .theclubwrap_president > div:first-of-type > div:first-of-type{
         background: url('../image/President_ProfileBG.png')100% top / cover no-repeat;
         padding: 20px 10px;
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type h3{
+    .theclubwrap_president > div:first-of-type > div:first-of-type h3{
         font-size: 24px;
         text-transform: uppercase;
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > p{
+    .theclubwrap_president > div:first-of-type > div:first-of-type > p{
         margin-bottom: 25px;
         font-size: 14px;
         line-height: 20px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > ul li{
+    .theclubwrap_president > div:first-of-type > div:first-of-type > ul li{
         display: block;
         padding-left: 20px;
         background: url('../image/Arrowright_Red.png')left center no-repeat;
         font-size: 14px;
         line-height: 20px;
     }
-    .theClubwrap_President > div:first-of-type > div:first-of-type > ul li:not(:last-child){
+    .theclubwrap_president > div:first-of-type > div:first-of-type > ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .theClubwrap_President > div:first-of-type > strong{
+    .theclubwrap_president > div:first-of-type > strong{
         font-size: 18px;
         line-height: 30px;
         /* margin-bottom: 40px; */
         margin: 0 10px 40px;
         
     }
-    .theClubwrap_President > div:first-of-type > p{
+    .theclubwrap_president > div:first-of-type > p{
         line-height: 20px;
         font-size: 14px;
         margin: 0 10px;
     }
-    .theClubwrap_President > div:first-of-type > p:not(:last-of-type){
+    .theclubwrap_president > div:first-of-type > p:not(:last-of-type){
         margin-bottom: 40px;
     }
-    .theClubwrap_President > div:first-of-type > p:last-of-type{
+    .theclubwrap_president > div:first-of-type > p:last-of-type{
         margin-bottom: 60px;
     }
-    .theClubwrap_President > div:first-of-type > img:last-of-type{
+    .theclubwrap_president > div:first-of-type > img:last-of-type{
         margin-bottom: 60px;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type{
+    .theclubwrap_president > div:first-of-type > div:last-of-type{
         /* float: right; */
         margin: 0 10px 60px;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type{
+    .theclubwrap_president > div:first-of-type > div:last-of-type{
         font-weight: 700;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type span{
+    .theclubwrap_president > div:first-of-type > div:last-of-type span{
         color: #ff1541;
         margin-bottom: 30px;
         font-size: 14px;
     }
-    .theClubwrap_President > div:first-of-type > div:last-of-type p{
+    .theclubwrap_president > div:first-of-type > div:last-of-type p{
         font-size: 14px;
     }
-    .theClubwrap_President > a,
-    .theClubwrap_identity > a{
+    .theclubwrap_president > a,
+    .theclubwrap_identity > a{
         /* clear: both; */
         margin-bottom: 120px;
     }
     
     
-    .theClubwrap_identity > ul:first-of-type{
+    .theclubwrap_identity > ul:first-of-type{
         margin-bottom: 60px;
     }
-    .theClubwrap_identity > strong{
+    .theclubwrap_identity > strong{
         /* max-width: 1230px; */
         margin: 0 10px 60px;
         text-align: center;
@@ -15721,10 +15721,10 @@ clear: both;
         color: #161c2d;
         line-height: 30px;
     }
-    .theClubwrap_identity > section{
+    .theclubwrap_identity > section{
         margin: 0 10px;
     }
-    .theClubwrap_identity > section > h3{
+    .theclubwrap_identity > section > h3{
         font-size: 20px;
         color: #ffffff;
         text-align: center;
@@ -15732,42 +15732,42 @@ clear: both;
         padding: 90px 0;
         margin-bottom: 60px;
     }
-    .theClubwrap_identity > section:first-of-type h3{
+    .theclubwrap_identity > section:first-of-type h3{
         background: url('../image/Identity_01BG.png')center center / auto 100% no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section:nth-of-type(2) h3{
+    .theclubwrap_identity > section:nth-of-type(2) h3{
         background: url('../image/Identity_02BG.png')center center / auto 100% no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section:last-of-type h3{
+    .theclubwrap_identity > section:last-of-type h3{
         background: url('../image/Identity_03BG.png')center center / auto 100% no-repeat;
         background-attachment: fixed;
     }
-    .theClubwrap_identity > section > div strong{
+    .theclubwrap_identity > section > div strong{
         display: block;
         color: #ff1541;
         font-size: 24px;
         margin-bottom: 30px;
     }
-    .theClubwrap_identity > section > div p{
+    .theclubwrap_identity > section > div p{
         color: #161c2d;
         line-height: 24px;
     }
-    .theClubwrap_identity > section:nth-of-type(2) > div p{
+    .theclubwrap_identity > section:nth-of-type(2) > div p{
         font-size: 14px;
     }
-    .theClubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
-    .theClubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
-    .theClubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
+    .theclubwrap_identity > section:first-of-type > div p:not(:nth-of-type(even)),
+    .theclubwrap_identity > section:last-of-type > div p:not(:nth-of-type(4)),
+    .theclubwrap_identity > section:nth-of-type(2) > div p:not(:nth-of-type(2)):not(:last-of-type){
         margin-bottom: 30px;
     }
-    .theClubwrap_identity > section > div img{
+    .theclubwrap_identity > section > div img{
         margin: 60px auto;
         display: block;
         width: 100%;
     }
-    .theClubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
+    .theclubwrap_identity > section:not(:last-of-type) > div p:last-of-type{
         margin-bottom: 80px;
     }
     
@@ -15777,7 +15777,7 @@ clear: both;
     
     
     
-    [class^="informationWrap"] > h2{
+    [class^="informationwrap"] > h2{
         background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
         font-size: 30px;
         text-align: center;
@@ -15785,7 +15785,7 @@ clear: both;
         color: #ffffff;
     }
     
-    [class^="informationWrap"] > ul:first-of-type{
+    [class^="informationwrap"] > ul:first-of-type{
         margin: 0 10px;
         max-width: 1650px;
         display: flex;
@@ -15797,13 +15797,13 @@ clear: both;
     
     }
     
-    [class^="informationWrap"] > ul:first-of-type li{
+    [class^="informationwrap"] > ul:first-of-type li{
         display: block;
         text-align: center;
         margin: 0 10px;
     }
     
-    [class^="informationWrap"] > ul:first-of-type li a{
+    [class^="informationwrap"] > ul:first-of-type li a{
         color: #a6a6a6;
         background: #e6e6e6;
         width: 250px;
@@ -15814,15 +15814,15 @@ clear: both;
         transition: background-color, 0.2s ease;
     }
     
-    [class^="informationWrap"] > ul:first-of-type li:hover a,
-    [class^="informationWrap"] > ul:first-of-type .information_active{
+    [class^="informationwrap"] > ul:first-of-type li:hover a,
+    [class^="informationwrap"] > ul:first-of-type .information_active{
         color: #ffffff;
         background: #161c2d;
     }
-    .informationWrap_Parc > div:first-of-type{
+    .informationwrap_parc > div:first-of-type{
         margin: 0 10px;
     }
-    .informationWrap_Parc > div:first-of-type > p{
+    .informationwrap_parc > div:first-of-type > p{
         text-align: center;
         margin: 0 auto 80px; 
         font-size: 16px;
@@ -15832,43 +15832,43 @@ clear: both;
         /* max-width: 1180px; */
         /* clear: both; */
     }
-    .informationWrap_Parc > div:first-of-type > p:last-of-type{
+    .informationwrap_parc > div:first-of-type > p:last-of-type{
         margin-top: 60px;
         font-size: 14px;
         text-align: left;
     }
-    .informationWrap_Parc > div:first-of-type img{
+    .informationwrap_parc > div:first-of-type img{
         width: 100%;
         display: block;
         margin: 0 2.43% 60px 0;
         /* float: left; */
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type{
+    .informationwrap_parc > div:first-of-type > div:first-of-type{
         /* width: 47.50%; */
         /* float: left; */
         width: 100%;
     
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type p{
+    .informationwrap_parc > div:first-of-type > div:first-of-type p{
         margin-bottom: 30px;
         line-height: 24px;
         font-size: 14px;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type ul{
+    .informationwrap_parc > div:first-of-type > div:first-of-type ul{
         margin-bottom: 60px;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type ul li{
+    .informationwrap_parc > div:first-of-type > div:first-of-type ul li{
         display: block;
         line-height: 20px;
         font-size: 14px;
     }
-    .informationWrap_Parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
+    .informationwrap_parc > div:first-of-type > div:first-of-type ul li:not(:last-child){
         margin-bottom: 30px;
     }
-    /* .informationWrap_Parc > div:first-of-type > div:last-of-type{
+    /* .informationwrap_parc > div:first-of-type > div:last-of-type{
         height: 610px;
     } */
-    .informationWrap_Blackmarket strong{
+    .informationwrap_blackmarket strong{
         display: block;
         font-size: 16px;
         line-height: 24px;
@@ -15876,56 +15876,56 @@ clear: both;
         /* max-width: 1080px; */
         margin: 0 10px 60px;  
     }
-    .informationWrap_Blackmarket p{
+    .informationwrap_blackmarket p{
         color: #161c2d;
         text-align: center;
         margin: 0 10px;
         font-size: 14px;
     }
-    .informationWrap_Blackmarket p:first-of-type{
+    .informationwrap_blackmarket p:first-of-type{
         margin-bottom: 30px;
         line-height: 24px;
     }
-    .informationWrap_Blackmarket p:last-of-type{
+    .informationwrap_blackmarket p:last-of-type{
         /* max-width: 890px; */
         margin: 0 10px 60px; 
         font-style: italic;
         line-height: 24px;
         
     }
-    .informationWrap_Blackmarket > div:first-of-type{
+    .informationwrap_blackmarket > div:first-of-type{
         background-color: #161c2d;
         padding: 40px 0 120px;
     }
-    .informationWrap_Blackmarket > div:first-of-type > strong{
+    .informationwrap_blackmarket > div:first-of-type > strong{
         color: #ffffff;
         font-size: 14px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul{
+    .informationwrap_blackmarket > div:first-of-type ul{
         max-width: 1230px;
         margin: 0 10px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul::after{
+    .informationwrap_blackmarket > div:first-of-type ul::after{
         display: block;
         content: '';
         clear: both;
         
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li{
+    .informationwrap_blackmarket > div:first-of-type ul li{
         /* width: 30.89%;
         float: left; */
         text-align: center;
         display: block;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li img{
+    .informationwrap_blackmarket > div:first-of-type ul li img{
         display: block;
         margin: 0 auto 30px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li:not(:last-child){
+    .informationwrap_blackmarket > div:first-of-type ul li:not(:last-child){
         /* margin-right: 3.65%; */
         margin-bottom: 60px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dt{
+    .informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dt{
         font-size: 16px;
         line-height: 24px;
         color: #6e8ce0;
@@ -15933,7 +15933,7 @@ clear: both;
         margin-bottom: 30px;
         height: 40px;
     }
-    .informationWrap_Blackmarket > div:first-of-type ul li figure figcaption dl dd{
+    .informationwrap_blackmarket > div:first-of-type ul li figure figcaption dl dd{
         color: #ffffff;
         line-height: 20px;
         max-width: 300px;
@@ -15944,443 +15944,443 @@ clear: both;
 
 
     
-    .informationWrap_Matchday{
+    .informationwrap_matchday{
         color: #161c2d;
     }
-    .informationWrap_Matchday > div strong{
+    .informationwrap_matchday > div strong{
         font-size: 16px;
         /* line-height: 24px; */
     }
-    .informationWrap_Matchday > div > strong,
-    .informationWrap_Matchday > div:first-of-type p{
+    .informationwrap_matchday > div > strong,
+    .informationwrap_matchday > div:first-of-type p{
         /* margin-bottom: 60px; */
         margin: 0 10px 60px;
         display: block;
         text-align: center;
         line-height: 24px;
     }
-    /* .informationWrap_Matchday > div > strong{
+    /* .informationwrap_matchday > div > strong{
         line-height: 24px;
     } */
-    .informationWrap_Matchday > div:first-of-type p{
+    .informationwrap_matchday > div:first-of-type p{
         margin: 0 10px 60px;
     }
-    .informationWrap_Matchday > div:first-of-type > ul{
+    .informationwrap_matchday > div:first-of-type > ul{
         /* max-width: 1230px; */
         margin: 0 10px 60px;
     }
-    .informationWrap_Matchday > div > ul::after{
+    .informationwrap_matchday > div > ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_Matchday > div:first-of-type > ul li{
+    .informationwrap_matchday > div:first-of-type > ul li{
         /* width: 21.95%; */
         /* width: 46.1%;
         float: left; */
         display: block;
     
     }
-    /* .informationWrap_Matchday > div:first-of-type > ul li:nth-child(odd){
+    /* .informationwrap_matchday > div:first-of-type > ul li:nth-child(odd){
         margin-right: 3.9%;
     }
-    .informationWrap_Matchday > div:first-of-type > ul li:nth-child(even){
+    .informationwrap_matchday > div:first-of-type > ul li:nth-child(even){
         margin-left: 3.9%;
     } */
-    /* .informationWrap_Matchday > div:first-of-type > ul li:not(:first-child),
-    .informationWrap_Matchday > div:nth-of-type(2) > ul li:not(:first-child){
+    /* .informationwrap_matchday > div:first-of-type > ul li:not(:first-child),
+    .informationwrap_matchday > div:nth-of-type(2) > ul li:not(:first-child){
         margin-left: 50px;
     } */
-    .informationWrap_Matchday div ul li{
+    .informationwrap_matchday div ul li{
         text-align: center;
     }
-    .informationWrap_Matchday div ul li figure img{
+    .informationwrap_matchday div ul li figure img{
         display: block;
         margin: 0 auto 40px;
     }
-    .informationWrap_Matchday div ul li figure figcaption{
+    .informationwrap_matchday div ul li figure figcaption{
         margin-bottom: 40px;
     }
-    .informationWrap_Matchday div ul li figure figcaption dl dt{
+    .informationwrap_matchday div ul li figure figcaption dl dt{
         font-size: 16px;
         font-weight: 700;
         color: #6e8ce0;
         margin-bottom: 30px;
     }
-    .informationWrap_Matchday div ul li figure figcaption dl dd{
+    .informationwrap_matchday div ul li figure figcaption dl dd{
         line-height: 20px;
         font-size: 14px;
         max-width: 400px;
         margin: 0 auto;
     }
-    .informationWrap_Matchday > div:nth-of-type(2) > ul{
+    .informationwrap_matchday > div:nth-of-type(2) > ul{
         /* max-width: 900px; */
         margin: 0 10px 6px;
     }
-    .informationWrap_Matchday > div:nth-of-type(2) > ul li{
+    .informationwrap_matchday > div:nth-of-type(2) > ul li{
         /* width: 29.63%; */
         /* width: 31.94%;
         float: left; */
         text-align: center;
         display: block;
     }
-    /* .informationWrap_Matchday > div:nth-of-type(2) > ul li:not(:first-child){
+    /* .informationwrap_matchday > div:nth-of-type(2) > ul li:not(:first-child){
         margin-left: 2.08%;
     } */
-    .informationWrap_Matchday > div:nth-of-type(3) {
+    .informationwrap_matchday > div:nth-of-type(3) {
         background-color: #161c2d;
         padding: 60px 0 30px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > strong{
+    .informationwrap_matchday > div:nth-of-type(3) > strong{
         color: #ffffff;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div{
+    .informationwrap_matchday > div:nth-of-type(3) > div{
         /* display: flex; */
         /* max-width: 1230px; */
         margin: 0 10px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul{
         width: 100%;
     
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li{
         /* width: 43.90%;
         float: left; */
         min-height: 280px;
     }
     
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type{
         margin-right: 25px;
     }
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul:last-of-type{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul:last-of-type{
         margin-left: 25px;
     } */
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul li:first-child{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul li:first-child{
         margin-right: 50px;
     } */
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li figure img{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li figure img{
         height: 70px;
     }
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul:first-of-type li:last-child{
         float: right;
         margin-right: 25px;
     } */
-    /* .informationWrap_Matchday > div:nth-of-type(3) > div ul li:last-child{
+    /* .informationwrap_matchday > div:nth-of-type(3) > div ul li:last-child{
         margin-top: 40px;
     } */
-    .informationWrap_Matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
+    .informationwrap_matchday > div:nth-of-type(3) > div ul li figure figcaption dl dd{
         color: #ffffff;
         max-width: 400px;
         margin: 0 auto;
     }
-    .informationWrap_Matchday > div:nth-of-type(4){
+    .informationwrap_matchday > div:nth-of-type(4){
         /* display: flex; */
         margin: 100px 10px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > *{
+    .informationwrap_matchday > div:nth-of-type(4) > *{
         width: 100%;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > img{
+    .informationwrap_matchday > div:nth-of-type(4) > img{
         margin-bottom: 30px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div{
+    .informationwrap_matchday > div:nth-of-type(4) > div{
         /* margin-left: 30px; */
         /* align-self: center; */
         line-height: 24px;
         font-size: 14px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div strong{
+    .informationwrap_matchday > div:nth-of-type(4) > div strong{
         margin-bottom: 40px;
     }
-    .informationWrap_Matchday > div:nth-of-type(4) > div p:first-of-type{
+    .informationwrap_matchday > div:nth-of-type(4) > div p:first-of-type{
         margin-bottom: 30px;
     }
-    .informationWrap_Matchday > strong{
+    .informationwrap_matchday > strong{
         text-align: center;
         font-size: 16px;
         line-height: 24px;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2){
+    .informationwrap_matchday > ul:nth-of-type(2){
         max-width: 200px;
         margin: 60px auto;
         
     }
-    .informationWrap_Matchday > ul:nth-of-type(2)::after{
+    .informationwrap_matchday > ul:nth-of-type(2)::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2) li{
+    .informationwrap_matchday > ul:nth-of-type(2) li{
         float: left;
         display: block;
         width: 47.5%;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2) li:last-child{
+    .informationwrap_matchday > ul:nth-of-type(2) li:last-child{
         clear: both;
         margin: 0 auto;
         float: none;
     }
-    .informationWrap_Matchday > ul:nth-of-type(2) li img{
+    .informationwrap_matchday > ul:nth-of-type(2) li img{
         width: 100%;
     }
-    /* .informationWrap_Matchday > ul:nth-of-type(2) li:not(:first-child){
+    /* .informationwrap_matchday > ul:nth-of-type(2) li:not(:first-child){
         margin-left: 2.19%;
     } */
-    .informationWrap_Matchday > ul:nth-of-type(2) li:nth-child(odd):not(:last-child){
+    .informationwrap_matchday > ul:nth-of-type(2) li:nth-child(odd):not(:last-child){
         margin-right: 5%;
     }
     
-    .informationWrap_PRM{
+    .informationwrap_prm{
         color: #161c2d;
         font-size: 14px;
     }
-    .informationWrap_PRM strong{
+    .informationwrap_prm strong{
         font-size: 16px;
         line-height: 24px;
         text-align: center;
     }
     
-    .informationWrap_PRM > ul:first-of-type{
+    .informationwrap_prm > ul:first-of-type{
         margin-bottom: 0;
     }
-    .informationWrap_PRM > img{
+    .informationwrap_prm > img{
         display: block;
         width: 100%;
         margin-bottom: 60px;
     }
-    .informationWrap_PRM > strong{
+    .informationwrap_prm > strong{
         margin-bottom: 60px;
     } 
-    .informationWrap_PRM > p{
+    .informationwrap_prm > p{
         text-align: center;
         margin: 0 10px 60px;
     }
-    .informationWrap_PRM > figure{
+    .informationwrap_prm > figure{
         /* display: flex; */
         margin: 0 10px 60px;
     }
-    .informationWrap_PRM > figure > *{
+    .informationwrap_prm > figure > *{
         width: 100%;
     }
-    /* .informationWrap_PRM > figure:first-of-type div{
+    /* .informationwrap_prm > figure:first-of-type div{
         margin-right: 2%;
     } */
-    .informationWrap_PRM > figure:first-of-type img{
+    .informationwrap_prm > figure:first-of-type img{
         /* flex: 1;
         order: 2; */
         margin-bottom: 30px;
     }
-    .informationWrap_PRM > figure div{
+    .informationwrap_prm > figure div{
         align-self: center;
     }
-    .informationWrap_PRM > figure:first-of-type div > *,
-    .informationWrap_PRM > figure:last-of-type > div > *{
+    .informationwrap_prm > figure:first-of-type div > *,
+    .informationwrap_prm > figure:last-of-type > div > *{
         max-width: 480px;
     }
-    .informationWrap_PRM > figure div strong{
+    .informationwrap_prm > figure div strong{
         text-align: left;
         margin-bottom: 40px;
     }
-    .informationWrap_PRM > figure div{
+    .informationwrap_prm > figure div{
         line-height: 20px;
         font-size: 14px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2){
+    .informationwrap_prm > ul:nth-of-type(2){
         margin: 0 10px 100px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2):after{
+    .informationwrap_prm > ul:nth-of-type(2):after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li{
+    .informationwrap_prm > ul:nth-of-type(2) li{
         /* width: 46.01%;
         float: left; */
         display: block;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:not(:last-child){
+    .informationwrap_prm > ul:nth-of-type(2) li:not(:last-child){
         margin-bottom: 30px;
     }
-    /* .informationWrap_PRM > ul:nth-of-type(2) li:not(:first-child){
+    /* .informationwrap_prm > ul:nth-of-type(2) li:not(:first-child){
         margin-left: 4.06%;
     } */
-    /* .informationWrap_PRM > ul:nth-of-type(2) li:nth-child(odd){
+    /* .informationwrap_prm > ul:nth-of-type(2) li:nth-child(odd){
         margin-right: 3.9%;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-child(even){
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-child(even){
         margin-left: 3.9%;
     } */
-    .informationWrap_PRM > ul:nth-of-type(2) li strong{
+    .informationwrap_prm > ul:nth-of-type(2) li strong{
         color: #6e8ce0;
         margin-bottom: 30px;
         display: block;
         padding-top: 100px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li p{
+    .informationwrap_prm > ul:nth-of-type(2) li p{
         text-align: center;
         color: #161c2d;
         line-height: 20px;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:first-child strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:first-child strong{
         background: url('../image/prmico_01.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(2) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(2) strong{
         background: url('../image/prmico_02.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(3) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(3) strong{
         background: url('../image/prmico_03.png') center top no-repeat;
     }
-    .informationWrap_PRM > ul:nth-of-type(2) li:nth-of-type(4) strong{
+    .informationwrap_prm > ul:nth-of-type(2) li:nth-of-type(4) strong{
         background: url('../image/prmico_04.png') center top no-repeat;
     }
     
-    .informationWrap_PRM > figure:last-of-type > img{
+    .informationwrap_prm > figure:last-of-type > img{
         margin-bottom: 30px;
     }
-    .informationWrap_PRM > figure:last-of-type > div > *{
+    .informationwrap_prm > figure:last-of-type > div > *{
         /* margin-left: 30px; */
         line-height: 24px;
     }
     
-    .informationWrap_stadiumCoach,
-    .informationWrap_catering{
+    .informationwrap_stadiumCoach,
+    .informationwrap_catering{
         color: #161c2d;
     }
-    .informationWrap_stadiumCoach > h3,
-    .informationWrap_stadiumCoach > strong,
-    .informationWrap_catering > h3{
+    .informationwrap_stadiumCoach > h3,
+    .informationwrap_stadiumCoach > strong,
+    .informationwrap_catering > h3{
         text-align: center;
     }
-    .informationWrap_stadiumCoach > h3,
-    .informationWrap_catering > h3{
+    .informationwrap_stadiumCoach > h3,
+    .informationwrap_catering > h3{
         margin-bottom: 60px;
     }
-    .informationWrap_stadiumCoach h3,
-    .informationWrap_stadiumCoach strong,
-    .informationWrap_stadiumCoach h4,
-    .informationWrap_catering h4,
-    .informationWrap_catering h3{
+    .informationwrap_stadiumCoach h3,
+    .informationwrap_stadiumCoach strong,
+    .informationwrap_stadiumCoach h4,
+    .informationwrap_catering h4,
+    .informationwrap_catering h3{
         font-size: 16px;
         line-height: 24px;
     }
-    .informationWrap_catering > div:first-of-type{
+    .informationwrap_catering > div:first-of-type{
         border-bottom: 1px solid #e6e6e6;
         margin-bottom: 60px;
     }
-    .informationWrap_catering > div:first-of-type > p{
+    .informationwrap_catering > div:first-of-type > p{
         max-width: 940px;
         margin: 0 10px 60px;
         text-align: center;
         line-height: 24px;
     }
-    .informationWrap_stadiumCoach > figure,
-    .informationWrap_catering > div:first-of-type > figure{
+    .informationwrap_stadiumCoach > figure,
+    .informationwrap_catering > div:first-of-type > figure{
         /* display: flex; */
         margin: 0 10px 60px;
     }
-    .informationWrap_stadiumCoach > figure > div,
-    .informationWrap_catering > div:first-of-type > figure div{
+    .informationwrap_stadiumCoach > figure > div,
+    .informationwrap_catering > div:first-of-type > figure div{
         align-self: center;
     }
-    /* .informationWrap_stadiumCoach > figure:nth-of-type(2) img,
-    .informationWrap_catering > div:first-of-type > figure:nth-of-type(2) img{
+    /* .informationwrap_stadiumCoach > figure:nth-of-type(2) img,
+    .informationwrap_catering > div:first-of-type > figure:nth-of-type(2) img{
         flex: 1;
         order: 2;
     }
-    .informationWrap_stadiumCoach > figure:nth-of-type(2) div, */
-    /* .informationWrap_catering > div:first-of-type > figure:nth-of-type(2) div{
+    .informationwrap_stadiumCoach > figure:nth-of-type(2) div, */
+    /* .informationwrap_catering > div:first-of-type > figure:nth-of-type(2) div{
         margin-right: 30px;
     }
-    .informationWrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
-    .informationWrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
+    .informationwrap_stadiumCoach > figure:not(:nth-of-type(2)) div,
+    .informationwrap_catering > div:first-of-type > figure:not(:nth-of-type(2)) div{
         margin-left: 30px;
     }
      */
-     .informationWrap_stadiumCoach > figure > img,
-     .informationWrap_catering > div:first-of-type > figure > img{
+     .informationwrap_stadiumCoach > figure > img,
+     .informationwrap_catering > div:first-of-type > figure > img{
         margin-bottom: 30px;
      }
-    .informationWrap_stadiumCoach > figure > *,
-    .informationWrap_catering > div:first-of-type > figure > *{
+    .informationwrap_stadiumCoach > figure > *,
+    .informationwrap_catering > div:first-of-type > figure > *{
         width: 100%;
     }
-    .informationWrap_stadiumCoach > figure h4,
-    .informationWrap_stadiumCoach > figure strong,
-    .informationWrap_catering > div:first-of-type > figure h4,
-    .informationWrap_catering > div:first-of-type > figure strong{
+    .informationwrap_stadiumCoach > figure h4,
+    .informationwrap_stadiumCoach > figure strong,
+    .informationwrap_catering > div:first-of-type > figure h4,
+    .informationwrap_catering > div:first-of-type > figure strong{
         margin-bottom: 30px;
     }
-    .informationWrap_catering > div:first-of-type > figure h4{
+    .informationwrap_catering > div:first-of-type > figure h4{
         color: #ff1541;
     }
-    .informationWrap_stadiumCoach > figure strong{
+    .informationwrap_stadiumCoach > figure strong{
         color: #6e8ce0;
     }
-    .informationWrap_stadiumCoach > figure ul li,
-    .informationWrap_catering > div:first-of-type > figure ul li{
+    .informationwrap_stadiumCoach > figure ul li,
+    .informationwrap_catering > div:first-of-type > figure ul li{
         display: block;
         padding-left: 20px;
         background: url('../image/Arrowright_Red.png')left center no-repeat;
         line-height: 24px;
         font-size: 14px;
     }
-    .informationWrap_stadiumCoach > figure ul li:not(:last-child),
-    .informationWrap_catering > div:first-of-type > figure ul li:not(:last-child){
+    .informationwrap_stadiumCoach > figure ul li:not(:last-child),
+    .informationwrap_catering > div:first-of-type > figure ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .informationWrap_stadiumCoach > strong:last-of-type{
+    .informationwrap_stadiumCoach > strong:last-of-type{
         margin-bottom: 40px;
     }
-    .informationWrap_stadiumCoach > p{
+    .informationwrap_stadiumCoach > p{
         text-align: center;
         margin: 0 10px 120px;
         line-height: 24px;
         font-size: 14px;
     }
-    .informationWrap_catering > ul:nth-of-type(2){
+    .informationwrap_catering > ul:nth-of-type(2){
         margin: 0 10px 120px;
     }
-    .informationWrap_catering > ul:nth-of-type(2)::after{
+    .informationwrap_catering > ul:nth-of-type(2)::after{
         display: block;
         content: '';
         clear: both;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li{
+    .informationwrap_catering > ul:nth-of-type(2) li{
         display: block;
         /* width: 47.56%;
         float: left; */
         /* min-height: 584px; */
     }
-    /* .informationWrap_catering > ul:nth-of-type(2) li:nth-child(odd){
+    /* .informationwrap_catering > ul:nth-of-type(2) li:nth-child(odd){
         margin-right: 30px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li:nth-child(even){
+    .informationwrap_catering > ul:nth-of-type(2) li:nth-child(even){
         margin-left: 30px;
     } */
-    .informationWrap_catering > ul:nth-of-type(2) li:not(:last-child){
+    .informationwrap_catering > ul:nth-of-type(2) li:not(:last-child){
         margin-bottom: 60px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li img{
+    .informationwrap_catering > ul:nth-of-type(2) li img{
         display: block;
         margin-bottom: 30px;
         width: 100%;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dt{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dt{
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dt b{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dt b{
         color: #ff1541;
     }
-    .informationWrap_catering > ul:nth-of-type(2) li dl dd{
+    .informationwrap_catering > ul:nth-of-type(2) li dl dd{
         line-height: 24px;
         font-size: 14px;
     }
     
     
     
-    [class^='footerTextwrap'] > h2{
+    [class^='footertextwrap'] > h2{
         background: url('../image/History_Title_bg.png')left 100% / cover no-repeat;
         font-size: 60px;
         text-align: center;
@@ -16388,62 +16388,62 @@ clear: both;
         color: #ffffff;
         margin-bottom: 120px;
     }
-    [class^='footerTextwrap'] {
+    [class^='footertextwrap'] {
         color: #161c2d;
     }
     
-    [class^='footerTextwrap'] > div:not(:last-of-type){
+    [class^='footertextwrap'] > div:not(:last-of-type){
         max-width: 1230px;
         margin: 0 auto 100px;
     }
-    [class^='footerTextwrap'] > div h3{
+    [class^='footertextwrap'] > div h3{
         font-size: 24px;
         color: #ff1541;
         margin-bottom: 40px;
     }
-    [class^='footerTextwrap'] div p{
+    [class^='footertextwrap'] div p{
         line-height: 24px;
     }
-    [class^='footerTextwrap'] div p:not(:last-of-type),
-    [class^='footerTextwrap'] div span{
+    [class^='footertextwrap'] div p:not(:last-of-type),
+    [class^='footertextwrap'] div span{
         margin-bottom: 30px;
     }
-    [class^='footerTextwrap'] div span{
+    [class^='footertextwrap'] div span{
         font-weight: 700;
     }
-    [class^='footerTextwrap'] div address{
+    [class^='footertextwrap'] div address{
         font-style: normal;
         line-height: 24px;
     }
-    [class^='footerTextwrap'] div a{
+    [class^='footertextwrap'] div a{
         color: #6e8ce0;
         text-decoration: underline;
         display: inline;
     }
-    [class^='footerTextwrap'] > a{
+    [class^='footertextwrap'] > a{
         margin-bottom: 120px;
     }
-    .footerTextwrap_privacyPolicy > p{
+    .footertextwrap_privacypolicy > p{
         max-width: 1230px;
         margin: 0 auto;
         line-height: 24px;
     }
-    .footerTextwrap_privacyPolicy > p:not(:last-of-type){
+    .footertextwrap_privacypolicy > p:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > p:last-of-type{
+    .footertextwrap_privacypolicy > p:last-of-type{
         margin-bottom: 100px;
     }
-    .footerTextwrap_privacyPolicy > div > strong{
+    .footertextwrap_privacypolicy > div > strong{
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol{
+    .footertextwrap_privacypolicy > div > ol{
         margin-bottom: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol > li{
+    .footertextwrap_privacypolicy > div > ol > li{
         margin-left: 30px;
     }
-    .footerTextwrap_privacyPolicy > div > ol > li:not(:last-child){
+    .footertextwrap_privacypolicy > div > ol > li:not(:last-child){
         margin-bottom: 20px;
     }
     
