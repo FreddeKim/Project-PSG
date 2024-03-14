@@ -1852,7 +1852,8 @@ clear: both;
     top: 10px;
     width: 100%;   
     z-index: 10;
-    transition: top 0.5s ease;
+    transition: top 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
 }
 .firstteamlistwrap > section:not(:last-of-type) ul li:hover > div:first-of-type{
     border-radius: 10px 10px 0 0;
@@ -1862,6 +1863,7 @@ clear: both;
 }
 .firstteamlistwrap > section:not(:last-of-type) ul li:hover > div:last-of-type{
     top: 310px;
+    opacity: 1;
 }
 .firstteamlistwrap > section ul li > div div{
     margin: 10px;
