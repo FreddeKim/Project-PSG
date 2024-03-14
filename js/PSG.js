@@ -147,7 +147,7 @@ function headerfixed(){
     } else {
       header.css({
         "position" : "fixed",
-        "display" : "block"
+        "display" : "flex"
       }); 
     }
   });
