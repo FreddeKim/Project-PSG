@@ -5066,9 +5066,9 @@ clear: both;
 .myaccountwrap_editaddress > div:first-of-type + div> form > div > div > div select{
     margin-bottom: 20px;
 }
-.myaccountwrap_editaddress > div:first-of-type > form > div > div > div select,
+.myaccountwrap_editaddress > div:first-of-type > form > div > div > div > select,
 .accountmanagementwrap_register > section > form > div > select,
-.myaccountwrap_editaddress > div:first-of-type + div> form > div > div > div select{
+.myaccountwrap_editaddress > div:first-of-type + div> form > div > div > div > select{
     display: block;
     border: 1px solid #6e8ce0;
     outline: none;
@@ -5076,7 +5076,7 @@ clear: both;
     border-radius: 5px;
     width: 100%;
     appearance: none;
-    background: url('../image/triangle_down.png')right center no-repeat;
+    background: url('../image/triangle_down_sky.png')95% center no-repeat;
     color: #161c2d;
     font-size: 16px;
     box-sizing: border-box;
@@ -5521,7 +5521,7 @@ clear: both;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
     appearance: none;
-    background: url('../image/triangle_down.png') 95% center no-repeat;
+    background: url('../image/triangle_down_sky.png') 95% center no-repeat;
     background-color: #ffffff;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
@@ -11363,7 +11363,7 @@ clear: both;
         border-radius: 5px;
         width: 100%;
         appearance: none;
-        background: url('../image/triangle_down.png')right center no-repeat;
+        background: url('../image/triangle_down_sky.png')95% center no-repeat;
         color: #161c2d;
         font-size: 16px;
         box-sizing: border-box;
@@ -11450,7 +11450,9 @@ clear: both;
     
     .accountmanagementwrap_register > section{
         max-width: 720px;
-        margin: 120px 24px;
+        margin: 120px auto;
+        padding: 10px;
+        box-sizing: border-box;
     }
     /* .accountmanagementwrap_register > section:after{
         display: block;
@@ -11818,7 +11820,7 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
         appearance: none;
-        background: url('../image/triangle_down.png') 95% center no-repeat;
+        background: url('../image/triangle_down_sky.png') 95% center no-repeat;
         background-color: #ffffff;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
@@ -17946,7 +17948,7 @@ clear: both;
         border-radius: 5px;
         width: 100%;
         appearance: none;
-        background: url('../image/triangle_down.png')right center no-repeat;
+        background: url('../image/triangle_down_sky.png')95% center no-repeat;
         color: #161c2d;
         font-size: 14px;
         box-sizing: border-box;
@@ -18422,7 +18424,7 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
         appearance: none;
-        background: url('../image/triangle_down.png') 95% center no-repeat;
+        background: url('../image/triangle_down_sky.png') 95% center no-repeat;
         background-color: #ffffff;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
