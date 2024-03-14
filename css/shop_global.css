@@ -74,7 +74,7 @@
     } 
     header.shopheader > div > ul li:first-child > b{
         padding: 45px 45px 35px 30px;
-        background: url('../image/Main_PSGMenuArrow.png')70% 53% no-repeat;
+        background: url('../image/main_psgmenuarrow.png')70% 53% no-repeat;
         display: block;
         font-weight: 900;
         color: #ffffff;
@@ -127,7 +127,7 @@
 
     header.shopheader > nav > input[type="button"]:first-of-type{
         display: none;
-        background: url('../image/MenuIco.png')center center no-repeat;
+        background: url('../image/menuico.png')center center no-repeat;
         text-indent: -9999px;
         width: 30px;
         height: 20px;
@@ -221,7 +221,7 @@
         float: left;
     }
     header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
-        background: url('../image/Main_Search.png')no-repeat;
+        background: url('../image/main_search.png')no-repeat;
         border: none;
         width: 22px;
         height: 22px;
@@ -251,10 +251,10 @@
 
 }
 
-/* !desktop Fin */
+/* !desktop fin */
 
 
-/* *Tablet* */
+/* *tablet* */
 @media screen and (min-width: 768px) and (max-width: 1279px){
 
 
@@ -326,7 +326,7 @@
     } 
     header.shopheader > div > ul li:first-child > b{
         padding: 25px 35px 35px 15px;
-        background: url('../image/Main_PSGMenuArrow.png')80% 43% no-repeat;
+        background: url('../image/main_psgmenuarrow.png')80% 43% no-repeat;
         display: block;
         font-weight: 900;
         color: #ffffff;
@@ -379,7 +379,7 @@
 
     header.shopheader > nav > input[type="button"]:first-of-type{
         /* display: none; */
-        background: url('../image/MenuIco.png')left top / cover no-repeat;
+        background: url('../image/menuico.png')left top / cover no-repeat;
         text-indent: -9999px;
         width: 40px;
         height: 30px;
@@ -514,7 +514,7 @@
         /* float: left; */
     }
     header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
-        background: url('../image/Main_Search.png')no-repeat;
+        background: url('../image/main_search.png')no-repeat;
         border: none;
         width: 22px;
         height: 22px;
@@ -626,7 +626,7 @@
     } 
     header.shopheader > div > ul li:first-child > b{
         padding: 25px 35px 35px 15px;
-        background: url('../image/Main_PSGMenuArrow.png')80% 43% no-repeat;
+        background: url('../image/main_psgmenuarrow.png')80% 43% no-repeat;
         display: block;
         font-weight: 900;
         color: #ffffff;
@@ -679,7 +679,7 @@
 
     header.shopheader > nav > input[type="button"]:first-of-type{
         /* display: none; */
-        background: url('../image/MenuIco.png')left top / cover no-repeat;
+        background: url('../image/menuico.png')left top / cover no-repeat;
         text-indent: -9999px;
         width: 40px;
         height: 30px;
@@ -816,7 +816,7 @@
         /* float: left; */
     }
     header.shopheader > nav > div:last-of-type > div > form input[type="submit"]{
-        background: url('../image/Main_Search.png')no-repeat;
+        background: url('../image/main_search.png')no-repeat;
         border: none;
         width: 22px;
         height: 22px;
