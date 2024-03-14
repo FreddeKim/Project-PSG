@@ -140,7 +140,7 @@ function headerfixed(){
   $(window).scroll(function() {
     var barPercent = ($(window).scrollTop() / ($(document).height() - $(window).height())) * 100;
 
-    if (barPercent >= 80) {
+    if (barPercent >= 85) {
       header.css({
         "display" : "none"
       }); 
