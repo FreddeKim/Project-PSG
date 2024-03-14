@@ -2132,378 +2132,378 @@ clear: both;
 [class^='player'] > section:last-of-type > div p:not(:last-child){
     margin-bottom: 30px;
 }
-.playerGKwrap_99 > section:first-of-type > div > div{
-    background: url('../image/PlayerGK_99_Donnarumma.png') center 150% no-repeat;
+.playergkwrap_99 > section:first-of-type > div > div{
+    background: url('../image/playergk_99_donnarumma.png') center 150% no-repeat;
 }
-.playerGKwrap_99 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Italy.png') right center no-repeat;
+.playergkwrap_99 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_italy.png') right center no-repeat;
 }
-.playerGKwrap_99 > section:last-of-type ul li:last-child p{
-    background: url('../image/Club_ACMILAN.png')left center no-repeat;
+.playergkwrap_99 > section:last-of-type ul li:last-child p{
+    background: url('../image/club_acmilan.png')left center no-repeat;
 }
-.playerGKwrap_1 > section:first-of-type > div > div{
-    background: url('../image/PlayerGK_1_Navas.png') center 150% no-repeat;
+.playergkwrap_1 > section:first-of-type > div > div{
+    background: url('../image/playergk_1_navas.png') center 150% no-repeat;
 }
-.playerGKwrap_1 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Costarica.png') right center no-repeat;
+.playergkwrap_1 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_costarica.png') right center no-repeat;
 }
-.playerGKwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_real_madrid.png')left center no-repeat;
+.playergkwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_real_madrid.png')left center no-repeat;
 }
-.playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_levante.png')left center no-repeat;
+.playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_levante.png')left center no-repeat;
 }
-.playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_albacete.png')left center no-repeat;
+.playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_albacete.png')left center no-repeat;
 }
-.playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
-    background: url('../image/Club_saprissa.png')left center no-repeat;
+.playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    background: url('../image/club_saprissa.png')left center no-repeat;
 }
-.playerGKwrap_90 > section:first-of-type > div > div{
-    background: url('../image/PlayerGK_90_Letellier.png') center 150% no-repeat;
+.playergkwrap_90 > section:first-of-type > div > div{
+    background: url('../image/playergk_90_letellier.png') center 150% no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_us-orleans.png')left center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_us-orleans.png')left center no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_sarpsborg.png')left center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_sarpsborg.png')left center no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_estac_troyes.png')left center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_estac_troyes.png')left center no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
-    background: url('../image/Club_bsc-young-boys.png')left center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    background: url('../image/club_bsc-young-boys.png')left center no-repeat;
 }
-.playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
-    background: url('../image/Club_angers-sco.png')left center no-repeat;
+.playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    background: url('../image/club_angers-sco.png')left center no-repeat;
 }
 
-.playerGKwrap_80 > section:last-of-type ul li:last-child > div{
+.playergkwrap_80 > section:last-of-type ul li:last-child > div{
     display: none;
 }
-.playerGKwrap_80 > section:first-of-type > div > div{
-    background: url('../image/PlayerGK_80_Tenas.png') center 150% no-repeat;
+.playergkwrap_80 > section:first-of-type > div > div{
+    background: url('../image/playergk_80_tenas.png') center 150% no-repeat;
 }
-.playerGKwrap_80 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Spain.png') right center no-repeat;
+.playergkwrap_80 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_spain.png') right center no-repeat;
 }
-.playerDFwrap_2 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_2_Hakimi.png') center 150% no-repeat;
+.playerdfwrap_2 > section:first-of-type > div > div{
+    background: url('../image/playerdf_2_hakimi.png') center 150% no-repeat;
 }
-.playerDFwrap_2 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Morocco.png') right center no-repeat;
+.playerdfwrap_2 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_morocco.png') right center no-repeat;
 }
-.playerDFwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_intermilanmaj.png')left center no-repeat;
+.playerdfwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_intermilanmaj.png')left center no-repeat;
 }
-.playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
+.playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_borussia_dortmund.png')left center no-repeat;
 }
-.playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_real_madrid.png')left center no-repeat;
+.playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_real_madrid.png')left center no-repeat;
 }
-.playerDFwrap_3 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_3_Kimpembe.png') center 150% no-repeat;
+.playerdfwrap_3 > section:first-of-type > div > div{
+    background: url('../image/playerdf_3_kimpembe.png') center 150% no-repeat;
 }
-.playerDFwrap_3 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
+.playerdfwrap_3 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
 }
-.playerDFwrap_5 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_5_Marquinhos.png') center 150% no-repeat;
+.playerdfwrap_5 > section:first-of-type > div > div{
+    background: url('../image/playerdf_5_marquinhos.png') center 150% no-repeat;
 }
-.playerDFwrap_5 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Brazil.png') right center no-repeat;
+.playerdfwrap_5 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_brazil.png') right center no-repeat;
 }
-.playerDFwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_roma.png')left center no-repeat;
+.playerdfwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_roma.png')left center no-repeat;
 }
-.playerDFwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_coranthians.png')left center no-repeat;
+.playerdfwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_coranthians.png')left center no-repeat;
 }
-.playerDFwrap_15 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_15_Danilo.png') center 150% no-repeat;
+.playerdfwrap_15 > section:first-of-type > div > div{
+    background: url('../image/playerdf_15_danilo.png') center 150% no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Portugal.png') right center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_portugal.png') right center no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_fc-porto.png')left center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_fc-porto.png')left center no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_maritimo.png')left center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_maritimo.png')left center no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_roda-jc.png')left center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_roda-jc.png')left center no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
-    background: url('../image/Club_parme-fc.png')left center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    background: url('../image/club_parme-fc.png')left center no-repeat;
 }
-.playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
-    background: url('../image/Club_aris-salonique.png')left center no-repeat;
+.playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    background: url('../image/club_aris-salonique.png')left center no-repeat;
 }
-.playerDFwrap_21 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_21_Lucas.png') center 150% no-repeat;
+.playerdfwrap_21 > section:first-of-type > div > div{
+    background: url('../image/playerdf_21_lucas.png') center 150% no-repeat;
 }
-.playerDFwrap_21 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
+.playerdfwrap_21 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
 }
-.playerDFwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_ATMadrid.png')left center no-repeat;
+.playerdfwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_atmadrid.png')left center no-repeat;
 }
-.playerDFwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_BayernMünchen.png')left center no-repeat;
+.playerdfwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_bayernmünchen.png')left center no-repeat;
 }
-.playerDFwrap_25 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_25_Mendes.png') center 150% no-repeat;
+.playerdfwrap_25 > section:first-of-type > div > div{
+    background: url('../image/playerdf_25_mendes.png') center 150% no-repeat;
 }
-.playerDFwrap_25 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Portugal.png') right center no-repeat;
+.playerdfwrap_25 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_portugal.png') right center no-repeat;
 }
-.playerDFwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_sporting.png')left center no-repeat;
-}
-
-.playerDFwrap_37 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_37_Skriniar.png') center 150% no-repeat;
-}
-.playerDFwrap_37 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Slovakia.png') right center no-repeat;
-}
-.playerDFwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_MSK_Zilina_logo.png')left center no-repeat;
-}
-.playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_Fc_vion.png')left center no-repeat;
-}
-.playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_Sampdoria.png')left center no-repeat;
-}
-.playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
-    background: url('../image/Club_intermilanmaj.png')left center no-repeat;
-}
-.playerDFwrap_26 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_26_Mukiele.png') center 150% no-repeat;
-}
-.playerDFwrap_26 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerDFwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_montpellier.png')left center no-repeat;
-}
-.playerDFwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_rbleipzig.png')left center no-repeat;
-}
-.playerDFwrap_97 > section:first-of-type > div > div{
-    background: url('../image/PlayerDF_97_Kurzawa.png') center 150% no-repeat;
-}
-.playerDFwrap_97 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerDFwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_monaco.png')left center no-repeat;
+.playerdfwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_sporting.png')left center no-repeat;
 }
 
-
-.playerMFwrap_4 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_4_Ugarte.png') center 150% no-repeat;
+.playerdfwrap_37 > section:first-of-type > div > div{
+    background: url('../image/playerdf_37_skriniar.png') center 150% no-repeat;
 }
-.playerMFwrap_4 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Uruguay.png') right center no-repeat;
+.playerdfwrap_37 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_slovakia.png') right center no-repeat;
 }
-.playerMFwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_C.A._Fénix.png')left center no-repeat;
+.playerdfwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_msk_zilina_logo.png')left center no-repeat;
 }
-.playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_Escudo_Famalicão.png')left center no-repeat;
+.playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_fc_vion.png')left center no-repeat;
 }
-.playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_sporting.png')left center no-repeat;
+.playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_sampdoria.png')left center no-repeat;
 }
-
-.playerMFwrap_8 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_8_Fabian.png') center 150% no-repeat;
+.playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    background: url('../image/club_intermilanmaj.png')left center no-repeat;
 }
-.playerMFwrap_8 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Spain.png') right center no-repeat;
+.playerdfwrap_26 > section:first-of-type > div > div{
+    background: url('../image/playerdf_26_mukiele.png') center 150% no-repeat;
 }
-.playerMFwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Betis.png')left center no-repeat;
+.playerdfwrap_26 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
 }
-.playerMFwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_Napoli.png')left center no-repeat;
+.playerdfwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_montpellier.png')left center no-repeat;
 }
-.playerMFwrap_17 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_17_Vitinha.png') center 150% no-repeat;
+.playerdfwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_rbleipzig.png')left center no-repeat;
 }
-.playerMFwrap_17 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Portugal.png') right center no-repeat;
+.playerdfwrap_97 > section:first-of-type > div > div{
+    background: url('../image/playerdf_97_kurzawa.png') center 150% no-repeat;
 }
-.playerMFwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_fc-porto.png')left center no-repeat;
+.playerdfwrap_97 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
 }
-
-.playerMFwrap_19 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_19_LeeKangIn.png') center 150% no-repeat;
-}
-.playerMFwrap_19 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_SourhKorea.png') right center no-repeat;
-}
-.playerMFwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Valencia.png')left center no-repeat;
-}
-.playerMFwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_RCDMallorca.png')left center no-repeat;
-}
-
-.playerMFwrap_27 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_27_Ndour.png') center 150% no-repeat;
-}
-.playerMFwrap_27 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Italy.png') right center no-repeat;
-}
-.playerMFwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Benfica.png')left center no-repeat;
-}
-
-.playerMFwrap_28 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_28_Soler.png') center 150% no-repeat;
-}
-.playerMFwrap_28 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Spain.png') right center no-repeat;
-}
-.playerMFwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Valencia.png')left center no-repeat;
-}
-.playerMFwrap_33 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_33_Zaire.png') center 150% no-repeat;
-}
-.playerMFwrap_33 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerMFwrap_38 > section:first-of-type > div > div{
-    background: url('../image/PlayerMF_38_Ethan.png') center 150% no-repeat;
-}
-.playerMFwrap_38 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-
-.playerFWwrap_7 > section:first-of-type > div > div{
-    background: url('../image/PlayerFW_7_mbappe.png') center 150% no-repeat;
-}
-.playerFWwrap_7 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerFWwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_monaco.png')left center no-repeat;
-}
-.playerFWwrap_9 > section:first-of-type > div > div{
-    background: url('../image/PlayerFW_9_Ramos.png') center 150% no-repeat;
-}
-.playerFWwrap_9 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Portugal.png') right center no-repeat;
-}
-.playerFWwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Benfica.png')left center no-repeat;
-}
-
-.playerFWwrap_10> section:first-of-type > div > div{
-    background: url('../image/PlayerFW_10_Dembele.png') center 150% no-repeat;
-}
-.playerFWwrap_10 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerFWwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_STADERENNAIS.png')left center no-repeat;
-}
-.playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
-}
-.playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_Barcelona.png')left center no-repeat;
+.playerdfwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_monaco.png')left center no-repeat;
 }
 
 
-
-.playerFWwrap_11> section:first-of-type > div > div{
-    background: url('../image/PlayerFW_11_Asensio.png') center 150% no-repeat;
+.playermfwrap_4 > section:first-of-type > div > div{
+    background: url('../image/playermf_4_ugarte.png') center 150% no-repeat;
 }
-.playerFWwrap_11 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Spain.png') right center no-repeat;
+.playermfwrap_4 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_uruguay.png') right center no-repeat;
 }
-.playerFWwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_RCDMallorca.png')left center no-repeat;
+.playermfwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_c.a._fénix.png')left center no-repeat;
 }
-.playerFWwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_real_madrid.png')left center no-repeat;
+.playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_escudo_famalicão.png')left center no-repeat;
 }
-
-
-.playerFWwrap_23> section:first-of-type > div > div{
-    background: url('../image/PlayerFW_23_Kolomuani.png') center 150% no-repeat;
-}
-.playerFWwrap_23 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
-}
-.playerFWwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_FC_Nantes.png')left center no-repeat;
-}
-.playerFWwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_Frankfurt.png')left center no-repeat;
+.playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_sporting.png')left center no-repeat;
 }
 
-.playerFWwrap_29> section:first-of-type > div > div{
-    background: url('../image/PlayerFW_29_Barcola.png') center 150% no-repeat;
+.playermfwrap_8 > section:first-of-type > div > div{
+    background: url('../image/playermf_8_fabian.png') center 150% no-repeat;
 }
-.playerFWwrap_29 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
+.playermfwrap_8 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_spain.png') right center no-repeat;
 }
-.playerFWwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Lyon.png')left center no-repeat;
+.playermfwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_betis.png')left center no-repeat;
+}
+.playermfwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_napoli.png')left center no-repeat;
+}
+.playermfwrap_17 > section:first-of-type > div > div{
+    background: url('../image/playermf_17_vitinha.png') center 150% no-repeat;
+}
+.playermfwrap_17 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_portugal.png') right center no-repeat;
+}
+.playermfwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_fc-porto.png')left center no-repeat;
+}
+
+.playermfwrap_19 > section:first-of-type > div > div{
+    background: url('../image/playermf_19_leekangin.png') center 150% no-repeat;
+}
+.playermfwrap_19 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_sourhkorea.png') right center no-repeat;
+}
+.playermfwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_valencia.png')left center no-repeat;
+}
+.playermfwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_rcdmallorca.png')left center no-repeat;
+}
+
+.playermfwrap_27 > section:first-of-type > div > div{
+    background: url('../image/playermf_27_ndour.png') center 150% no-repeat;
+}
+.playermfwrap_27 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_italy.png') right center no-repeat;
+}
+.playermfwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_benfica.png')left center no-repeat;
+}
+
+.playermfwrap_28 > section:first-of-type > div > div{
+    background: url('../image/playermf_28_soler.png') center 150% no-repeat;
+}
+.playermfwrap_28 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_spain.png') right center no-repeat;
+}
+.playermfwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_valencia.png')left center no-repeat;
+}
+.playermfwrap_33 > section:first-of-type > div > div{
+    background: url('../image/playermf_33_zaire.png') center 150% no-repeat;
+}
+.playermfwrap_33 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playermfwrap_38 > section:first-of-type > div > div{
+    background: url('../image/playermf_38_ethan.png') center 150% no-repeat;
+}
+.playermfwrap_38 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+
+.playerfwwrap_7 > section:first-of-type > div > div{
+    background: url('../image/playerfw_7_mbappe.png') center 150% no-repeat;
+}
+.playerfwwrap_7 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playerfwwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_monaco.png')left center no-repeat;
+}
+.playerfwwrap_9 > section:first-of-type > div > div{
+    background: url('../image/playerfw_9_ramos.png') center 150% no-repeat;
+}
+.playerfwwrap_9 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_portugal.png') right center no-repeat;
+}
+.playerfwwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_benfica.png')left center no-repeat;
+}
+
+.playerfwwrap_10> section:first-of-type > div > div{
+    background: url('../image/playerfw_10_dembele.png') center 150% no-repeat;
+}
+.playerfwwrap_10 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playerfwwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_staderennais.png')left center no-repeat;
+}
+.playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_borussia_dortmund.png')left center no-repeat;
+}
+.playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_barcelona.png')left center no-repeat;
 }
 
 
-.playerFWwrap_44> section:first-of-type > div > div{
-    background: url('../image/PlayerFW_44_Ekitike.png') center 150% no-repeat;
+
+.playerfwwrap_11> section:first-of-type > div > div{
+    background: url('../image/playerfw_11_asensio.png') center 150% no-repeat;
 }
-.playerFWwrap_44 > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_France.png') right center no-repeat;
+.playerfwwrap_11 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_spain.png') right center no-repeat;
 }
-.playerFWwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_reims.png')left center no-repeat;
+.playerfwwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_rcdmallorca.png')left center no-repeat;
+}
+.playerfwwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_real_madrid.png')left center no-repeat;
 }
 
-.playerCoachwrap section:first-of-type > div div{
+
+.playerfwwrap_23> section:first-of-type > div > div{
+    background: url('../image/playerfw_23_kolomuani.png') center 150% no-repeat;
+}
+.playerfwwrap_23 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playerfwwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_fc_nantes.png')left center no-repeat;
+}
+.playerfwwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_frankfurt.png')left center no-repeat;
+}
+
+.playerfwwrap_29> section:first-of-type > div > div{
+    background: url('../image/playerfw_29_barcola.png') center 150% no-repeat;
+}
+.playerfwwrap_29 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playerfwwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_lyon.png')left center no-repeat;
+}
+
+
+.playerfwwrap_44> section:first-of-type > div > div{
+    background: url('../image/playerfw_44_ekitike.png') center 150% no-repeat;
+}
+.playerfwwrap_44 > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_france.png') right center no-repeat;
+}
+.playerfwwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_reims.png')left center no-repeat;
+}
+
+.playercoachwrap section:first-of-type > div div{
     padding:100px 0 475px;
 }
-.playerCoachwrap section:first-of-type > div div ul{
+.playercoachwrap section:first-of-type > div div ul{
     width: 10%;
 }
-.playerCoachwrap section:first-of-type > div div ul li:not(:first-child){
+.playercoachwrap section:first-of-type > div div ul li:not(:first-child){
     display: none;
 }
-.playerCoachwrap > section:first-of-type > div > div{
-    background: url('../image/Coach_Enrique.png') center 150% no-repeat;
+.playercoachwrap > section:first-of-type > div > div{
+    background: url('../image/coach_enrique.png') center 150% no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:nth-child(2) p{
-    background: url('../image/National_Spain.png') right center no-repeat;
+.playercoachwrap > section:last-of-type ul li:nth-child(2) p{
+    background: url('../image/national_spain.png') right center no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:last-child p:first-of-type{
-    background: url('../image/Club_Barcelona.png')left center no-repeat;
+.playercoachwrap > section:last-of-type ul li:last-child p:first-of-type{
+    background: url('../image/club_barcelona.png')left center no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
-    background: url('../image/Club_roma.png')left center no-repeat;
+.playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
+    background: url('../image/club_roma.png')left center no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
-    background: url('../image/Club_Celta.png')left center no-repeat;
+.playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
+    background: url('../image/club_celta.png')left center no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
-    background: url('../image/Club_Barcelona.png')left center no-repeat;
+.playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
+    background: url('../image/club_barcelona.png')left center no-repeat;
 }
-.playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
-    background: url('../image/National_Spain.png')left center no-repeat;
+.playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
+    background: url('../image/national_spain.png')left center no-repeat;
 }
 
 
@@ -2513,82 +2513,82 @@ clear: both;
 
 
 
-.sTadiumTourwrap > h2{
-    background: url('../image/History_Title_bg.png')left center / cover no-repeat;
+.stadiumtourwrap > h2{
+    background: url('../image/history_title_bg.png')left center / cover no-repeat;
     font-size: 60px;
     text-align: center;
     padding: 188px 0 90px;
     color: #ffffff;
 }
-.sTadiumTourwrap section:first-of-type{
-    background: url('../image/Tour_sectionBG.png')left top / cover no-repeat;
+.stadiumtourwrap section:first-of-type{
+    background: url('../image/tour_sectionbg.png')left top / cover no-repeat;
     text-align: center;
     padding: 125px 0 125px;
 }
 
-.sTadiumTourwrap section:first-of-type > span{
+.stadiumtourwrap section:first-of-type > span{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 50px;
     color: #ff1541;
 }
-.sTadiumTourwrap section:first-of-type > a{
+.stadiumtourwrap section:first-of-type > a{
     margin-bottom: 50px;
 }
 
-.sTadiumTourwrap section:first-of-type > h3{
+.stadiumtourwrap section:first-of-type > h3{
     font-size: 30px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 60px;
 }
-.sTadiumTourwrap section:first-of-type > p{
+.stadiumtourwrap section:first-of-type > p{
     max-width: 760px;
     margin: 0 auto;
     color: #ffffff;
     line-height: 24px;
 }
-.sTadiumTourwrap section:nth-of-type(2){
+.stadiumtourwrap section:nth-of-type(2){
     margin: 100px 0;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div{
+.stadiumtourwrap section:nth-of-type(2) > div{
     display: flex;
     max-width: 1230px;
     margin: 0 auto;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div > *{
+.stadiumtourwrap section:nth-of-type(2) > div > *{
     width: 50%;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div > div{
+.stadiumtourwrap section:nth-of-type(2) > div > div{
     align-self: center;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div > div > h3{
+.stadiumtourwrap section:nth-of-type(2) > div > div > h3{
     font-size: 30px;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div > div > h3 span{
+.stadiumtourwrap section:nth-of-type(2) > div > div > h3 span{
     font-size: 24px;
     margin: 20px 0 40px;
     color: #6e8ce0;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div > div > p{
+.stadiumtourwrap section:nth-of-type(2) > div > div > p{
     line-height: 24px;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div{
+.stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div{
     flex: 1;
     order: 2;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
+.stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
     margin-left: 60px;
 }
-.sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
+.stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
     margin-right: 60px;
 }
-.sTadiumTourwrap section:nth-of-type(3){
+.stadiumtourwrap section:nth-of-type(3){
     margin-bottom: 100px;
 }
-.sTadiumTourwrap section:nth-of-type(3) > h3{
+.stadiumtourwrap section:nth-of-type(3) > h3{
     font-size: 30px;
     color: #6e8ce0;
     max-width: 765px;
@@ -2596,59 +2596,59 @@ clear: both;
     text-align: center;
     line-height: 36px;
 }
-.sTadiumTourwrap section:nth-of-type(3) > p{
+.stadiumtourwrap section:nth-of-type(3) > p{
     margin : 0 60px;
     color: #161c2d;
     line-height: 24px;
 }
-.sTadiumTourwrap section:nth-of-type(3) > p:not(:last-of-type){
+.stadiumtourwrap section:nth-of-type(3) > p:not(:last-of-type){
     margin-bottom: 30px;
 }
-.sTadiumTourwrap section:nth-of-type(3) > p:last-of-type{
+.stadiumtourwrap section:nth-of-type(3) > p:last-of-type{
     margin-bottom: 100px;
 }
-.sTadiumTourwrap section:nth-of-type(3) ul::after{
+.stadiumtourwrap section:nth-of-type(3) ul::after{
     display: block;
     content: '';
     clear: both;
 }
-.sTadiumTourwrap section:nth-of-type(3) ul li{
+.stadiumtourwrap section:nth-of-type(3) ul li{
     display: block;
     float: left;
     width: 30.89%;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(3) ul li:not(:first-child){
+.stadiumtourwrap section:nth-of-type(3) ul li:not(:first-child){
     margin-left: 45px;
 }
 
-.sTadiumTourwrap section:nth-of-type(3) ul li figure img{
+.stadiumtourwrap section:nth-of-type(3) ul li figure img{
     margin-bottom: 30px;
 }
-.sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
+.stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 700;
 }
-.sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
+.stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
     line-height: 24px;
 }
-.sTadiumTourwrap section:nth-of-type(4){
+.stadiumtourwrap section:nth-of-type(4){
     padding: 120px 0;
     background-color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(4) > h3{
+.stadiumtourwrap section:nth-of-type(4) > h3{
     font-size: 30px;
     color: #6e8ce0;
     text-align: center;
     margin-bottom: 80px;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div::after{
+.stadiumtourwrap section:nth-of-type(4) > div::after{
     display: block;
     content: '';
     clear: both;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div{
+.stadiumtourwrap section:nth-of-type(4) > div > div{
     margin: 0 40px;
     background-color: #ffffff;
     width: 43.49%;
@@ -2657,7 +2657,7 @@ clear: both;
     height: 650px;
     
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > h4{
+.stadiumtourwrap section:nth-of-type(4) > div > div > h4{
     margin: 40px 40px 60px 40px;
     text-align: center;
     padding-bottom: 60px;
@@ -2665,141 +2665,141 @@ clear: both;
     font-size: 24px;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
+.stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
     color: #ff1541;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > ul{
+.stadiumtourwrap section:nth-of-type(4) > div > div > ul{
     margin-left: 40px;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > ul li{
+.stadiumtourwrap section:nth-of-type(4) > div > div > ul li{
     display: block;
     color: #161c2d;
     padding-left: 35px;
-    background: url('../image/Tour_Check.png')left center no-repeat;
+    background: url('../image/tour_check.png')left center no-repeat;
     line-height: 20px;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
+.stadiumtourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
     margin-bottom: 20px;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type ul{
+.stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type ul{
     margin-bottom: 100px;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type ul{
+.stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type ul{
     margin-bottom: 40px ;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > span{
+.stadiumtourwrap section:nth-of-type(4) > div > div > span{
     margin: 0px 0px 20px 40px;
     padding: 10px 0 10px 50px;
-    background: url('../image/Tour_clock.png')left center no-repeat;
+    background: url('../image/tour_clock.png')left center no-repeat;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(4) > div > div > strong{
+.stadiumtourwrap section:nth-of-type(4) > div > div > strong{
     font-size: 20px;
     font-weight: 700;
     margin-left: 40px;
     display: block;
     color: #161c2d;
 }
-.sTadiumTourwrap section:nth-of-type(5){
-    background: url('../image/Tour_Section05BG.png')left top / cover no-repeat;
+.stadiumtourwrap section:nth-of-type(5){
+    background: url('../image/tour_section05bg.png')left top / cover no-repeat;
 
 }
-.sTadiumTourwrap section:nth-of-type(5) > div{
+.stadiumtourwrap section:nth-of-type(5) > div{
     padding: 120px 0;
 }
-.sTadiumTourwrap section:nth-of-type(5) > div > *{
+.stadiumtourwrap section:nth-of-type(5) > div > *{
     max-width: 705px;
 }
-.sTadiumTourwrap section:nth-of-type(5) > div h3{
+.stadiumtourwrap section:nth-of-type(5) > div h3{
     font-size: 60px;
     color: #ff1541;
 }
-.sTadiumTourwrap section:nth-of-type(5) > div h3 > span{
+.stadiumtourwrap section:nth-of-type(5) > div h3 > span{
     font-size: 30px;
     color: #ffffff;
     margin: 30px 0 80px;
 }
-.sTadiumTourwrap section:nth-of-type(5) > div p{
+.stadiumtourwrap section:nth-of-type(5) > div p{
     color: #ffffff;
     line-height: 30px;
     margin-bottom: 60px;
 }
-.sTadiumTourwrap section:nth-of-type(5) > div a{
+.stadiumtourwrap section:nth-of-type(5) > div a{
     color: #ffffff;
     text-decoration: underline;
 }
-.sTadiumTourwrap section:last-of-type{
+.stadiumtourwrap section:last-of-type{
     margin: 120px auto;
 }
-.sTadiumTourwrap section:last-of-type > div:first-child{
+.stadiumtourwrap section:last-of-type > div:first-child{
     display: flex;
     margin-bottom: 100px;
 } 
-.sTadiumTourwrap section:last-of-type > div:first-child > *{
+.stadiumtourwrap section:last-of-type > div:first-child > *{
     width: 48.37%;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child h3{
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child h3{
     font-size: 30px;
     color: #ff1541;
     margin-bottom: 30px;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child p{
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child p{
     line-height: 24px;
     color: #161c2d;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child strong{
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child strong{
     color: #161c2d;
     margin-bottom: 20px;
     display: block;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child address{
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child address{
     font-style: normal;
     margin-bottom: 20px;
     color: #161c2d;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
     margin-bottom: 60px;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
+.stadiumtourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
     margin-bottom: 20px;
 }
-.sTadiumTourwrap section:last-of-type div:first-child > div:nth-child(2){
+.stadiumtourwrap section:last-of-type div:first-child > div:nth-child(2){
     margin-left: 40px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child{
+.stadiumtourwrap section:last-of-type > div:last-child{
     color: #161c2d;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child h3{
+.stadiumtourwrap section:last-of-type > div:last-child h3{
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child span:first-of-type,
-.sTadiumTourwrap section:last-of-type > div:last-child span:last-of-type{
+.stadiumtourwrap section:last-of-type > div:last-child span:first-of-type,
+.stadiumtourwrap section:last-of-type > div:last-child span:last-of-type{
     margin-bottom: 30px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child :not(h3):not(span){
+.stadiumtourwrap section:last-of-type > div:last-child :not(h3):not(span){
     font-size: 14px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child p:first-of-type{
+.stadiumtourwrap section:last-of-type > div:last-child p:first-of-type{
     margin-bottom: 20px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child ul li{
+.stadiumtourwrap section:last-of-type > div:last-child ul li{
     display: block;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child ul li:not(:last-child),
-.sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(3),
-.sTadiumTourwrap section:last-of-type > div:last-child p:last-of-type{
+.stadiumtourwrap section:last-of-type > div:last-child ul li:not(:last-child),
+.stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(3),
+.stadiumtourwrap section:last-of-type > div:last-child p:last-of-type{
     margin-bottom: 10px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child ul li:last-child{
+.stadiumtourwrap section:last-of-type > div:last-child ul li:last-child{
     margin-bottom: 20px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(2){
+.stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(2){
     line-height: 18px;
     margin-bottom: 35px;
 }
-.sTadiumTourwrap section:last-of-type > div:last-child div{
+.stadiumtourwrap section:last-of-type > div:last-child div{
     border-bottom: 1px solid #e6e6e6;
     text-indent: -9999px;
     margin-bottom: 50px;
@@ -2810,7 +2810,7 @@ clear: both;
 .myPariswrap > h2 {
     padding: 168px 0 50px;
     text-align: center;
-    background: url('../image/Myparis_TitleBG.png')left center / cover no-repeat;
+    background: url('../image/myparis_titlebg.png')left center / cover no-repeat;
 }
 
 .myPariswrap section:first-of-type{
@@ -2891,7 +2891,7 @@ clear: both;
     background-color: #ffffff;
 }
 .myPariswrap section:last-of-type > div > div > h3{
-    background: url('../image/myparis_RednBlue.png')left top no-repeat;
+    background: url('../image/myparis_rednblue.png')left top no-repeat;
     padding: 100px 0 135px;
 }
 .myPariswrap section:last-of-type > div > div > h3 > *,
@@ -2971,7 +2971,7 @@ clear: both;
 
 
 [class^="theClubwrap"] > h2{
-    background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
+    background: url('../image/history_title_bg.png')left 50% / cover no-repeat;
     font-size: 60px;
     text-align: center;
     padding: 188px 0 90px;
@@ -3020,7 +3020,7 @@ clear: both;
     margin-top: 120px;
 }
 .theClubwrap_President > div:first-of-type > div:first-of-type{
-    background: url('../image/President_ProfileBG.png')100% top / cover no-repeat;
+    background: url('../image/president_profilebg.png')100% top / cover no-repeat;
     padding: 40px;
     margin-bottom: 40px;
 }
@@ -3035,7 +3035,7 @@ clear: both;
 .theClubwrap_President > div:first-of-type > div:first-of-type > ul li{
     display: block;
     padding-left: 20px;
-    background: url('../image/Arrowright_Red.png')left center no-repeat;
+    background: url('../image/arrowright_red.png')left center no-repeat;
 }
 .theClubwrap_President > div:first-of-type > div:first-of-type > ul li:not(:last-child){
     margin-bottom: 20px;
@@ -3094,15 +3094,15 @@ clear: both;
     margin-bottom: 120px;
 }
 .theClubwrap_identity > section:first-of-type h3{
-    background: url('../image/Identity_01BG.png')left top / cover no-repeat;
+    background: url('../image/identity_01bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
 .theClubwrap_identity > section:nth-of-type(2) h3{
-    background: url('../image/Identity_02BG.png')left top / cover no-repeat;
+    background: url('../image/identity_02bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
 .theClubwrap_identity > section:last-of-type h3{
-    background: url('../image/Identity_03BG.png')left top / cover no-repeat;
+    background: url('../image/identity_03bg.png')left top / cover no-repeat;
     background-attachment: fixed;
 }
 .theClubwrap_identity > section > div strong{
@@ -3135,7 +3135,7 @@ clear: both;
 
 
 [class^="informationWrap"] > h2{
-    background: url('../image/History_Title_bg.png')left 50% / cover no-repeat;
+    background: url('../image/history_title_bg.png')left 50% / cover no-repeat;
     font-size: 60px;
     text-align: center;
     padding: 188px 0 90px;
@@ -3589,7 +3589,7 @@ clear: both;
 .informationWrap_catering > div:first-of-type > figure ul li{
     display: block;
     padding-left: 20px;
-    background: url('../image/Arrowright_Red.png')left center no-repeat;
+    background: url('../image/arrowright_red.png')left center no-repeat;
 }
 .informationWrap_stadiumCoach > figure ul li:not(:last-child),
 .informationWrap_catering > div:first-of-type > figure ul li:not(:last-child){
@@ -3641,7 +3641,7 @@ clear: both;
 
 
 [class^='footerTextwrap'] > h2{
-    background: url('../image/History_Title_bg.png')left 100% / cover no-repeat;
+    background: url('../image/history_title_bg.png')left 100% / cover no-repeat;
     font-size: 60px;
     text-align: center;
     padding: 188px 0 90px;
@@ -3720,7 +3720,7 @@ clear: both;
 }
 .shopmainWrap > section:first-of-type > div{
     padding: 390px 0 10px;
-    background: url('../image/shopmain_section01BG.png')left top  / cover no-repeat;
+    background: url('../image/shopmain_section01bg.png')left top  / cover no-repeat;
 }
 .shopmainWrap > section:first-of-type > div > div{
     max-width: 450px;
@@ -3927,7 +3927,7 @@ clear: both;
 
 .shopmainWrap > section:nth-of-type(4) > div{
     padding: 580px 0 60px;
-    background: url('../image/shopmain_section04BG.png')left top / cover no-repeat;
+    background: url('../image/shopmain_section04bg.png')left top / cover no-repeat;
 }
 .shopmainWrap > section:nth-of-type(4) > div > div{
     max-width: 450px;
@@ -4319,7 +4319,7 @@ clear: both;
     width: 100%;
     border: 1px solid #6e8ce0;
     padding: 15px;
-    background: url('../image/detailDownarrow.png')95% center no-repeat;
+    background: url('../image/detaildownarrow.png')95% center no-repeat;
    
 }
 
@@ -5076,7 +5076,7 @@ clear: both;
     border-radius: 5px;
     width: 100%;
     appearance: none;
-    background: url('../image/Triangle_down.png')95% center no-repeat;
+    background: url('../image/triangle_down.png')95% center no-repeat;
     color: #161c2d;
     font-size: 16px;
     box-sizing: border-box;
@@ -6042,7 +6042,7 @@ clear: both;
         padding-top: 138px;
     }
     main > section:first-of-type > div:first-of-type{
-        background: url('../image/main_section01_BG.png')70% 30% / cover no-repeat;
+        background: url('../image/main_section01_bg.png')70% 30% / cover no-repeat;
     }
     
     main > section:first-of-type > div:first-child {
@@ -6161,7 +6161,7 @@ clear: both;
     main > section:nth-child(3){
     
         padding: 100px 24px;
-        background: url('../image/main_section03_BG.png')left top /cover no-repeat;
+        background: url('../image/main_section03_bg.png')left top /cover no-repeat;
     }
     main > section:nth-child(3) > div > h2{
         text-align: center;
@@ -8260,377 +8260,377 @@ clear: both;
     [class^='player'] > section:last-of-type > div p:not(:last-child){
         margin-bottom: 30px;
     }
-    .playerGKwrap_99 > section:first-of-type > div > div{
+    .playergkwrap_99 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_99_Donnarumma.png') center -150% no-repeat;
     }
-    .playerGKwrap_99 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_99 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Italy.png') right center no-repeat;
     }
-    .playerGKwrap_99 > section:last-of-type ul li:last-child p{
+    .playergkwrap_99 > section:last-of-type ul li:last-child p{
         background: url('../image/Club_ACMILAN.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:first-of-type > div > div{
+    .playergkwrap_1 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_1_Navas.png') center -150% no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_1 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Costarica.png') right center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_levante.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_albacete.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_saprissa.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:first-of-type > div > div{
+    .playergkwrap_90 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_90_Letellier.png') center -150% no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_90 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_us-orleans.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_sarpsborg.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_estac_troyes.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_bsc-young-boys.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/Club_angers-sco.png')left center no-repeat;
     }
     
-    .playerGKwrap_80 > section:last-of-type ul li:last-child > div{
+    .playergkwrap_80 > section:last-of-type ul li:last-child > div{
         display: none;
     }
-    .playerGKwrap_80 > section:first-of-type > div > div{
+    .playergkwrap_80 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_80_Tenas.png') center -150% no-repeat;
     }
-    .playerGKwrap_80 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_80 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerDFwrap_2 > section:first-of-type > div > div{
+    .playerdfwrap_2 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_2_Hakimi.png') center -150% no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_2 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Morocco.png') right center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_intermilanmaj.png')left center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
-    .playerDFwrap_3 > section:first-of-type > div > div{
+    .playerdfwrap_3 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_3_Kimpembe.png') center -150% no-repeat;
     }
-    .playerDFwrap_3 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_3 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_5 > section:first-of-type > div > div{
+    .playerdfwrap_5 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_5_Marquinhos.png') center -150% no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_5 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Brazil.png') right center no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_roma.png')left center no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_coranthians.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:first-of-type > div > div{
+    .playerdfwrap_15 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_15_Danilo.png') center -150% no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_15 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_fc-porto.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_maritimo.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_roda-jc.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_parme-fc.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/Club_aris-salonique.png')left center no-repeat;
     }
-    .playerDFwrap_21 > section:first-of-type > div > div{
+    .playerdfwrap_21 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_21_Lucas.png') center -150% no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_21 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_ATMadrid.png')left center no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_BayernMünchen.png')left center no-repeat;
     }
-    .playerDFwrap_25 > section:first-of-type > div > div{
+    .playerdfwrap_25 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_25_Mendes.png') center -150% no-repeat;
     }
-    .playerDFwrap_25 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_25 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerDFwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_sporting.png')left center no-repeat;
     }
     
-    .playerDFwrap_37 > section:first-of-type > div > div{
+    .playerdfwrap_37 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_37_Skriniar.png') center -150% no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_37 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Slovakia.png') right center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_MSK_Zilina_logo.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Fc_vion.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Sampdoria.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_intermilanmaj.png')left center no-repeat;
     }
-    .playerDFwrap_26 > section:first-of-type > div > div{
+    .playerdfwrap_26 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_26_Mukiele.png') center -150% no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_26 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_montpellier.png')left center no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_rbleipzig.png')left center no-repeat;
     }
-    .playerDFwrap_97 > section:first-of-type > div > div{
+    .playerdfwrap_97 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_97_Kurzawa.png') center -150% no-repeat;
     }
-    .playerDFwrap_97 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_97 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_monaco.png')left center no-repeat;
     }
     
     
-    .playerMFwrap_4 > section:first-of-type > div > div{
+    .playermfwrap_4 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_4_Ugarte.png') center -150% no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_4 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Uruguay.png') right center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_C.A._Fénix.png')left center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Escudo_Famalicão.png')left center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_sporting.png')left center no-repeat;
     }
     
-    .playerMFwrap_8 > section:first-of-type > div > div{
+    .playermfwrap_8 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_8_Fabian.png') center -150% no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_8 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Betis.png')left center no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Napoli.png')left center no-repeat;
     }
-    .playerMFwrap_17 > section:first-of-type > div > div{
+    .playermfwrap_17 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_17_Vitinha.png') center -150% no-repeat;
     }
-    .playerMFwrap_17 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_17 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerMFwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_fc-porto.png')left center no-repeat;
     }
     
-    .playerMFwrap_19 > section:first-of-type > div > div{
+    .playermfwrap_19 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_19_LeeKangIn.png') center -150% no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_19 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_SourhKorea.png') right center no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Valencia.png')left center no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_RCDMallorca.png')left center no-repeat;
     }
     
-    .playerMFwrap_27 > section:first-of-type > div > div{
+    .playermfwrap_27 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_27_Ndour.png') center -150% no-repeat;
     }
-    .playerMFwrap_27 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_27 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Italy.png') right center no-repeat;
     }
-    .playerMFwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Benfica.png')left center no-repeat;
     }
     
-    .playerMFwrap_28 > section:first-of-type > div > div{
+    .playermfwrap_28 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_28_Soler.png') center -150% no-repeat;
     }
-    .playerMFwrap_28 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_28 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerMFwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Valencia.png')left center no-repeat;
     }
-    .playerMFwrap_33 > section:first-of-type > div > div{
+    .playermfwrap_33 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_33_Zaire.png') center -150% no-repeat;
     }
-    .playerMFwrap_33 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_33 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerMFwrap_38 > section:first-of-type > div > div{
+    .playermfwrap_38 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_38_Ethan.png') center -150% no-repeat;
     }
-    .playerMFwrap_38 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_38 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
     
-    .playerFWwrap_7 > section:first-of-type > div > div{
+    .playerfwwrap_7 > section:first-of-type > div > div{
         background: url('../image/PlayerFW_7_mbappe.png') center -150% no-repeat;
     }
-    .playerFWwrap_7 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_7 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_monaco.png')left center no-repeat;
     }
-    .playerFWwrap_9 > section:first-of-type > div > div{
+    .playerfwwrap_9 > section:first-of-type > div > div{
         background: url('../image/PlayerFW_9_Ramos.png') center -150% no-repeat;
     }
-    .playerFWwrap_9 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_9 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerFWwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Benfica.png')left center no-repeat;
     }
     
-    .playerFWwrap_10> section:first-of-type > div > div{
+    .playerfwwrap_10> section:first-of-type > div > div{
         background: url('../image/PlayerFW_10_Dembele.png') center -150% no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_10 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_STADERENNAIS.png')left center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
     
     
     
-    .playerFWwrap_11> section:first-of-type > div > div{
+    .playerfwwrap_11> section:first-of-type > div > div{
         background: url('../image/PlayerFW_11_Asensio.png') center -150% no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_11 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_RCDMallorca.png')left center no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
     
     
-    .playerFWwrap_23> section:first-of-type > div > div{
+    .playerfwwrap_23> section:first-of-type > div > div{
         background: url('../image/PlayerFW_23_Kolomuani.png') center -150% no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_23 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_FC_Nantes.png')left center no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Frankfurt.png')left center no-repeat;
     }
     
-    .playerFWwrap_29> section:first-of-type > div > div{
+    .playerfwwrap_29> section:first-of-type > div > div{
         background: url('../image/PlayerFW_29_Barcola.png') center -150% no-repeat;
     }
-    .playerFWwrap_29 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_29 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Lyon.png')left center no-repeat;
     }
     
     
-    .playerFWwrap_44> section:first-of-type > div > div{
+    .playerfwwrap_44> section:first-of-type > div > div{
         background: url('../image/PlayerFW_44_Ekitike.png') center -150% no-repeat;
     }
-    .playerFWwrap_44 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_44 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_reims.png')left center no-repeat;
     }
     
-    .playerCoachwrap section:first-of-type > div div{
+    .playercoachwrap section:first-of-type > div div{
         padding:100px 0 475px;
     }
-    .playerCoachwrap section:first-of-type > div div ul{
+    .playercoachwrap section:first-of-type > div div ul{
         width: 10%;
     }
-    .playerCoachwrap section:first-of-type > div div ul li:not(:first-child){
+    .playercoachwrap section:first-of-type > div div ul li:not(:first-child){
         display: none;
     }
-    .playerCoachwrap > section:first-of-type > div > div{
+    .playercoachwrap > section:first-of-type > div > div{
         background: url('../image/Coach_Enrique.png') center 100% no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:nth-child(2) p{
+    .playercoachwrap > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:first-of-type{
+    .playercoachwrap > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_roma.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Celta.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/National_Spain.png')left center no-repeat;
     }
     
@@ -8641,92 +8641,92 @@ clear: both;
     
     
     
-    .sTadiumTourwrap > h2{
+    .stadiumtourwrap > h2{
         background: url('../image/History_Title_bg.png')50% 50% / cover no-repeat;
         font-size: 60px;
         text-align: center;
         padding: 188px 0 90px;
         color: #ffffff;
     }
-    .sTadiumTourwrap section:first-of-type{
+    .stadiumtourwrap section:first-of-type{
         background: url('../image/Tour_sectionBG.png')50% 50% / cover no-repeat;
         text-align: center;
         padding: 125px 24px 125px;
     }
     
     
-    .sTadiumTourwrap section:first-of-type > span{
+    .stadiumtourwrap section:first-of-type > span{
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 50px;
         color: #ff1541;
     }
-    .sTadiumTourwrap section:first-of-type > a{
+    .stadiumtourwrap section:first-of-type > a{
         margin-bottom: 50px;
     }
     
-    .sTadiumTourwrap section:first-of-type > h3{
+    .stadiumtourwrap section:first-of-type > h3{
         font-size: 30px;
         color: #ffffff;
         font-weight: 700;
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:first-of-type > p{
+    .stadiumtourwrap section:first-of-type > p{
         max-width: 760px;
         margin: 0 auto;
         color: #ffffff;
         line-height: 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(2){
+    .stadiumtourwrap section:nth-of-type(2){
         margin: 100px 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div{
+    .stadiumtourwrap section:nth-of-type(2) > div{
         display: flex;
         max-width: 1230px;
         margin: 0 auto;
         flex-direction: column;
     }
-    /* .sTadiumTourwrap section:nth-of-type(2) > div > *{
+    /* .stadiumtourwrap section:nth-of-type(2) > div > *{
         width: 50%
     } */
-    .sTadiumTourwrap section:nth-of-type(2) > div > div{
+    .stadiumtourwrap section:nth-of-type(2) > div > div{
         align-self: center;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > h3{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > h3{
         font-size: 30px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > h3 span{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > h3 span{
         font-size: 24px;
         margin: 20px 0 40px;
         color: #6e8ce0;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > p{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > p{
         line-height: 24px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div{
+    .stadiumtourwrap section:nth-of-type(2) > div > div{
         flex: 1;
         order: 2;
         text-align: center;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > img{
+    .stadiumtourwrap section:nth-of-type(2) > div > img{
         margin-bottom: 60px;
         width: 100%;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div:not(:last-of-type){
+    .stadiumtourwrap section:nth-of-type(2) > div:not(:last-of-type){
         margin-bottom: 60px;
     }
-    /* .sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
+    /* .stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
         margin-left: 60px;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
+    .stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
         margin-right: 60px;
     } */
-    .sTadiumTourwrap section:nth-of-type(3){
+    .stadiumtourwrap section:nth-of-type(3){
         margin-bottom: 100px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > h3{
+    .stadiumtourwrap section:nth-of-type(3) > h3{
         font-size: 30px;
         color: #6e8ce0;
         max-width: 765px;
@@ -8734,63 +8734,63 @@ clear: both;
         text-align: center;
         line-height: 36px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p{
+    .stadiumtourwrap section:nth-of-type(3) > p{
         margin : 0 60px;
         color: #161c2d;
         line-height: 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p:not(:last-of-type){
+    .stadiumtourwrap section:nth-of-type(3) > p:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p:last-of-type{
+    .stadiumtourwrap section:nth-of-type(3) > p:last-of-type{
         margin-bottom: 100px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul::after{
+    .stadiumtourwrap section:nth-of-type(3) ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul{
+    .stadiumtourwrap section:nth-of-type(3) ul{
         margin: 0 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li{
+    .stadiumtourwrap section:nth-of-type(3) ul li{
         display: block;
         float: left;
         width: 31.89%;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li:not(:first-child){
+    .stadiumtourwrap section:nth-of-type(3) ul li:not(:first-child){
         margin-left: 2.08%;
     }
     
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure img{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure img{
         margin-bottom: 30px;
         width: 100%;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
         margin-bottom: 30px;
         font-size: 24px;
         font-weight: 700;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
         line-height: 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(4){
+    .stadiumtourwrap section:nth-of-type(4){
         padding: 120px 24px;
         background-color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > h3{
+    .stadiumtourwrap section:nth-of-type(4) > h3{
         font-size: 30px;
         color: #6e8ce0;
         text-align: center;
         margin-bottom: 80px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div::after{
+    .stadiumtourwrap section:nth-of-type(4) > div::after{
         display: block;
         content: '';
         clear: both;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div{
+    .stadiumtourwrap section:nth-of-type(4) > div > div{
         /* margin: 0 40px; */
         background-color: #ffffff;
         /* width: 43.49%; */
@@ -8800,13 +8800,13 @@ clear: both;
         height: 650px;
         
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type{
         margin-right: 2.08%;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type{
         margin-left: 2.08%;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > h4{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > h4{
         margin: 40px 40px 60px 40px;
         text-align: center;
         padding-bottom: 60px;
@@ -8814,13 +8814,13 @@ clear: both;
         font-size: 24px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
         color: #ff1541;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > ul{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > ul{
         margin-left: 40px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > ul li{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > ul li{
         display: block;
         color: #161c2d;
         padding-left: 35px;
@@ -8828,135 +8828,135 @@ clear: both;
         line-height: 20px;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
+    .stadiumtourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type ul{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type ul{
         margin-bottom: 100px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type ul{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type ul{
         margin-bottom: 40px ;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > span{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > span{
         margin: 0px 0px 20px 40px;
         padding: 10px 0 10px 50px;
         background: url('../image/Tour_clock.png')left center no-repeat;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > strong{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > strong{
         font-size: 20px;
         font-weight: 700;
         margin-left: 40px;
         display: block;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(5){
+    .stadiumtourwrap section:nth-of-type(5){
         background: url('../image/Tour_Section05BG.png')50% 50% / cover no-repeat;
     
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div{
+    .stadiumtourwrap section:nth-of-type(5) > div{
         padding: 120px 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div > *{
+    .stadiumtourwrap section:nth-of-type(5) > div > *{
         max-width: 705px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div h3{
+    .stadiumtourwrap section:nth-of-type(5) > div h3{
         font-size: 60px;
         color: #ff1541;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div h3 > span{
+    .stadiumtourwrap section:nth-of-type(5) > div h3 > span{
         font-size: 30px;
         color: #ffffff;
         margin: 30px 0 80px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div p{
+    .stadiumtourwrap section:nth-of-type(5) > div p{
         color: #ffffff;
         line-height: 30px;
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div a{
+    .stadiumtourwrap section:nth-of-type(5) > div a{
         color: #ffffff;
         text-decoration: underline;
     }
-    .sTadiumTourwrap section:last-of-type{
+    .stadiumtourwrap section:last-of-type{
         margin: 120px 24px;
     }
-    .sTadiumTourwrap section:last-of-type > div:first-child{
+    .stadiumtourwrap section:last-of-type > div:first-child{
         display: flex;
         margin-bottom: 100px;
         flex-direction: column;
     } 
-    /* .sTadiumTourwrap section:last-of-type > div:first-child > *{
+    /* .stadiumtourwrap section:last-of-type > div:first-child > *{
         width: 48.37%;
     } */
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child{
         flex: 1;
         order: 2;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child h3{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child h3{
         font-size: 30px;
         color: #ff1541;
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p{
         line-height: 24px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child strong{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child strong{
         color: #161c2d;
         margin-bottom: 20px;
         display: block;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child address{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child address{
         font-style: normal;
         margin-bottom: 20px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:nth-child(2){
+    .stadiumtourwrap section:last-of-type div:first-child > div:nth-child(2){
         /* margin-left: 40px; */
         height: 720px;
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child{
+    .stadiumtourwrap section:last-of-type > div:last-child{
         color: #161c2d;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child h3{
+    .stadiumtourwrap section:last-of-type > div:last-child h3{
         font-size: 30px;
         text-align: center;
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child span:first-of-type,
-    .sTadiumTourwrap section:last-of-type > div:last-child span:last-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child span:first-of-type,
+    .stadiumtourwrap section:last-of-type > div:last-child span:last-of-type{
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child :not(h3):not(span){
+    .stadiumtourwrap section:last-of-type > div:last-child :not(h3):not(span){
         font-size: 14px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child p:first-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child p:first-of-type{
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li{
         display: block;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li:not(:last-child),
-    .sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(3),
-    .sTadiumTourwrap section:last-of-type > div:last-child p:last-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li:not(:last-child),
+    .stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(3),
+    .stadiumtourwrap section:last-of-type > div:last-child p:last-of-type{
         margin-bottom: 10px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li:last-child{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li:last-child{
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(2){
+    .stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(2){
         line-height: 18px;
         margin-bottom: 35px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child div{
+    .stadiumtourwrap section:last-of-type > div:last-child div{
         border-bottom: 1px solid #e6e6e6;
         text-indent: -9999px;
         margin-bottom: 50px;
@@ -14567,8 +14567,8 @@ clear: both;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-    .playerDFwrap_5 >  section:first-of-type > div > div > h3 span:last-of-type,
-    .playerMFwrap_17 >  section:first-of-type > div > div > h3 span:last-of-type{
+    .playerdfwrap_5 >  section:first-of-type > div > div > h3 span:last-of-type,
+    .playermfwrap_17 >  section:first-of-type > div > div > h3 span:last-of-type{
         min-height: 70px;
     }
     [class^='player'] >  section:first-of-type > div > div > ul{
@@ -14663,387 +14663,387 @@ clear: both;
     [class^='player'] > section:last-of-type > div p:not(:last-child){
         margin-bottom: 30px;
     }
-    .playerGKwrap_99 > section:first-of-type > div > div{
+    .playergkwrap_99 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_99_Donnarumma.png') center top / auto 100% no-repeat;
     }
-    .playerGKwrap_99 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_99 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Italy.png') right center no-repeat;
     }
-    .playerGKwrap_99 > section:last-of-type ul li:last-child p{
+    .playergkwrap_99 > section:last-of-type ul li:last-child p{
         background: url('../image/Club_ACMILAN.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:first-of-type > div > div{
+    .playergkwrap_1 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_1_Navas.png') center top / auto 100% no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_1 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Costarica.png') right center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_levante.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_albacete.png')left center no-repeat;
     }
-    .playerGKwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playergkwrap_1 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_saprissa.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:first-of-type > div > div{
+    .playergkwrap_90 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_90_Letellier.png') center top / auto 100% no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_90 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_us-orleans.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_sarpsborg.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_estac_troyes.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_bsc-young-boys.png')left center no-repeat;
     }
-    .playerGKwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playergkwrap_90 > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/Club_angers-sco.png')left center no-repeat;
     }
     
-    .playerGKwrap_80 > section:last-of-type ul li:last-child > div{
+    .playergkwrap_80 > section:last-of-type ul li:last-child > div{
         display: none;
     }
-    .playerGKwrap_80 > section:first-of-type > div > div{
+    .playergkwrap_80 > section:first-of-type > div > div{
         background: url('../image/PlayerGK_80_Tenas.png') center top / auto 100% no-repeat;
     }
-    .playerGKwrap_80 > section:last-of-type ul li:nth-child(2) p{
+    .playergkwrap_80 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerDFwrap_2 > section:first-of-type > div > div{
+    .playerdfwrap_2 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_2_Hakimi.png') center top/ auto 100% no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_2 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Morocco.png') right center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_intermilanmaj.png')left center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
     }
-    .playerDFwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_2 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
-    .playerDFwrap_3 > section:first-of-type > div > div{
+    .playerdfwrap_3 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_3_Kimpembe.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_3 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_3 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_5 > section:first-of-type > div > div{
+    .playerdfwrap_5 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_5_Marquinhos.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_5 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Brazil.png') right center no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_5 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_roma.png')left center no-repeat;
     }
-    .playerDFwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_5 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_coranthians.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:first-of-type > div > div{
+    .playerdfwrap_15 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_15_Danilo.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_15 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_fc-porto.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_maritimo.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_roda-jc.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_parme-fc.png')left center no-repeat;
     }
-    .playerDFwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playerdfwrap_15 > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/Club_aris-salonique.png')left center no-repeat;
     }
-    .playerDFwrap_21 > section:first-of-type > div > div{
+    .playerdfwrap_21 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_21_Lucas.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_21 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_21 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_ATMadrid.png')left center no-repeat;
     }
-    .playerDFwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_21 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_BayernMünchen.png')left center no-repeat;
     }
-    .playerDFwrap_25 > section:first-of-type > div > div{
+    .playerdfwrap_25 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_25_Mendes.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_25 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_25 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerDFwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_25 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_sporting.png')left center no-repeat;
     }
     
-    .playerDFwrap_37 > section:first-of-type > div > div{
+    .playerdfwrap_37 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_37_Skriniar.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_37 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Slovakia.png') right center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_MSK_Zilina_logo.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Fc_vion.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Sampdoria.png')left center no-repeat;
     }
-    .playerDFwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playerdfwrap_37 > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_intermilanmaj.png')left center no-repeat;
     }
-    .playerDFwrap_26 > section:first-of-type > div > div{
+    .playerdfwrap_26 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_26_Mukiele.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_26 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_26 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_montpellier.png')left center no-repeat;
     }
-    .playerDFwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerdfwrap_26 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_rbleipzig.png')left center no-repeat;
     }
-    .playerDFwrap_97 > section:first-of-type > div > div{
+    .playerdfwrap_97 > section:first-of-type > div > div{
         background: url('../image/PlayerDF_97_Kurzawa.png') center top / auto 100% no-repeat;
     }
-    .playerDFwrap_97 > section:last-of-type ul li:nth-child(2) p{
+    .playerdfwrap_97 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerDFwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerdfwrap_97 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_monaco.png')left center no-repeat;
     }
     
     
-    .playerMFwrap_4 > section:first-of-type > div > div{
+    .playermfwrap_4 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_4_Ugarte.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_4 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Uruguay.png') right center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_C.A._Fénix.png')left center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Escudo_Famalicão.png')left center no-repeat;
     }
-    .playerMFwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playermfwrap_4 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_sporting.png')left center no-repeat;
     }
     
-    .playerMFwrap_8 > section:first-of-type > div > div{
+    .playermfwrap_8 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_8_Fabian.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_8 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_8 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Betis.png')left center no-repeat;
     }
-    .playerMFwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_8 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Napoli.png')left center no-repeat;
     }
-    .playerMFwrap_17 > section:first-of-type > div > div{
+    .playermfwrap_17 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_17_Vitinha.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_17 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_17 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerMFwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_17 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_fc-porto.png')left center no-repeat;
     }
     
-    .playerMFwrap_19 > section:first-of-type > div > div{
+    .playermfwrap_19 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_19_LeeKangIn.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_19 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_SourhKorea.png') right center no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_19 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Valencia.png')left center no-repeat;
     }
-    .playerMFwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playermfwrap_19 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_RCDMallorca.png')left center no-repeat;
     }
     
-    .playerMFwrap_27 > section:first-of-type > div > div{
+    .playermfwrap_27 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_27_Ndour.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_27 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_27 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Italy.png') right center no-repeat;
     }
-    .playerMFwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_27 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Benfica.png')left center no-repeat;
     }
     
-    .playerMFwrap_28 > section:first-of-type > div > div{
+    .playermfwrap_28 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_28_Soler.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_28 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_28 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerMFwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
+    .playermfwrap_28 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Valencia.png')left center no-repeat;
     }
-    .playerMFwrap_33 > section:first-of-type > div > div{
+    .playermfwrap_33 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_33_Zaire.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_33 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_33 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerMFwrap_38 > section:first-of-type > div > div{
+    .playermfwrap_38 > section:first-of-type > div > div{
         background: url('../image/PlayerMF_38_Ethan.png') center top / auto 100% no-repeat;
     }
-    .playerMFwrap_38 > section:last-of-type ul li:nth-child(2) p{
+    .playermfwrap_38 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
     
-    .playerFWwrap_7 > section:first-of-type > div > div{
+    .playerfwwrap_7 > section:first-of-type > div > div{
         background: url('../image/PlayerFW_7_mbappe.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_7 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_7 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_7 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_monaco.png')left center no-repeat;
     }
-    .playerFWwrap_9 > section:first-of-type > div > div{
+    .playerfwwrap_9 > section:first-of-type > div > div{
         background: url('../image/PlayerFW_9_Ramos.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_9 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_9 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Portugal.png') right center no-repeat;
     }
-    .playerFWwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_9 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Benfica.png')left center no-repeat;
     }
     
-    .playerFWwrap_10> section:first-of-type > div > div{
+    .playerfwwrap_10> section:first-of-type > div > div{
         background: url('../image/PlayerFW_10_Dembele.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_10 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_STADERENNAIS.png')left center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_borussia_dortmund.png')left center no-repeat;
     }
-    .playerFWwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playerfwwrap_10 > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
     
     
     
-    .playerFWwrap_11> section:first-of-type > div > div{
+    .playerfwwrap_11> section:first-of-type > div > div{
         background: url('../image/PlayerFW_11_Asensio.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_11 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_11 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_RCDMallorca.png')left center no-repeat;
     }
-    .playerFWwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_11 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_real_madrid.png')left center no-repeat;
     }
     
     
-    .playerFWwrap_23> section:first-of-type > div > div{
+    .playerfwwrap_23> section:first-of-type > div > div{
         background: url('../image/PlayerFW_23_Kolomuani.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_23 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_23 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_FC_Nantes.png')left center no-repeat;
     }
-    .playerFWwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playerfwwrap_23 > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_Frankfurt.png')left center no-repeat;
     }
     
-    .playerFWwrap_29> section:first-of-type > div > div{
+    .playerfwwrap_29> section:first-of-type > div > div{
         background: url('../image/PlayerFW_29_Barcola.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_29 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_29 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_29 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Lyon.png')left center no-repeat;
     }
     
     
-    .playerFWwrap_44> section:first-of-type > div > div{
+    .playerfwwrap_44> section:first-of-type > div > div{
         background: url('../image/PlayerFW_44_Ekitike.png') center top / auto 100% no-repeat;
     }
-    .playerFWwrap_44 > section:last-of-type ul li:nth-child(2) p{
+    .playerfwwrap_44 > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_France.png') right center no-repeat;
     }
-    .playerFWwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
+    .playerfwwrap_44 > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_reims.png')left center no-repeat;
     }
     
-    .playerCoachwrap section:first-of-type > div div{
+    .playercoachwrap section:first-of-type > div div{
         padding:100px 0 475px;
     }
-    .playerCoachwrap section:first-of-type > div div ul{
+    .playercoachwrap section:first-of-type > div div ul{
         width: 10%;
     }
-    .playerCoachwrap section:first-of-type > div div ul li:not(:first-child){
+    .playercoachwrap section:first-of-type > div div ul li:not(:first-child){
         display: none;
     }
-    .playerCoachwrap > section:first-of-type > div > div{
+    .playercoachwrap > section:first-of-type > div > div{
         background: url('../image/Coach_Enrique.png') center top / auto 60% no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:nth-child(2) p{
+    .playercoachwrap > section:last-of-type ul li:nth-child(2) p{
         background: url('../image/National_Spain.png') right center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:first-of-type{
+    .playercoachwrap > section:last-of-type ul li:last-child p:first-of-type{
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(2){
         background: url('../image/Club_roma.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(3){
         background: url('../image/Club_Celta.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(4){
         background: url('../image/Club_Barcelona.png')left center no-repeat;
     }
-    .playerCoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
+    .playercoachwrap > section:last-of-type ul li:last-child p:nth-of-type(5){
         background: url('../image/National_Spain.png')left center no-repeat;
     }
-    .playerCoachwrap >  section:first-of-type > div > div > h3 strong{
+    .playercoachwrap >  section:first-of-type > div > div > h3 strong{
         font-size: 45px;
         font-weight: 700;
         color: #ff1541;
         margin: 80px 0;
         display: block;
     }
-    .playerCoachwrap >  section:first-of-type > div > span{
+    .playercoachwrap >  section:first-of-type > div > span{
         font-size: 140px;
         text-align: center;
         color: #ff1541;
@@ -15062,96 +15062,96 @@ clear: both;
     
     
     
-    .sTadiumTourwrap > h2{
+    .stadiumtourwrap > h2{
         background: url('../image/History_Title_bg.png')50% 50% / cover no-repeat;
         font-size: 30px;
         text-align: center;
         padding: 148px 0 70px;
         color: #ffffff;
     }
-    .sTadiumTourwrap section:first-of-type{
+    .stadiumtourwrap section:first-of-type{
         background: url('../image/Tour_sectionBG.png')50% 50% / cover no-repeat;
         text-align: center;
         padding: 65px 10px 65px;
     }
     
     
-    .sTadiumTourwrap section:first-of-type > span{
+    .stadiumtourwrap section:first-of-type > span{
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 50px;
         color: #ff1541;
     }
-    .sTadiumTourwrap section:first-of-type > a{
+    .stadiumtourwrap section:first-of-type > a{
         margin-bottom: 50px;
     }
     
-    .sTadiumTourwrap section:first-of-type > h3{
+    .stadiumtourwrap section:first-of-type > h3{
         font-size: 20px;
         color: #ffffff;
         font-weight: 700;
         margin-bottom: 60px;
         line-height: 24px;
     }
-    .sTadiumTourwrap section:first-of-type > p{
+    .stadiumtourwrap section:first-of-type > p{
         max-width: 760px;
         margin: 0 auto;
         color: #ffffff;
         line-height: 24px;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(2){
+    .stadiumtourwrap section:nth-of-type(2){
         margin: 100px 10px;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div{
+    .stadiumtourwrap section:nth-of-type(2) > div{
         display: flex;
         max-width: 1230px;
         margin: 0 auto;
         flex-direction: column;
     }
-    /* .sTadiumTourwrap section:nth-of-type(2) > div > *{
+    /* .stadiumtourwrap section:nth-of-type(2) > div > *{
         width: 50%
     } */
-    .sTadiumTourwrap section:nth-of-type(2) > div > div{
+    .stadiumtourwrap section:nth-of-type(2) > div > div{
         align-self: center;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > h3{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > h3{
         font-size: 20px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > h3 span{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > h3 span{
         font-size: 20px;
         margin: 20px 0 40px;
         color: #6e8ce0;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div > p{
+    .stadiumtourwrap section:nth-of-type(2) > div > div > p{
         line-height: 24px;
         color: #161c2d;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > div{
+    .stadiumtourwrap section:nth-of-type(2) > div > div{
         flex: 1;
         order: 2;
         text-align: center;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div > img{
+    .stadiumtourwrap section:nth-of-type(2) > div > img{
         margin-bottom: 60px;
         width: 100%;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div:not(:last-of-type){
+    .stadiumtourwrap section:nth-of-type(2) > div:not(:last-of-type){
         margin-bottom: 60px;
     }
-    /* .sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
+    /* .stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(odd) > div > *{
         margin-left: 60px;
     }
-    .sTadiumTourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
+    .stadiumtourwrap section:nth-of-type(2) > div:nth-of-type(2) > div > *{
         margin-right: 60px;
     } */
-    .sTadiumTourwrap section:nth-of-type(3){
+    .stadiumtourwrap section:nth-of-type(3){
         margin-bottom: 100px;
         margin: 0 10px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > h3{
+    .stadiumtourwrap section:nth-of-type(3) > h3{
         font-size: 20px;
         color: #6e8ce0;
         max-width: 765px;
@@ -15159,64 +15159,64 @@ clear: both;
         text-align: center;
         line-height: 36px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p{
+    .stadiumtourwrap section:nth-of-type(3) > p{
         /* margin : 0 60px; */
         color: #161c2d;
         line-height: 24px;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p:not(:last-of-type){
+    .stadiumtourwrap section:nth-of-type(3) > p:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) > p:last-of-type{
+    .stadiumtourwrap section:nth-of-type(3) > p:last-of-type{
         margin-bottom: 100px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul::after{
+    .stadiumtourwrap section:nth-of-type(3) ul::after{
         display: block;
         content: '';
         clear: both;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul{
+    .stadiumtourwrap section:nth-of-type(3) ul{
         margin: 0 10px 60px;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li{
+    .stadiumtourwrap section:nth-of-type(3) ul li{
         display: block;
         /* float: left;
         width: 31.89%; */
         color: #161c2d;
     }
-    /* .sTadiumTourwrap section:nth-of-type(3) ul li:not(:first-child){
+    /* .stadiumtourwrap section:nth-of-type(3) ul li:not(:first-child){
         margin-left: 2.08%;
     }
      */
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure img{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure img{
         margin-bottom: 30px;
         width: 100%;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dt{
         margin-bottom: 30px;
         font-size: 24px;
         font-weight: 700;
     }
-    .sTadiumTourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
+    .stadiumtourwrap section:nth-of-type(3) ul li figure figcaption dl dd{
         line-height: 24px;
     }
-    .sTadiumTourwrap section:nth-of-type(4){
+    .stadiumtourwrap section:nth-of-type(4){
         padding: 60px 10px;
         background-color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > h3{
+    .stadiumtourwrap section:nth-of-type(4) > h3{
         font-size: 30px;
         color: #6e8ce0;
         text-align: center;
         margin-bottom: 80px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div::after{
+    .stadiumtourwrap section:nth-of-type(4) > div::after{
         display: block;
         content: '';
         clear: both;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div{
+    .stadiumtourwrap section:nth-of-type(4) > div > div{
         /* margin: 0 40px; */
         background-color: #ffffff;
         /* width: 43.49%; */
@@ -15228,16 +15228,16 @@ clear: both;
         box-sizing: border-box;
         
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type{
         margin-bottom: 60px;
     }
-    /* .sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type{
+    /* .stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type{
         margin-right: 2.08%;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type{
         margin-left: 2.08%;
     } */
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > h4{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > h4{
         margin: 20px 20px 60px 20px;
         text-align: center;
         padding-bottom: 30px;
@@ -15245,13 +15245,13 @@ clear: both;
         font-size: 20px;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type > h4{
         color: #ff1541;
     }
-    /* .sTadiumTourwrap section:nth-of-type(4) > div > div > ul{
+    /* .stadiumtourwrap section:nth-of-type(4) > div > div > ul{
         margin-left: 40px;
     } */
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > ul li{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > ul li{
         display: block;
         color: #161c2d;
         padding-left: 35px;
@@ -15259,145 +15259,145 @@ clear: both;
         line-height: 20px;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
+    .stadiumtourwrap section:nth-of-type(4) > div > div > ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:first-of-type ul{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:first-of-type ul{
         margin-bottom: 100px;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div:last-of-type ul{
+    .stadiumtourwrap section:nth-of-type(4) > div > div:last-of-type ul{
         margin-bottom: 40px ;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > span{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > span{
         margin: 0px 0px 20px 0px;
         padding: 10px 0 10px 50px;
         background: url('../image/Tour_clock.png')left center no-repeat;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(4) > div > div > strong{
+    .stadiumtourwrap section:nth-of-type(4) > div > div > strong{
         font-size: 16px;
         font-weight: 700;
         /* margin-left: 20px; */
         display: block;
         color: #161c2d;
     }
-    .sTadiumTourwrap section:nth-of-type(5){
+    .stadiumtourwrap section:nth-of-type(5){
         background: url('../image/Tour_Section05BG.png')50% 50% / cover no-repeat;
     
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div{
+    .stadiumtourwrap section:nth-of-type(5) > div{
         padding: 60px 10px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div > *{
+    .stadiumtourwrap section:nth-of-type(5) > div > *{
         max-width: 705px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div h3{
+    .stadiumtourwrap section:nth-of-type(5) > div h3{
         font-size: 30px;
         color: #ff1541;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div h3 > span{
+    .stadiumtourwrap section:nth-of-type(5) > div h3 > span{
         font-size: 20px;
         color: #ffffff;
         margin: 30px 0 60px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div p{
+    .stadiumtourwrap section:nth-of-type(5) > div p{
         color: #ffffff;
         line-height: 24px;
         margin-bottom: 60px;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:nth-of-type(5) > div a{
+    .stadiumtourwrap section:nth-of-type(5) > div a{
         color: #ffffff;
         text-decoration: underline;
     }
-    .sTadiumTourwrap section:last-of-type{
+    .stadiumtourwrap section:last-of-type{
         margin: 60px 10px;
     }
-    .sTadiumTourwrap section:last-of-type > div:first-child{
+    .stadiumtourwrap section:last-of-type > div:first-child{
         display: flex;
         margin-bottom: 60px;
         flex-direction: column;
     } 
-    /* .sTadiumTourwrap section:last-of-type > div:first-child > *{
+    /* .stadiumtourwrap section:last-of-type > div:first-child > *{
         width: 48.37%;
     } */
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child{
         flex: 1;
         order: 2;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child h3{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child h3{
         font-size: 20px;
         color: #ff1541;
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p{
         line-height: 24px;
         color: #161c2d;
         font-size: 14px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child strong{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child strong{
         color: #161c2d;
         margin-bottom: 10px;
         display: block;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child address{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child address{
         font-style: normal;
         margin-bottom: 20px;
         color: #161c2d;
         font-size: 14px;
         line-height: 24px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p:first-of-type{
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
+    .stadiumtourwrap section:last-of-type div:first-child > div:first-child p:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type div:first-child > div:nth-child(2){
+    .stadiumtourwrap section:last-of-type div:first-child > div:nth-child(2){
         /* margin-left: 40px; */
         height: 400px;
         margin-bottom: 60px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child{
+    .stadiumtourwrap section:last-of-type > div:last-child{
         color: #161c2d;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child h3{
+    .stadiumtourwrap section:last-of-type > div:last-child h3{
         font-size: 20px;
         /* text-align: center; */
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child span:first-of-type,
-    .sTadiumTourwrap section:last-of-type > div:last-child span:last-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child span:first-of-type,
+    .stadiumtourwrap section:last-of-type > div:last-child span:last-of-type{
         margin-bottom: 30px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child span:first-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child span:first-of-type{
         line-height: 24px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child :not(h3):not(span){
+    .stadiumtourwrap section:last-of-type > div:last-child :not(h3):not(span){
         font-size: 14px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child p:first-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child p:first-of-type{
         margin-bottom: 20px;
         line-height: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li{
         display: block;
         line-height: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li:not(:last-child),
-    .sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(3),
-    .sTadiumTourwrap section:last-of-type > div:last-child p:last-of-type{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li:not(:last-child),
+    .stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(3),
+    .stadiumtourwrap section:last-of-type > div:last-child p:last-of-type{
         margin-bottom: 10px;
         line-height: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child ul li:last-child{
+    .stadiumtourwrap section:last-of-type > div:last-child ul li:last-child{
         margin-bottom: 20px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child p:nth-of-type(2){
+    .stadiumtourwrap section:last-of-type > div:last-child p:nth-of-type(2){
         line-height: 18px;
         margin-bottom: 35px;
     }
-    .sTadiumTourwrap section:last-of-type > div:last-child div{
+    .stadiumtourwrap section:last-of-type > div:last-child div{
         border-bottom: 1px solid #e6e6e6;
         text-indent: -9999px;
         margin-bottom: 50px;
