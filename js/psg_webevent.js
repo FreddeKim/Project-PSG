@@ -140,14 +140,14 @@ function headerfixed(){
   $(window).scroll(function() {
     var barPercent = ($(window).scrollTop() / ($(document).height() - $(window).height())) * 100;
 
-    if (barPercent >= 85) {
+    if (barPercent >= 80) {
       header.css({
-        "display" : "none"
+        "visibility" : "hidden"
       }); 
     } else {
       header.css({
         "position" : "fixed",
-        "display" : "flex"
+        "visibility" : "visible"
       }); 
     }
   });
