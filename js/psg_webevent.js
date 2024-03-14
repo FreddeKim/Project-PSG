@@ -267,18 +267,18 @@ function quantityCount() {
 
 // !find password에서 mail send시 message 전환.
 function fwmassageChange() {
-  $(".accountManagementwrap_findpw > section > form").submit(function(event) {
+  $(".accountmanagementwrap_findpw > section > form").submit(function(event) {
       event.preventDefault();
-      $(".accountManagementwrap_findpw > section > p:first-of-type").text("We have sent you an email with instructions to reset your password.");
+      $(".accountmanagementwrap_findpw > section > p:first-of-type").text("We have sent you an email with instructions to reset your password.");
   });
 };
 
 function chagnedisplay(){
-  $(".editAddress").click(function(){
-    $(".myAccountwrap_editAddress > div:first-of-type").css("display", "block");
+  $(".editaddress").click(function(){
+    $(".myaccountwrap_editaddress > div:first-of-type").css("display", "block");
   });
   $(".newAddress").click(function(){
-    $(".myAccountwrap_editAddress > div:first-of-type + div").css("display", "block");
+    $(".myaccountwrap_editaddress > div:first-of-type + div").css("display", "block");
   });
   $("#paymentCard").change(function(){
     $(".paymantwrap > .adap1230 > div:first-of-type + div > form > div:first-of-type > ul > li:first-child > div:last-of-type").css("display", "block");
@@ -315,13 +315,13 @@ function chagnedisplay(){
         $(this).next('ol').toggle(); 
     $(this).toggleClass('priceactive');
   });
-  $('.myAccountwrap_editAddress > section > form > div > div > .removeAddress').click(function(){
+  $('.myaccountwrap_editaddress > section > form > div > div > .removeAddress').click(function(){
     $(this).parent().siblings().find('div').hide();
     // 
     $(this).siblings('div').show();
   });
-  $('.myAccountwrap_editAddress > section > form > div > div > div > .removeConfirmNo').click(function(){
-    $('.myAccountwrap_editAddress > section > form > div > div > div').hide();
+  $('.myaccountwrap_editaddress > section > form > div > div > div > .removeConfirmNo').click(function(){
+    $('.myaccountwrap_editaddress > section > form > div > div > div').hide();
   });
   $('.muibtn').click(function(){
     $('header > div:first-child nav').toggle();
@@ -339,10 +339,10 @@ function chagnedisplay(){
     $(this).closest('div').closest('div').parent().hide();
   });
   $('.newAddbtn').click(function(){
-    $('.myAccountwrap_editAddress > div:first-of-type + div').hide();
+    $('.myaccountwrap_editaddress > div:first-of-type + div').hide();
   })
   $('.editAddbtn').click(function(){
-    $('.myAccountwrap_editAddress > div:first-of-type').hide();
+    $('.myaccountwrap_editaddress > div:first-of-type').hide();
   })
 }
 
