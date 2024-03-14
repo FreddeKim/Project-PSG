@@ -6033,7 +6033,7 @@ clear: both;
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
-    #partnerlist > li > a > img{
+    #partnerList > li > a > img{
         width: 80%;
         margin: 0 10px;
     }
@@ -12341,7 +12341,7 @@ clear: both;
 /* *mobile start */
 @media screen and (max-width: 767px) {
 
-    #partnerlist > li > a > img{
+    #partnerList > li > a > img{
         width: 80%;
         margin: 0 10px;
     }

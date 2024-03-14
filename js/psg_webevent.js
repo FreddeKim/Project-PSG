@@ -332,8 +332,8 @@ function chagnedisplay(){
     $(this).toggleClass('open');
   });
   $('footer div:first-of-type div > h2').click(function(){
-    $(this).toggleClass('footerHead');
-    $(this).next('ul').toggleClass('footerList');
+    $(this).toggleClass('footerhead');
+    $(this).next('ul').toggleClass('footerlist');
   });
   $('.removeConfirmYes').click(function(){
     $(this).closest('div').closest('div').parent().hide();
