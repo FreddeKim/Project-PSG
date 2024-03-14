@@ -18870,6 +18870,7 @@ clear: both;
         height: 35px;
         cursor: pointer;
         /* padding: 10px 0; */
+        max-width: 120px;
     }
     .helpcenterwrap_cookiemanagement > .adap1230 > form > div > div:first-of-type > button span:not(:last-of-type){
         width: 40%;
