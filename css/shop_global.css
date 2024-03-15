@@ -120,6 +120,9 @@
         color: #ffffff;
         letter-spacing: 0.05em;
     }
+    header.shopheader > div ul li a img{
+        width: 100%;
+    }
 
 
 

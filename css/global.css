@@ -287,8 +287,11 @@ header > div:last-child{
 header > div:last-child a{
     padding: 35px 0 10px;
 }
+header > div:last-child a > img{
+    width: 100%;
+}
 header > div:last-child div > div > form input[type="submit"]{
-    background: url('../image/main_search.png')no-repeat;
+    background: url('../image/main_search.png')left top / cover no-repeat;
     border: none;
     width: 22px;
     height: 22px;
@@ -542,7 +545,7 @@ footer div:last-of-type div:last-child a:first-of-type{
         padding: 35px 0 10px;
     }
     header > div:last-child div > div > form input[type="submit"]{
-        background: url('../image/main_search.png')no-repeat;
+        background: url('../image/main_search.png')left top / cover no-repeat;
         border: none;
         width: 22px;
         height: 22px;
@@ -560,6 +563,9 @@ footer div:last-of-type div:last-child a:first-of-type{
         position: absolute;
         bottom: -65%;
         left: -174%;
+    }
+    header > div:last-child a > img{
+        width: 100%;
     }
     header > div:last-child div > div > form input[type="search"]:focus{
         outline: none;
@@ -852,6 +858,9 @@ footer div:last-of-type div:last-child a:first-of-type{
         height: 20px;
         color: transparent;
         margin-top: 15px;
+    }
+    header > div:last-child a > img{
+        width: 100%;
     }
     header > div:last-child div > div > form input[type="search"]{
         border: none;

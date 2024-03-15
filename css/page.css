@@ -12871,10 +12871,10 @@ clear: both;
         color: #ff1541;
         font-size: 90px;
         font-weight: 700;
-        padding-left: 50px;
+        padding-left: 30px;
         line-height: 110px;
         margin-bottom: 20px;
-        width: 30%;
+        width: 50%;
     }
     /* main > section:nth-child(5) ul li:nth-child(2) div:first-child,
     main > section:nth-child(5) ul li:nth-child(3) div:first-child,
@@ -12903,29 +12903,35 @@ clear: both;
     
     
     
-    main > section:nth-child(5) ul li{
+    main > section:nth-child(5) ul > li{
         text-align: center;
         font-weight: 700;
         display: flex;
+        width: 100%;
     }
     main > section:nth-child(5) ul li ol{
         align-self: center;
-        margin-left: 15%;
+        /* margin-left: 15%; */
+        justify-content: center;
+        width: 50%;
     }
     main > section:nth-child(5) ul li ol > li:not(:last-child){
         font-size: 14px;
         color: #a6a6a6;
-        margin: 0 10px 10px;
+        /* margin: 0 10px 10px; */
     }
     main > section:nth-child(5) ul li ol > li:last-child{
         font-size: 14px;
         color: #a6a6a6;
     }
+    main > section:nth-child(5) ul li ol li{
+        display: block;
+    }
     main > section:nth-child(5) ul li ol li span{
         color: #ffffff;
        margin-bottom: 20px;
         display: block;
-        text-align: center;
+        /* text-align: center; */
         line-height: 20px;
     }
     main > section:nth-child(5) ul li ol li:not(:first-child){
