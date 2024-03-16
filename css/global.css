@@ -163,6 +163,7 @@ header{
     z-index: 3000;
     width: 100%;
     box-sizing: border-box;
+    max-height: 140px;
 }
 header > div:first-child{
     display: flex;
@@ -415,6 +416,7 @@ footer div:last-of-type div:last-child a:first-of-type{
         width: 100%;
         padding: 0 24px;
         box-sizing: border-box;
+        max-height: 140px;
     }
     header > div:first-child{
         display: flex;
@@ -675,7 +677,7 @@ footer div:last-of-type div:last-child a:first-of-type{
         width: 100%;
         padding: 0 10px;
         box-sizing: border-box;
-        min-height: 89px;
+        height: 90px;
     }
     header > div:first-child{
         display: flex;
