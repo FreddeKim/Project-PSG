@@ -120,7 +120,7 @@ function detailsize() {
 }
 
 function tickerSlider(){
-  $("#partnerList").bxSlider({
+  $("#partnerlist").bxSlider({
     ticker: true,
     tickerHover: true,
     speed:50000,
