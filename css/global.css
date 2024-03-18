@@ -70,7 +70,7 @@ main > section:nth-child(6) > h2,
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:last-of-type div strong,
 .myaccountwrap_editaddress > div:first-of-type + div > form > div > input[type="button"],
 .myaccountwrap_editaddress > div:first-of-type > form > div > input[type="button"]{
-    font-family: 'RaleWay';
+    font-family: 'raleway';
 }
 
 
@@ -129,7 +129,7 @@ main > section:nth-child(6) div a,
 .historywrap_honours section h2,.stadiumtourwrap > h2,
 .stadiumtourwrap section:first-of-type > span,
 .shopcartwrap > section >form > div:first-of-type > ul:last-of-type li > div:nth-child(2) > input[type="button"]{
-    font-family: 'DM Sans';
+    font-family: 'dm sans';
 }
 
 body{
