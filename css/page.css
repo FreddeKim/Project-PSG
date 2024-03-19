@@ -11450,7 +11450,7 @@ clear: both;
     
     .accountmanagementwrap_register > section{
         max-width: 720px;
-        margin: 120px 24px;
+        margin: 120px auto;
     }
     /* .accountmanagementwrap_register > section:after{
         display: block;
