@@ -5076,7 +5076,7 @@ clear: both;
     border-radius: 5px;
     width: 100%;
     appearance: none;
-    background: url('../image/triangle_down.png')95% center no-repeat;
+    background: url('../image/triangle_down_sky.png')95% center no-repeat;
     color: #161c2d;
     font-size: 16px;
     box-sizing: border-box;
@@ -5521,7 +5521,7 @@ clear: both;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
     appearance: none;
-    background: url('../image/triangle_down.png') 95% center no-repeat;
+    background: url('../image/triangle_down_sky.png') 95% center no-repeat;
     background-color: #ffffff;
 }
 .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
@@ -11363,7 +11363,7 @@ clear: both;
         border-radius: 5px;
         width: 100%;
         appearance: none;
-        background: url('../image/triangle_down.png')95% center no-repeat;
+        background: url('../image/triangle_down_sky.png')95% center no-repeat;
         color: #161c2d;
         font-size: 16px;
         box-sizing: border-box;
@@ -11818,7 +11818,7 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
         appearance: none;
-        background: url('../image/triangle_down.png') 95% center no-repeat;
+        background: url('../image/triangle_down_sky.png') 95% center no-repeat;
         background-color: #ffffff;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
@@ -17946,7 +17946,7 @@ clear: both;
         border-radius: 5px;
         width: 100%;
         appearance: none;
-        background: url('../image/triangle_down.png')95% center no-repeat;
+        background: url('../image/triangle_down_sky.png')95% center no-repeat;
         color: #161c2d;
         font-size: 14px;
         box-sizing: border-box;
@@ -18422,7 +18422,7 @@ clear: both;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul li div select{
         appearance: none;
-        background: url('../image/triangle_down.png') 95% center no-repeat;
+        background: url('../image/triangle_down_sky.png') 95% center no-repeat;
         background-color: #ffffff;
     }
     .paymantwrap > .adap1230 > div:first-of-type + div > form > div:nth-of-type(2) ul > li:nth-child(2) > div div:last-of-type img{
