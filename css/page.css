@@ -9874,10 +9874,12 @@ clear: both;
     [class^='footertextwrap'] {
         color: #161c2d;
     }
+    [class^='footertextwrap'] > div{
+        margin: 0 24px;
+    }
     
     [class^='footertextwrap'] > div:not(:last-of-type){
-        max-width: 1230px;
-        margin: 0 auto 100px;
+        margin-bottom: 100px;
     }
     [class^='footertextwrap'] > div h3{
         font-size: 24px;
@@ -9907,9 +9909,11 @@ clear: both;
         margin-bottom: 120px;
     }
     .footertextwrap_privacypolicy > p{
-        max-width: 1230px;
-        margin: 0 auto;
+        /* max-width: 1230px;
+        margin: 0 auto; */
         line-height: 24px;
+        margin: 0 24px;
+
     }
     .footertextwrap_privacypolicy > p:not(:last-of-type){
         margin-bottom: 30px;
@@ -16382,27 +16386,29 @@ clear: both;
     
     [class^='footertextwrap'] > h2{
         background: url('../image/history_title_bg.png')left 100% / cover no-repeat;
-        font-size: 60px;
+        font-size: 30px;
         text-align: center;
-        padding: 188px 0 90px;
+        padding: 160px 0 90px;
         color: #ffffff;
         margin-bottom: 120px;
     }
     [class^='footertextwrap'] {
         color: #161c2d;
     }
-    
+    [class^='footertextwrap'] > div{
+        margin: 0 10px;
+    }
     [class^='footertextwrap'] > div:not(:last-of-type){
-        max-width: 1230px;
-        margin: 0 auto 100px;
+       margin-bottom: 60px;
     }
     [class^='footertextwrap'] > div h3{
-        font-size: 24px;
+        font-size: 18px;
         color: #ff1541;
         margin-bottom: 40px;
     }
     [class^='footertextwrap'] div p{
-        line-height: 24px;
+        line-height: 20px;
+        font-size: 14px;
     }
     [class^='footertextwrap'] div p:not(:last-of-type),
     [class^='footertextwrap'] div span{
@@ -16424,9 +16430,11 @@ clear: both;
         margin-bottom: 120px;
     }
     .footertextwrap_privacypolicy > p{
-        max-width: 1230px;
-        margin: 0 auto;
+        /* max-width: 1230px;
+        margin: 0 auto; */
         line-height: 24px;
+        font-size: 14px;
+        margin: 0 10px;
     }
     .footertextwrap_privacypolicy > p:not(:last-of-type){
         margin-bottom: 30px;
