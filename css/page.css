@@ -527,7 +527,7 @@ main > section:nth-child(5) ul li:nth-child(4) div:first-child{
     padding-left: 30px;
 }
 main > section:nth-child(5) ul li:first-child div:first-child{
-    background: url('../image/main_honours_01_ligue1.jpg')left center no-repeat;
+    background: url('../image/main_honours_01_ligue1.png')left center no-repeat;
 }
 main > section:nth-child(5) ul li:nth-child(2) div:first-child{
     background: url('../image/main_honours_02_frenchcup.png')left center no-repeat;
@@ -6545,7 +6545,7 @@ clear: both;
         padding-left: 30px;
     }
     main > section:nth-child(5) ul li:first-child div:first-child{
-        background: url('../image/main_honours_01_ligue1.jpg')left center / 70% no-repeat;
+        background: url('../image/main_honours_01_ligue1.png')left center / 70% no-repeat;
     }
     main > section:nth-child(5) ul li:nth-child(2) div:first-child{
         background: url('../image/main_honours_02_frenchcup.png')left center no-repeat;
@@ -12885,7 +12885,7 @@ clear: both;
         padding-left: 30px;
     } */
     main > section:nth-child(5) ul li:first-child div:first-child{
-        background: url('../image/main_honours_01_ligue1.jpg')left center / 70% no-repeat;
+        background: url('../image/main_honours_01_ligue1.png')left center / 70% no-repeat;
     }
     main > section:nth-child(5) ul li:nth-child(2) div:first-child{
         background: url('../image/main_honours_02_frenchcup.png')left center no-repeat;
