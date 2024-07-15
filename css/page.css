@@ -862,6 +862,7 @@
     .historywrap_honours > section{
         background: url('../image/honours_sectionbg.png')left top / cover no-repeat;
         padding: 100px 0 80px;
+        visibility: hidden;
     }
     .historywrap_honours > section:not(:last-of-type){
         margin-bottom: 100px;
@@ -1057,6 +1058,11 @@
 
     /* *competitions */
 
+    
+    [class^="historywrap"] > p,
+    [class^="historywrap"] > section{
+        visibility: hidden;
+    }
     [class^="historywrap"] > p:first-of-type{
         margin-top: 100px;
     }
@@ -1647,6 +1653,7 @@
     [class^="newswrap_1"] > div:nth-of-type(2),
     [class^="newswrap_0"] > div:nth-of-type(2){
         padding-bottom: 120px;
+        visibility: hidden;
     }
     [class^="newswrap_1"] > div:nth-of-type(2) img,
     [class^="newswrap_0"] > div:nth-of-type(2) img{
@@ -1688,6 +1695,7 @@
     }
     .newswrap_main > ul:first-of-type{
         padding-bottom: 120px;
+        visibility: hidden;
     }
     .newswrap_main > ul:first-of-type > li{
         display: block;
@@ -1697,6 +1705,7 @@
         border-radius: 10px;
         min-height: 350px;
         overflow: hidden;
+        
     }
     .newswrap_main > ul:first-of-type > li:not(:nth-child(3n+1)){
         margin-left: 2.43%
@@ -1766,8 +1775,8 @@
         max-width: 1230px;
         margin: 0 auto ;
         padding-top: 60px;
+        visibility: hidden;
     }
-
     .firstteamlistwrap > section h3{
         color: #161c2d;
         padding-bottom: 25px;

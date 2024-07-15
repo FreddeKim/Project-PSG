@@ -20,6 +20,7 @@ $(document).ready(function() {
   $(".savebtn").click(function(){
     alert("Save complate.");
   });
+  pagetransition();
 });
 
 // ! Search Bar
@@ -180,7 +181,6 @@ function map() {
 
 // !list hover 시 이미지 변경
 function listhover() {
-  // 선택자에 대한 마우스 오버 이벤트 처리
   $('[class^=listwrap] > section > div:last-of-type > ul > li > a').hover(
     function() {
       var $img = $(this).find('img');
@@ -360,4 +360,8 @@ function cookiemanage() {
   });
 };
 
+function pagetransition(){
+  $('.historywrap_honours > section, [class*="historywrap_"] > p, [class*="historywrap_"] > section, .historywrap_parcdesprince > div:nth-of-type(3), .newswrap_main > ul:first-of-type, [class^="newswrap_0"] > div:nth-of-type(2), [class^="newswrap_1"] > div:nth-of-type(2) , .firstteamlistwrap > section , .theclubwrap_president > div , .theclubwrap_identity > strong , .theclubwrap_identity > section').css('visibility', 'visible').hide().fadeIn(800);
+
+};
   
